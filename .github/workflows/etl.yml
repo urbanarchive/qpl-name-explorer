@@ -2,6 +2,12 @@
 on:
   schedule:
     - cron:  '0 0 * * *' # Nightly. Ref https://crontab.guru/examples.html
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'     
+        required: true
+        default: 'warning'
 name: Pull from Airtable
 jobs:
   build:
