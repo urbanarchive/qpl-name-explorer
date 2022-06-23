@@ -1,0 +1,20 @@
+
+on:
+  schedule:
+    - cron:  '0 0 * * *' # Nightly. Ref https://crontab.guru/examples.html
+name: Pull from Airtable
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Build
+      run: yarn install
+    - name: Scrape
+      run: yarn run etl 
+      env:
+        AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
+    - uses: mikeal/publish-to-github-action@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub sets this for you
