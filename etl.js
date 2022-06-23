@@ -3,6 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 const axios = require('axios');
+const core = require('@actions/core');
 
 const AIRTABLE = {
   domain: 'https://api.airtable.com',
@@ -27,7 +28,7 @@ async function getData() {
       return { id: r.id, ...r.fields };
     });
   } catch (e) {
-    console.error(e);
+    core.setFailed(e);
   }
 }
 
@@ -38,7 +39,7 @@ getData() // no top level await... yet
     fs.writeFileSync(path.resolve(pathToData('.json')), JSON.stringify(data, null, 2));
     fs.writeFileSync(path.resolve(pathToData('.geojson')), JSON.stringify(jsonToGeoJson(data)));
   })
-  .catch(e => console.log(e));
+  .catch(e => core.setFailed(e));
 
 function jsonToGeoJson(json) {
   return  {
