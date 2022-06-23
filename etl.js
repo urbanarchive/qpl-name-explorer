@@ -13,7 +13,7 @@ const AIRTABLE = {
   key: process.env.AIRTABLE_API_KEY,
 }
 const endpoint = `${AIRTABLE.domain}${AIRTABLE.path}?maxRecords=${AIRTABLE.maxRecords}&view=${AIRTABLE.view}`;
-const dataFolder = '/data';
+const dataFolder = '/public/data';
 const pathToData = (ext = '.json') => path.join(__dirname, dataFolder, 'monuments') + ext;
 
 async function getData() {
