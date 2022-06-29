@@ -12,13 +12,13 @@ const AIRTABLE = {
   view: 'U/A view',
   key: process.env.AIRTABLE_API_KEY,
 }
-const endpoint = `${AIRTABLE.domain}${AIRTABLE.path}?maxRecords=${AIRTABLE.maxRecords}&view=${AIRTABLE.view}`;
+const librariesEndpoint = `${AIRTABLE.domain}${AIRTABLE.path}?maxRecords=${AIRTABLE.maxRecords}&view=${AIRTABLE.view}`;
 const dataFolder = '/public/data';
 const pathToData = (ext = '.json') => path.join(__dirname, dataFolder, 'monuments') + ext;
 
 async function getData() {
   try {
-    const { data: { records } } = await axios(endpoint, {
+    const { data: { records } } = await axios(librariesEndpoint, {
       headers: {
         'Authorization': `Bearer ${AIRTABLE.key}`,
       },
@@ -32,8 +32,39 @@ async function getData() {
   }
 }
 
+async function getDataRecursive(endpoint, offsetId) {
+  let originalEndpoint = endpoint;
+  let offsetableEndpoint = endpoint;
+
+  if (offsetId) {
+    offsetableEndpoint = `${originalEndpoint}&offset=${offsetId}`;
+  }
+
+  console.log(`Pulling from ${endpoint}`);
+
+  try {
+    const { data: { records, offset } } = await axios(offsetableEndpoint, {
+      headers: {
+        'Authorization': `Bearer ${AIRTABLE.key}`,
+      },
+    });
+
+    const normalized = records.map(r => {
+      return { id: r.id, ...r.fields };
+    });
+
+    if (offset) {
+      return [...normalized, ...(await getDataRecursive(originalEndpoint, offset))];
+    };
+
+    return normalized;
+  } catch (e) {
+    core.setFailed(e);
+  }
+}
+
 // execute and persist data
-getData() // no top level await... yet
+getDataRecursive(librariesEndpoint) // no top level await... yet
   .then((data) => {
     // persist data
     fs.writeFileSync(path.resolve(pathToData('.json')), JSON.stringify(data, null, 2));
