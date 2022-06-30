@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from "react-router-dom";
+import MONUMENT from '../models/monument';
 
 function extractMonumentIdentifier(slug) {
   return slug.split('-').reverse()[0];
@@ -34,7 +35,7 @@ function Detail() {
     <div>Search stories</div>
     <div>Search this area</div>
     <div>All content dropdown</div>
-    <h1>{monument['Place name']}</h1>
+    <h1>{monument[MONUMENT.PLACE_NAME]}</h1>
   </>;
 }
 
