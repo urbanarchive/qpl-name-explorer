@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from "react-router-dom";
+import bbox from '@turf/bbox';
 import MONUMENT from '../models/monument';
 import dasherize from '../utils/sluggify';
 import Map from "../ui/Map";
@@ -28,13 +29,30 @@ function MainMap({ monuments }) {
     });
 
     mapInstance.addLayer({
-      'id': 'monuments',
-      'type': 'symbol',
+      'id': 'monuments-circle',
+      'type': 'circle',
       'source': 'monuments',
-      'layout': {
-        'icon-image': 'qpl-logo',
-        'icon-allow-overlap': true,
+      'paint': {
+        'circle-radius': 5,
+        'circle-color': [
+          'match',
+          ['get', MONUMENT.TYPE],
+          'Building', 'purple',
+          'Street/Thoroughfare', 'gray',
+          'School', 'pink',
+          'Park/Playground', 'green',
+          'Monument/Statue', 'blue',
+          'Library', 'red',
+          /* other */ 'orange',
+        ],
       },
+      // 'id': 'monuments',
+      // 'type': 'symbol',
+      // 'source': 'monuments',
+      // 'layout': {
+      //   'icon-image': 'qpl-logo',
+      //   'icon-allow-overlap': true,
+      // },
       interactions: {
         hover: true,
         onClick(e) {
@@ -46,17 +64,6 @@ function MainMap({ monuments }) {
         },
       },
     });
-
-    // for debugging the image symbol
-    // mapInstance.addLayer({
-    //   'id': 'monuments-circle',
-    //   'type': 'circle',
-    //   'source': 'monuments',
-    //   'paint': {
-    //     'circle-radius': 5,
-    //     'circle-color': 'black',
-    //   },
-    // });
   }, [mapInstance]);
 
   useEffect(() => {
@@ -64,6 +71,7 @@ function MainMap({ monuments }) {
       const monumentsSource = mapInstance.getSource('monuments');
 
       monumentsSource.setData(monuments);
+      mapInstance.fitBounds(bbox(monuments), { padding: 100 });
     }
   }, [monuments, mapInstance]);
 
