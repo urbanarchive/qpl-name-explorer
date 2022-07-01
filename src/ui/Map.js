@@ -29,6 +29,7 @@ class ThematicMap extends mapboxgl.Map {
 function Map({
   minZoom = 10,
   maxZoom = 18,
+  bounds,
   onLoad = () => {},
 }) {
   // this ref holds the map DOM node so that we can pass it into Mapbox GL
@@ -39,11 +40,10 @@ function Map({
     const map = new ThematicMap({
       container: mapNode.current,
       style: 'mapbox://styles/urbanarchive/ckgji5x1r2v5619q7z5eezlv6',
-      zoom: 11,
-      center: [-73.9579, 40.7333],
-      hash: true,
-      // minZoom,
-      // maxZoom,
+      ...bounds ? { bounds } : {
+        zoom: 11,
+        center: [-73.9579, 40.7333],
+      },
     });
 
     map.on('load', () => {

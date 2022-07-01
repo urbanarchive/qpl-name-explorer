@@ -4,7 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import Detail from './Detail';
 
 function App() {
-  const [monuments, setData] = useState({});
+  const [monuments, setData] = useState();
 
   // get all monuments
   useEffect(() => {

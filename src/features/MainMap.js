@@ -75,9 +75,12 @@ function MainMap({ monuments }) {
     }
   }, [monuments, mapInstance]);
 
-  return <Map
-    onLoad={didLoad}
-  />;
+  return <>
+    {monuments && <Map
+      onLoad={didLoad}
+      bounds={bbox(monuments)}
+    />}
+  </>;
 }
 
 export default MainMap;
