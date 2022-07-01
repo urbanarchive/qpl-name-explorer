@@ -3,6 +3,7 @@ const MONUMENT = {
   COORDS: 'fld03C27tmVnEg1rP',
   ATTACHMENTS: 'fldchc6j0XRMy0vb9',
   TYPE: 'fldb2kOoaaol8IIiQ',
+  IMAGES: 'fldchc6j0XRMy0vb9',
 };
 
 export default MONUMENT;

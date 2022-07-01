@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import Header from '../ui/Header';
 import { useParams } from "react-router-dom";
 import MONUMENT from '../models/monument';
 
@@ -28,14 +29,16 @@ function Detail() {
       setMonument(monuments.features.find(m => m.properties.id === id).properties);
     }
   }, [id, monuments]);
-
-  console.log(monument);
   
+  console.log(monument);
+
   return <>
-    <div>Search stories</div>
-    <div>Search this area</div>
-    <div>All content dropdown</div>
-    <h1>{monument[MONUMENT.PLACE_NAME]}</h1>
+    <Header />
+    <div className="p-4">
+      <h6 className='text-sm'>{monument[MONUMENT.TYPE]}</h6>
+      <h1 className='text-3xl'>{monument[MONUMENT.PLACE_NAME]}</h1>
+    </div>
+    {monument[MONUMENT.IMAGES] && <img className='w-full' src={monument[MONUMENT.IMAGES][0].url}/>}
   </>;
 }
 
