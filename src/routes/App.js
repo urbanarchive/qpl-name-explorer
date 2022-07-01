@@ -23,7 +23,7 @@ function App() {
         <div className="basis-3/5 relative">
           <MainMap monuments={monuments} />
         </div>
-        <div className="basis-2/5 border-l-8 max-h-full overflow-scroll">
+        <div className="basis-2/5 max-h-full overflow-scroll">
           <Routes>
             <Route path="/" element={<>Welcome!</>} />
             <Route path="/monuments/:slug" element={<Detail />} />
