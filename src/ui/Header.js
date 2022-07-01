@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import React from 'react'
 import Select from 'react-select'
 import qplLogo from '../features/images/qpl_logo.png';
 

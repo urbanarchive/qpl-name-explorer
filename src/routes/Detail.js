@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React, { useEffect, useState } from 'react'
 import Header from '../ui/Header';
 import { useParams } from "react-router-dom";
@@ -38,7 +39,7 @@ function Detail() {
       <h6 className='text-sm'>{monument[MONUMENT.TYPE]}</h6>
       <h1 className='text-3xl'>{monument[MONUMENT.PLACE_NAME]}</h1>
     </div>
-    {monument[MONUMENT.IMAGES] && <img className='w-full' src={monument[MONUMENT.IMAGES][0].url}/>}
+    {monument[MONUMENT.IMAGES] && <img alt="Location image" className='w-full' src={monument[MONUMENT.IMAGES][0].url}/>}
   </>;
 }
 

@@ -55,6 +55,7 @@ function Map({
     return () => {
       map.remove();
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
