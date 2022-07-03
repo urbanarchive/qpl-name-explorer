@@ -7,6 +7,16 @@ import Map from "../ui/Map";
 import qplLogo from './images/qpl_logo.png';
 
 const DUMMY_GEOJSON = { features: [], type: 'FeatureCollection' };
+export const MONUMENT_TYPES = [
+  // TODO: make hex
+  'Building', 'purple',
+  'Street/Thoroughfare', 'gray',
+  'School', 'pink',
+  'Park/Playground', 'green',
+  'Monument/Statue', 'blue',
+  'Library', 'red',
+  /* other */ 'orange',
+];
 
 function MainMap({ monuments, onLoad }) {
   const navigate = useNavigate();
@@ -37,13 +47,7 @@ function MainMap({ monuments, onLoad }) {
         'circle-color': [
           'match',
           ['get', MONUMENT.TYPE],
-          'Building', 'purple',
-          'Street/Thoroughfare', 'gray',
-          'School', 'pink',
-          'Park/Playground', 'green',
-          'Monument/Statue', 'blue',
-          'Library', 'red',
-          /* other */ 'orange',
+          ...MONUMENT_TYPES
         ],
       },
       // 'id': 'monuments',
@@ -72,7 +76,6 @@ function MainMap({ monuments, onLoad }) {
       const monumentsSource = mapInstance.getSource('monuments');
 
       monumentsSource.setData(monuments);
-      mapInstance.fitBounds(bbox(monuments), { padding: 100 });
 
       onLoad(mapInstance);
     }
