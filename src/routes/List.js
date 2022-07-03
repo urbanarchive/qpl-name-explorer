@@ -1,5 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import MONUMENT from '../models/monument';
+import sluggify from '../utils/sluggify';
 
 function List({ monuments }) {
   return <>
@@ -13,7 +15,10 @@ function List({ monuments }) {
           />}
         </div>
         <div className="flex flex-col grow truncate">
-          <h3 className='font-bold'>{f.properties[MONUMENT.PLACE_NAME]}</h3>
+          <Link
+            to={`monuments/${sluggify(f.properties)}`}
+            className='font-bold'
+          >{f.properties[MONUMENT.PLACE_NAME]}</Link>
           <h4 className='font-thin text-sm'>{f.properties[MONUMENT.TYPE]}</h4>
           <span className='text-sm truncate'>{f.properties[MONUMENT.DESCRIPTION].substring(0, 50)}</span>
         </div>

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from "react-router-dom";
 import bbox from '@turf/bbox';
 import MONUMENT from '../models/monument';
-import dasherize from '../utils/sluggify';
+import sluggify from '../utils/sluggify';
 import Map from "../ui/Map";
 import qplLogo from './images/qpl_logo.png';
 
@@ -57,7 +57,7 @@ function MainMap({ monuments, onLoad }) {
         hover: true,
         onClick(e) {
           const [feature] = e.features;
-          const profileSegment = dasherize(feature.properties[MONUMENT.PLACE_NAME])
+          const profileSegment = sluggify(feature.properties)
           const { id } = feature;
 
           navigate(`monuments/${profileSegment}-${id}`);
