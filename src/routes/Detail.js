@@ -11,7 +11,7 @@ function extractMonumentIdentifier(slug) {
 function Detail() {
   const map = useContext(MapContext);
   const [monuments, setData] = useState({});
-  const [monument = {}, setMonument] = useState({});
+  const [monument, setMonument] = useState({});
   const { slug } = useParams();
   const id = extractMonumentIdentifier(slug);
 
@@ -28,9 +28,15 @@ function Detail() {
 
   useEffect(() => {
     if (monuments.features) {
-      setMonument(monuments.features.find(m => m.properties.id === id).properties);
+      const monument = monuments.features.find(m => m.properties.id === id);
+
+      setMonument(monument.properties);
+
+      if (map) {
+        map.easeTo({ center: monument.geometry.coordinates });
+      }
     }
-  }, [id, monuments]);
+  }, [id, monuments, map]);
 
   return <>
     <div className="p-4">
