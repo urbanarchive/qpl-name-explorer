@@ -79,6 +79,7 @@ function MainMap({ monuments, onLoad }) {
 
       onLoad(mapInstance);
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [monuments, mapInstance]);
 
   return <>
