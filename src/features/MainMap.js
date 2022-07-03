@@ -8,7 +8,7 @@ import qplLogo from './images/qpl_logo.png';
 
 const DUMMY_GEOJSON = { features: [], type: 'FeatureCollection' };
 
-function MainMap({ monuments }) {
+function MainMap({ monuments, onLoad }) {
   const navigate = useNavigate();
   const [mapInstance, setMapInstance] = useState();
   const didLoad = (map) => {
@@ -73,6 +73,8 @@ function MainMap({ monuments }) {
 
       monumentsSource.setData(monuments);
       mapInstance.fitBounds(bbox(monuments), { padding: 100 });
+
+      onLoad(mapInstance);
     }
   }, [monuments, mapInstance]);
 

@@ -28,8 +28,6 @@ class ThematicMap extends mapboxgl.Map {
 }
 
 function Map({
-  minZoom = 10,
-  maxZoom = 18,
   bounds,
   onLoad = () => {},
 }) {

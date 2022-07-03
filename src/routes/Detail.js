@@ -1,14 +1,15 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
-import React, { useEffect, useState } from 'react'
-import Header from '../ui/Header';
+import React, { useEffect, useState, useContext } from 'react'
 import { useParams } from "react-router-dom";
 import MONUMENT from '../models/monument';
+import { MapContext } from './App';
 
 function extractMonumentIdentifier(slug) {
   return slug.split('-').reverse()[0];
 }
 
 function Detail() {
+  const map = useContext(MapContext);
   const [monuments, setData] = useState({});
   const [monument = {}, setMonument] = useState({});
   const { slug } = useParams();
@@ -30,11 +31,8 @@ function Detail() {
       setMonument(monuments.features.find(m => m.properties.id === id).properties);
     }
   }, [id, monuments]);
-  
-  console.log(monument);
 
   return <>
-    <Header />
     <div className="p-4">
       <h6 className='text-sm'>{monument[MONUMENT.TYPE]}</h6>
       <h1 className='text-3xl'>{monument[MONUMENT.PLACE_NAME]}</h1>
