@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import qplLogo from '../features/images/qpl_logo.png';
 
-
 function Header() {
   return <>
     <div className="flex gap-4 p-4">

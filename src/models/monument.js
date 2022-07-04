@@ -1,7 +1,6 @@
 const MONUMENT = {
   PLACE_NAME: 'fld3zcPVX14gMRFd1',
   COORDS: 'fld03C27tmVnEg1rP',
-  ATTACHMENTS: 'fldchc6j0XRMy0vb9',
   TYPE: 'fldb2kOoaaol8IIiQ',
   IMAGES: 'fldchc6j0XRMy0vb9',
   DESCRIPTION: 'fld18VKjlf9BGaE9N',
