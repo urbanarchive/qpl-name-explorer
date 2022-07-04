@@ -1,4 +1,4 @@
-import React, { useEffect, useState, createContext } from 'react'
+import React, { useEffect, useState, createContext, useRef, useCallback } from 'react'
 import { Routes, Route } from 'react-router-dom';
 import { isMobile } from 'react-device-detect';
 import Header from '../ui/Header';
@@ -11,6 +11,8 @@ export const MapContext = createContext();
 function App() {
   const [monuments, setData] = useState();
   const [mapInstance, setMapInstance] = useState(null);
+  const [resultListViewState, setResultListViewState] = useState(true);
+  const scrollableFrame = useRef(null);
 
   // get all monuments
   useEffect(() => {
@@ -23,17 +25,41 @@ function App() {
     fetchData();
   }, []);
 
-  console.log(isMobile);
+  const [y, setY] = useState(null);
+  const handleNavigation = useCallback(
+    (e) => {
+      const window = e.currentTarget;
+
+      if (y > window.scrollTop) {
+        // up
+        setResultListViewState(true);
+      } else if (y < window.scrollTop) {
+        // down
+        setResultListViewState(false);
+      }
+      setY(window.scrollTop);
+    },
+    [y]
+  );
+
+  useEffect(() => {
+    setY(scrollableFrame.current?.scrollTop);
+    scrollableFrame.current?.addEventListener("scroll", handleNavigation);
+
+    return () => {
+      scrollableFrame.current?.removeEventListener("scroll", handleNavigation);
+    };
+  }, [handleNavigation, scrollableFrame]);
 
   return (
     <MapContext.Provider value={mapInstance}>
       <div className="flex flex-col h-full w-full max-h-screen">
         <div className="flex flex-col sm:flex-row h-full overflow-scroll">
           {isMobile && <Header/>}
-          <div className="basis-3/5 relative">
+          <div className={`${resultListViewState ? 'basis-3/5' : 'basis-1/5'} relative`}>
             <MainMap monuments={monuments} onLoad={setMapInstance} />
           </div>
-          <div className="basis-2/5 max-h-full overflow-scroll">
+          <div className={`${resultListViewState ? 'basis-2/5' : 'basis-4/5'} ease-linear max-h-full overflow-scroll`} ref={scrollableFrame}>
             {(!isMobile) && <Header/>}
             <Routes>
               <Route path="/" element={<List monuments={monuments} />} />
