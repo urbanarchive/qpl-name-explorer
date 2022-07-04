@@ -3,7 +3,7 @@ import Header from '../ui/Header';
 import MainMap from "../features/MainMap";
 import { Routes, Route } from "react-router-dom";
 import Detail from './Detail';
-import List from './List';
+import List from './Search';
 
 export const MapContext = createContext();
 
