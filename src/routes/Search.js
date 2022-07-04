@@ -17,7 +17,7 @@ function List({ monuments }) {
 
   useEffect(() => {
     if (map && monuments) {
-      map.fitBounds(bbox(monuments), { padding: 100 });
+      map.fitBounds(bbox(monuments), { padding: 25 });
     }
   }, [map, monuments]);
 
@@ -35,7 +35,7 @@ function List({ monuments }) {
 
       const ids = map.queryRenderedFeatures({ layers: ['monuments-circle'] });
       const bounds = bbox({ type: 'FeatureCollection', features: ids });
-      map.fitBounds(bounds, { padding: 100 });
+      map.fitBounds(bounds, { padding: 25 });
 
       setFilter({ key: 'id', value: ids.map(f => f.id) });
     }
@@ -49,7 +49,7 @@ function List({ monuments }) {
   };
 
   return <>
-    <div className="flex gap-4 p-4 pt-0">
+    <div className="flex gap-4 p-4">
       <button
         className={`flex text-white rounded-md p-2 bg-qpl-purple ${selectedFilter?.key === 'id' ? 'bg-gray-400' : ''}`}
         onClick={handleAreaFilter}
