@@ -27,6 +27,12 @@ function List({ monuments }) {
 
   const handleAreaFilter = () => {
     if (map) {
+      if (selectedFilter?.key === 'id') {
+        setFilter(null);
+
+        return;
+      }
+
       const ids = map.queryRenderedFeatures({ layers: ['monuments-circle'] }).map(f => f.id);
 
       setFilter({ key: 'id', value: ids });
@@ -43,9 +49,10 @@ function List({ monuments }) {
   return <>
     <div className="flex gap-4 p-4 pt-0">
       <button
-        className='flex text-white rounded-md p-2 bg-purple-600'
+        className={`flex text-white rounded-md p-2 bg-purple-600 ${selectedFilter?.key === 'id' ? 'bg-gray-400' : ''}`}
         onClick={handleAreaFilter}
       >
+        {selectedFilter?.key === 'id' ? 'X ' : ''}
         Search this area
       </button>
       <Select
