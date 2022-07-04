@@ -1,17 +1,19 @@
-import React, { useContext, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useContext, useEffect, useState } from 'react';
 import bbox from '@turf/bbox';
+import Select from 'react-select'
+import ListResult from '../ui/ListResult';
 import { MapContext } from './App';
 import MONUMENT from '../models/monument';
-import sluggify from '../utils/sluggify';
 import { MONUMENT_TYPES } from '../features/MainMap';
 
-function getMonumentTypeColor(type) {
-  return MONUMENT_TYPES[MONUMENT_TYPES.findIndex(t => t === type) + 1];
-}
+const LOCATION_TYPES = MONUMENT_TYPES
+  .filter((_curr, index) => (index % 2) === 0)
+  .map(t => ({ label: t, value: t }))
+  .slice(0, -1); // removes last color options as it's the default
 
 function List({ monuments }) {
   const map = useContext(MapContext);
+  const [selectedFilter, setFilter] = useState();
 
   useEffect(() => {
     if (map && monuments) {
@@ -19,30 +21,45 @@ function List({ monuments }) {
     }
   }, [map, monuments]);
 
+  const handleFilterChange = (selection, keyName) => {
+    selection ? setFilter({ key: keyName, value: [selection.value] }) : setFilter(null);
+  }
+
+  const handleAreaFilter = () => {
+    if (map) {
+      const ids = map.queryRenderedFeatures({ layers: ['monuments-circle'] }).map(f => f.id);
+
+      setFilter({ key: 'id', value: ids });
+    }
+  };
+
+  const filteredLocations = {
+    ...monuments,
+    features: monuments?.features.filter(m => {
+      return selectedFilter?.value ? (selectedFilter.value.includes(m.properties[selectedFilter.key])) : true;
+    }),
+  };
+
   return <>
-    {monuments?.features.map(f=>
-      <div key={f.properties.id} className="flex gap-4 p-4">
-        <Link to={`monuments/${sluggify(f.properties)}`} className="flex w-14">
-          {f.properties[MONUMENT.IMAGES] && <div
-            style={{ backgroundImage: `url(${f.properties[MONUMENT.IMAGES][0]?.thumbnails.large.url})` }}
-            className="bg-cover bg-center w-full h-full hover:border-purple-600 border-2 rounded-md"
-            alt="desflaksjdfkl"
-          />}
-        </Link>
-        <Link to={`monuments/${sluggify(f.properties)}`} className="flex flex-col grow truncate hover:text-purple-600">
-          <h2 className='font-bold'>{f.properties[MONUMENT.PLACE_NAME]}</h2>
-          <h4
-            className={`font-thin text-sm text-[${getMonumentTypeColor(f.properties[MONUMENT.TYPE])}]`}
-          >
-            {f.properties[MONUMENT.TYPE]}
-          </h4>
-          <span className='text-sm truncate'>{f.properties[MONUMENT.DESCRIPTION].substring(0, 50)}</span>
-        </Link>
-        <div className="flex items-center">
-          {f.properties[MONUMENT.SUBMITTED_AT] && (new Date(f.properties[MONUMENT.SUBMITTED_AT])).toLocaleDateString()}
-        </div>
-      </div>
-    )}
+    <div className="flex gap-4 p-4 pt-0">
+      <button
+        className='flex text-white rounded-md p-2 bg-purple-600'
+        onClick={handleAreaFilter}
+      >
+        Search this area
+      </button>
+      <Select
+        className='grow text-gray rounded-md bg-white'
+        options={LOCATION_TYPES}
+        isClearable={true}
+        onChange={(selection) => { handleFilterChange(selection, MONUMENT.TYPE) }}
+      />
+    </div>
+    {filteredLocations?.features?.map(f=><ListResult key={f.properties.id} result={f} />)}
+    {(filteredLocations?.features?.length === 0) && <>
+      <div className='p-4'>No matches for "{selectedFilter.value}". Showing all:</div>
+      {monuments?.features?.map(f=><ListResult key={f.properties.id} result={f} />)}
+    </>}
   </>;
 }
 

@@ -1,13 +1,7 @@
 import React from 'react'
-import Select from 'react-select'
 import { Link } from 'react-router-dom';
 import qplLogo from '../features/images/qpl_logo.png';
 
-const options = [
-  { value: 'chocolate', label: 'Chocolate' },
-  { value: 'strawberry', label: 'Strawberry' },
-  { value: 'vanilla', label: 'Vanilla' }
-]
 
 function Header() {
   return <>
@@ -21,10 +15,6 @@ function Header() {
       <div className="flex w-16 h-8 items-center justify-center">
         <div className='flex items-center justify-center h-8 bg-purple-600 p-2 rounded-3xl text-white'>Log In</div>
       </div>
-    </div>
-    <div className="flex gap-4 p-4 pt-0">
-      <button className='flex text-white rounded-md p-2 bg-purple-600'>Search this area</button>
-      <Select className='grow text-gray rounded-md bg-white' options={options} />
     </div>
   </>
 }
