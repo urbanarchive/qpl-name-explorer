@@ -49,7 +49,7 @@ function List({ monuments }) {
   return <>
     <div className="flex gap-4 p-4 pt-0">
       <button
-        className={`flex text-white rounded-md p-2 bg-purple-600 ${selectedFilter?.key === 'id' ? 'bg-gray-400' : ''}`}
+        className={`flex text-white rounded-md p-2 bg-qpl-purple ${selectedFilter?.key === 'id' ? 'bg-gray-400' : ''}`}
         onClick={handleAreaFilter}
       >
         {selectedFilter?.key === 'id' ? 'X ' : ''}

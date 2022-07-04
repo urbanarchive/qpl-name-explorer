@@ -12,14 +12,17 @@ function ListResult({ result }) {
     <Link to={`monuments/${sluggify(result.properties)}`} className="flex w-14">
       {result.properties[MONUMENT.IMAGES] && <div
         style={{ backgroundImage: `url(${result.properties[MONUMENT.IMAGES][0]?.thumbnails.large.url})` }}
-        className="bg-cover bg-center w-full h-full hover:border-purple-600 border-2 rounded-md"
+        className="bg-cover bg-center w-full h-full hover:border-qpl-purple border-2 rounded-md"
         alt={result.properties[MONUMENT.IMAGES][0]?.filename}
       />}
     </Link>
-    <Link to={`monuments/${sluggify(result.properties)}`} className="flex flex-col grow truncate hover:text-purple-600">
+    <Link to={`monuments/${sluggify(result.properties)}`} className="flex flex-col grow truncate hover:text-qpl-purple">
       <h2 className='font-bold'>{result.properties[MONUMENT.PLACE_NAME]}</h2>
       <h4
-        className={`font-thin text-sm text-[${getMonumentTypeColor(result.properties[MONUMENT.TYPE])}]`}
+        style={{
+          color: getMonumentTypeColor(result.properties[MONUMENT.TYPE]),
+        }}
+        className={`font-semibold text-sm`}
       >
         Type: {result.properties[MONUMENT.TYPE]}
       </h4>

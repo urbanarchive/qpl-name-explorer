@@ -9,12 +9,12 @@ import qplLogo from './images/qpl_logo.png';
 const DUMMY_GEOJSON = { features: [], type: 'FeatureCollection' };
 export const MONUMENT_TYPES = [
   // TODO: make hex
-  'Building', 'purple',
-  'Street/Thoroughfare', 'gray',
-  'School', 'pink',
-  'Park/Playground', 'green',
-  'Monument/Statue', 'blue',
-  'Library', 'red',
+  'Building', '#B973F5',
+  'Street/Thoroughfare', '#777777',
+  'School', '#B973F5',
+  'Park/Playground', '#00AC4F',
+  'Monument/Statue', '#0094FF',
+  'Library', '#6E2991',
   /* other */ 'orange',
 ];
 
