@@ -33,9 +33,11 @@ function List({ monuments }) {
         return;
       }
 
-      const ids = map.queryRenderedFeatures({ layers: ['monuments-circle'] }).map(f => f.id);
+      const ids = map.queryRenderedFeatures({ layers: ['monuments-circle'] });
+      const bounds = bbox({ type: 'FeatureCollection', features: ids });
+      map.fitBounds(bounds, { padding: 100 });
 
-      setFilter({ key: 'id', value: ids });
+      setFilter({ key: 'id', value: ids.map(f => f.id) });
     }
   };
 
