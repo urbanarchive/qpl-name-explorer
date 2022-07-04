@@ -47,6 +47,7 @@ function App() {
     scrollableFrame.current?.addEventListener("scroll", handleNavigation);
 
     return () => {
+      // eslint-disable-next-line react-hooks/exhaustive-deps
       scrollableFrame.current?.removeEventListener("scroll", handleNavigation);
     };
   }, [handleNavigation, scrollableFrame]);
