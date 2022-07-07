@@ -11,9 +11,6 @@ function Header({ className }) {
       <div className="grow h-8">
         <input className='w-full h-full bg-gray-200 rounded-md p-2' type="text" placeholder='Search QPL Stories'></input>
       </div>
-      <div className="flex w-16 h-8 items-center justify-center">
-        <div className='flex items-center justify-center h-8 bg-qpl-purple p-2 rounded-3xl text-white'>Log In</div>
-      </div>
     </div>
   </>
 }
