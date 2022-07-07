@@ -8,23 +8,11 @@ function extractMonumentIdentifier(slug) {
   return slug.split('-').reverse()[0];
 }
 
-function Detail() {
+function Detail({ monuments }) {
   const map = useContext(MapContext);
-  const [monuments, setData] = useState({});
   const [monument, setMonument] = useState({});
   const { slug } = useParams();
   const id = extractMonumentIdentifier(slug);
-
-  // get all monuments
-  useEffect(() => {
-    async function fetchData() {
-      const data = await (await fetch('/data/monuments.geojson')).json();
-
-      setData(data);
-    }
-
-    fetchData();
-  }, []);
 
   useEffect(() => {
     if (monuments.features) {

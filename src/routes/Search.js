@@ -1,4 +1,5 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext, useEffect } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import bbox from '@turf/bbox';
 import Select from 'react-select'
 import ListResult from '../ui/ListResult';
@@ -11,9 +12,14 @@ const LOCATION_TYPES = MONUMENT_TYPES
   .map(t => ({ label: t, value: t }))
   .slice(0, -1); // removes last color options as it's the default
 
-function List({ monuments }) {
+function Search({ monuments }) {
   const map = useContext(MapContext);
-  const [selectedFilter, setFilter] = useState();
+  const [params, setSearchParams] = useSearchParams();
+  const setFilterParams = (filter) => setSearchParams(filter);
+  const filter = {
+    key: params.get('key'),
+    value: params.get('value'),
+  }
 
   useEffect(() => {
     if (map && monuments) {
@@ -22,13 +28,13 @@ function List({ monuments }) {
   }, [map, monuments]);
 
   const handleFilterChange = (selection, keyName) => {
-    selection ? setFilter({ key: keyName, value: [selection.value] }) : setFilter(null);
+    selection ? setFilterParams({ key: keyName, value: [selection.value] }) : setFilterParams({});
   }
 
   const handleAreaFilter = () => {
     if (map) {
-      if (selectedFilter?.key === 'id') {
-        setFilter(null);
+      if (filter?.key === 'id') {
+        setFilterParams({});
 
         return;
       }
@@ -37,24 +43,26 @@ function List({ monuments }) {
       const bounds = bbox({ type: 'FeatureCollection', features: ids });
       map.fitBounds(bounds, { padding: 25 });
 
-      setFilter({ key: 'id', value: ids.map(f => f.id) });
+      setFilterParams({ key: 'id', value: ids.map(f => f.id).join(',') });
     }
   };
 
   const filteredLocations = {
     ...monuments,
     features: monuments?.features.filter(m => {
-      return selectedFilter?.value ? (selectedFilter.value.includes(m.properties[selectedFilter.key])) : true;
-    }),
+      if (!filter.key || !filter.value) return true;
+
+      return filter.value.includes(m.properties[filter.key]);
+    })
   };
 
   return <>
     <div className="flex gap-4 p-4">
       <button
-        className={`flex text-white rounded-md p-2 bg-qpl-purple ${selectedFilter?.key === 'id' ? 'bg-gray-400' : ''}`}
+        className={`flex text-white rounded-md p-2 bg-qpl-purple ${filter?.key === 'id' ? 'bg-gray-400' : ''}`}
         onClick={handleAreaFilter}
       >
-        {selectedFilter?.key === 'id' ? 'X ' : ''}
+        {filter?.key === 'id' ? 'X ' : ''}
         Search this area
       </button>
       <Select
@@ -66,10 +74,10 @@ function List({ monuments }) {
     </div>
     {filteredLocations?.features?.map(f=><ListResult key={f.properties.id} result={f} />)}
     {(filteredLocations?.features?.length === 0) && <>
-      <div className='p-4'>No matches for "{selectedFilter.value}". Showing all:</div>
+      <div className='p-4'>No matches for "{filter.value}". Showing all:</div>
       {monuments?.features?.map(f=><ListResult key={f.properties.id} result={f} />)}
     </>}
   </>;
 }
 
-export default List;
+export default Search;

@@ -5,7 +5,7 @@ import { useSwipeable } from 'react-swipeable';
 import Header from '../ui/Header';
 import MainMap from '../features/MainMap';
 import Detail from './Detail';
-import List from './Search';
+import Search from './Search';
 
 export const MapContext = createContext();
 
@@ -42,8 +42,8 @@ function App() {
           <div className={`${resultListViewState ? 'basis-2/5' : 'basis-4/5'} ease-linear max-h-full overflow-scroll`} {...handlers}>
             {(!isMobile) && <Header/>}
             <Routes>
-              <Route path="/" element={<List monuments={monuments} />} />
-              <Route path="/monuments/:slug" element={<Detail />} />
+              <Route path="/" element={<Search monuments={monuments} />} />
+              <Route path="/monuments/:slug" element={monuments?.features && <Detail monuments={monuments} />} />
             </Routes>
           </div>
         </div>

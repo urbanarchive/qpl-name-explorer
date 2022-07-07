@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from "react-router-dom";
 import bbox from '@turf/bbox';
 import MONUMENT from '../models/monument';
-import sluggify from '../utils/sluggify';
 import Map from "../ui/Map";
 import qplLogo from './images/qpl_logo.png';
 
@@ -64,10 +63,9 @@ function MainMap({ monuments, onLoad }) {
         hover: true,
         onClick(e) {
           const [feature] = e.features;
-          const profileSegment = sluggify(feature.properties)
-          const { id } = feature;
+          const { properties: { [MONUMENT.COORDS]: coords } } = feature;
 
-          navigate(`monuments/${profileSegment}-${id}`);
+          navigate(`/?key=${MONUMENT.COORDS}&value=${coords}`);
         },
       },
     });
