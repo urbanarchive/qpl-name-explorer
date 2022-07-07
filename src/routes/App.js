@@ -16,7 +16,6 @@ function App() {
   const handlers = useSwipeable({
     onSwipedUp: (eventData) => setResultListViewState(false),
     onSwipedDown: (eventData) =>  setResultListViewState(true),
-    delta: 75,
     swipeDuration: 250,
   });
 
