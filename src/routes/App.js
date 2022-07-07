@@ -1,6 +1,7 @@
-import React, { useEffect, useState, createContext, useRef, useCallback } from 'react'
+import React, { useEffect, useState, createContext } from 'react'
 import { Routes, Route } from 'react-router-dom';
 import { isMobile } from 'react-device-detect';
+import { useSwipeable } from 'react-swipeable';
 import Header from '../ui/Header';
 import MainMap from '../features/MainMap';
 import Detail from './Detail';
@@ -12,7 +13,12 @@ function App() {
   const [monuments, setData] = useState();
   const [mapInstance, setMapInstance] = useState(null);
   const [resultListViewState, setResultListViewState] = useState(true);
-  const scrollableFrame = useRef(null);
+  const handlers = useSwipeable({
+    onSwipedUp: (eventData) => setResultListViewState(false),
+    onSwipedDown: (eventData) =>  setResultListViewState(true),
+    delta: 75,
+    swipeDuration: 250,
+  });
 
   // get all monuments
   useEffect(() => {
@@ -25,33 +31,6 @@ function App() {
     fetchData();
   }, []);
 
-  const [y, setY] = useState(null);
-  const handleNavigation = useCallback(
-    (e) => {
-      const window = e.currentTarget;
-
-      if (y > window.scrollTop) {
-        // up
-        setResultListViewState(true);
-      } else if (y < window.scrollTop) {
-        // down
-        setResultListViewState(false);
-      }
-      setY(window.scrollTop);
-    },
-    [y]
-  );
-
-  useEffect(() => {
-    setY(scrollableFrame.current?.scrollTop);
-    scrollableFrame.current?.addEventListener("scroll", handleNavigation);
-
-    return () => {
-      // eslint-disable-next-line react-hooks/exhaustive-deps
-      scrollableFrame.current?.removeEventListener("scroll", handleNavigation);
-    };
-  }, [handleNavigation, scrollableFrame]);
-
   return (
     <MapContext.Provider value={mapInstance}>
       <div className="flex flex-col h-full w-full max-h-screen">
@@ -60,7 +39,7 @@ function App() {
           <div className={`${resultListViewState ? 'basis-3/5' : 'basis-1/5'} relative`}>
             <MainMap monuments={monuments} onLoad={setMapInstance} />
           </div>
-          <div className={`${resultListViewState ? 'basis-2/5' : 'basis-4/5'} ease-linear max-h-full overflow-scroll`} ref={scrollableFrame}>
+          <div className={`${resultListViewState ? 'basis-2/5' : 'basis-4/5'} ease-linear max-h-full overflow-scroll`} {...handlers}>
             {(!isMobile) && <Header/>}
             <Routes>
               <Route path="/" element={<List monuments={monuments} />} />
