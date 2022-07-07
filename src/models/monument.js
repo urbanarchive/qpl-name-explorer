@@ -5,6 +5,7 @@ const MONUMENT = {
   IMAGES: 'fldchc6j0XRMy0vb9',
   DESCRIPTION: 'fld18VKjlf9BGaE9N',
   SUBMITTED_AT: 'fld63z0I0JEzkE26Z',
+  IS_PRIMARY: 'fldiT7GQqBoUlnanU',
 };
 
 export default MONUMENT;

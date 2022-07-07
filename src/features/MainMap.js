@@ -50,6 +50,8 @@ function MainMap({ monuments, onLoad }) {
           ...MONUMENT_TYPES
         ],
       },
+
+      // TODO: use symbolized icon assets
       // 'id': 'monuments',
       // 'type': 'symbol',
       // 'source': 'monuments',
@@ -57,6 +59,7 @@ function MainMap({ monuments, onLoad }) {
       //   'icon-image': 'qpl-logo',
       //   'icon-allow-overlap': true,
       // },
+
       interactions: {
         hover: true,
         onClick(e) {
@@ -73,9 +76,13 @@ function MainMap({ monuments, onLoad }) {
 
   useEffect(() => {
     if (monuments && mapInstance) {
+      const uniqueLocations = {
+        type: 'FeatureCollection',
+        features: monuments.features.filter(m => m.properties[MONUMENT.IS_PRIMARY]),
+      };
       const monumentsSource = mapInstance.getSource('monuments');
 
-      monumentsSource.setData(monuments);
+      monumentsSource.setData(uniqueLocations);
 
       onLoad(mapInstance);
     }
