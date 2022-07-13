@@ -23,7 +23,10 @@ function Search({ monuments }) {
 
   useEffect(() => {
     if (map && monuments) {
-      map.fitBounds(bbox(monuments), { padding: 25 });
+      map.fitBounds(bbox(monuments), {
+        // TODO: reference the content pane for this information
+        padding: { left: 500, top: 30, bottom: 30 },
+      });
     }
   }, [map, monuments]);
 
@@ -41,7 +44,7 @@ function Search({ monuments }) {
 
       const ids = map.queryRenderedFeatures({ layers: ['monuments-circle'] });
       const bounds = bbox({ type: 'FeatureCollection', features: ids });
-      map.fitBounds(bounds, { padding: 25 });
+      map.fitBounds(bounds);
 
       setFilterParams({ key: 'id', value: ids.map(f => f.id).join(',') });
     }
@@ -70,6 +73,7 @@ function Search({ monuments }) {
         options={LOCATION_TYPES}
         isClearable={true}
         onChange={(selection) => { handleFilterChange(selection, MONUMENT.TYPE) }}
+        placeholder="Filter by type..."
       />
     </div>
     {filteredLocations?.features?.map(f=><ListResult key={f.properties.id} result={f} />)}

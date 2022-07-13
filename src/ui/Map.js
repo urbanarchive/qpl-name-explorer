@@ -43,6 +43,9 @@ function Map({
         zoom: 11,
         center: [-73.9579, 40.7333],
       },
+      fitBoundsOptions: {
+        padding: { left: 500 },
+      },
     });
 
     map.on('load', () => {
