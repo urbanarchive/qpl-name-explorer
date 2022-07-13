@@ -1,11 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React, { createRef, useEffect, useState } from 'react';
 import { useNavigate } from "react-router-dom";
 import bbox from '@turf/bbox';
+import ReactDOM from "react-dom";
+// eslint-disable-next-line import/no-webpack-loader-syntax
+import mapboxgl from '!mapbox-gl';
 import MONUMENT from '../models/monument';
 import Map from "../ui/Map";
-import qplLogo from './images/qpl_logo.png';
+import ICONS from './images/icons';
 
-const DUMMY_GEOJSON = { features: [], type: 'FeatureCollection' };
 export const MONUMENT_TYPES = [
   // TODO: make hex
   'Building', '#B973F5',
@@ -17,70 +19,77 @@ export const MONUMENT_TYPES = [
   /* other */ 'orange',
 ];
 
+export const ICONS_BY_MONUMENT_TYPE = {
+  'Building': ICONS['building'],
+  'Street/Thoroughfare': ICONS['street'],
+  'School': ICONS['school'],
+  'Park/Playground': ICONS['park'],
+  'Monument/Statue': ICONS['monument'],
+  'Library': ICONS['library'],
+};
+
+const Marker = ({ onClick, children, feature }) => {
+  const _onClick = () => {
+    onClick(feature);
+  };
+  const icon = ICONS_BY_MONUMENT_TYPE[feature.properties[MONUMENT.TYPE]] || ICONS['library'];
+
+  return (
+    <img
+      src={icon}
+      alt='icon'
+      onClick={_onClick}
+      className="marker cursor-pointer w-6 h-6"
+    />
+  );
+};
+
 function MainMap({ monuments, onLoad }) {
   const navigate = useNavigate();
   const [mapInstance, setMapInstance] = useState();
   const didLoad = (map) => {
     setMapInstance(map);
   };
+  const handleClick = (feature) => {
+    const { properties: { [MONUMENT.COORDS]: coords } } = feature;
+
+    navigate(`/?key=${MONUMENT.COORDS}&value=${coords}`);
+  };
 
   useEffect(() => {
     if (!mapInstance) return;
-
-    mapInstance.loadImage(qplLogo, (error, image) => {
-      mapInstance.addImage('qpl-logo', image);
-    });
-
-    mapInstance.addSource('monuments', {
-      type: 'geojson',
-      data: DUMMY_GEOJSON,
-      promoteId: 'id',
-    });
-
-    mapInstance.addLayer({
-      'id': 'monuments-circle',
-      'type': 'circle',
-      'source': 'monuments',
-      'paint': {
-        'circle-radius': 5,
-        'circle-color': [
-          'match',
-          ['get', MONUMENT.TYPE],
-          ...MONUMENT_TYPES
-        ],
-      },
-
-      // TODO: use symbolized icon assets
-      // 'id': 'monuments',
-      // 'type': 'symbol',
-      // 'source': 'monuments',
-      // 'layout': {
-      //   'icon-image': 'qpl-logo',
-      //   'icon-allow-overlap': true,
-      // },
-
-      interactions: {
-        hover: true,
-        onClick(e) {
-          const [feature] = e.features;
-          const { properties: { [MONUMENT.COORDS]: coords } } = feature;
-
-          navigate(`/?key=${MONUMENT.COORDS}&value=${coords}`);
-        },
-      },
-    });
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [mapInstance]);
 
   useEffect(() => {
     if (monuments && mapInstance) {
       const uniqueLocations = {
         type: 'FeatureCollection',
-        features: monuments.features.filter(m => m.properties[MONUMENT.IS_PRIMARY]),
-      };
-      const monumentsSource = mapInstance.getSource('monuments');
+        features: monuments.features
+          .filter(m => m.properties[MONUMENT.IS_PRIMARY])
+          // surface non-library icons
+          .sort((a, b) => {
+            if (a.properties[MONUMENT.TYPE] === 'Library') {
+              return -1;
+            }
 
-      monumentsSource.setData(uniqueLocations);
+            return 1;
+          }),
+      };
+
+      uniqueLocations.features.forEach(f => {
+        const ref = createRef();
+        ref.current = document.createElement("div");
+
+        // Render a Marker Component on our new DOM node
+        ReactDOM.render(
+          <Marker onClick={handleClick} feature={f} />,
+          ref.current
+        );
+
+        new mapboxgl.Marker(ref.current)
+          .setLngLat(f.geometry.coordinates)
+          .addTo(mapInstance);
+      });
 
       onLoad(mapInstance);
     }
