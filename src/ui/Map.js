@@ -3,6 +3,9 @@ import React, { useEffect, useRef } from 'react'
 import mapboxgl from '!mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 
+// TODO: This really shouldn't go here because it's specific to the Main Map
+export const DEFAULT_PADDING = { padding: { left: 500, top: 30, bottom: 30 } };
+
 mapboxgl.accessToken = 'pk.eyJ1IjoidXJiYW5hcmNoaXZlIiwiYSI6ImNrejcxYXJ5ODE1bDUybm5rdmlsODFldm8ifQ.zSi--O2cC3BcCW5ZUZuD3w';
 
 class ThematicMap extends mapboxgl.Map {
@@ -44,7 +47,7 @@ function Map({
         center: [-73.9579, 40.7333],
       },
       fitBoundsOptions: {
-        padding: { left: 500 },
+        ...DEFAULT_PADDING,
       },
     });
 

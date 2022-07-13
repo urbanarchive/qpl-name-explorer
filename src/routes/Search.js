@@ -2,10 +2,13 @@ import React, { useContext, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import bbox from '@turf/bbox';
 import Select from 'react-select'
+import pointsWithinPolygon from '@turf/points-within-polygon';
+import bboxPolygon from '@turf/bbox-polygon';
 import ListResult from '../ui/ListResult';
 import { MapContext } from './App';
 import MONUMENT from '../models/monument';
 import { MONUMENT_TYPES } from '../features/MainMap';
+import { DEFAULT_PADDING } from '../ui/Map';
 
 const LOCATION_TYPES = MONUMENT_TYPES
   .filter((_curr, index) => (index % 2) === 0)
@@ -25,7 +28,7 @@ function Search({ monuments }) {
     if (map && monuments) {
       map.fitBounds(bbox(monuments), {
         // TODO: reference the content pane for this information
-        padding: { left: 500, top: 30, bottom: 30 },
+        ...DEFAULT_PADDING,
       });
     }
   }, [map, monuments]);
@@ -42,11 +45,13 @@ function Search({ monuments }) {
         return;
       }
 
-      const ids = map.queryRenderedFeatures({ layers: ['monuments-circle'] });
-      const bounds = bbox({ type: 'FeatureCollection', features: ids });
-      map.fitBounds(bounds);
+      const currentBounds = bboxPolygon(map.getBounds().toArray().reduce((acc, curr) => [...curr, ...acc], []));
+      const intersectingPoints = pointsWithinPolygon(monuments, currentBounds);
+      const bounds = bbox(intersectingPoints);
 
-      setFilterParams({ key: 'id', value: ids.map(f => f.id).join(',') });
+      map.fitBounds(bounds, DEFAULT_PADDING);
+
+      setFilterParams({ key: 'id', value: intersectingPoints.features.map(f => f.properties.id).join(',') });
     }
   };
 
