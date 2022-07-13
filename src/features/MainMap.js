@@ -39,7 +39,7 @@ const Marker = ({ onClick, children, feature }) => {
       src={icon}
       alt='icon'
       onClick={_onClick}
-      className="marker cursor-pointer w-6 h-6"
+      className="marker cursor-pointer w-6 h-6 opacity-85"
     />
   );
 };
