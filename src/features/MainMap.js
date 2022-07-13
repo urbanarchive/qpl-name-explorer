@@ -28,11 +28,15 @@ export const ICONS_BY_MONUMENT_TYPE = {
   'Library': ICONS['library'],
 };
 
+export function getIconFromMonumentType(monument) {
+  return ICONS_BY_MONUMENT_TYPE[monument[MONUMENT.TYPE]] || ICONS['library'];
+}
+
 const Marker = ({ onClick, children, feature }) => {
   const _onClick = () => {
     onClick(feature);
   };
-  const icon = ICONS_BY_MONUMENT_TYPE[feature.properties[MONUMENT.TYPE]] || ICONS['library'];
+  const icon = getIconFromMonumentType(feature.properties);
 
   return (
     <img
