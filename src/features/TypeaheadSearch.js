@@ -47,9 +47,15 @@ function TypeaheadSearch({ monuments }) {
   }
 
   return <AsyncSelect
-    className='w-full h-full bg-gray-200 rounded-md p-2'
+    className='w-full rounded-md'
     loadOptions={loadOptions}
     onChange={handleInputChange}
+    styles={{
+      control: (provided) => ({
+        ...provided,
+      }),
+    }}
+    placeholder='Search...'
   />;
 }
 

@@ -32,7 +32,7 @@ function Map({
   onLoad = () => {},
 }) {
   // this ref holds the map DOM node so that we can pass it into Mapbox GL
-  const mapNode = useRef(null)
+  const mapNode = useRef(null);
 
   // instantiate the map, add sources and layers, event listeners, tooltips
   useEffect(() => {
@@ -48,7 +48,7 @@ function Map({
     map.on('load', () => {
       onLoad(map);
 
-      window.map = map // for easier debugging and querying via console
+      window.map = map; // for easier debugging and querying via console
     });
 
     return () => {
@@ -59,7 +59,7 @@ function Map({
 
   return (
     <div
-      className='map-container'
+      className='map-container z-0'
       ref={mapNode}
     />
   );
