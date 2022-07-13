@@ -35,14 +35,14 @@ function App() {
       <div className="flex flex-col h-full w-full max-h-screen">
         <Header monuments={monuments}/>
         <div className="flex flex-col sm:flex-row h-full overflow-scroll">
-          <div className={`${resultListViewState ? 'basis-3/5' : 'basis-1/5'} relative`}>
-            <MainMap monuments={monuments} onLoad={setMapInstance} />
-          </div>
           <div className={`${resultListViewState ? 'basis-2/5' : 'basis-4/5'} ease-linear max-h-full overflow-scroll`} {...handlers}>
             <Routes>
               <Route path="/" element={<Search monuments={monuments} />} />
               <Route path="/monuments/:slug" element={monuments?.features && <Detail monuments={monuments} />} />
             </Routes>
+          </div>
+          <div className={`${resultListViewState ? 'basis-3/5' : 'basis-1/5'} relative`}>
+            <MainMap monuments={monuments} onLoad={setMapInstance} />
           </div>
         </div>
       </div>
