@@ -27,7 +27,7 @@ function ListResult(props) {
   const result = resultFactory(props.result);
 
   return <div className="flex gap-4 p-4">
-    <Link to={`monuments/${result.slug}`} className="flex shrink-0 w-14">
+    <Link to={`monuments/${result.slug}`} className="flex shrink-0 h-14 w-14">
       {<div
         style={{ backgroundImage: `url(${result.mastheadImage})` }}
         className="bg-cover bg-center w-full h-full hover:border-qpl-purple border-2 rounded-md"
