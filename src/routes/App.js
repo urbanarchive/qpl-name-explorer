@@ -37,7 +37,7 @@ function App() {
         <div className="flex h-full overflow-scroll relative">
           <MainMap monuments={monuments} onLoad={setMapInstance} />
           <div className="flex absolute top-0 z-100 max-h-full w-full overflow-scroll pointer-events-none">
-            <div className="basis-1/3 overflow-scroll bg-white m-5 rounded-lg pointer-events-auto" {...handlers}>
+            <div className="lg:basis-1/3 sm:m-5 md:basis-1/2 overflow-scroll bg-white rounded-lg pointer-events-auto" {...handlers}>
               <Routes>
                 <Route path="/" element={<Search monuments={monuments} />} />
                 <Route path="/monuments/:slug" element={monuments?.features && <Detail monuments={monuments} />} />
