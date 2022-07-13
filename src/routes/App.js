@@ -1,6 +1,5 @@
 import React, { useEffect, useState, createContext } from 'react'
 import { Routes, Route } from 'react-router-dom';
-import { isMobile } from 'react-device-detect';
 import { useSwipeable } from 'react-swipeable';
 import Header from '../ui/Header';
 import MainMap from '../features/MainMap';
@@ -12,7 +11,7 @@ export const MapContext = createContext();
 function App() {
   const [monuments, setData] = useState();
   const [mapInstance, setMapInstance] = useState(null);
-  const [resultListViewState, setResultListViewState] = useState(true);
+  const [setResultListViewState] = useState(true);
   const handlers = useSwipeable({
     onSwipedUp: (eventData) => setResultListViewState(false),
     onSwipedDown: (eventData) =>  setResultListViewState(true),
