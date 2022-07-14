@@ -1,14 +1,10 @@
 import React, { useContext, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import bbox from '@turf/bbox';
 import Select from 'react-select'
-import pointsWithinPolygon from '@turf/points-within-polygon';
-import bboxPolygon from '@turf/bbox-polygon';
 import ListResult from '../ui/ListResult';
 import { MapContext } from './App';
 import MONUMENT from '../models/monument';
 import { MONUMENT_TYPES } from '../features/MainMap';
-import { DEFAULT_PADDING } from '../ui/Map';
 
 const LOCATION_TYPES = MONUMENT_TYPES
   .filter((_curr, index) => (index % 2) === 0)
@@ -47,40 +43,15 @@ function Search({ monuments }) {
     selection ? setFilterParams({ key: keyName, value: [selection.value] }) : setFilterParams({});
   }
 
-  const handleAreaFilter = () => {
-    if (map) {
-      if (filter?.key === 'id') {
-        setFilterParams({});
-
-        return;
-      }
-
-      const currentBounds = bboxPolygon(map.getBounds().toArray().reduce((acc, curr) => [...curr, ...acc], []));
-      const intersectingPoints = pointsWithinPolygon(monuments, currentBounds);
-      const bounds = bbox(intersectingPoints);
-
-      map.fitBounds(bounds, DEFAULT_PADDING);
-
-      setFilterParams({ key: 'id', value: intersectingPoints.features.map(f => f.properties.id).join(',') });
-    }
-  };
-
   return <>
     <h1 className='text-3xl font-feather uppercase pt-4 pl-4'>Queens Name Explorer</h1>
     <div className="flex gap-4 p-4">
-      <button
-        className={`flex text-white rounded-md p-2 bg-qpl-purple ${filter?.key === 'id' ? 'bg-gray-400' : ''}`}
-        onClick={handleAreaFilter}
-      >
-        {filter?.key === 'id' ? 'X ' : ''}
-        Search this area
-      </button>
       <Select
         className='grow text-gray rounded-md bg-white'
         options={LOCATION_TYPES}
         isClearable={true}
         onChange={(selection) => { handleFilterChange(selection, MONUMENT.TYPE) }}
-        placeholder="Filter by type..."
+        placeholder="Filter..."
       />
     </div>
     {filteredLocations?.features?.map(f=><ListResult key={f.properties.id} result={f} />)}
