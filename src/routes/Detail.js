@@ -37,6 +37,11 @@ function Detail({ monuments }) {
       <h1 className='text-3xl font-feather'>{monument?.properties[MONUMENT.PLACE_NAME]}</h1>
     </div>
     {!!monument?.properties[MONUMENT.IMAGES]?.length && <img alt="Location image" className='w-full' src={monument?.properties[MONUMENT.IMAGES][0].url}/>}
+    <div>
+      <p className='p-4 whitespace-pre-line wrap'>
+        {monument?.properties[MONUMENT.DESCRIPTION]}
+      </p>
+    </div>
   </>;
 }
 
