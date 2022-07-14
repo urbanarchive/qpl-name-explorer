@@ -4,7 +4,7 @@ import Select from 'react-select'
 import ListResult from '../ui/ListResult';
 import { MapContext } from './App';
 import MONUMENT from '../models/monument';
-import { MONUMENT_TYPES } from '../features/MainMap';
+import { MONUMENT_TYPES } from '../models/monument';
 
 const LOCATION_TYPES = MONUMENT_TYPES
   .filter((_curr, index) => (index % 2) === 0)

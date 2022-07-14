@@ -3,36 +3,12 @@ import { useNavigate } from "react-router-dom";
 import bbox from '@turf/bbox';
 import ReactDOM from "react-dom";
 import ReactTooltip from 'react-tooltip';
-import SupportingLayers from './SupportingLayers';
 // eslint-disable-next-line import/no-webpack-loader-syntax
 import mapboxgl from '!mapbox-gl';
+import SupportingLayers from './SupportingLayers';
 import MONUMENT from '../models/monument';
 import Map from "../ui/Map";
-import ICONS from './images/icons';
-
-export const MONUMENT_TYPES = [
-  // TODO: make hex
-  'Building', '#B973F5',
-  'Street/Thoroughfare', '#777777',
-  'School', '#B973F5',
-  'Park/Playground', '#00AC4F',
-  'Monument/Statue', '#0094FF',
-  'Library', '#6E2991',
-  /* other */ 'orange',
-];
-
-export const ICONS_BY_MONUMENT_TYPE = {
-  'Building': ICONS['building'],
-  'Street/Thoroughfare': ICONS['street'],
-  'School': ICONS['school'],
-  'Park/Playground': ICONS['park'],
-  'Monument/Statue': ICONS['monument'],
-  'Library': ICONS['library'],
-};
-
-export function getIconFromMonumentType(monument) {
-  return ICONS_BY_MONUMENT_TYPE[monument[MONUMENT.TYPE]] || ICONS['library'];
-}
+import { getIconFromMonumentType } from '../models/monument';
 
 const Marker = ({ onClick, children, feature }) => {
   const _onClick = () => {
@@ -40,19 +16,16 @@ const Marker = ({ onClick, children, feature }) => {
   };
   const icon = getIconFromMonumentType(feature.properties);
 
-  return (<div>
+  return (<>
     <img
       src={icon}
       alt='icon'
       onClick={_onClick}
       data-tip
       data-for={feature.properties.id}
-      className="marker cursor-pointer w-6 h-6 opacity-85 z-10 hover:scale-125 duration-100"
+      className="marker cursor-pointer w-6 h-6 opacity-85 hover:scale-125 duration-100"
     />
-    <ReactTooltip className='whitespace-nowrap' id={feature.properties.id} place="top" type="light" effect="float">
-      <h3 className='font-feather text-lg'>{feature.properties[MONUMENT.PLACE_NAME]}</h3>
-    </ReactTooltip>
-  </div>);
+  </>);
 };
 
 function MainMap({ monuments, onLoad }) {
@@ -87,6 +60,7 @@ function MainMap({ monuments, onLoad }) {
           }),
       };
 
+      // markers
       uniqueLocations.features.forEach(f => {
         const ref = createRef();
         ref.current = document.createElement("div");
@@ -99,6 +73,24 @@ function MainMap({ monuments, onLoad }) {
 
         new mapboxgl.Marker(ref.current)
           .setLngLat(f.geometry.coordinates)
+          .addTo(mapInstance);
+      });
+
+      // tooltips
+      uniqueLocations.features.forEach(feature => {
+        const ref = createRef();
+        ref.current = document.createElement("div");
+        
+        ReactDOM.render(<ReactTooltip
+            className='whitespace-nowrap'
+            id={feature.properties.id}
+          >
+            <h3 className='font-feather text-lg]'>{feature.properties[MONUMENT.PLACE_NAME]}</h3>
+          </ReactTooltip>,
+          ref.current
+        );
+        new mapboxgl.Marker(ref.current)
+          .setLngLat(feature.geometry.coordinates)
           .addTo(mapInstance);
       });
 
