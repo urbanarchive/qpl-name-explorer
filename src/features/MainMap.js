@@ -49,7 +49,7 @@ const Marker = ({ onClick, children, feature }) => {
       data-for={feature.properties.id}
       className="marker cursor-pointer w-6 h-6 opacity-85 z-10 hover:scale-125 duration-100"
     />
-    <ReactTooltip id={feature.properties.id} place="top" type="light" effect="float">
+    <ReactTooltip className='whitespace-nowrap' id={feature.properties.id} place="top" type="light" effect="float">
       <h3 className='font-feather text-lg'>{feature.properties[MONUMENT.PLACE_NAME]}</h3>
     </ReactTooltip>
   </div>);
