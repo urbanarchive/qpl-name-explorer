@@ -38,6 +38,11 @@ function Detail({ monuments }) {
     </div>
     {!!monument?.properties[MONUMENT.IMAGES]?.length && <img alt="Location image" className='w-full' src={monument?.properties[MONUMENT.IMAGES][0].url}/>}
     <div>
+      {monument?.properties[MONUMENT.CITATION] &&
+        <p className='text-sm p-1 text-right'>{monument?.properties[MONUMENT.CITATION]}</p>
+      }
+    </div>
+    <div>
       <p className='p-4 whitespace-pre-line wrap'>
         {monument?.properties[MONUMENT.DESCRIPTION]}
       </p>
