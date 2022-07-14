@@ -2,6 +2,7 @@ import React, { createRef, useEffect, useState } from 'react';
 import { useNavigate } from "react-router-dom";
 import bbox from '@turf/bbox';
 import ReactDOM from "react-dom";
+import ReactTooltip from 'react-tooltip';
 import SupportingLayers from './SupportingLayers';
 // eslint-disable-next-line import/no-webpack-loader-syntax
 import mapboxgl from '!mapbox-gl';
@@ -39,14 +40,19 @@ const Marker = ({ onClick, children, feature }) => {
   };
   const icon = getIconFromMonumentType(feature.properties);
 
-  return (
+  return (<div>
     <img
       src={icon}
       alt='icon'
       onClick={_onClick}
+      data-tip
+      data-for={feature.properties.id}
       className="marker cursor-pointer w-6 h-6 opacity-85"
     />
-  );
+    <ReactTooltip id={feature.properties.id} place="top" type="light" effect="float">
+      <h3 className='font-feature text-xl'>{feature.properties[MONUMENT.PLACE_NAME]}</h3>
+    </ReactTooltip>
+  </div>);
 };
 
 function MainMap({ monuments, onLoad }) {
