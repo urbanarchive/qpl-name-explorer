@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import * as topojson from "topojson-client";
 
 export default function SupportingLayers({ map }) {
-  const [supportingLayers, setData] = useState();
+  const [, setData] = useState();
 
   useEffect(() => {
     async function fetchData() {

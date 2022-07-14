@@ -22,16 +22,26 @@ function Search({ monuments }) {
   const filter = {
     key: params.get('key'),
     value: params.get('value'),
-  }
+  };
 
   useEffect(() => {
     if (map && monuments) {
-      map.fitBounds(bbox(monuments), {
-        // TODO: reference the content pane for this information
-        ...DEFAULT_PADDING,
-      });
+      // TODO: Unsure about when to fit bounds or not...
+      // map.fitBounds(bbox(monuments), {
+      //   // TODO: reference the content pane for this information
+      //   ...DEFAULT_PADDING,
+      // });
     }
   }, [map, monuments]);
+
+  const filteredLocations = {
+    ...monuments,
+    features: monuments?.features.filter(m => {
+      if (!filter.key || !filter.value) return true;
+
+      return filter.value.includes(m.properties[filter.key]);
+    })
+  };
 
   const handleFilterChange = (selection, keyName) => {
     selection ? setFilterParams({ key: keyName, value: [selection.value] }) : setFilterParams({});
@@ -53,15 +63,6 @@ function Search({ monuments }) {
 
       setFilterParams({ key: 'id', value: intersectingPoints.features.map(f => f.properties.id).join(',') });
     }
-  };
-
-  const filteredLocations = {
-    ...monuments,
-    features: monuments?.features.filter(m => {
-      if (!filter.key || !filter.value) return true;
-
-      return filter.value.includes(m.properties[filter.key]);
-    })
   };
 
   return <>
