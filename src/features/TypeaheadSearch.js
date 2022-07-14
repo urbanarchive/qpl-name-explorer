@@ -36,6 +36,7 @@ function TypeaheadSearch({ monuments }) {
   }
 
   const handleInputChange = (selection) => {
+    if (!selection) return;
     const { meta: { type }, value } = selection;
 
     if (type === 'address') {
@@ -56,6 +57,7 @@ function TypeaheadSearch({ monuments }) {
       }),
     }}
     placeholder='Search...'
+    isClearable={true}
   />;
 }
 
