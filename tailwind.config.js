@@ -8,6 +8,9 @@ module.exports = {
       colors: {
         'qpl-purple': '#6E2991',
       },
+      fontFamily: {
+        feather: ['Champion-HTF-Featherweight', 'mono'],
+      },
     },
   },
   plugins: [],

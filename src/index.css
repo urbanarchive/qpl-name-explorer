@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Champion-HTF-Featherweight";
+  src: url("../public/fonts/Champion-HTF-Featherweight.otf");
+}
+
 html, body, #root {
   @apply h-full;
 }

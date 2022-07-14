@@ -3,6 +3,8 @@ import React, { useEffect, useState, useContext } from 'react'
 import { useParams } from "react-router-dom";
 import MONUMENT from '../models/monument';
 import { MapContext } from './App';
+import { resultFactory } from '../models/monument';
+import { DEFAULT_PADDING } from '../ui/Map';
 
 function extractMonumentIdentifier(slug) {
   return slug.split('-').reverse()[0];
@@ -10,7 +12,7 @@ function extractMonumentIdentifier(slug) {
 
 function Detail({ monuments }) {
   const map = useContext(MapContext);
-  const [monument, setMonument] = useState({});
+  const [monument, setMonument] = useState(null);
   const { slug } = useParams();
   const id = extractMonumentIdentifier(slug);
 
@@ -18,20 +20,23 @@ function Detail({ monuments }) {
     if (monuments.features) {
       const monument = monuments.features.find(m => m.properties.id === id);
 
-      setMonument(monument.properties);
+      setMonument(resultFactory(monument));
 
       if (map) {
-        map.easeTo({ center: monument.geometry.coordinates });
+        map.easeTo({ center: monument.geometry.coordinates, zoom: 14, ...DEFAULT_PADDING  });
       }
     }
   }, [id, monuments, map]);
 
   return <>
     <div className="p-4">
-      <h6 className='text-sm'>{monument[MONUMENT.TYPE]}</h6>
-      <h1 className='text-3xl'>{monument[MONUMENT.PLACE_NAME]}</h1>
+      <h6 className='text-sm'>
+        <img src={monument?.iconData} alt={monument?.properties[MONUMENT.TYPE]} className="w-8 h-8 inline mr-1" />
+        {monument?.properties[MONUMENT.TYPE]}
+      </h6>
+      <h1 className='text-3xl font-feather'>{monument?.properties[MONUMENT.PLACE_NAME]}</h1>
     </div>
-    {!!monument[MONUMENT.IMAGES]?.length && <img alt="Location image" className='w-full' src={monument[MONUMENT.IMAGES][0].url}/>}
+    {!!monument?.properties[MONUMENT.IMAGES]?.length && <img alt="Location image" className='w-full' src={monument?.properties[MONUMENT.IMAGES][0].url}/>}
   </>;
 }
 

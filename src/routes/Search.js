@@ -65,6 +65,7 @@ function Search({ monuments }) {
   };
 
   return <>
+    <h1 className='text-3xl font-feather uppercase pt-4 pl-4'>Queens Name Explorer</h1>
     <div className="flex gap-4 p-4">
       <button
         className={`flex text-white rounded-md p-2 bg-qpl-purple ${filter?.key === 'id' ? 'bg-gray-400' : ''}`}

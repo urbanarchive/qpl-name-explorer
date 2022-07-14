@@ -2,6 +2,7 @@ import React, { createRef, useEffect, useState } from 'react';
 import { useNavigate } from "react-router-dom";
 import bbox from '@turf/bbox';
 import ReactDOM from "react-dom";
+import SupportingLayers from './SupportingLayers';
 // eslint-disable-next-line import/no-webpack-loader-syntax
 import mapboxgl from '!mapbox-gl';
 import MONUMENT from '../models/monument';
@@ -105,6 +106,7 @@ function MainMap({ monuments, onLoad }) {
       onLoad={didLoad}
       bounds={bbox(monuments)}
     />}
+    {mapInstance && <SupportingLayers map={mapInstance} />}
   </>;
 }
 
