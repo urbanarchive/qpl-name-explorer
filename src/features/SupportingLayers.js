@@ -139,7 +139,7 @@ export default function SupportingLayers({ map }) {
   return <div
     className='absolute bottom-0 right-0 m-8 p-2 bg-white rounded-lg shadow cursor-pointer'
     onMouseOver={() => { setVisibility(true) }}
-    onMouseOut={() => { setVisibility(false) }}
+    onMouseLeave={() => { setVisibility(false) }}
   >
     {!supportingLayersToggleVisible && <div>
       <img src={mapLayers} alt="supporting layers" className='w-8 h-8' />
