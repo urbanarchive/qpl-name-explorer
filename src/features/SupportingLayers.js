@@ -4,36 +4,19 @@ import Toggle from '../ui/Toggle';
 
 function getVisibility(state) {
   if (state === undefined) return 'visible';
+  if (typeof(state) === 'string') {
+    return (state === 'visible') ? true : false;
+  }
+
   return state ? 'visible' : 'none';
 }
 
-export default function SupportingLayers({ map }) {
-  const [supportingLayersToggleVisible, setVisibility] = useState(false);
-  const [layersState, setLayerState] = useState({
-    cds: false,
-    ntas: false,
-  });
-
-  useEffect(() => {
-    async function fetchData() {
-      const data = {
-        cds: await (await fetch('/data/static/cds.geojson')).json(),
-        ntas: await (await fetch('/data/static/ntas.geojson')).json(),
-      };
-  
-      map.addSource('supporting-cds', {
-        type: 'geojson',
-        data: data.cds,
-      });
-
-      map.addSource('supporting-ntas', {
-        type: 'geojson',
-        data: data.ntas,
-      });
-
-      map.addLayer({
-        id: 'supporting-cds',
-        source: 'supporting-cds',
+const THEMATIC_LAYERS = {
+  cds: {
+    title: 'Community Districts',
+    data: '/data/static/cds.geojson',
+    layers: {
+      lines: {
         type: 'line',
         paint: {
           "line-color": "#527a00",
@@ -42,32 +25,8 @@ export default function SupportingLayers({ map }) {
             "stops": [[11, 1], [16, 3]],
           },
         },
-        layout: {
-          'visibility': getVisibility(layersState.cds),
-        },
-      });
-
-      map.addLayer({
-        id: 'supporting-ntas',
-        source: 'supporting-ntas',
-        type: 'line',
-        paint: {
-          'line-color': '#00007a',
-          'line-opacity': 0.6,
-          'line-width': {
-            stops: [[11, 1], [16, 3]]
-          }
-        },
-        layout: {
-          'line-join': 'round',
-          'line-cap': 'round',
-          'visibility': getVisibility(layersState.ntas),
-        }
-      })
-
-      map.addLayer({
-        id: 'supporting-cds-labels',
-        source: 'supporting-cds',
+      },
+      labels: {
         type: 'symbol',
         minzoom: 11,
         paint: {
@@ -85,13 +44,29 @@ export default function SupportingLayers({ map }) {
           'text-size': {
             stops: [[11, 12], [14, 16]]
           },
-          'visibility': getVisibility(layersState.cds),
         }
-      });
-
-      map.addLayer({
-        id: 'supporting-ntas-labels',
-        source: 'supporting-ntas',
+      },
+    },
+  },
+  ntas: {
+    title: 'Neighborhoods',
+    data: '/data/static/ntas.geojson',
+    layers: {
+      lines: {
+        type: 'line',
+        paint: {
+          'line-color': '#00007a',
+          'line-opacity': 0.6,
+          'line-width': {
+            stops: [[11, 1], [16, 3]]
+          }
+        },
+        layout: {
+          'line-join': 'round',
+          'line-cap': 'round',
+        }
+      },
+      labels: {
         type: 'symbol',
         minzoom: 11,
         paint: {
@@ -109,33 +84,104 @@ export default function SupportingLayers({ map }) {
           'text-size': {
             stops: [[11, 12], [14, 16]]
           },
-          'visibility': getVisibility(layersState.ntas),
         }
-      });
+      },
+    },
+  },
+  ccs: {
+    title: 'City Council Districts',
+    data: '/data/static/city_councils.geojson',
+    layers: {
+      lines: {
+        type: 'line',
+        paint: {
+          'line-color': '#00007a',
+          'line-opacity': 0.6,
+          'line-width': {
+            stops: [[11, 1], [16, 3]]
+          }
+        },
+        layout: {
+          'line-join': 'round',
+          'line-cap': 'round',
+        }
+      },
     }
-  
-    fetchData();
+  },
+};
+
+const INITIAL_STATE = Object.entries(THEMATIC_LAYERS).reduce((acc, [key]) => {
+  return {
+    [key]: false,
+    ...acc,
+  }
+}, {});
+
+const GENERATED_LAYERS = Object.entries(THEMATIC_LAYERS).map(([groupKey, thematicLayer]) => {
+  const { layers, ...sourceConfiguration } = thematicLayer;
+  const sourceId = `supporting-${groupKey}`;
+
+  return {
+    source: {
+      id: sourceId,
+      ...sourceConfiguration,
+    },
+    layers: Object.values(layers).map((layerConfiguration) => {
+      const layerId = `${sourceId}-${layerConfiguration.type}`;
+
+      return {
+        id: layerId,
+        source: sourceId,
+        ...layerConfiguration,
+        metadata: {
+          group: groupKey,
+        },
+      };
+    }),
+  }
+});
+
+export default function SupportingLayers({ map }) {
+  const [supportingLayersToggleVisible, setVisibility] = useState(false);
+  const [layersState, setLayerState] = useState(INITIAL_STATE);
+
+  useEffect(() => {
+    GENERATED_LAYERS.forEach(thematicLayer => {
+      map.addSource(thematicLayer.source.id, {
+        type: 'geojson',
+        data: thematicLayer.source.data,
+      });
+
+      thematicLayer.layers.forEach(layer => {
+        map.addLayer(layer);
+      });
+    });
 
     return () => {
-      map.removeLayer('supporting-cds');
-      map.removeLayer('supporting-ntas');
-      map.removeLayer('supporting-cds-labels');
-      map.removeLayer('supporting-ntas-labels');
-      map.removeSource('supporting-cds');
-      map.removeSource('supporting-ntas');
+      GENERATED_LAYERS.forEach(thematicLayers => {
+        const { source: { id } } = thematicLayers;
+        thematicLayers.layers.forEach(layer => {
+          map.removeLayer(layer.id);
+        });
+
+        map.removeSource(id);
+      })
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() => {
-    if (map && map.getSource('supporting-cds') && map.getSource('supporting-ntas')) {
-      map.setLayoutProperty('supporting-cds', 'visibility', getVisibility(layersState.cds));
-      map.setLayoutProperty('supporting-ntas', 'visibility', getVisibility(layersState.ntas));
-      map.setLayoutProperty('supporting-cds-labels', 'visibility', getVisibility(layersState.cds));
-      map.setLayoutProperty('supporting-ntas-labels', 'visibility', getVisibility(layersState.ntas));
+    const isReady = GENERATED_LAYERS.map(l => l.source.id).every(id => map?.getSource(id));
+
+    if (map && isReady) {
+      GENERATED_LAYERS.forEach(source => {
+        source.layers.forEach(l => {
+          map.setLayoutProperty(l.id, 'visibility', getVisibility(layersState[l.metadata.group]));
+        });
+      });
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [layersState])
+  }, [layersState]);
 
   return <div
     className='absolute bottom-0 right-0 m-8 p-2 bg-white rounded-lg shadow cursor-pointer'
@@ -147,20 +193,18 @@ export default function SupportingLayers({ map }) {
     </div>}
     {supportingLayersToggleVisible && <div className='whitespace-pre-line'>
       <ul>
-        <li onClick={() => setLayerState({...layersState, ntas: !layersState.ntas })}>
-          <Toggle
-            checked={layersState.ntas}
+        {Object.entries(THEMATIC_LAYERS).map(([sourceKey, source]) => {
+          return <li
+            key={sourceKey}
+            onClick={() => setLayerState({...layersState, [sourceKey]: !layersState[sourceKey] })}
           >
-            Neighborhoods
-          </Toggle>
-        </li>
-        <li onClick={() => setLayerState({...layersState, cds: !layersState.cds })}>
-          <Toggle
-            checked={layersState.cds}
-          >
-            Community Districts
-          </Toggle>
-        </li>
+            <Toggle
+              checked={layersState[sourceKey]}
+            >
+              {source.title}
+            </Toggle>
+          </li>})
+        }
       </ul>
     </div>}
   </div>;
