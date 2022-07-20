@@ -148,12 +148,16 @@ export default function SupportingLayers({ map }) {
     {supportingLayersToggleVisible && <div className='whitespace-pre-line'>
       <ul>
         <li onClick={() => setLayerState({...layersState, ntas: !layersState.ntas })}>
-          <Toggle>
+          <Toggle
+            checked={layersState.ntas}
+          >
             Neighborhoods
           </Toggle>
         </li>
         <li onClick={() => setLayerState({...layersState, cds: !layersState.cds })}>
-          <Toggle>
+          <Toggle
+            checked={layersState.cds}
+          >
             Community Districts
           </Toggle>
         </li>
