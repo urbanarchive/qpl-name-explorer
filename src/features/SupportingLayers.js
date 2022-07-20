@@ -11,8 +11,9 @@ function getVisibility(state) {
   return state ? 'visible' : 'none';
 }
 
-const THEMATIC_LAYERS = {
-  cds: {
+const THEMATIC_LAYERS = [
+  {
+    groupId: 'cds',
     title: 'Community Districts',
     data: '/data/static/cds.geojson',
     layers: {
@@ -46,9 +47,9 @@ const THEMATIC_LAYERS = {
           },
         }
       },
-    },
-  },
-  ntas: {
+    }
+  }, {
+    groupId: 'ntas',
     title: 'Neighborhoods',
     data: '/data/static/ntas.geojson',
     layers: {
@@ -87,8 +88,8 @@ const THEMATIC_LAYERS = {
         }
       },
     },
-  },
-  ccs: {
+  }, {
+    groupId: 'ccs',
     title: 'City Council Districts',
     data: '/data/static/city_councils.geojson',
     layers: {
@@ -106,24 +107,38 @@ const THEMATIC_LAYERS = {
           'line-cap': 'round',
         }
       },
-    }
-  },
-};
-
-const INITIAL_STATE = Object.entries(THEMATIC_LAYERS).reduce((acc, [key]) => {
-  return {
-    [key]: false,
-    ...acc,
+      labels: {
+        type: 'symbol',
+        minzoom: 11,
+        paint: {
+          'text-color': '#626262',
+          'text-halo-color': '#FFFFFF',
+          'text-halo-width': 2,
+          'text-halo-blur': 2
+        },
+        layout: {
+          'text-field': "{CounDist}",
+          'text-font': [
+            'Open Sans Semibold',
+            'Arial Unicode MS Bold'
+          ],
+          'text-size': {
+            stops: [[11, 12], [14, 16]]
+          },
+        }
+      },
+    },
   }
-}, {});
+];
 
-const GENERATED_LAYERS = Object.entries(THEMATIC_LAYERS).map(([groupKey, thematicLayer]) => {
+const GENERATED_LAYERS = THEMATIC_LAYERS.map(thematicLayer => {
   const { layers, ...sourceConfiguration } = thematicLayer;
-  const sourceId = `supporting-${groupKey}`;
+  const sourceId = `supporting-${thematicLayer.groupId}`;
 
   return {
     source: {
       id: sourceId,
+      groupId: thematicLayer.groupId,
       ...sourceConfiguration,
     },
     layers: Object.values(layers).map((layerConfiguration) => {
@@ -134,12 +149,19 @@ const GENERATED_LAYERS = Object.entries(THEMATIC_LAYERS).map(([groupKey, themati
         source: sourceId,
         ...layerConfiguration,
         metadata: {
-          group: groupKey,
+          group: thematicLayer.groupId,
         },
       };
     }),
   }
 });
+
+const INITIAL_STATE = GENERATED_LAYERS.reduce((acc, thematicLayer) => {
+  return {
+    [thematicLayer.source.groupId]: false,
+    ...acc,
+  }
+}, {});
 
 export default function SupportingLayers({ map }) {
   const [supportingLayersToggleVisible, setVisibility] = useState(false);
@@ -147,6 +169,7 @@ export default function SupportingLayers({ map }) {
 
   useEffect(() => {
     GENERATED_LAYERS.forEach(thematicLayer => {
+      console.log(thematicLayer);
       map.addSource(thematicLayer.source.id, {
         type: 'geojson',
         data: thematicLayer.source.data,
@@ -193,15 +216,15 @@ export default function SupportingLayers({ map }) {
     </div>}
     {supportingLayersToggleVisible && <div className='whitespace-pre-line'>
       <ul>
-        {Object.entries(THEMATIC_LAYERS).map(([sourceKey, source]) => {
+        {GENERATED_LAYERS.map(thematicLayer => {
           return <li
-            key={sourceKey}
-            onClick={() => setLayerState({...layersState, [sourceKey]: !layersState[sourceKey] })}
+            key={thematicLayer.source.groupId}
+            onClick={() => setLayerState({...layersState, [thematicLayer.source.groupId]: !layersState[thematicLayer.source.groupId] })}
           >
             <Toggle
-              checked={layersState[sourceKey]}
+              checked={layersState[thematicLayer.source.groupId]}
             >
-              {source.title}
+              {thematicLayer.source.title}
             </Toggle>
           </li>})
         }
