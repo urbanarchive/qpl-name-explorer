@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import mapLayers from '../features/images/map-layers.png';
+import Toggle from '../ui/Toggle';
 
 function getVisibility(state) {
   if (state === undefined) return 'visible';
@@ -146,8 +147,16 @@ export default function SupportingLayers({ map }) {
     </div>}
     {supportingLayersToggleVisible && <div className='whitespace-pre-line'>
       <ul>
-        <li onClick={() => setLayerState({...layersState, ntas: !layersState.ntas })}>Neighborhoods</li>
-        <li onClick={() => setLayerState({...layersState, cds: !layersState.cds })}>Community Districts</li>
+        <li onClick={() => setLayerState({...layersState, ntas: !layersState.ntas })}>
+          <Toggle>
+            Neighborhoods
+          </Toggle>
+        </li>
+        <li onClick={() => setLayerState({...layersState, cds: !layersState.cds })}>
+          <Toggle>
+            Community Districts
+          </Toggle>
+        </li>
       </ul>
     </div>}
   </div>;
