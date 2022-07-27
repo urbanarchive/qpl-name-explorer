@@ -5,6 +5,7 @@ import MONUMENT from '../models/monument';
 import { MapContext } from './App';
 import { resultFactory } from '../models/monument';
 import { DEFAULT_PADDING } from '../ui/Map';
+import parse from 'html-react-parser';
 
 function extractMonumentIdentifier(slug) {
   return slug.split('-').reverse()[0];
@@ -42,10 +43,15 @@ function Detail({ monuments }) {
         <p className='text-sm p-1 text-right'>{monument?.properties[MONUMENT.CITATION]}</p>
       }
     </div>
-    <div>
-      <p className='p-4 whitespace-pre-line wrap'>
+    <div className='p-4 whitespace-pre-line wrap'>
+      <p>
         {monument?.properties[MONUMENT.DESCRIPTION]}
       </p>
+      {monument?.formattedSourceDescription &&
+        <p className='text-sm p-1 whitespace-pre-line break-words'>
+          Source: {parse(monument?.formattedSourceDescription)}
+        </p>
+      }
     </div>
   </>;
 }

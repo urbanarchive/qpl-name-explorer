@@ -22,10 +22,23 @@ const MONUMENT = {
   SUBMITTED_AT: 'fld63z0I0JEzkE26Z',
   IS_PRIMARY: 'fldiT7GQqBoUlnanU',
   CITATION: 'fldKwhgXfbzaB1p1X',
+  SOURCES: 'fldCwcnz1yvlpDv1D',
 };
 
 function getMonumentTypeColor(type) {
   return MONUMENT_TYPES[MONUMENT_TYPES.findIndex(t => t === type) + 1];
+}
+
+function parseAirtableRTF(text = '') {
+  return text.replaceAll(/<(.*?)>/g, (m) => {
+    const url = m.match(/<(.*?)>/)[1];
+
+    if (url) {
+      return `<a href="${url}" target="_blank">${url}</a>`;
+    } else {
+      return '';
+    }
+  });
 }
 
 export function getIconFromMonumentType(monument) {
@@ -42,6 +55,7 @@ export function resultFactory(result) {
     typeColor: getMonumentTypeColor(result.properties[MONUMENT.TYPE]),
     slug: sluggify(result.properties),
     iconData: getIconFromMonumentType(result.properties),
+    formattedSourceDescription: parseAirtableRTF(result.properties[MONUMENT.SOURCES]),
     ...result
   }
 };
