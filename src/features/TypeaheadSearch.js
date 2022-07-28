@@ -43,7 +43,7 @@ function TypeaheadSearch({ monuments }) {
       // TODO: find better approach than this
       window.location.hash = `#14/${value[1]}/${value[0]}`;
     } else {
-      navigate(`/?key=${MONUMENT.COORDS}&value=${value}`);
+      navigate(`/monuments?key=${MONUMENT.COORDS}&value=${value}`);
     }
   }
 

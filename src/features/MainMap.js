@@ -37,7 +37,7 @@ function MainMap({ monuments, onLoad }) {
   const handleClick = (feature) => {
     const { properties: { [MONUMENT.COORDS]: coords } } = feature;
 
-    navigate(`/?key=${MONUMENT.COORDS}&value=${coords}`);
+    navigate(`/monuments?key=${MONUMENT.COORDS}&value=${coords}`);
   };
 
   useEffect(() => {

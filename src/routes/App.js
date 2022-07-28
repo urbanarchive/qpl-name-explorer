@@ -5,6 +5,7 @@ import Header from '../ui/Header';
 import MainMap from '../features/MainMap';
 import Detail from './Detail';
 import Search from './Search';
+import Splash from './Splash';
 
 export const MapContext = createContext();
 
@@ -38,7 +39,8 @@ function App() {
           <div className="flex absolute top-0 z-100 h-full w-full overflow-scroll pointer-events-none">
             <div className="lg:basis-1/3 sm:m-5 md:basis-1/2 overflow-scroll bg-white rounded-lg pointer-events-auto" {...handlers}>
               <Routes>
-                <Route path="/" element={<Search monuments={monuments} />} />
+                <Route path="/" element={<Splash/>} />
+                <Route path="/monuments" element={<Search monuments={monuments} />} />
                 <Route path="/monuments/:slug" element={monuments?.features && <Detail monuments={monuments} />} />
               </Routes>
             </div>
