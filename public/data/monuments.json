@@ -93,6 +93,7 @@
     ],
     "fldd8Ii2y6GrnrkMN": "67th Avenue",
     "fldhQfkBDSPZjKjer": "67th Avenue from 230th Street to 233rd Street",
+    "fldlXDuTBOAjXyVTC": true,
     "fldmpgqHheHG4ASnx": "New Bedford, MA",
     "fldnTs1VeBJjhO1Ga": "11364",
     "fldo67zoOMQsJN6xv": "67th Avenue/Lee Goldman Lane",
@@ -100,8 +101,7 @@
     "fldrJjqRjjOeqKf72": "Alina Willis",
     "fldtVvLjk33gCUz6l": "23",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:07:01.000Z",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:07:01.000Z"
   },
   {
     "id": "recIidD7foHMV6UFJ",
@@ -128,14 +128,14 @@
     ],
     "fldhQfkBDSPZjKjer": "From the intersection of Queens Blvd and Yellowstone Blvd to Park Drive East",
     "fldim7SFpasPkKiOi": "November 23, 1905",
+    "fldlXDuTBOAjXyVTC": true,
     "fldnTs1VeBJjhO1Ga": "11365",
     "fldo67zoOMQsJN6xv": "69th Road/Harry Van Arsdale, Jr. Avenue",
     "fldq5DPdjbB3X7fQy": "LL Extracts 1983-1989",
     "fldrJjqRjjOeqKf72": "Alina Willis",
     "fldtVvLjk33gCUz6l": "24",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:12:17.000Z",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:12:17.000Z"
   },
   {
     "id": "recZpt3R5hs8hLocN",
@@ -165,6 +165,7 @@
     "fldhQfkBDSPZjKjer": "84th Avenue from Homelawn Street to 168th Street",
     "fldhhf7THVqO69i5D": "Christians",
     "fldim7SFpasPkKiOi": "November 11, 1744",
+    "fldlXDuTBOAjXyVTC": true,
     "fldmpgqHheHG4ASnx": "Weymouth, MA",
     "fldnTs1VeBJjhO1Ga": "11423",
     "fldo67zoOMQsJN6xv": "84th Avenue/Abigail Adams Avenue",
@@ -172,8 +173,7 @@
     "fldrJjqRjjOeqKf72": "Alina Willis",
     "fldtVvLjk33gCUz6l": "24",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:16:52.000Z",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:16:52.000Z"
   },
   {
     "id": "rec0WSrWTLSEU0Nr4",
@@ -199,6 +199,7 @@
     ],
     "fldhQfkBDSPZjKjer": "157th Avenue from 8nd Stto 84th St",
     "fldim7SFpasPkKiOi": "1907",
+    "fldlXDuTBOAjXyVTC": true,
     "fldnTs1VeBJjhO1Ga": "11414",
     "fldo67zoOMQsJN6xv": "157th Avenue-Msgr McGinness Place",
     "fldq5DPdjbB3X7fQy": " LL Extracts 1942-1951",
@@ -206,8 +207,7 @@
     "fldtVvLjk33gCUz6l": "32",
     "fldxddBxzQcA4yv0A": "157th Avenue from 82nd St to 84th St",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:17:08.000Z",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:17:08.000Z"
   },
   {
     "id": "recHYwEdRvT6okW6y",
@@ -233,6 +233,8 @@
       "English"
     ],
     "fldhQfkBDSPZjKjer": "164th Place between 108th and 109th Aves",
+    "fldht45SH87udX5wy": "Could not find any more info about him beyond this website: https://www.amitybaptistnyc.org/about-us/",
+    "fldlXDuTBOAjXyVTC": true,
     "fldnTs1VeBJjhO1Ga": "11433",
     "fldo67zoOMQsJN6xv": "164th Place-Rev. James R. Moore Place",
     "fldq5DPdjbB3X7fQy": " LL Extracts 1983-1989",
@@ -240,9 +242,7 @@
     "fldtVvLjk33gCUz6l": "27",
     "fldxddBxzQcA4yv0A": "164th Place between 108th and 109th Aves",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:19:08.000Z",
-    "fldht45SH87udX5wy": "Could not find any more info about him beyond this website: https://www.amitybaptistnyc.org/about-us/",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:19:08.000Z"
   },
   {
     "id": "rec1CUa2e9hr32dGK",
@@ -272,6 +272,7 @@
     "fldhQfkBDSPZjKjer": "At the northwest corner of Lefferts Boulevard and Austin Street",
     "fldim7SFpasPkKiOi": "April 6, 1929",
     "fldirBebD4ZoJeWfC": "Council member Karen Koslowitz",
+    "fldlXDuTBOAjXyVTC": true,
     "fldmpgqHheHG4ASnx": "Richmond Hill, NY",
     "fldnTs1VeBJjhO1Ga": "11415",
     "fldo67zoOMQsJN6xv": "Aaron Adler Way",
@@ -279,8 +280,7 @@
     "fldrJjqRjjOeqKf72": "Alina Willis",
     "fldtVvLjk33gCUz6l": "29",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:19:20.000Z",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:19:20.000Z"
   },
   {
     "id": "rec1wr4mLz3MmK5Sq",
@@ -308,9 +308,11 @@
     ],
     "fldhQfkBDSPZjKjer": "Fleet Street and Groton Street",
     "fldhhf7THVqO69i5D": "Forest Hills Little League; Forest Hills Youth Activities Association; Long Island Press;Abe Miller Clubhouse",
+    "fldht45SH87udX5wy": "http://www.oldstreets.com/honor.asp?title=Miller,%20A.",
     "fldim7SFpasPkKiOi": "1922",
     "fldirBebD4ZoJeWfC": "Council Member Koslowitz",
     "fldkkbT5XhwsGbnC9": "Abraham W. Miller",
+    "fldlXDuTBOAjXyVTC": true,
     "fldmpgqHheHG4ASnx": "Bronx, NY",
     "fldnTs1VeBJjhO1Ga": "11375",
     "fldo67zoOMQsJN6xv": "Abe Miller Way",
@@ -319,9 +321,7 @@
     "fldtVvLjk33gCUz6l": "29",
     "fldxddBxzQcA4yv0A": "Intersection of Fleet Street and Groton Street",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:20:41.000Z",
-    "fldht45SH87udX5wy": "http://www.oldstreets.com/honor.asp?title=Miller,%20A.",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:20:41.000Z"
   },
   {
     "id": "recfUM0bz39Ee0ad6",
@@ -352,8 +352,10 @@
     ],
     "fldhQfkBDSPZjKjer": "North side of Queens Boulevard and 71st Road",
     "fldhhf7THVqO69i5D": "LGBTQ+ community",
+    "fldht45SH87udX5wy": "Commeration Date: Gay City News: https://gaycitynews.com/adelaide-connaughton-honored-with-street-naming/",
     "fldim7SFpasPkKiOi": "9/24/1958",
     "fldirBebD4ZoJeWfC": "Council Member Karen Koslowitz",
+    "fldlXDuTBOAjXyVTC": true,
     "fldmpgqHheHG4ASnx": "Brooklyn, NY",
     "fldnTs1VeBJjhO1Ga": "11375",
     "fldo67zoOMQsJN6xv": "Adelaide Connaughton Way",
@@ -362,9 +364,7 @@
     "fldtVvLjk33gCUz6l": "29",
     "fldxddBxzQcA4yv0A": "Queens Boulevard & 71st Road",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:25:41.000Z",
-    "fldht45SH87udX5wy": "Commeration Date: Gay City News: https://gaycitynews.com/adelaide-connaughton-honored-with-street-naming/",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:25:41.000Z"
   },
   {
     "id": "recpYSOTS4wroMRy1",
@@ -468,6 +468,7 @@
     "fldhhf7THVqO69i5D": "Public School 80Q; South Rochdale Playground; Drug Free That’s Me",
     "fldim7SFpasPkKiOi": "11/30/1957",
     "fldirBebD4ZoJeWfC": "Council Member Adams",
+    "fldlXDuTBOAjXyVTC": true,
     "fldnTs1VeBJjhO1Ga": "11434",
     "fldo67zoOMQsJN6xv": "Alex Pauline Road",
     "fldq5DPdjbB3X7fQy": "LL 2022/054",
@@ -475,8 +476,7 @@
     "fldtVvLjk33gCUz6l": "28",
     "fldxddBxzQcA4yv0A": "134th Road between Bedell Street and 176th Street",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:27:07.000Z",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:27:07.000Z"
   },
   {
     "id": "recy6dkvpBhTxS0VA",
@@ -503,8 +503,10 @@
     ],
     "fldhQfkBDSPZjKjer": "Intersection of 49th Street and 39th Avenue",
     "fldhhf7THVqO69i5D": "Sunnyside neighborhood",
+    "fldht45SH87udX5wy": "http://www.oldstreets.com/honor.asp?title=Bing,%20A.",
     "fldim7SFpasPkKiOi": "1879",
     "fldirBebD4ZoJeWfC": "Council Member Van Bramer",
+    "fldlXDuTBOAjXyVTC": true,
     "fldnTs1VeBJjhO1Ga": "11104",
     "fldo67zoOMQsJN6xv": "Alexander M. Bing Place",
     "fldq5DPdjbB3X7fQy": "LL 2018/139",
@@ -512,9 +514,7 @@
     "fldtVvLjk33gCUz6l": "26",
     "fldxddBxzQcA4yv0A": "Intersection of 49th Street and 39th Avenue",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:27:26.000Z",
-    "fldlXDuTBOAjXyVTC": true,
-    "fldht45SH87udX5wy": "http://www.oldstreets.com/honor.asp?title=Bing,%20A."
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:27:26.000Z"
   },
   {
     "id": "recjyY49oX8yvMiDC",
@@ -546,6 +546,7 @@
     "fldim7SFpasPkKiOi": "11/13/1925",
     "fldirBebD4ZoJeWfC": "Council Member Van Bramer",
     "fldkkbT5XhwsGbnC9": "Al Volpe",
+    "fldlXDuTBOAjXyVTC": true,
     "fldnTs1VeBJjhO1Ga": "11377",
     "fldo67zoOMQsJN6xv": "Alphonse \"Al\" Volpe Way",
     "fldq5DPdjbB3X7fQy": "LL 2017/237",
@@ -553,8 +554,7 @@
     "fldtVvLjk33gCUz6l": "26",
     "fldxddBxzQcA4yv0A": "Intersection of Skillman Avenue and 51st Street",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:32:36.000Z",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:32:36.000Z"
   },
   {
     "id": "reconGOBHyquoH5G7",
@@ -587,6 +587,7 @@
     "fldhhf7THVqO69i5D": "African American",
     "fldim7SFpasPkKiOi": "5/10/39",
     "fldirBebD4ZoJeWfC": "Council Member Richards",
+    "fldlXDuTBOAjXyVTC": true,
     "fldnTs1VeBJjhO1Ga": "11413",
     "fldo67zoOMQsJN6xv": "Amanda Clarke Way",
     "fldq5DPdjbB3X7fQy": "LL 2017/237",
@@ -594,8 +595,7 @@
     "fldtVvLjk33gCUz6l": "31",
     "fldxddBxzQcA4yv0A": "137th Ave & 227th St",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:46:42.000Z",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:46:42.000Z"
   },
   {
     "id": "recnmKFWUUKtbzZW8",
@@ -626,6 +626,7 @@
     "fldhhf7THVqO69i5D": "Boys and Girls Club",
     "fldim7SFpasPkKiOi": "1916",
     "fldirBebD4ZoJeWfC": "Council Member Vallone, Jr.",
+    "fldlXDuTBOAjXyVTC": true,
     "fldnTs1VeBJjhO1Ga": "11102",
     "fldo67zoOMQsJN6xv": "Ann Buehler Way",
     "fldq5DPdjbB3X7fQy": "LL 2011/047",
@@ -633,8 +634,7 @@
     "fldtVvLjk33gCUz6l": "22",
     "fldxddBxzQcA4yv0A": "21st St & 30th Rd",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:49:22.000Z",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:49:22.000Z"
   },
   {
     "id": "recpReOYRse3bxFWC",
@@ -667,6 +667,7 @@
     "fldhhf7THVqO69i5D": " Bay Terrace Civic Association; Doug-Bay Civic Association: National Organization of Women; Center for the Women of New York.",
     "fldim7SFpasPkKiOi": "5/29/1922",
     "fldirBebD4ZoJeWfC": "Councilman Paul Vallone",
+    "fldlXDuTBOAjXyVTC": true,
     "fldmpgqHheHG4ASnx": "Barnesboro, Pennsylvania",
     "fldnTs1VeBJjhO1Ga": "11363",
     "fldo67zoOMQsJN6xv": "Ann Jawin Way",
@@ -675,8 +676,7 @@
     "fldtVvLjk33gCUz6l": "19",
     "fldxddBxzQcA4yv0A": "Intersection of 39th Avenue and 233rd Street",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T20:03:04.000Z",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T20:03:04.000Z"
   },
   {
     "id": "recnj6A8pW6GISKne",
@@ -706,14 +706,14 @@
     ],
     "fldd8Ii2y6GrnrkMN": "Sixteen Oaks Grove, Sixteen Oaks Park, Placella Park",
     "fldhQfkBDSPZjKjer": "BDB 37th Ave, 14th St and 21st St",
+    "fldlXDuTBOAjXyVTC": true,
     "fldmpgqHheHG4ASnx": "Long Island City, NY",
     "fldnTs1VeBJjhO1Ga": "11101",
     "fldo67zoOMQsJN6xv": "Anthony Leo Placella Park",
     "fldrJjqRjjOeqKf72": "Alina Willis",
     "fldtVvLjk33gCUz6l": "26",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:34:25.000Z",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:34:25.000Z"
   },
   {
     "id": "rec6OUPzYD8aGyY2Y",
@@ -786,6 +786,7 @@
     "fldhQfkBDSPZjKjer": "32nd Ave between 103rd Street and 104th Street",
     "fldhhf7THVqO69i5D": "Community Board #3; East Elmhurst-Corona Civic Association, Inc.; Jackson Heights Development Corporation; Jerome Hardeman Day Care Center; Trinity Lodge No.51. ",
     "fldim7SFpasPkKiOi": "1/3/1923",
+    "fldlXDuTBOAjXyVTC": true,
     "fldmpgqHheHG4ASnx": " Port Arthur, TX",
     "fldnTs1VeBJjhO1Ga": "11369",
     "fldo67zoOMQsJN6xv": "Arthur Hayes Way",
@@ -794,8 +795,124 @@
     "fldtVvLjk33gCUz6l": "21",
     "fldxddBxzQcA4yv0A": "32nd Ave between 103rd Street and 104th Street",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:52:59.000Z",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:52:59.000Z"
+  },
+  {
+    "id": "recOrvILzRzWUzUy0",
+    "fld03C27tmVnEg1rP": "40.736647, -73.865813",
+    "fld18VKjlf9BGaE9N": "Barbara Jackson (1942 – 2020) was a veteran Queens’s Democratic district leader and union official who dedicated her life to the LeFrak City community. Jackson served as a district leader for East Elmhurst and Corona in Assembly District 35 Part B from 1992 until her death. She represented LeFrak City, the complex she called home for decades. \n\nShe began working with the International Alliance of Theatrical Stage Employees, Moving Picture Technicians, Artists and Allied Crafts, known as the IATSE, in 1988, where she served as the Executive Assistant to the General Secretary-Treasurer for almost three decades. In 2008, she was one of four delegates elected to represent New York’s 5th Congressional District at the Democratic National Convention. She was also a member of the Elmhurst Hospital Community Advisory Board and regularly attended Queens Community Board 4 meetings for years, and was awarded the Marjorie Matthews Community Advocate Award from the New York City Health and Hospital Corporation for outstanding leadership and work on behalf of Elmhurst Hospital Center and the Community. \n\nBarbara was also awarded the Harry T. Stewart Award (the highest Branch Award) from the Corona-East Elmhurst Branch NAACP, of which she was a lifetime member. Barbara was a member of Key Women of America Inc., Concourse Village Branch, (second vice president), a member of the Corona-East Elmhurst Kiwanis Club, and attended monthly meetings of the 110th Pct. Community Council and served as the Community Liaison to Community Boards 3Q and 4Q for former U. S. Representative Joseph Crowley. \n",
+    "fld3zcPVX14gMRFd1": "Barbara Jackson Way",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld5p2mCngthblT9S": "frankipnis@berkeley.edu",
+    "fld9CSSvPGKCZyLUG": "QUEENS",
+    "fldAHhNbaHDTgQ4ao": "Barbara Jackson",
+    "fldBF9keRqVy6aRau": true,
+    "fldCwcnz1yvlpDv1D": "Brand, David. (2021, January 5). Veteran Democratic District Leader Barbara Jackson has died. Queens Daily Eagle. <https://queenseagle.com/all/veteran-democratic-district-leader-barbara-jackson-has-died>\n\n",
+    "fldEdvOGWNqX5OImX": "Gil Tauber",
+    "fldF1jFzlXZGeH9LP": [
+      "Government and Politics",
+      "Community Activism"
+    ],
+    "fldGPBlBpPi8e4PU7": "2022",
+    "fldKz0noCVXmoj4UV": "Elmhurst",
+    "fldLjcdfwIByZ68aX": "12/31/2020",
+    "fldPMX16WqfXNhJ02": "She/her/hers",
+    "fldTAhZe07uxxeoJc": "4\n",
+    "fldTGROls2PhrOiQU": "120. Barbara Jackson Way Introduced by Council Member MoyaJuly 30, 1942 – December 31, 2020Barbara Jean Jackson is a well-known and recognized Community Leader and presently the Democratic District Leader of the 35th Assembly District, Part “B”. Upon becoming a Democratic District Leader, Barbara along with many other members of the Community chartered an Official Democratic Association for the 35th Assembly District, Part “B”, The Democratic Association of the 21st Century.  As District Leader Barbara is the Executive Member of the Association along with all of the Elected Officials serving the District and a Member of the Democratic Organization of Queens County. Barbara is also the Secretary of the Democratic Organization of Queens County. Barbara is a member of the Bishop Committee, Junior Warden and Episcopal Church Women (ECW) at St. James Episcopal Church, Broadway and Corona Avenue, Queens. Barbara began her Community service years before moving to Queens.  She served as PTA President at the High School of Printing for five years. She moved to Lefrak City, Queens in 1976 became a member of the Lefrak City Tenants’ Association (LCTA), a member of the Board of Directors and served in that capacity for approximately 10 years.  She remained a member, a friend and a supporter of LCTA both monetarily and with her time. Barbara was one of the charter members of the Lefrak City Youth and Adult Activities Association (LCYAAA) a 501 ©3 Organization.  She helped craft the Constitution and Bylaws and the application for its non-profit status.  Barbara was a friend and supporter of the Organization. Barbara served on the Community Advisory Board (CAB) of the New York City Department of Youth and Community Development (DYCD).  She was the Region 17 liaison (NAB 3/East Elmhurst, NAB 4/Corona, NAB 7/Flushing).   Barbara was a member of the Community Advisory Board of Elmhurst Hospital Center.  A member of the Legislative and Membership Committees. Barbara was awarded the Marjorie Matthews Community Advocate Award from the New York City Health and Hospital Corporation for outstanding leadership and work on behalf of Elmhurst Hospital Center and the Community.  Barbara was also awarded the Harry T. Stewart Award (the highest Branch Award) from the Corona-East Elmhurst Branch NAACP. Then Congressman Joseph Crowley presented Barbara with an award in recognition of her Outstanding Leadership and Passionate Advocacy on behalf of her community.  NYS Assemblyman Jeffrion Aubry presented Barbara with an award for her years of dedication and service to the communities of Queens.  NYS Senator State Senator Jose Peralta presented Barbara with an Outstanding Leadership Award. Barbara was a Lifetime Member of NAACP, a member of Key Women of America Inc., Concourse Village Branch, (second vice president), a member of the Corona-East Elmhurst Kiwanis Club, and attended monthly meetings of the 110th Pct. Community Council and served as the Community Liaison to Community Boards 3Q and 4Q for former U. S. Representative Joseph Crowley. Barbara retired from the International Alliance of Theatrical Stage Employees, Moving Picture Technicians, Artists and Allied Crafts of the United States, Its Territories and Canada after serving as the Executive Assistant to the General Secretary-Treasurer for almost three decades.|Honorifics 2022 Queens LL 54",
+    "fldZZ1eosVwyix7m4": "Junction Boulevard and 57th Avenue",
+    "fldb2kOoaaol8IIiQ": "Street/Thoroughfare",
+    "fldbxIVG5OzgGGvMj": [
+      "English"
+    ],
+    "fldhQfkBDSPZjKjer": "At the intersection of Junction Boulevard and 57th Avenue",
+    "fldhhf7THVqO69i5D": "Democratic District Leader of the 35th Assembly District;Democratic Organization of Queens County; St. James Episcopal Church; Lefrak City Tenants’ Association; Community Advisory Board of Elmhurst Hospital Center; NAACP:Key Women of America Inc.;Corona-East Elmhurst Kiwanis Club; 110th Pct. Community Council; Community Boards 3Q and 4Q; International Alliance of Theatrical Stage Employees, Moving Picture Technicians, Artists and Allied Crafts of the United States,",
+    "fldim7SFpasPkKiOi": "7/30/1942",
+    "fldirBebD4ZoJeWfC": "Council Member Moya",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldnTs1VeBJjhO1Ga": "11373",
+    "fldo67zoOMQsJN6xv": "Barbara Jackson Way",
+    "fldq5DPdjbB3X7fQy": "LL 2022/054 Section 120 https://codelibrary.amlegal.com/codes/newyorkcity/latest/NYCadmin/0-0-0-137879",
+    "fldrJjqRjjOeqKf72": "Fran Kipnis",
+    "fldtVvLjk33gCUz6l": "21",
+    "fldxddBxzQcA4yv0A": " Intersection of Junction Boulevard and 57th Avenue",
+    "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
+    "fldGc8Yu4R85MSed4": "2022-09-23T20:20:39.000Z"
+  },
+  {
+    "id": "recqYl6LZn8TAgAiO",
+    "fld03C27tmVnEg1rP": "40.597524, -73.759641",
+    "fld18VKjlf9BGaE9N": "Barbara Smith (d. 2019) was born in Jamaica, West Indies and came the United States in 1968, and purchased a home in Far Rockaway in 1979. She became an E.K.G. Technician and became an employee at St. John’s Episcopal Nursing Home in Far Rockaway. She was a member of the Deerfield Area Civic Association, and was very involved with the Community Police, Community Board 14, Queens Borough President, Rockaway Development & Revitalization Corporation and the Jewish Community Council of the Rockaway Peninsula. For many years she served as the President of the Deerfield Area Civic Association and was instrumental shaping it into an organization admired by the community. She was also a member of the NAACP, Thurgood Marshall Democratic Club, Queens General Assembly and a delegate for 1199 SEIU at St. John’s Episcopal Nursing Home. She received numerous awards from many organizations and elected officials in the community for her community work.|",
+    "fld3zcPVX14gMRFd1": "Barbara Smith Way",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "QUEENS",
+    "fldAHhNbaHDTgQ4ao": "Barbara Smith",
+    "fldBF9keRqVy6aRau": true,
+    "fldCwcnz1yvlpDv1D": "Murtha, Kerry. (2019, November 21). Barbara Smith Way. Rockaway Wave. <https://www.rockawave.com/articles/barbara-smith-way/>\n\n\n",
+    "fldEdvOGWNqX5OImX": "Gil Tauber",
+    "fldF1jFzlXZGeH9LP": [
+      "Government and Politics",
+      "Community Activism"
+    ],
+    "fldGPBlBpPi8e4PU7": "11/16/2019",
+    "fldKz0noCVXmoj4UV": "Far Rockaway",
+    "fldLjcdfwIByZ68aX": "4/14/2019",
+    "fldPMX16WqfXNhJ02": "She/her/hers",
+    "fldTAhZe07uxxeoJc": "14",
+    "fldTGROls2PhrOiQU": "Introduced by Council Member RichardsDied on April 14, 2019Barbara Smith was born in Jamaica, West Indies in the parish of St. Mary’s. She migrated to the United States on September 15, 1968. Upon her arrival in New York, she first settled in Harlem where she lived for three years before moving to Brooklyn. While there, she gained employment with Cobble Hill Nursing Home, and worked there for fourteen years. She purchased a home in Far Rockaway in 1979. She became an E.K.G. Technician and became an employee at St. John’s Episcopal Nursing Home in Far Rockaway. She became a member of the Deerfield Area Civic Association. She was very involved with the Community Police, Community Board 14, Queens Borough President, Rockaway Development & Revitalization Corporation and the Jewish Community Council of the Rockaway Peninsula. For many years she served as the President of the Deerfield Area Civic Association and had been quite instrumental in leading the organization as one that is greatly admired by all in the community. She was also a member of the NAACP, Thurgood Marshall Democratic Club, Queens General Assembly and a delegate for 1199 SEIU at St. John’s Episcopal Nursing Home. She received numerous awards from many organizations and elected officials in the community for her community work.|Honorifics 2019 LL 158",
+    "fldZZ1eosVwyix7m4": "Deerfield Road and Beach 25th Street",
+    "fldb2kOoaaol8IIiQ": "Street/Thoroughfare",
+    "fldbxIVG5OzgGGvMj": [
+      "English"
+    ],
+    "fldhQfkBDSPZjKjer": "At the intersection of Deerfield Road and Beach 25th Street",
+    "fldhhf7THVqO69i5D": "Deerfield Area Civic Association; Community Police; Community Board 14; Rockaway Development & Revitalization Corporation; Jewish Community Council of the Rockaway Peninsula; NAACP; Thurgood Marshall Democratic Club; Queens General Assembly ",
+    "fldirBebD4ZoJeWfC": "Council Member Richards",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldmpgqHheHG4ASnx": "Jamaica, West Indies",
+    "fldnTs1VeBJjhO1Ga": "11691",
+    "fldo67zoOMQsJN6xv": "Barbara Smith Way",
+    "fldq5DPdjbB3X7fQy": "LL 2019/158",
+    "fldrJjqRjjOeqKf72": "Fran Kipnis",
+    "fldtVvLjk33gCUz6l": "31",
+    "fldxddBxzQcA4yv0A": "Intersection of Deerfield Road and Beach 25th Street",
+    "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
+    "fldGc8Yu4R85MSed4": "2022-09-23T20:22:11.000Z"
+  },
+  {
+    "id": "recZnpBQVj38PPjYn",
+    "fld03C27tmVnEg1rP": "40.570975, -73.859987",
+    "fld18VKjlf9BGaE9N": "Barbara Eisenstadt (1938 – 2007) a resident of Neponsit in Rockaway, was an early supporter of the Rockaway Music and Art Council, founding its annual Fall Festival as well as its summer Sunset Picnic Concert series. She was the former president of the National Council of Jewish Women and the Friends of Rock Hall Museum. Eisenstadt was instrumental in many school programs, including the “Music Memory” elementary school program that she brought to Rockaway schools. In addition, she was an officer of the Neponsit Property Owners Association, the Peninsula Hospital Center Auxiliary, the Belle Harbor Garden Club and the historic Cornell Cemetery Corporation. She has been honored by such diverse groups as the City Council, the Rockaway Chamber of Commerce, the 100 Precinct Community Council and the Queens Borough President.",
+    "fld3zcPVX14gMRFd1": "Barbara’s Way",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldAHhNbaHDTgQ4ao": "Barbara Eisenstadt",
+    "fldBF9keRqVy6aRau": true,
+    "fldCwcnz1yvlpDv1D": "Rockaway Wave Staff. (2007, October 19). Barbara Eisenstadt. Rockaway Wave. <https://www.rockawave.com/articles/barbara-eisenstadt>\n\n\n\n",
+    "fldEdvOGWNqX5OImX": "Gil Tauber",
+    "fldF1jFzlXZGeH9LP": [
+      "Community Activism"
+    ],
+    "fldKz0noCVXmoj4UV": "Rockaway Park",
+    "fldLjcdfwIByZ68aX": "October 14, 2007",
+    "fldPMX16WqfXNhJ02": "She/her/hers",
+    "fldTAhZe07uxxeoJc": "14",
+    "fldTGROls2PhrOiQU": "Introduced by Council Member AddabboDied October 14, 2007 Barbara Eisenstadt was a longtime community activist in the Rockaways. Throughout her life she was honored by the City Council, the Rockaway Chamber of Commerce, the 100 Precinct Community Council and the Queens Borough President for her involvement in the Rockaway Music And Art Council and president of the National Council of Jewish Women and the Friends of Rock Hall Museum. She was also an officer of the Neponsit Property Owners Association, the Peninsula Hospital Center Auxiliary, the Belle Harbor Garden Club and the Cornell Cemetery Corporation.|2008/64",
+    "fldZZ1eosVwyix7m4": "Rockaway Beach Boulevard and Beach 144th Street",
+    "fldb2kOoaaol8IIiQ": "Street/Thoroughfare",
+    "fldbxIVG5OzgGGvMj": [
+      "English"
+    ],
+    "fldhQfkBDSPZjKjer": "On the southeast corner of Rockaway Beach Boulevard and Beach 144th Street",
+    "fldht45SH87udX5wy": "http://www.oldstreets.com/honor.asp?title=Barbara",
+    "fldirBebD4ZoJeWfC": "Council member Joseph Addabbo Jr.",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldnTs1VeBJjhO1Ga": "11694",
+    "fldo67zoOMQsJN6xv": "Barbara’s Way",
+    "fldq5DPdjbB3X7fQy": "2008/064",
+    "fldrJjqRjjOeqKf72": "Alina Willis",
+    "fldtVvLjk33gCUz6l": "32",
+    "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
+    "fldGc8Yu4R85MSed4": "2022-09-23T20:23:44.000Z"
   },
   {
     "id": "recDL7lLv5hBFQu52",
@@ -959,10 +1076,12 @@
   {
     "id": "recCzlU4emZ3bvKau",
     "fld03C27tmVnEg1rP": "40.669331, -73.776996",
+    "fld18VKjlf9BGaE9N": "Benjamin Wright Jr. moved to New York City in 1950. He was employed by the City of New York for 27 years, retiring as Assistant Deputy Commissioner of the Department of Homeless Services (DHS) in 1996. After retirement, he founded and served as chairman Green World Unlimited, Inc., and spent the rest of his life organizing and working with community organizations in Southeast Queens. He served as president of the Southeast Queens Democratic Club, president of the Thurgood Marshall Regular Democratic Club, chairman of the board of the S.G.G.C. Community Service Agency, an afterschool program providing tutoring and free meals five days a week, and served on Queens Community Board 12. He was a lifelong member of the NAACP and was a board member and treasurer of the Jamaica Branch. He was also a board member of the United Black Men of Queens where he served as vice president and treasurer; was a member of the Advisory Board of the Emblem Health Insurance Plan;   the York College Community Advisory Committee; the administrative board of the Springfield Gardens United Methodist Church; and served as administrator of a GED Program for Adolescents in the Riker’s Island Correctional Institution for Women.",
     "fld3zcPVX14gMRFd1": "Benjamin Wright Way",
     "fld4ayxzpfL0q0Dsc": true,
     "fld9CSSvPGKCZyLUG": "QUEENS",
     "fldAHhNbaHDTgQ4ao": "Benjamin Wright Jr.",
+    "fldBF9keRqVy6aRau": true,
     "fldEdvOGWNqX5OImX": "Gil Tauber",
     "fldF1jFzlXZGeH9LP": [
       "Community Activism",
@@ -972,6 +1091,7 @@
     "fldPMX16WqfXNhJ02": "He/him/his",
     "fldTAhZe07uxxeoJc": "12",
     "fldTGROls2PhrOiQU": "Benjamin Wright Jr. moved to New York City in 1950. He was employed by the City of New York for 27 years, retiring as Assistant Deputy Commissioner of the Department of Homeless Services (DHS) in 1996. After retirement, he founded and served as chairman Green World Unlimited, Inc.    Hespent the rest of his life organizing and working with community organizations in Southeast Queens.  He served as president of the Southeast Queens Democratic Club, president of the Thurgood Marshall Regular Democratic Club, chairman of the board of the S.G.G.C. Community Service Agency, an afterschool program providings tutoring and free meals five days a week, and served on Queens Community Board 12.  He  was a lifelong member of the NAACP and was a board member and treasurer of the Jamaica Branch.  He was also  a board member of the United Black Men of Queens where he served as vice president and treasurer; was a member of the Advisory Board of the Emblem Health Insurance Plan;   the York College Community Advisory Committee;  the administrative board of the Springfield Gardens United Methodist Church;  and served as administrator of a GED Program for Adolescents in the Riker’s Island Correctional Institution for Women. (Richards)|Honorifics 2021 LL 14",
+    "fldZZ1eosVwyix7m4": "157th Street and 140th Avenue",
     "fldb2kOoaaol8IIiQ": "Street/Thoroughfare",
     "fldbxIVG5OzgGGvMj": [
       "English"
@@ -979,6 +1099,7 @@
     "fldhQfkBDSPZjKjer": "At the intersection of 158th Street and 140th Avenue",
     "fldhhf7THVqO69i5D": "African American; Southeast Queens",
     "fldirBebD4ZoJeWfC": "Richards",
+    "fldlXDuTBOAjXyVTC": true,
     "fldnTs1VeBJjhO1Ga": "11434",
     "fldo67zoOMQsJN6xv": "Benjamin Wright Way",
     "fldq5DPdjbB3X7fQy": " LL 2021/014",
@@ -986,20 +1107,18 @@
     "fldtVvLjk33gCUz6l": "31",
     "fldxddBxzQcA4yv0A": "158th Street and 140th Avenue",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:35:33.000Z",
-    "fldZZ1eosVwyix7m4": "157th Street and 140th Avenue",
-    "fld18VKjlf9BGaE9N": "Benjamin Wright Jr. moved to New York City in 1950. He was employed by the City of New York for 27 years, retiring as Assistant Deputy Commissioner of the Department of Homeless Services (DHS) in 1996. After retirement, he founded and served as chairman Green World Unlimited, Inc., and spent the rest of his life organizing and working with community organizations in Southeast Queens. He served as president of the Southeast Queens Democratic Club, president of the Thurgood Marshall Regular Democratic Club, chairman of the board of the S.G.G.C. Community Service Agency, an afterschool program providing tutoring and free meals five days a week, and served on Queens Community Board 12. He was a lifelong member of the NAACP and was a board member and treasurer of the Jamaica Branch. He was also a board member of the United Black Men of Queens where he served as vice president and treasurer; was a member of the Advisory Board of the Emblem Health Insurance Plan;   the York College Community Advisory Committee; the administrative board of the Springfield Gardens United Methodist Church; and served as administrator of a GED Program for Adolescents in the Riker’s Island Correctional Institution for Women.",
-    "fldBF9keRqVy6aRau": true,
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:35:33.000Z"
   },
   {
     "id": "recih82xollklzS1r",
     "fld03C27tmVnEg1rP": "40.690473, -73.743578",
+    "fld18VKjlf9BGaE9N": "Bill McCreary (1933 – 2021) was an Emmy Award-winning journalist and a former vice-president of Fox Television station WNYW-TV (Channel 5 in New York). As news director at radio station WLIB, he produced several documentaries on the civil rights movement and interviewed some of its most prominent figures. He was one of the first African American journalists in New York. A graduate of Seward Park High School and Baruch College in Manhattan, he served in the United States Army from 1953 until 1955. His first broadcasting jobs were in radio, as an announcer at WWRL in Queens, and a general-assignment reporter and news director at WLIB in Manhattan. He began reporting for WNEW on March 13, 1967, the first day of the station’s nightly newscast. He won a local Emmy for “Black News” and shared an Emmy for anchoring with John Roland on the 10 O’clock News.  He was hired in 1967 when the station, Channel 5, was owned by Metromedia and known as WNEW, and he remained a familiar on-air presence until he retired in 2000. As a co-anchor, Mr. McCreary helped build the station’s 10 O’clock News into a ratings powerhouse. He became the managing editor and anchor of the weekly program “Black News” in 1970 and of “The McCreary Report” in 1987, when he was also named a vice president of Fox 5 News. The McCrearys, Bill and his wife, O’Kellon, lived in Cambria Heights for 56 years.",
     "fld3zcPVX14gMRFd1": "Bill McCreary Way",
     "fld4ayxzpfL0q0Dsc": true,
     "fld5p2mCngthblT9S": "frankipnis@berkeley.edu",
     "fld9CSSvPGKCZyLUG": "Queens",
     "fldAHhNbaHDTgQ4ao": "Bill McCreary",
+    "fldBF9keRqVy6aRau": true,
     "fldCwcnz1yvlpDv1D": "Roberts, Sam. (2021, May 19). Bill McCreary Dies at 87; Blazed Trail for Black Journalists on TV. New York Times. <https://www.nytimes.com/2021/05/11/nyregion/bill-mccreary-dead.html>\n\nOkula, Sean. (2022, August 18). Queens Chronicle. Street named for news pioneer. <https://www.qchron.com/editions/queenswide/street-named-for-news-pioneer/article_1eabd7dc-5157-5540-a54c-dd672dfeb482.html>\n\n\n",
     "fldEdvOGWNqX5OImX": "Gil Tauber",
     "fldF1jFzlXZGeH9LP": [
@@ -1010,14 +1129,17 @@
     "fldPMX16WqfXNhJ02": "He/him/his",
     "fldTAhZe07uxxeoJc": "13",
     "fldTGROls2PhrOiQU": "Section 116. BILL MCCREARY WAY Introduced by Council Member MillerAugust 8, 1933 – April 4, 2021\nBill McCreary was an Emmy Award-winning journalist and a former vice-president of Fox Television station WNYW-TV (Channel 5 in New York). As news director at radio station WLIB, he produced several documentaries on the civil rights movement and interviewed some of its most prominent figures. He was one of the first African American journalists in New York. A graduate of Seward Park High School and Baruch College in Manhattan, he served in the United States Army from 1953 until 1955. His first broadcasting jobs were in radio, as an announcer at WWRL in Queens, and a general-assignment reporter and news director at WLIB in Manhattan. He began reporting for WNEW on March 13, 1967, the first day of the station’s nightly newscast. He won a local Emmy for “Black News” and shared an Emmy for anchoring with John Roland on the 10 O’Clock News.  He was hired in 1967 when the station, Channel 5, was owned by Metromedia and known as WNEW, and he remained a familiar on-air presence until he retired in 2000. As a co-anchor, Mr. McCreary helped build the station’s 10 O’Clock News into a ratings powerhouse. He became the managing editor and anchor of the weekly program “Black News” in 1970 and of “The McCreary Report” in 1987, when he was also named a vice president of Fox 5 News.\nHonorifics 2022 Queens LL 54",
+    "fldZZ1eosVwyix7m4": "120th Avenue and 219th Street",
     "fldb2kOoaaol8IIiQ": "Street/Thoroughfare",
     "fldbxIVG5OzgGGvMj": [
       "English"
     ],
     "fldhQfkBDSPZjKjer": "at the intersection of 120th Avenue and 219th Street",
     "fldhhf7THVqO69i5D": "WWRL;WNEW;“WNYW-TV;Black News”;“The McCreary Report” ",
+    "fldht45SH87udX5wy": "NYT Obituary: Place of Birth: https://www.nytimes.com/2021/05/11/nyregion/bill-mccreary-dead.html\n\n\n\n**See also: https://www.ny1.com/nyc/queens/news/2022/08/13/queens-street-co-naming-honors-black-trailblazing-journalist--bill-mccreary\n\n\n\nhttps://www.qchron.com/editions/queenswide/street-named-for-news-pioneer/article_1eabd7dc-5157-5540-a54c-dd672dfeb482.html",
     "fldim7SFpasPkKiOi": "8/8/1933",
     "fldirBebD4ZoJeWfC": "Council Member Miller",
+    "fldlXDuTBOAjXyVTC": true,
     "fldmpgqHheHG4ASnx": "Blackville, South Carolina",
     "fldnTs1VeBJjhO1Ga": "11411",
     "fldo67zoOMQsJN6xv": "Bill McCreary Way",
@@ -1026,21 +1148,18 @@
     "fldtVvLjk33gCUz6l": "27",
     "fldxddBxzQcA4yv0A": "Intersection of 120th Avenue and 219th Street",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:59:38.000Z",
-    "fldZZ1eosVwyix7m4": "120th Avenue and 219th Street",
-    "fld18VKjlf9BGaE9N": "Bill McCreary (1933 – 2021) was an Emmy Award-winning journalist and a former vice-president of Fox Television station WNYW-TV (Channel 5 in New York). As news director at radio station WLIB, he produced several documentaries on the civil rights movement and interviewed some of its most prominent figures. He was one of the first African American journalists in New York. A graduate of Seward Park High School and Baruch College in Manhattan, he served in the United States Army from 1953 until 1955. His first broadcasting jobs were in radio, as an announcer at WWRL in Queens, and a general-assignment reporter and news director at WLIB in Manhattan. He began reporting for WNEW on March 13, 1967, the first day of the station’s nightly newscast. He won a local Emmy for “Black News” and shared an Emmy for anchoring with John Roland on the 10 O’clock News.  He was hired in 1967 when the station, Channel 5, was owned by Metromedia and known as WNEW, and he remained a familiar on-air presence until he retired in 2000. As a co-anchor, Mr. McCreary helped build the station’s 10 O’clock News into a ratings powerhouse. He became the managing editor and anchor of the weekly program “Black News” in 1970 and of “The McCreary Report” in 1987, when he was also named a vice president of Fox 5 News. The McCrearys, Bill and his wife, O’Kellon, lived in Cambria Heights for 56 years.",
-    "fldBF9keRqVy6aRau": true,
-    "fldht45SH87udX5wy": "NYT Obituary: Place of Birth: https://www.nytimes.com/2021/05/11/nyregion/bill-mccreary-dead.html\n\n\n\n**See also: https://www.ny1.com/nyc/queens/news/2022/08/13/queens-street-co-naming-honors-black-trailblazing-journalist--bill-mccreary\n\n\n\nhttps://www.qchron.com/editions/queenswide/street-named-for-news-pioneer/article_1eabd7dc-5157-5540-a54c-dd672dfeb482.html",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:59:38.000Z"
   },
   {
     "id": "recjWVpgJw1pQc6yL",
     "fld03C27tmVnEg1rP": "40.755232, -73.870993",
+    "fld18VKjlf9BGaE9N": "Bishop James Ferguson (1925 – 2018) Began working with the community organization Elmcor Youth and Adult Center in the East Elmhurst/Corona neighborhood, starting with the Junior Choir caroling in front of Elmcor during the Christmas of 1982. The then “Rev” James Ferguson began an outreach ministry consisting of twice weekly bible study and monthly outreach every fourth Sunday, which helped many local residents deal with issues such as drug addiction and instability. He also initiated and sponsored the Corona East Elmhurst Clergy Association (CEECA). CEECA is a monthly meeting that addresses troublesome activity within the Corona, East Elmhurst, and Jackson Heights communities that were brought to the attention of the clergy by the local police precinct. Bishop James is credited with implementing the Gospel Explosion, which is an outdoor event where various churches worship in front of their church conveying the same message to the community at a set time during the month of July. He is also responsible for implementation of the Gospel Crusade which is an event held during the month of August near or on Junction Boulevard with a Health Fair component to meet the needs of the community. ",
     "fld3zcPVX14gMRFd1": "Bishop James W. Ferguson Way",
     "fld4ayxzpfL0q0Dsc": true,
     "fld5p2mCngthblT9S": "frankipnis@berkeley.edu",
     "fld9CSSvPGKCZyLUG": "QUEENS",
     "fldAHhNbaHDTgQ4ao": "Bishop James W. Ferguson",
+    "fldBF9keRqVy6aRau": true,
     "fldEdvOGWNqX5OImX": "Gil Tauber",
     "fldF1jFzlXZGeH9LP": [
       "Religion & Spirituality"
@@ -1060,6 +1179,7 @@
     "fldhhf7THVqO69i5D": "Elmcor Youth and Adult Center; Corona East Elmhurst Clergy Association; Elm York Assisted Living ",
     "fldim7SFpasPkKiOi": "12/27/1925 ",
     "fldirBebD4ZoJeWfC": "Council Member Moya",
+    "fldlXDuTBOAjXyVTC": true,
     "fldnTs1VeBJjhO1Ga": "11368",
     "fldo67zoOMQsJN6xv": "Bishop James W. Ferguson Way",
     "fldq5DPdjbB3X7fQy": "LL 2019/158",
@@ -1067,19 +1187,18 @@
     "fldtVvLjk33gCUz6l": "21",
     "fldxddBxzQcA4yv0A": "97th Street between Northern Boulevard and 34th Avenue",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:36:02.000Z",
-    "fld18VKjlf9BGaE9N": "Bishop James Ferguson (1925 – 2018) Began working with the community organization Elmcor Youth and Adult Center in the East Elmhurst/Corona neighborhood, starting with the Junior Choir caroling in front of Elmcor during the Christmas of 1982. The then “Rev” James Ferguson began an outreach ministry consisting of twice weekly bible study and monthly outreach every fourth Sunday, which helped many local residents deal with issues such as drug addiction and instability. He also initiated and sponsored the Corona East Elmhurst Clergy Association (CEECA). CEECA is a monthly meeting that addresses troublesome activity within the Corona, East Elmhurst, and Jackson Heights communities that were brought to the attention of the clergy by the local police precinct. Bishop James is credited with implementing the Gospel Explosion, which is an outdoor event where various churches worship in front of their church conveying the same message to the community at a set time during the month of July. He is also responsible for implementation of the Gospel Crusade which is an event held during the month of August near or on Junction Boulevard with a Health Fair component to meet the needs of the community. ",
-    "fldBF9keRqVy6aRau": true,
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:36:02.000Z"
   },
   {
     "id": "recAVKdL667RgfF9y",
     "fld03C27tmVnEg1rP": "40.761321, -73.917091",
+    "fld18VKjlf9BGaE9N": "Robert H. “Bob” Stern (d. 1998) owned “Sig Stern Inc.” a popular children’s store on Steinway Street until 1975, when he embarked on a second career as a real estate broker. He successfully led the Steinway Merchants in their efforts to establish a Steinway Street Business Improvement District and was its president until his death. Bob Stern’s opinion was solicited on all matters concerning “the street” and he firmly believed that Business Improvement Districts (BID’s) would be the salvation of commercial strips throughout the City. In recognition of his many years of outstanding leadership and service to his community Steinway Street, between 31st Avenue and Broadway, the location of his original store, was named “Bob Stern Way” in his honor.",
     "fld3zcPVX14gMRFd1": "Bob Stern Way",
     "fld4ayxzpfL0q0Dsc": true,
     "fld5p2mCngthblT9S": "frankipnis@berkeley.edu",
     "fld9CSSvPGKCZyLUG": "QUEENS",
     "fldAHhNbaHDTgQ4ao": "Robert H. Stern",
+    "fldBF9keRqVy6aRau": true,
     "fldEdvOGWNqX5OImX": "Gil Tauber",
     "fldF1jFzlXZGeH9LP": [
       "Business and Entrepreneurs"
@@ -1098,6 +1217,7 @@
     "fldhQfkBDSPZjKjer": "Steinway Street between 31st Avenue and Broadway",
     "fldhhf7THVqO69i5D": "Sig Stern Inc; Steinway Merchants Business Improvement District",
     "fldkkbT5XhwsGbnC9": "Bob Stern",
+    "fldlXDuTBOAjXyVTC": true,
     "fldnTs1VeBJjhO1Ga": "11103",
     "fldo67zoOMQsJN6xv": "Bob Stern Way",
     "fldq5DPdjbB3X7fQy": "LL 2001/068",
@@ -1105,10 +1225,7 @@
     "fldtVvLjk33gCUz6l": "22",
     "fldxddBxzQcA4yv0A": "Steinway Street between 31st Avenue and Broadway",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:38:38.000Z",
-    "fld18VKjlf9BGaE9N": "Robert H. “Bob” Stern (d. 1998) owned “Sig Stern Inc.” a popular children’s store on Steinway Street until 1975, when he embarked on a second career as a real estate broker. He successfully led the Steinway Merchants in their efforts to establish a Steinway Street Business Improvement District and was its president until his death. Bob Stern’s opinion was solicited on all matters concerning “the street” and he firmly believed that Business Improvement Districts (BID’s) would be the salvation of commercial strips throughout the City. In recognition of his many years of outstanding leadership and service to his community Steinway Street, between 31st Avenue and Broadway, the location of his original store, was named “Bob Stern Way” in his honor.",
-    "fldBF9keRqVy6aRau": true,
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:38:38.000Z"
   },
   {
     "id": "recD9IkBjMrxLMfEV",
@@ -1135,6 +1252,7 @@
     "fldTGROls2PhrOiQU": "Brother Ralph Clifford, O.S.F., was born in the Bronx as Rodger Clifford in 1930 and was educated at St. Anthony of Padua in Greenpoint, Brooklyn. After graduating from St. Francis Prep in 1948, he entered the Franciscan Brothers, taking the name Brother Ralph on August 18, 1948. He was professed on August 19, 1949. Brother Ralph received a B.S. degree from Fordham University and an M.S. from St. John’s University. In 1997, he was awarded an honorary Ph.D. from St. Francis College. He taught at St. Francis Xavier and Our Lady of Good Counsel schools in Brooklyn and St. Joseph’s in Babylon, Long Island. He was principal of St. Brigid’s Elementary School from 1961 to 1967, and was appointed assistant principal of St. Francis Prep in 1967. He also served as a member of St. Francis College's Board of Trustees for more than 30 years. \n\nBr. Ralph was said to have changed students’ lives by just standing outside and talking to them. He was beloved by many students for taking the time to listen to them not just about school but about their lives or any problems they were having. Brother Ralph Clifford died on November 30, 2002, from post-operative complications. ",
     "fldZZ1eosVwyix7m4": "Francis Lewis Boulevard",
     "fldb2kOoaaol8IIiQ": "Street/Thoroughfare",
+    "fldbBQ9Hc4t90wU0X": "\n\n\n",
     "fldbxIVG5OzgGGvMj": [
       "English"
     ],
@@ -1154,8 +1272,87 @@
     "fldtVvLjk33gCUz6l": "23",
     "fldxddBxzQcA4yv0A": "Francis Lewis Boulevard from Horace Harding Expressway to 73rd Avenue",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:50:48.000Z",
-    "fldbBQ9Hc4t90wU0X": "\n\n\n"
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:50:48.000Z"
+  },
+  {
+    "id": "rec4YVfLfXplzWU9j",
+    "fld03C27tmVnEg1rP": "40.682372, -73.763908",
+    "fld18VKjlf9BGaE9N": "Cardinal S. Sandiford (1929-2013) graduated from Iona College with a B.S. Degree in Biology. After Army service, he became active in Local 144 of the S.E.I.U. Hospital Union and became director of its Civil Service Division as well as its Vice President. He also served on Community Board 12. As chair of its Land Use Committee, he worked to preserve the residential quality of South Jamaica, Hollis, Springfield Gardens and St. Albans, all communities threatened with over-development. He represented CB 12 during the difficult process of re-zoning downtown Jamaica and developing the Air Train to J.F.K. Airport. Sandiford was instrumental in the 2011 designation of the Addisleigh Park Historic District, which includes the former homes of numerous prominent African-Americans including Count Basie, Lena Horne, Jackie Robinson, Roy Campanella, Ella Fitzgerald, and “Fats” Waller.  ",
+    "fld3zcPVX14gMRFd1": "Cardinal S. Sandiford Way",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "QUEENS",
+    "fldAHhNbaHDTgQ4ao": "Cardinal S. Sandiford",
+    "fldBF9keRqVy6aRau": true,
+    "fldCwcnz1yvlpDv1D": "J. Foster Phillips Funeral Home. (n.d.). Cardinal S. Sandiford Obituary. https://www.jfosterphillips.com/obituary/2374715\n\nQueens Chronicle Staff. (2022, August 18). Cardinal Sandiford honored by the city. Queens Chronicle. <https://www.qchron.com/editions/queenswide/cardinal-sandiford-honored-by-the-city/article_88051910-1d1a-578d-9670-5184ccb0e036.html>\n\n\n\n",
+    "fldEdvOGWNqX5OImX": "Gil Tauber",
+    "fldF1jFzlXZGeH9LP": [
+      "Community Activism",
+      "Government and Politics"
+    ],
+    "fldGPBlBpPi8e4PU7": "7/21/019",
+    "fldKz0noCVXmoj4UV": "Jamaica",
+    "fldLjcdfwIByZ68aX": "12/26/2013",
+    "fldPMX16WqfXNhJ02": "He/him/his",
+    "fldTAhZe07uxxeoJc": "12",
+    "fldTGROls2PhrOiQU": "Cardinal S. Sandiford (1929-2013) attended Dewitt Clinton H.S. and graduated from Iona College with a B.S. Degree in Biology.  After Army service, he became  active in his union, Local 144 of the S.E.I.U. Hospital Union.  He became director of the union's Civil Service Division, as well as its Vice President.  Sandiford also served on Community Board 12.  As chair of its Land Use Committee, he worked to preserve the residential quality of South Jamaica, Hollis, Springfield Gardens and St. Albans, all communities threatened with over-development.  He  represented CB 12 during the difficult process of re-zoning downtown Jamaica and developing the Air Train to J.F.K. Airport. Sandiford was instrumental in the 2011 designation of the Addisleigh Park Historic District. It includes the former homes of numerous prominent African-Americans including Count Basie, Lena Horne, Jackie Robinson, Roy Campanella, Ella Fitzgerald, and “Fats” Waller.  (Miller)|Honorifics 2017 LL 45",
+    "fldZZ1eosVwyix7m4": "Anderson Road and Sidway Place",
+    "fldb2kOoaaol8IIiQ": "Street/Thoroughfare",
+    "fldbxIVG5OzgGGvMj": [
+      "English"
+    ],
+    "fldhQfkBDSPZjKjer": "At the northeast corner of Anderson Road and Sidway Place",
+    "fldhhf7THVqO69i5D": "African American",
+    "fldim7SFpasPkKiOi": "8/14/1929",
+    "fldirBebD4ZoJeWfC": "Council Member Miller",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldnTs1VeBJjhO1Ga": "11434",
+    "fldo67zoOMQsJN6xv": "Cardinal S. Sandiford Way",
+    "fldq5DPdjbB3X7fQy": "LL 2017/045",
+    "fldrJjqRjjOeqKf72": "Fran Kipnis",
+    "fldtVvLjk33gCUz6l": "27",
+    "fldxddBxzQcA4yv0A": "Anderson Road and Sidway Place",
+    "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
+    "fldGc8Yu4R85MSed4": "2022-09-23T20:10:58.000Z"
+  },
+  {
+    "id": "recoCX23zlJPuNJmM",
+    "fld03C27tmVnEg1rP": "40.668305, -73.736947",
+    "fld18VKjlf9BGaE9N": "Frances Clare LeBlanc (1950 – 2019) was a business owner and active member of her community Queens. She moved to Queens in 1989, where she established her business, DRC Commercial Cleaning Company. She served as director of the youth ministry at St. Clare’s RC Church, in which she led many fundraisers, food pantries, and events, while also serving as a grief counselor. She was an esteemed member of the pantry operations team of St. Paul’s Church in Corona, Queens. She was also an active member of the Rotary Club of Southeast Queens for 10 years and helped lead coalitions that provided support for homeless veterans. She was a member of the Laurelton Block Association and Rosedale Civic Association, serving as block president for several years. She formed connections within the community, kept the neighborhood clean, and found local stray animals’ food and shelter. She also volunteered at her grandson’s school PS 176 in Cambria Heights.",
+    "fld3zcPVX14gMRFd1": "Cathy LeBlanc Way",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "QUEENS",
+    "fldAHhNbaHDTgQ4ao": "Cathy Frances Clare LeBlanc",
+    "fldBF9keRqVy6aRau": true,
+    "fldCwcnz1yvlpDv1D": "Birth and death dates: Obituary <https://www.legacy.com/obituaries/name/cathy-leblanc-obituary?pid=194261560>\n\n",
+    "fldEdvOGWNqX5OImX": "Gil Tauber",
+    "fldF1jFzlXZGeH9LP": [
+      "Community Activism",
+      "Business and Entrepreneurs"
+    ],
+    "fldKz0noCVXmoj4UV": "Rosedale",
+    "fldLjcdfwIByZ68aX": "October 2019",
+    "fldPMX16WqfXNhJ02": "She/her/hers",
+    "fldTAhZe07uxxeoJc": "13",
+    "fldTGROls2PhrOiQU": "Section 34. Cathy LeBlanc Way Introduced by Council Member Brooks-PowersCathy Frances Clare LeBlanc owned her own businesses and was an active member of her community. She joined the Girl Scouts, helping and feeding underprivileged youth, and becoming an advocate for individuals with substance abuse. She moved to Queens in 1989, where she established her latest business, DRC Commercial Cleaning Company. She served as director of the youth ministry at St. Clare’s RC Church, in which she led many fundraisers, food pantries, and events, while also serving as a grief counselor. She was an esteemed member of the pantry operations team of St. Paul’s Church in Corona, Queens. She was also an active member of the Rotary Club of Southeast Queens for 10 years and helped lead coalitions that provided support for homeless veterans. She was a member of the Laurelton Block Association and Rosedale Civic Association, serving as block president for several years. She formed connections within the community, kept the neighborhood clean, and found local stray animals’ food and shelter. She also volunteered at her grandson’s school PS 176 in Cambria Heights. Cathy was a true neighbor and lived a life of service.|Honorifics 2022 Queens LL 54",
+    "fldZZ1eosVwyix7m4": "138th Avenue and Brookville Boulevard",
+    "fldb2kOoaaol8IIiQ": "Street/Thoroughfare",
+    "fldbxIVG5OzgGGvMj": [
+      "English"
+    ],
+    "fldhQfkBDSPZjKjer": "At the intersection of 138th Avenue and Brookville Boulevard",
+    "fldhhf7THVqO69i5D": "African American; Rosedale, Laurelton ",
+    "fldim7SFpasPkKiOi": "1950",
+    "fldirBebD4ZoJeWfC": "Council Member Brooks-Powers",
+    "fldkkbT5XhwsGbnC9": "Cathy LeBlanc",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldnTs1VeBJjhO1Ga": "11422",
+    "fldo67zoOMQsJN6xv": "Cathy LeBlanc Way",
+    "fldq5DPdjbB3X7fQy": "LL 2022/054",
+    "fldrJjqRjjOeqKf72": "Fran Kipnis",
+    "fldtVvLjk33gCUz6l": "31",
+    "fldxddBxzQcA4yv0A": " 138th Avenue and Brookville Boulevard",
+    "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
+    "fldGc8Yu4R85MSed4": "2022-09-23T20:09:29.000Z"
   },
   {
     "id": "recsw1QmGBW1MV5dY",
@@ -1421,6 +1618,46 @@
     "fldGc8Yu4R85MSed4": "2022-09-15T14:34:17.000Z"
   },
   {
+    "id": "recK7JGPEpzBo3xKF",
+    "fld03C27tmVnEg1rP": "40.670283, -73.774603",
+    "fld18VKjlf9BGaE9N": "Charles A. Pringle Jr., Esq. (1973 – 2006) graduated from Jamaica High School’s Gateway Program and was recognized by National Westminster Bank as an outstanding Young Achiever. Charles graduated from St. John’s University with a Bachelor of Arts in Criminal Justice, was a member of Alpha Phi Alpha Fraternity, Chairman of the Political Action Committee of the NAACP, a manager for the St. John’s Redman Basketball team and a member of Haraya – a Black Student’s Coalition. He graduated from Queens College Law School in 1999 and served as chairman of the Board for the Northeast Black Law Students Association Job Fair from 1999 to 2003. He also helped found the Young Democrats of Queens. He was hired as an Assistant District Attorney for Bronx County, and in 2001 at age 28, he ran for political office of Assemblyman for the 31st Assembly District with the slogan, “Pringle for the People…New Leadership Fighting for You” and was elected to the position of Democratic District Leader for the 31st Assembly District, Part B",
+    "fld3zcPVX14gMRFd1": "Charles A. Pringle Jr., Esq. Way",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "QUEENS",
+    "fldAHhNbaHDTgQ4ao": "Charles A. Pringle Jr.",
+    "fldBF9keRqVy6aRau": true,
+    "fldCwcnz1yvlpDv1D": "Commemoration Date: Queens Chronicle: <https://www.qchron.com/editions/eastern/springfield-gardens-street-named-in-honor-of-leader/article_3c9da279-feae-5914-88d6-1c2698d2835c.html>\n\nJuva, Theresa. (207, October 4). Springfield Gardens Street Named In Honor Of Leader. Queens Chronicle. <https://www.qchron.com/editions/eastern/springfield-gardens-street-named-in-honor-of-leader/article_3c9da279-feae-5914-88d6-1c2698d2835c.html>\n\n",
+    "fldEdvOGWNqX5OImX": "Gil Tauber",
+    "fldF1jFzlXZGeH9LP": [
+      "Government and Politics"
+    ],
+    "fldGPBlBpPi8e4PU7": "October 2007",
+    "fldKz0noCVXmoj4UV": "Jamaica",
+    "fldLjcdfwIByZ68aX": "2/10/2006",
+    "fldPMX16WqfXNhJ02": "He/him/his",
+    "fldTAhZe07uxxeoJc": "12",
+    "fldTGROls2PhrOiQU": "Introduced by Council Member White, Jr.March 15, 1973 – February 10, 2006Charles A. Pringle Jr., Esq. received the honor of Youth of the Year Award from the Manhattan District for his oratory skills. He graduated from Jamaica High School’s Gateway Program and was recognized by National Westminster Bank as an outstanding Young Achiever. Charles graduated from St. John’s University with a Bachelor of Arts in Criminal Justice, was a member of Alpha Phi Alpha Fraternity, Chairman of the Political Action Committee of the NAACP, a manager for the St. John’s Redman Basketball team and a member of Haraya – a Black Student’s Coalition. He later went on to be hired as an Assistant District Attorney for Bronx County and ran for political office of Assemblyman for the 31st Assembly District with the slogan, “Pringle for the People…New Leadership Fighting For You” and was elected to the position of Democratic District Leader for the 31st Assembly District, Part B.|2007/28",
+    "fldZZ1eosVwyix7m4": "161st Street",
+    "fldb2kOoaaol8IIiQ": "Street/Thoroughfare",
+    "fldbxIVG5OzgGGvMj": [
+      "English"
+    ],
+    "fldhQfkBDSPZjKjer": "161st Street between 140th Avenue and South Conduit Boulevard",
+    "fldhhf7THVqO69i5D": "African-American",
+    "fldim7SFpasPkKiOi": "3/15/1973",
+    "fldirBebD4ZoJeWfC": "Council Member White",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldmpgqHheHG4ASnx": "New York City",
+    "fldnTs1VeBJjhO1Ga": "11434",
+    "fldo67zoOMQsJN6xv": "Charles A. Pringle Jr., Esq. Way",
+    "fldq5DPdjbB3X7fQy": "LL 2007/028",
+    "fldrJjqRjjOeqKf72": "Fran Kipnis",
+    "fldtVvLjk33gCUz6l": "on border of 31 and 28",
+    "fldxddBxzQcA4yv0A": "161st Street between 140th Avenue and South Conduit Boulevard",
+    "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
+    "fldGc8Yu4R85MSed4": "2022-09-23T20:12:46.000Z"
+  },
+  {
     "id": "recSnaaVFWbqKmiXk",
     "fld03C27tmVnEg1rP": "40.748382, -73.905180",
     "fld18VKjlf9BGaE9N": "Thomas J. Manton was born in Manhattan and attended private Catholic schools in Queens and Brooklyn before becoming a flight navigator in the U.S. Marine Corps from 1951 to 1953. He graduated from St. John’s University in 1958 and was a member of the New York City Police Department from 1955 to 1960. He was admitted to the bar in 1963 and became a practicing attorney. In 1970, Manton was elected to the New York City Council, where he served from 1970 until 1984; he was then elected as a Democratic representative to Congress from 1985 until 1998. \n\nAs co-chairman of the Congressional Ad Hoc Committee on Irish Affairs, Manton helped persuade President Bill Clinton to meet with Gerry Adams, president of Sinn Fein, the political arm of the Irish Republican Army, in 1995. Manton also was the chairman of the Queens Democratic Organization for 20 years.",
@@ -1612,6 +1849,45 @@
     "fldxddBxzQcA4yv0A": "At the intersection of 50th Street and 43rd Avenue",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
     "fldGc8Yu4R85MSed4": "2022-09-23T01:51:36.000Z"
+  },
+  {
+    "id": "recV2pQptnAEI7PM6",
+    "fld03C27tmVnEg1rP": "40.72665845665664, -73.8520391467171",
+    "fld18VKjlf9BGaE9N": "This triangle honors Barnett (Barnie) and Gussie Federoff who once lived and raised their family near this triangle in the Rego Park neighborhood of Queens.  Gussie Federoff (1889-1967) was born in Kiev, the capital of Ukraine.  After she immigrated to America and married Barnie, Gussie became a member of the Washington Heights branch of the Hadassah and raised money for the United Jewish Appeal.  She died on December 16, 1967.  Barnie died on February 10, 1970.",
+    "fld3zcPVX14gMRFd1": "Barney & Gussie Pederoff Triangle",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldAHhNbaHDTgQ4ao": "Barney and Gussie Federoff",
+    "fldBF9keRqVy6aRau": true,
+    "fldCwcnz1yvlpDv1D": "New York City Department of Parks & Recreation. (n.d.). Federoff Triangle. Official Website of the New York City Department of Parks & Recreation. <https://www.nycgovparks.org/parks/federoff-triangle-qt07/history>\n\nPerlman, Michael H. (2015). Legendary Locals of Forest Hills and Rego Park New York. Arcadia Publishing.\n",
+    "fldEdvOGWNqX5OImX": "Gil Tauber",
+    "fldF1jFzlXZGeH9LP": [
+      "Community Activism"
+    ],
+    "fldGPBlBpPi8e4PU7": "September 1970",
+    "fldKz0noCVXmoj4UV": "Forest Hills",
+    "fldLjcdfwIByZ68aX": "B.F.: February 10, 1970\nG.F.: December 16, 1967",
+    "fldPMX16WqfXNhJ02": "B.F.: He/him/his\nG.F.: She/her/hers",
+    "fldTAhZe07uxxeoJc": "6",
+    "fldTGROls2PhrOiQU": "Mrs. Gussie Federoff was born in 1889 in Kiev. Emigrated to US, married Barnett Federoff.  Raised her family in this area.  Was a most active member of the Washigton Hts branch of Hadfassah and raied considerable sums for the United Jewish Appeal.  Died in December 1967.  POC 1970 v. 2 p. 321.|Excel LL Extracts 1966-1973",
+    "fldZZ1eosVwyix7m4": "102nd Street and 67th Road",
+    "fldb2kOoaaol8IIiQ": "Park/Playground",
+    "fldbxIVG5OzgGGvMj": [
+      "English"
+    ],
+    "fldd8Ii2y6GrnrkMN": "Barney & Gussie Federoff Triangle",
+    "fldhQfkBDSPZjKjer": "Triangular area formed b intersection of 67th Road, 102nd St. and Queens Boulevard",
+    "fldhhf7THVqO69i5D": "G.F: Ukranian Americans, Jewish",
+    "fldim7SFpasPkKiOi": "B.F.: c. 1895\nG.F.: 1889",
+    "fldkkbT5XhwsGbnC9": "Barnett Federoff",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldmpgqHheHG4ASnx": "G.F: Kiev, Ukraine",
+    "fldnTs1VeBJjhO1Ga": "11375",
+    "fldo67zoOMQsJN6xv": "Federoff Triangle",
+    "fldrJjqRjjOeqKf72": "Alina Willis",
+    "fldtVvLjk33gCUz6l": "29",
+    "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
+    "fldGc8Yu4R85MSed4": "2022-09-23T20:07:01.000Z"
   },
   {
     "id": "recJvPhHQb79CAZXw",
@@ -2634,6 +2910,7 @@
     "fldd8Ii2y6GrnrkMN": "Albert Montbellier Park",
     "fldhQfkBDSPZjKjer": "BDB Eastgate Plaza, Springfield Blvd, 139th Ave and, Sloan St",
     "fldim7SFpasPkKiOi": "1899",
+    "fldlXDuTBOAjXyVTC": true,
     "fldmpgqHheHG4ASnx": "Manhattan, NY",
     "fldnTs1VeBJjhO1Ga": "11413",
     "fldo67zoOMQsJN6xv": "Montbellier Park",
@@ -2641,8 +2918,7 @@
     "fldrJjqRjjOeqKf72": "Alina Willis",
     "fldtVvLjk33gCUz6l": "27",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:37:38.000Z",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:37:38.000Z"
   },
   {
     "id": "recSNN26t42Hyu9nx",
@@ -3211,10 +3487,12 @@
   {
     "id": "recuykeWghHjCF57r",
     "fld03C27tmVnEg1rP": "40.703965, -73.895690",
+    "fld18VKjlf9BGaE9N": "Scott Charles Timmes worked at Carr Futures in the World Trade Center. He was killed in the terrorist attack of September 11, 2001. He was survived by his Wife Kristine and daughter Sydney.",
     "fld3zcPVX14gMRFd1": "Scott Charles Timmes Avenue",
     "fld4ayxzpfL0q0Dsc": true,
     "fld9CSSvPGKCZyLUG": "QUEENS",
     "fldAHhNbaHDTgQ4ao": "Scott Charles Timmes",
+    "fldBF9keRqVy6aRau": true,
     "fldCwcnz1yvlpDv1D": "New York Times Staff. (2001, October 11). A Nation Challenged: Portraits of Grief: The Victims. New York Times. <https://www.nytimes.com/2001/10/11/nyregion/nation-challenged-portraits-grief-victims-would-be-chef-game-show-winner-builder.html>\n\n\n",
     "fldEdvOGWNqX5OImX": "Gil Tauber",
     "fldF1jFzlXZGeH9LP": [
@@ -3226,11 +3504,13 @@
     "fldTAhZe07uxxeoJc": "5",
     "fldTGROls2PhrOiQU": "Scott Charles Timmes worked at Carr Futures in the World Trade Center. He was killed in the terrorist attack of September 11, 2001.\nLL:2003/15\n\nKristine Timmes did not even get to kiss Scott Timmes at the New Year's Eve party where they met in 1995. She left before midnight to be with her family. \n\nNo matter. \"I knew we would get married,\" she said, recalling how she was immediately taken with his smile and sense of humor. \"He said funny things. He made me laugh.\"\n\nMr. Timmes, 28, of Queens, worked as a commodities customer service clerk with Carr Futures, the global futures trading firm, on the 92nd floor of 1 World Trade Center. He wanted to move up the corporate ladder and make a name for himself, his wife said, but he also \"loved to bowl, loved the Mets and loved his daughter,\" 14-month- old Sydney.\n\n\"He loved to sing and dance, specially the oldies,\" Mrs. Timmes said. \"When he sang along to a song and didn't know some of the words, he would make them up as he went along until he got to a part he knew again.\"\n\n\"Basically, he was one of the happiest people you could ever meet in your life.\" \n\nProfile published in THE NEW YORK TIMES on October 11, 2001.",
     "fldZZ1eosVwyix7m4": "Catalpa Avenue",
+    "fldb2kOoaaol8IIiQ": "Street/Thoroughfare",
     "fldbxIVG5OzgGGvMj": [
       "English"
     ],
     "fldhQfkBDSPZjKjer": "Catalpa Avenue beween Fresh Pond Road and 60th Lane",
     "fldim7SFpasPkKiOi": "1973 ",
+    "fldlXDuTBOAjXyVTC": true,
     "fldnTs1VeBJjhO1Ga": "11385",
     "fldo67zoOMQsJN6xv": "Scott Charles Timmes Avenue",
     "fldq5DPdjbB3X7fQy": "LL:2003/015",
@@ -3238,19 +3518,17 @@
     "fldtVvLjk33gCUz6l": "30",
     "fldxddBxzQcA4yv0A": "Catalpa Avenue beween Fresh Pond Road and 60th Lane",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:41:43.000Z",
-    "fld18VKjlf9BGaE9N": "Scott Charles Timmes worked at Carr Futures in the World Trade Center. He was killed in the terrorist attack of September 11, 2001. He was survived by his Wife Kristine and daughter Sydney.",
-    "fldBF9keRqVy6aRau": true,
-    "fldb2kOoaaol8IIiQ": "Street/Thoroughfare",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:41:43.000Z"
   },
   {
     "id": "recqaV4HQI01UKNQe",
     "fld03C27tmVnEg1rP": "40.698437, -73.808535",
+    "fld18VKjlf9BGaE9N": "Sean Bell discovered at the age of six that he was passionate about baseball. He began playing for the Ozone Park Wakefield Little League where he remained a player for eight years. He then went on to play baseball for John Adams High School where he led his team to the NYC High School Championship played at Yankee Stadium. He went on to play for Nassau Community College where he averaged 11.0. He put his baseball career on hold to support his family. In the early morning hours of his wedding day on November 25, 2006, he walked out of a Queens nightclub, climbed into his car with two friends who had been celebrating with him and was killed by bullets fired by five police officers. The shooting sparked protests throughout the City. The officers involved were ultimately acquitted of criminal charges brought against them. Nevertheless, Mr. Bell’s death has led to reforms within the police department, including the administering of breathalyzer tests after every time a police officer discharges his/her firearm.",
     "fld3zcPVX14gMRFd1": "Sean Bell Way",
     "fld4ayxzpfL0q0Dsc": true,
     "fld9CSSvPGKCZyLUG": "QUEENS",
     "fldAHhNbaHDTgQ4ao": "Sean Bell",
+    "fldBF9keRqVy6aRau": true,
     "fldCwcnz1yvlpDv1D": "Zraick, Karen. (2009, December 21). Divided Council Renames Street After Sean Bell. New York Times. <https://www.nytimes.com/2009/12/22/nyregion/22bell.html>\n\n\n\n",
     "fldEdvOGWNqX5OImX": "Gil Tauber",
     "fldF1jFzlXZGeH9LP": [
@@ -3273,6 +3551,7 @@
     "fldhhf7THVqO69i5D": "African American",
     "fldim7SFpasPkKiOi": "5/18/1983 ",
     "fldirBebD4ZoJeWfC": "Council Member White, Jr. and Council Member Comrie",
+    "fldlXDuTBOAjXyVTC": true,
     "fldnTs1VeBJjhO1Ga": "11435",
     "fldo67zoOMQsJN6xv": "Sean Bell Way",
     "fldq5DPdjbB3X7fQy": "LL 2009/092",
@@ -3280,18 +3559,17 @@
     "fldtVvLjk33gCUz6l": "19",
     "fldxddBxzQcA4yv0A": "Liverpool Street between 94th Avenue and 101st Street",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:41:44.000Z",
-    "fldBF9keRqVy6aRau": true,
-    "fld18VKjlf9BGaE9N": "Sean Bell discovered at the age of six that he was passionate about baseball. He began playing for the Ozone Park Wakefield Little League where he remained a player for eight years. He then went on to play baseball for John Adams High School where he led his team to the NYC High School Championship played at Yankee Stadium. He went on to play for Nassau Community College where he averaged 11.0. He put his baseball career on hold to support his family. In the early morning hours of his wedding day on November 25, 2006, he walked out of a Queens nightclub, climbed into his car with two friends who had been celebrating with him and was killed by bullets fired by five police officers. The shooting sparked protests throughout the City. The officers involved were ultimately acquitted of criminal charges brought against them. Nevertheless, Mr. Bell’s death has led to reforms within the police department, including the administering of breathalyzer tests after every time a police officer discharges his/her firearm.",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:41:44.000Z"
   },
   {
     "id": "recp4cUVkNUhYPT0t",
     "fld03C27tmVnEg1rP": "40.745233, -73.869287",
+    "fld18VKjlf9BGaE9N": "Paul Ferrara joined the New York City Police Department in June 1992, and began his career on patrol in the 81st Precinct located in Brooklyn. Immediately after the tragedy on September 11, 2001, he was assigned to Ground Zero for the recovery efforts and spent many weeks thereafter assisting with public safety. After serving the Bedford Stuyvesant /Stuyvesant Height’s communities for 14 years, he was promoted to Sergeant in February 2006, and was subsequently assigned to the 110th Precinct. On his days off, he would often be assigned to the elite Patrol Borough Queens North Counterterrorism Unit. This unit is responsible for patrolling “sensitive locations” such as stadiums, malls, and other terrorist target locations. During his career he was recognized twice for Excellent Police Duty. He died on August 27, 2014 as a result of 9/11 related illness.",
     "fld3zcPVX14gMRFd1": "Sergeant Paul Michael Ferrara Way",
     "fld4ayxzpfL0q0Dsc": true,
     "fld9CSSvPGKCZyLUG": "QUEENS",
     "fldAHhNbaHDTgQ4ao": " Paul Michael Ferrara ",
+    "fldBF9keRqVy6aRau": true,
     "fldCwcnz1yvlpDv1D": "Moya, Francisco. (2019, October 21).Sergeant Paul Michael Ferrara was a hero our community and city will #NeverForget. Facebook. <https://www.facebook.com/FranciscoMoyaNY/posts/sergeant-paul-michael-ferrara-was-a-hero-our-community-and-city-will-neverforget/10157614787621322/>\n\n\n",
     "fldEdvOGWNqX5OImX": "Gil Tauber",
     "fldF1jFzlXZGeH9LP": [
@@ -3311,6 +3589,7 @@
     "fldhQfkBDSPZjKjer": "At the northeast corner of 95th Street and 43rd Avenue",
     "fldim7SFpasPkKiOi": "12/19/1969",
     "fldirBebD4ZoJeWfC": "Council Member Moya",
+    "fldlXDuTBOAjXyVTC": true,
     "fldnTs1VeBJjhO1Ga": "11373",
     "fldo67zoOMQsJN6xv": "Sergeant Paul Michael Ferrara Way",
     "fldq5DPdjbB3X7fQy": "2019/158",
@@ -3318,18 +3597,17 @@
     "fldtVvLjk33gCUz6l": "21",
     "fldxddBxzQcA4yv0A": "95th St & 43rd Ave",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:39:05.000Z",
-    "fld18VKjlf9BGaE9N": "Paul Ferrara joined the New York City Police Department in June 1992, and began his career on patrol in the 81st Precinct located in Brooklyn. Immediately after the tragedy on September 11, 2001, he was assigned to Ground Zero for the recovery efforts and spent many weeks thereafter assisting with public safety. After serving the Bedford Stuyvesant /Stuyvesant Height’s communities for 14 years, he was promoted to Sergeant in February 2006, and was subsequently assigned to the 110th Precinct. On his days off, he would often be assigned to the elite Patrol Borough Queens North Counterterrorism Unit. This unit is responsible for patrolling “sensitive locations” such as stadiums, malls, and other terrorist target locations. During his career he was recognized twice for Excellent Police Duty. He died on August 27, 2014 as a result of 9/11 related illness.",
-    "fldBF9keRqVy6aRau": true,
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:39:05.000Z"
   },
   {
     "id": "recmgpA1ThZVY8aBv",
     "fld03C27tmVnEg1rP": "40.682100, -73.853664",
+    "fld18VKjlf9BGaE9N": "Mr. Shri Prakash Gossai, born in Guyana in 1953, came to the United States in 1983 on a teaching scholarship for marine biology.  He taught for 10 years at Thomas Jefferson High School, serving underprivileged youth.  He had a strong connection to spirituality and went to India for intensive study of Vedant Hindu philosophy.  After his studies, he founded the Bhuvaneshwar Mandir in 1984 in Brooklyn and then founded the Queens branch located at 86-01 101st Avenue in 2004.  At Bhuvaneshwar Mandir, he was able to distill the wisdom he had  attained in India, and package it into easily accessible, practical, and inspirational advice on living life efficiently while striving for peace in the world.  Mr. Gossai went back to Guyana in 2006 as the Spiritual Advisor to the President of Guyana. This was his dream and it was there that his millions of devotees around the world learned of his untimely passing in 2009. ",
     "fld3zcPVX14gMRFd1": "Shri Prakash Gossai Marg Way",
     "fld4ayxzpfL0q0Dsc": true,
     "fld9CSSvPGKCZyLUG": "QUEENS",
     "fldAHhNbaHDTgQ4ao": "Shri Prakash Gossai",
+    "fldBF9keRqVy6aRau": true,
     "fldCwcnz1yvlpDv1D": "Stabroek News Staff (2009, June 16). Shri Prakash Gossai dies. Stabroek News. <https://www.stabroeknews.com/2009/06/16/news/guyana/shri-prakash-gossai-dies/>\n\nClarke, Tangerine (2021, August 10). Street in Ozone Park co-named Shri Prakash Gossai Way. Caribbean Life. <https://www.caribbeanlife.com/37651-2/>\n\n\n",
     "fldEdvOGWNqX5OImX": "Gil Tauber",
     "fldF1jFzlXZGeH9LP": [
@@ -3352,6 +3630,7 @@
     "fldhhf7THVqO69i5D": "Guyanese",
     "fldim7SFpasPkKiOi": "4/23/1953",
     "fldirBebD4ZoJeWfC": "Council Member Ulrich",
+    "fldlXDuTBOAjXyVTC": true,
     "fldmpgqHheHG4ASnx": "Guyana",
     "fldnTs1VeBJjhO1Ga": "11416",
     "fldo67zoOMQsJN6xv": "Shri Prakash Gossai Marg Way",
@@ -3360,19 +3639,18 @@
     "fldtVvLjk33gCUz6l": "32",
     "fldxddBxzQcA4yv0A": "86th Street between 101st Avenue and 102nd Avenue",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:39:14.000Z",
-    "fld18VKjlf9BGaE9N": "Mr. Shri Prakash Gossai, born in Guyana in 1953, came to the United States in 1983 on a teaching scholarship for marine biology.  He taught for 10 years at Thomas Jefferson High School, serving underprivileged youth.  He had a strong connection to spirituality and went to India for intensive study of Vedant Hindu philosophy.  After his studies, he founded the Bhuvaneshwar Mandir in 1984 in Brooklyn and then founded the Queens branch located at 86-01 101st Avenue in 2004.  At Bhuvaneshwar Mandir, he was able to distill the wisdom he had  attained in India, and package it into easily accessible, practical, and inspirational advice on living life efficiently while striving for peace in the world.  Mr. Gossai went back to Guyana in 2006 as the Spiritual Advisor to the President of Guyana. This was his dream and it was there that his millions of devotees around the world learned of his untimely passing in 2009. ",
-    "fldBF9keRqVy6aRau": true,
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:39:14.000Z"
   },
   {
     "id": "reca2MJQLySxU1mPM",
     "fld03C27tmVnEg1rP": "40.749456, -73.887099",
+    "fld18VKjlf9BGaE9N": "State Senator José R. Peralta made history by becoming the first Dominican-American elected to the New York State Senate when he assumed office in District 13. He served from 2010 until his death in 2018. His tenure was marked by a focus on immigration justice, support for working-class families, access to quality education for all children and advocacy for LGBT rights. He was most notable as his chamber's leading champion for undocumented young people whom he believed deserved equal opportunity to achieve the American Dream. He introduced the New York DREAM Act in 2013 and increased its support over the following years. Prior to his election to the State Senate, he served in the New York State Assembly from 2002 to 2010, representing the 39th Assembly District. He was a member of the New York State Senate Black, Puerto Rican, Hispanic and Asian caucuses, and of the Puerto Rican Hispanic Task Force. As a state legislator, his sponsorship of gun-control legislation and a bill requiring microstamping on bullet-casings has drawn the ire of the National Rifle Association. He was a champion of economic development and job creation, and was a fighter for immigrants’ rights. He worked to heighten awareness of domestic violence and protect battered spouses from further abuse.",
     "fld3zcPVX14gMRFd1": "State Senator José R. Peralta Way",
     "fld4ayxzpfL0q0Dsc": true,
     "fld5p2mCngthblT9S": "frankipnis@berkeley.edu",
     "fld9CSSvPGKCZyLUG": "QUEENS",
     "fldAHhNbaHDTgQ4ao": "José R. Peralta",
+    "fldBF9keRqVy6aRau": true,
     "fldCwcnz1yvlpDv1D": "Mays, Jeffery C. (2018, November 22). José Peralta, First Dominican-American Elected to New York State Senate, Dies at 47. New York Times. <https://www.nytimes.com/2018/11/22/nyregion/jose-peralta-dominican-american-senator-dead.html>\n\nQueens Gazette Staff (2019, October 9). Peralta Way. Queens Gazette. <https://www.qgazette.com/articles/peralta-way>\n\n\n\n",
     "fldEdvOGWNqX5OImX": "Gil Tauber",
     "fldF1jFzlXZGeH9LP": [
@@ -3393,6 +3671,7 @@
     "fldhhf7THVqO69i5D": "New York State Assembly and Senate",
     "fldim7SFpasPkKiOi": "11/10/1971",
     "fldirBebD4ZoJeWfC": "Council Member Dromm",
+    "fldlXDuTBOAjXyVTC": true,
     "fldmpgqHheHG4ASnx": "New York City",
     "fldnTs1VeBJjhO1Ga": "11372",
     "fldo67zoOMQsJN6xv": "State Senator José R. Peralta Way",
@@ -3401,19 +3680,18 @@
     "fldtVvLjk33gCUz6l": "25",
     "fldxddBxzQcA4yv0A": "Northeast corner of 37th Avenue and 79th Street",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:39:25.000Z",
-    "fld18VKjlf9BGaE9N": "State Senator José R. Peralta made history by becoming the first Dominican-American elected to the New York State Senate when he assumed office in District 13. He served from 2010 until his death in 2018. His tenure was marked by a focus on immigration justice, support for working-class families, access to quality education for all children and advocacy for LGBT rights. He was most notable as his chamber's leading champion for undocumented young people whom he believed deserved equal opportunity to achieve the American Dream. He introduced the New York DREAM Act in 2013 and increased its support over the following years. Prior to his election to the State Senate, he served in the New York State Assembly from 2002 to 2010, representing the 39th Assembly District. He was a member of the New York State Senate Black, Puerto Rican, Hispanic and Asian caucuses, and of the Puerto Rican Hispanic Task Force. As a state legislator, his sponsorship of gun-control legislation and a bill requiring microstamping on bullet-casings has drawn the ire of the National Rifle Association. He was a champion of economic development and job creation, and was a fighter for immigrants’ rights. He worked to heighten awareness of domestic violence and protect battered spouses from further abuse.",
-    "fldBF9keRqVy6aRau": true,
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:39:25.000Z"
   },
   {
     "id": "recgVPj3qHeFGLAoX",
     "fld03C27tmVnEg1rP": "40.593552, -73.777165",
+    "fld18VKjlf9BGaE9N": "Stephen Cooper lived on Beach 46th, Street, Far Rockaway, NY for over 50 years and was very devoted to his neighbors in Edgemere. He was an active member of Community Board 14 for over 35 years and he was involved in many activities not only to help Edgemere, but to assist the residents on the Rockaway Peninsula. He worked with the Bayswater Civic Association, Beachside Bungalow Association, as well as other civic associations on the peninsula. He was the President of the Frank Avenue Civic Association for over 30 years. His neighbors on Beach 46th Street remembered the many times that he would walk up and down the street in order to pick up the trash, shovel snow, cut grass, or run errands for elderly and infirm residents. He was very caring and sensitive to the needs of people. He helped the teenagers who lived on his street by employing them in garden work and buying them lunch. Whenever there was any trouble on his street, the residents knew he would reach out to the 101st Precinct where he was known for his involvement in the area. He was the Democratic State Committeeman for Rockaway in the 1980s and the 1990s. He represented the Peninsula at many political functions and gatherings. He was extremely active in the Bernard Weiner JWV Post 258 in Rockaway, and served as Commander several times. He was instrumental in the closing of the Edgemere Landfill, as well as supporting the Farm on Beach 45 Street. Active with DC 37, he held many positions in Local 375 over the many years of his membership. He was delivering documents in Lower Manhattan when the South Tower collapsed on Sept. 11, 2001. A photographer captured him fleeing the scene amidst a cloud of smoke and debris. The image of Cooper, taken by an Associated Press reporter, was reprinted in magazines and newspapers around the world and was later featured in the 9/11 Museum. Stephen Cooper died on March 28, 2020.due to complications related to COVID-19.",
     "fld3zcPVX14gMRFd1": "Stephen Cooper Way",
     "fld4ayxzpfL0q0Dsc": true,
     "fld5p2mCngthblT9S": "frankipnis@berkeley.edu",
     "fld9CSSvPGKCZyLUG": "Queens",
     "fldAHhNbaHDTgQ4ao": "Stephen Cooper",
+    "fldBF9keRqVy6aRau": true,
     "fldCwcnz1yvlpDv1D": "Hohman, Maura. (2020, July 7). Man seen fleeing in famous 9/11 photo dies of coronavirus. Today. <https://www.today.com/news/man-iconic-9-11-photo-stephen-cooper-dies-coronavirus-t186044>\n\n\n",
     "fldEdvOGWNqX5OImX": "Gil Tauber",
     "fldF1jFzlXZGeH9LP": [
@@ -3435,6 +3713,7 @@
     "fldhhf7THVqO69i5D": " Community Board 14;Bayswater Civic Association; Beachside Bungalow Association; Frank Avenue Civic Association; Bernard Weiner JWV Post 258; Local 375",
     "fldim7SFpasPkKiOi": "June 17, 1941",
     "fldirBebD4ZoJeWfC": "Council Member Selvena Brooks-Powers",
+    "fldlXDuTBOAjXyVTC": true,
     "fldmpgqHheHG4ASnx": "Queens, NY",
     "fldnTs1VeBJjhO1Ga": "11691",
     "fldo67zoOMQsJN6xv": "Stephen Cooper Way",
@@ -3443,18 +3722,17 @@
     "fldtVvLjk33gCUz6l": "31",
     "fldxddBxzQcA4yv0A": "Beach 46th Street between Rockaway Beach Boulevard and Beach Channel Drive",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:41:44.000Z",
-    "fld18VKjlf9BGaE9N": "Stephen Cooper lived on Beach 46th, Street, Far Rockaway, NY for over 50 years and was very devoted to his neighbors in Edgemere. He was an active member of Community Board 14 for over 35 years and he was involved in many activities not only to help Edgemere, but to assist the residents on the Rockaway Peninsula. He worked with the Bayswater Civic Association, Beachside Bungalow Association, as well as other civic associations on the peninsula. He was the President of the Frank Avenue Civic Association for over 30 years. His neighbors on Beach 46th Street remembered the many times that he would walk up and down the street in order to pick up the trash, shovel snow, cut grass, or run errands for elderly and infirm residents. He was very caring and sensitive to the needs of people. He helped the teenagers who lived on his street by employing them in garden work and buying them lunch. Whenever there was any trouble on his street, the residents knew he would reach out to the 101st Precinct where he was known for his involvement in the area. He was the Democratic State Committeeman for Rockaway in the 1980s and the 1990s. He represented the Peninsula at many political functions and gatherings. He was extremely active in the Bernard Weiner JWV Post 258 in Rockaway, and served as Commander several times. He was instrumental in the closing of the Edgemere Landfill, as well as supporting the Farm on Beach 45 Street. Active with DC 37, he held many positions in Local 375 over the many years of his membership. He was delivering documents in Lower Manhattan when the South Tower collapsed on Sept. 11, 2001. A photographer captured him fleeing the scene amidst a cloud of smoke and debris. The image of Cooper, taken by an Associated Press reporter, was reprinted in magazines and newspapers around the world and was later featured in the 9/11 Museum. Stephen Cooper died on March 28, 2020.due to complications related to COVID-19.",
-    "fldBF9keRqVy6aRau": true,
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:41:44.000Z"
   },
   {
     "id": "reciAHN5cb5dp2lWA",
     "fld03C27tmVnEg1rP": "40.759505, -73.904576",
+    "fld18VKjlf9BGaE9N": "Teddy White was born on July 25, 1971 to Edward and Regina White, in Boulevard Gardens in Woodside, Queens. His family grew to include brothers Jimmy, Chris and Billy, and a sister, Sue. Teddy attended kindergarten at Public School 151 and then went to the Corpus Christi School for eight years. After grammar school he continued at Monsignor McClancy High School from which he graduated in 1989. On April 18, 1998 Teddy White married his lovely wife Jennifer, and a daughter, Taylor, was born to the couple on December 16, 1999. The young family bought an apartment at Boulevard Gardens and settled there. Mr. White joined the New York City Fire Department and was assigned to Engine Company 230 in Brooklyn. On September 11, 2001 Teddy White and the members of Engine Company 230 responded to the emergency brought on by the attacks on the World Trade Center. Mr. White died while attempting to save lives when the twin towers collapsed. He was survived by his wife, Jennifer, his daughter, Taylor, his parents, Edward and Regina, and four siblings.",
     "fld3zcPVX14gMRFd1": "Teddy White Place",
     "fld4ayxzpfL0q0Dsc": true,
     "fld9CSSvPGKCZyLUG": "QUEENS",
     "fldAHhNbaHDTgQ4ao": "Teddy White",
+    "fldBF9keRqVy6aRau": true,
     "fldEdvOGWNqX5OImX": "Gil Tauber",
     "fldF1jFzlXZGeH9LP": [
       "Law Enforcement & First Responders",
@@ -3474,6 +3752,7 @@
     "fldhhf7THVqO69i5D": "Woodside neighborhood",
     "fldim7SFpasPkKiOi": "7/25/1971",
     "fldkkbT5XhwsGbnC9": "Edward J. White III",
+    "fldlXDuTBOAjXyVTC": true,
     "fldmpgqHheHG4ASnx": "Woodside, Queens",
     "fldnTs1VeBJjhO1Ga": "11377",
     "fldo67zoOMQsJN6xv": "Teddy White Place",
@@ -3482,19 +3761,18 @@
     "fldtVvLjk33gCUz6l": "22",
     "fldxddBxzQcA4yv0A": "57th Street between 30th Avenue and 31st Avenue",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:41:45.000Z",
-    "fld18VKjlf9BGaE9N": "Teddy White was born on July 25, 1971 to Edward and Regina White, in Boulevard Gardens in Woodside, Queens. His family grew to include brothers Jimmy, Chris and Billy, and a sister, Sue. Teddy attended kindergarten at Public School 151 and then went to the Corpus Christi School for eight years. After grammar school he continued at Monsignor McClancy High School from which he graduated in 1989. On April 18, 1998 Teddy White married his lovely wife Jennifer, and a daughter, Taylor, was born to the couple on December 16, 1999. The young family bought an apartment at Boulevard Gardens and settled there. Mr. White joined the New York City Fire Department and was assigned to Engine Company 230 in Brooklyn. On September 11, 2001 Teddy White and the members of Engine Company 230 responded to the emergency brought on by the attacks on the World Trade Center. Mr. White died while attempting to save lives when the twin towers collapsed. He was survived by his wife, Jennifer, his daughter, Taylor, his parents, Edward and Regina, and four siblings.",
-    "fldBF9keRqVy6aRau": true,
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:41:45.000Z"
   },
   {
     "id": "recl7Qallt46FVXp8",
     "fld03C27tmVnEg1rP": "40.743418, -73.953869",
+    "fld18VKjlf9BGaE9N": "Terri Mona Adams (?-2017) was a lifelong Hunters Point resident and civic leader. She retired from the United States Navy in the 1980s as an operations supervisor.  She served as president of the Hunters Point Community Development Corp. (HPCDC), a merchant group established in 1952.  She was also a member of Community Board 2. Under her leadership, HPCDC initiated an Easter Parade on Vernon Boulevard and an egg hunt and Easter Bonnet contest in John Andrews Playground. Halloween and Stop the Violence events were also held there under her leadership.  She started the annual Hunters Point Community Unity event in 1995 and also worked with the 108th Precinct to combine Community Unity with National Night Out Against Crime. She organized the first Hunters Point Farmers Market and Hunters Point Eco-Friendly Flea Market on 48th Avenue in 2005.  In addition, under her leadership, HPCDC started sponsoring Holiday Lights on Vernon Boulevard, and the annual Breakfast with Santa for Children at the Riverview Restaurant.  She also served as president of St. Mary’s Seniors.",
     "fld3zcPVX14gMRFd1": "Terri Mona Adams Way",
     "fld4ayxzpfL0q0Dsc": true,
     "fld9CSSvPGKCZyLUG": "QUEENS",
     "fldAHhNbaHDTgQ4ao": "Terri Mona Adams",
-    "fldCwcnz1yvlpDv1D": "Murray, Christian. (2017, September 18). Terri Adams, a Hunters Point civic leader, has passed away. licpost. <https://licpost.com/terri-adams-a-hunters-point-civic-leader-has-passed-away>\n\nMcCaffrey, Orla. (2019, May 23). A tireless advocate for Hunters Point. Queens Chronicle. <https://licpost.com/terri-adams-a-hunters-point-civic-leader-has-passed-away>\n\n\n",
+    "fldBF9keRqVy6aRau": true,
+    "fldCwcnz1yvlpDv1D": "Murray, Christian. (2017, September 18). Terri Adams, a Hunters Point civic leader, has passed away. licpost. <https://licpost.com/terri-adams-a-hunters-point-civic-leader-has-passed-away>\n\nMcCaffrey, Orla. (2019, May 23). A tireless advocate for Hunters Point. Queens Chronicle. <https://www.qchron.com/editions/western/a-tireless-advocate-for-hunters-point-1/image_999e9d66-432f-5c77-aeb4-7565256c3dc9.html>\n\n\n\n",
     "fldEdvOGWNqX5OImX": "Gil Tauber",
     "fldF1jFzlXZGeH9LP": [
       "Community Activism"
@@ -3513,6 +3791,7 @@
     "fldhhf7THVqO69i5D": "Hunters Point Neighborhood",
     "fldim7SFpasPkKiOi": "1942",
     "fldirBebD4ZoJeWfC": "Council Member Jimmy Van Bramer",
+    "fldlXDuTBOAjXyVTC": true,
     "fldmpgqHheHG4ASnx": "Queens, NY",
     "fldnTs1VeBJjhO1Ga": "11101",
     "fldo67zoOMQsJN6xv": "Terri Mona Adams Way",
@@ -3521,10 +3800,7 @@
     "fldtVvLjk33gCUz6l": "26",
     "fldxddBxzQcA4yv0A": " Intersection of 49th Avenue and Vernon Boulevard",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:41:45.000Z",
-    "fld18VKjlf9BGaE9N": "Terri Mona Adams (?-2017) was a lifelong Hunters Point resident and civic leader. She retired from the United States Navy in the 1980s as an operations supervisor.  She served as president of the Hunters Point Community Development Corp. (HPCDC), a merchant group established in 1952.  She was also a member of Community Board 2. Under her leadership, HPCDC initiated an Easter Parade on Vernon Boulevard and an egg hunt and Easter Bonnet contest in John Andrews Playground. Halloween and Stop the Violence events were also held there under her leadership.  She started the annual Hunters Point Community Unity event in 1995 and also worked with the 108th Precinct to combine Community Unity with National Night Out Against Crime. She organized the first Hunters Point Farmers Market and Hunters Point Eco-Friendly Flea Market on 48th Avenue in 2005.  In addition, under her leadership, HPCDC started sponsoring Holiday Lights on Vernon Boulevard, and the annual Breakfast with Santa for Children at the Riverview Restaurant.  She also served as president of St. Mary’s Seniors.",
-    "fldBF9keRqVy6aRau": true,
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T20:14:37.000Z"
   },
   {
     "id": "recWCHpNnMbc293xg",
@@ -3548,14 +3824,14 @@
     "fldhQfkBDSPZjKjer": "At the intersection of 67th Avenue and 110th Street in front of the main entrance of Forest Hills High School",
     "fldirBebD4ZoJeWfC": "Council member Koslowitz",
     "fldkkbT5XhwsGbnC9": "John Cummings (Johnny Ramone), Jeffrey Hyman (Joey Ramone), Douglas Colvin (Dee Dee Ramone), and Thomas Erdelyi (Tommy Ramone)",
+    "fldlXDuTBOAjXyVTC": true,
     "fldnTs1VeBJjhO1Ga": "11375",
     "fldo67zoOMQsJN6xv": "The Ramones Way",
     "fldq5DPdjbB3X7fQy": "2020/092",
     "fldrJjqRjjOeqKf72": "Alina Willis",
     "fldtVvLjk33gCUz6l": "29",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:41:46.000Z",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:41:46.000Z"
   },
   {
     "id": "recxtF2AFvu5g588J",
@@ -3583,6 +3859,7 @@
     "fldhQfkBDSPZjKjer": "An existing park beginning at the intersection point of 120th Street and Baisley Boulevard, proceeding in an easterly direction to 119th Road, turning in a northerly direction, in an approximately straight line, ending at the intersection of 177th Street and 115th Avenue, and proceeding in a westerly direction, following existing park line to the point of beginning.",
     "fldhhf7THVqO69i5D": "African American community",
     "fldim7SFpasPkKiOi": "August 30, 1901",
+    "fldlXDuTBOAjXyVTC": true,
     "fldmpgqHheHG4ASnx": "St. Louis, MO",
     "fldnTs1VeBJjhO1Ga": "11434",
     "fldo67zoOMQsJN6xv": "The Roy Wilkins-Southern Queens Park",
@@ -3590,8 +3867,7 @@
     "fldtVvLjk33gCUz6l": "27",
     "fldxddBxzQcA4yv0A": "Merrick Blvd, Jamaica, NY 11434",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:41:46.000Z",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:41:46.000Z"
   },
   {
     "id": "recoVarLRDIyPeyfP",
@@ -3621,6 +3897,7 @@
     "fldhhf7THVqO69i5D": "Franconia House; the Holy House; Intermediate School 237; 109th precinct; Mothers Club;Holly Civics Association.",
     "fldim7SFpasPkKiOi": "3/17/1909",
     "fldirBebD4ZoJeWfC": "Council Member Liu",
+    "fldlXDuTBOAjXyVTC": true,
     "fldmpgqHheHG4ASnx": "Whitestone, New York",
     "fldnTs1VeBJjhO1Ga": "11355",
     "fldo67zoOMQsJN6xv": "Theresa Crawford Way",
@@ -3629,8 +3906,7 @@
     "fldtVvLjk33gCUz6l": "20",
     "fldxddBxzQcA4yv0A": "Holly Avenue between Kissena Boulevard and 137th Place",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:41:46.000Z",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:41:46.000Z"
   },
   {
     "id": "recKXY9UwiKcmSSwo",
@@ -3641,6 +3917,7 @@
     "fld5p2mCngthblT9S": "frankipnis@berkeley.edu",
     "fld9CSSvPGKCZyLUG": "QUEENS",
     "fldAHhNbaHDTgQ4ao": "Theresa Irene Merritt",
+    "fldBF9keRqVy6aRau": true,
     "fldCwcnz1yvlpDv1D": "Lyman, Rick. (1998, June 12). Theresa Merritt, 75, Praised In Role of Ma Rainey, Is Dead. New York Times. <https://www.nytimes.com/1998/06/21/nyregion/theresa-merritt-75-praised-in-role-of-ma-rainey-is-dead.html>\n\n\n\n\n",
     "fldEdvOGWNqX5OImX": "Gil Tauber",
     "fldF1jFzlXZGeH9LP": [
@@ -3660,6 +3937,7 @@
     "fldim7SFpasPkKiOi": "9/24/1922",
     "fldirBebD4ZoJeWfC": "Council Member Miller",
     "fldkkbT5XhwsGbnC9": "Theresa Merritt Hines ",
+    "fldlXDuTBOAjXyVTC": true,
     "fldmpgqHheHG4ASnx": "Emporia, VA",
     "fldnTs1VeBJjhO1Ga": "11412",
     "fldo67zoOMQsJN6xv": "Theresa Irene Merritt Way",
@@ -3668,9 +3946,7 @@
     "fldtVvLjk33gCUz6l": "27",
     "fldxddBxzQcA4yv0A": "Intersection of 192nd Street and 110th Road",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:41:47.000Z",
-    "fldBF9keRqVy6aRau": true,
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:41:47.000Z"
   },
   {
     "id": "reckduWeOyMYUpfnn",
@@ -3698,6 +3974,7 @@
     "fldhhf7THVqO69i5D": "9/11 victims",
     "fldim7SFpasPkKiOi": "February 4, 1958",
     "fldirBebD4ZoJeWfC": "Council member Tony Avella",
+    "fldlXDuTBOAjXyVTC": true,
     "fldmpgqHheHG4ASnx": "Jackson Heights, NY",
     "fldnTs1VeBJjhO1Ga": "11356",
     "fldo67zoOMQsJN6xv": "Thomas J. Shubert Avenue 9-11-01",
@@ -3705,12 +3982,12 @@
     "fldrJjqRjjOeqKf72": "Alina Willis",
     "fldtVvLjk33gCUz6l": "19",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:41:47.000Z",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:41:47.000Z"
   },
   {
     "id": "rec5k5EB7ke0kZe0b",
     "fld03C27tmVnEg1rP": "40.682680, -73.792685",
+    "fld18VKjlf9BGaE9N": "Thomas White Jr. was a long-time member of the New York City Council representing the 28th District in Queens. He was chairman of the Economic Development Committee and co-founder and executive director of J-CAP, one of the largest substance abuse treatment programs in the state. Economic development and substance abuse were two of his primary issues. However, he also pushed for job-training programs and initiatives that helped the poor and protected victims of violence. Mr. White also worked on issues such as teen pregnancy prevention and helped to create primary care programs for those suffering from HIV/AIDS.",
     "fld3zcPVX14gMRFd1": "Thomas White, Jr. Blvd.",
     "fld4ayxzpfL0q0Dsc": true,
     "fld9CSSvPGKCZyLUG": "Queens",
@@ -3734,6 +4011,7 @@
     "fldhQfkBDSPZjKjer": "Between Foch Boulevard and 114th Avenue",
     "fldim7SFpasPkKiOi": "August 21, 1939",
     "fldirBebD4ZoJeWfC": "Council member Ruben Wills",
+    "fldlXDuTBOAjXyVTC": true,
     "fldmpgqHheHG4ASnx": "Queens, NY",
     "fldnTs1VeBJjhO1Ga": "11434",
     "fldo67zoOMQsJN6xv": "Thomas White, Jr. Blvd.",
@@ -3741,9 +4019,7 @@
     "fldrJjqRjjOeqKf72": "Alina Willis",
     "fldtVvLjk33gCUz6l": "28",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:41:47.000Z",
-    "fld18VKjlf9BGaE9N": "Thomas White Jr. was a long-time member of the New York City Council representing the 28th District in Queens. He was chairman of the Economic Development Committee and co-founder and executive director of J-CAP, one of the largest substance abuse treatment programs in the state. Economic development and substance abuse were two of his primary issues. However, he also pushed for job-training programs and initiatives that helped the poor and protected victims of violence. Mr. White also worked on issues such as teen pregnancy prevention and helped to create primary care programs for those suffering from HIV/AIDS.",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:41:47.000Z"
   },
   {
     "id": "rec3eGCweUuv5UdEO",
@@ -3773,6 +4049,7 @@
     "fldht45SH87udX5wy": "Place of birth: Ringside Report: https://ringsidereport.com/?p=50378",
     "fldim7SFpasPkKiOi": "1937",
     "fldirBebD4ZoJeWfC": "Council Member Van Bramer",
+    "fldlXDuTBOAjXyVTC": true,
     "fldmpgqHheHG4ASnx": "Queens, NY",
     "fldnTs1VeBJjhO1Ga": "11101",
     "fldo67zoOMQsJN6xv": "Tony Mazzarella Way",
@@ -3781,8 +4058,7 @@
     "fldtVvLjk33gCUz6l": "26",
     "fldxddBxzQcA4yv0A": "Borden Ave & Second St",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:41:47.000Z",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:41:47.000Z"
   },
   {
     "id": "recZuBx9cPAYSM5ZI",
@@ -3809,14 +4085,14 @@
     "fldhQfkBDSPZjKjer": "the intersection of 9th Avenue and 151st Place",
     "fldim7SFpasPkKiOi": "December 10, 1962",
     "fldirBebD4ZoJeWfC": "Council member Tony Avella",
+    "fldlXDuTBOAjXyVTC": true,
     "fldnTs1VeBJjhO1Ga": "11357",
     "fldo67zoOMQsJN6xv": "Transit Police Officer Thomas R. O'Dea Place",
     "fldq5DPdjbB3X7fQy": "2004/063",
     "fldrJjqRjjOeqKf72": "Alina Willis",
     "fldtVvLjk33gCUz6l": "19",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:41:48.000Z",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:41:48.000Z"
   },
   {
     "id": "receklzUONacU69aH",
@@ -3845,6 +4121,7 @@
     "fldhQfkBDSPZjKjer": "At the northeast corner of 64th Street and Flushing Avenue",
     "fldim7SFpasPkKiOi": "January 20, 1925",
     "fldirBebD4ZoJeWfC": "Council member Robert F. Holden",
+    "fldlXDuTBOAjXyVTC": true,
     "fldmpgqHheHG4ASnx": "Brooklyn, New York",
     "fldnTs1VeBJjhO1Ga": "11378",
     "fldo67zoOMQsJN6xv": "US Navy RM2/c Stanley E. Wdowiak Way",
@@ -3852,8 +4129,7 @@
     "fldrJjqRjjOeqKf72": "Alina Willis",
     "fldtVvLjk33gCUz6l": "30",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:41:57.000Z",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:41:57.000Z"
   },
   {
     "id": "recCQH1H2AR2o2vjZ",
@@ -3881,14 +4157,14 @@
     "fldhQfkBDSPZjKjer": "At the intersection of 158th Street and Riverside Drive",
     "fldim7SFpasPkKiOi": "September 15, 1945",
     "fldirBebD4ZoJeWfC": "Council member Tony Avella",
+    "fldlXDuTBOAjXyVTC": true,
     "fldnTs1VeBJjhO1Ga": "11357",
     "fldo67zoOMQsJN6xv": "USMC Lance Corporal John Carlo Kopacska Place",
     "fldq5DPdjbB3X7fQy": "2008/048",
     "fldrJjqRjjOeqKf72": "Alina Willis",
     "fldtVvLjk33gCUz6l": "19",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:42:13.000Z",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:42:13.000Z"
   },
   {
     "id": "recYIyMlgUZdxwTsC",
@@ -3915,13 +4191,13 @@
     "fldhQfkBDSPZjKjer": "Between 150th and 153rd Street",
     "fldim7SFpasPkKiOi": "December 16, 1992",
     "fldirBebD4ZoJeWfC": "Council member James Gennaro",
+    "fldlXDuTBOAjXyVTC": true,
     "fldo67zoOMQsJN6xv": "VaSean Phillip Alleyne Memorial Avenue",
     "fldq5DPdjbB3X7fQy": "2005/043",
     "fldrJjqRjjOeqKf72": "Alina Willis",
     "fldtVvLjk33gCUz6l": "24",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:42:15.000Z",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:42:15.000Z"
   },
   {
     "id": "recULGFpZSrpCMOII",
@@ -3949,13 +4225,13 @@
     "fldhhf7THVqO69i5D": "African American community",
     "fldim7SFpasPkKiOi": "1927",
     "fldirBebD4ZoJeWfC": "Council member Francisco Moya",
+    "fldlXDuTBOAjXyVTC": true,
     "fldo67zoOMQsJN6xv": "Vera E. Thompson Way",
     "fldq5DPdjbB3X7fQy": "2021/014",
     "fldrJjqRjjOeqKf72": "Alina Willis",
     "fldtVvLjk33gCUz6l": "21",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:42:27.000Z",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:42:27.000Z"
   },
   {
     "id": "recrueqOa9xFDKtKX",
@@ -3980,13 +4256,13 @@
     "fldhhf7THVqO69i5D": "9/11 victims",
     "fldim7SFpasPkKiOi": "November 9, 1970",
     "fldirBebD4ZoJeWfC": "Council member Paul Vallone",
+    "fldlXDuTBOAjXyVTC": true,
     "fldnTs1VeBJjhO1Ga": "11354",
     "fldo67zoOMQsJN6xv": "Vincent Cangelosi Memorial Way",
     "fldrJjqRjjOeqKf72": "Alina Willis",
     "fldtVvLjk33gCUz6l": "19",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:42:28.000Z",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:42:28.000Z"
   },
   {
     "id": "reccY3XKyy8iBhQD7",
@@ -4014,14 +4290,14 @@
     "fldhQfkBDSPZjKjer": "At the intersection of Broadway and 42nd Street",
     "fldim7SFpasPkKiOi": "December 6, 1966",
     "fldirBebD4ZoJeWfC": "Council member Jimmy Van Bramer",
+    "fldlXDuTBOAjXyVTC": true,
     "fldnTs1VeBJjhO1Ga": "11103",
     "fldo67zoOMQsJN6xv": "Vincent Cannariato Jr. Way",
     "fldq5DPdjbB3X7fQy": "2017/237",
     "fldrJjqRjjOeqKf72": "Alina Willis",
     "fldtVvLjk33gCUz6l": "26",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:42:29.000Z",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:42:29.000Z"
   },
   {
     "id": "recTtNJ9lhPL0klZs",
@@ -4120,14 +4396,14 @@
     ],
     "fldhQfkBDSPZjKjer": "An existing  playground bounded on the north by Queens-Midtown Expressway and 57th Ave between 82nd and 84th Sts",
     "fldim7SFpasPkKiOi": "July 20, 1932",
+    "fldlXDuTBOAjXyVTC": true,
     "fldmpgqHheHG4ASnx": "Jackson Heights, NY",
     "fldnTs1VeBJjhO1Ga": "11373",
     "fldo67zoOMQsJN6xv": "Walter H. Crowley Playground",
     "fldrJjqRjjOeqKf72": "Alina Willis",
     "fldtVvLjk33gCUz6l": "25",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:42:30.000Z",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:42:30.000Z"
   },
   {
     "id": "recnx3XVQtVZutVCq",
@@ -4153,14 +4429,14 @@
     ],
     "fldhQfkBDSPZjKjer": "A triangular area bounded on the south by 157th Ave, on the north by 156th Ave, and on the west by Cohancy St",
     "fldim7SFpasPkKiOi": "September 16, 1944",
+    "fldlXDuTBOAjXyVTC": true,
     "fldnTs1VeBJjhO1Ga": "11414",
     "fldo67zoOMQsJN6xv": "Walter J. Wetzel Triangle",
     "fldrJjqRjjOeqKf72": "Alina Willis",
     "fldtVvLjk33gCUz6l": "32",
     "fldxddBxzQcA4yv0A": "98-0-98-98 157th Ave, Howard Beach, NY 11414",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:42:31.000Z",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:42:31.000Z"
   },
   {
     "id": "recefGlqGuwAqygZ8",
@@ -4188,14 +4464,14 @@
     ],
     "fldhQfkBDSPZjKjer": "Between Jamaica Avenue and Springfield Boulevard",
     "fldirBebD4ZoJeWfC": "Council member Leroy Comrie",
+    "fldlXDuTBOAjXyVTC": true,
     "fldnTs1VeBJjhO1Ga": "11428",
     "fldo67zoOMQsJN6xv": "Walter Kaner Street",
     "fldq5DPdjbB3X7fQy": "2005/131",
     "fldrJjqRjjOeqKf72": "Alina Willis",
     "fldtVvLjk33gCUz6l": "27",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:42:20.000Z",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:42:20.000Z"
   },
   {
     "id": "recxGETLRS2H1lAi0",
@@ -4223,14 +4499,14 @@
     "fldhQfkBDSPZjKjer": "The sidewalk on the south side of Queens Blvd between 64th and 65th Roads",
     "fldhhf7THVqO69i5D": "Jewish",
     "fldim7SFpasPkKiOi": "1897",
+    "fldlXDuTBOAjXyVTC": true,
     "fldmpgqHheHG4ASnx": "New York, NY",
     "fldnTs1VeBJjhO1Ga": "11374",
     "fldo67zoOMQsJN6xv": "William Cooper Walk",
     "fldrJjqRjjOeqKf72": "Alina Willis",
     "fldtVvLjk33gCUz6l": "29",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:42:18.000Z",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:42:18.000Z"
   },
   {
     "id": "recvxGwIZjNjHR30o",
@@ -4243,6 +4519,7 @@
     "fldBF9keRqVy6aRau": true,
     "fldCwcnz1yvlpDv1D": "Martin, Douglas. (2001, September 13). William Feehan, Fire Dept. Leader, Dies at 71. <https://www.nytimes.com/2001/09/13/nyregion/william-feehan-fire-dept-leader-dies-at-71.html>\n\n\n",
     "fldEdvOGWNqX5OImX": "Gil Tauber",
+    "fldEnU2i5YagypoBs": "William Feehan. (n.d.). Voices Center for Resilience. Retrieved September 23, 2022, from https://voicescenter.org/living-memorial/victim/william-feehan",
     "fldF1jFzlXZGeH9LP": [
       "Law Enforcement & First Responders",
       "Military"
@@ -4259,6 +4536,7 @@
     "fldhQfkBDSPZjKjer": "Triangle located at the intersection of 164th Street, 27th Avenue and Bayside Lane",
     "fldhhf7THVqO69i5D": "9/11 victims",
     "fldim7SFpasPkKiOi": "September 29, 1929",
+    "fldlXDuTBOAjXyVTC": true,
     "fldmpgqHheHG4ASnx": "Long Island City, NY",
     "fldnTs1VeBJjhO1Ga": "11358",
     "fldo67zoOMQsJN6xv": "William M. Feehan Triangle",
@@ -4266,9 +4544,7 @@
     "fldrJjqRjjOeqKf72": "Alina Willis",
     "fldtVvLjk33gCUz6l": "19",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:42:24.000Z",
-    "fldEnU2i5YagypoBs": "William Feehan. (n.d.). Voices Center for Resilience. Retrieved September 23, 2022, from https://voicescenter.org/living-memorial/victim/william-feehan",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:42:24.000Z"
   },
   {
     "id": "recWtubz8wg9lqN5A",
@@ -4296,6 +4572,7 @@
     "fldhQfkBDSPZjKjer": "At the intersection of Jackson Avenue and Queens Boulevard",
     "fldim7SFpasPkKiOi": "May 13, 1921",
     "fldirBebD4ZoJeWfC": "Council member Jimmy Van Bramer",
+    "fldlXDuTBOAjXyVTC": true,
     "fldmpgqHheHG4ASnx": "Brooklyn, NY",
     "fldnTs1VeBJjhO1Ga": "11101",
     "fldo67zoOMQsJN6xv": "William Modell Way",
@@ -4303,8 +4580,7 @@
     "fldrJjqRjjOeqKf72": "Alina Willis",
     "fldtVvLjk33gCUz6l": "26",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:42:17.000Z",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:42:17.000Z"
   },
   {
     "id": "rec5YAHBnwmUAW4Ih",
@@ -4334,14 +4610,14 @@
     "fldhQfkBDSPZjKjer": "An existing playground within Forest Park, located at Park Lane South and Abingdon Road",
     "fldhhf7THVqO69i5D": "Jewish",
     "fldim7SFpasPkKiOi": "July 6, 1929",
+    "fldlXDuTBOAjXyVTC": true,
     "fldmpgqHheHG4ASnx": "Brooklyn, NY",
     "fldnTs1VeBJjhO1Ga": "11418",
     "fldo67zoOMQsJN6xv": "William Sobelsohn Playground",
     "fldrJjqRjjOeqKf72": "Alina Willis",
     "fldtVvLjk33gCUz6l": "29",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:42:16.000Z",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:42:16.000Z"
   },
   {
     "id": "recOg48FNnwDgIEIr",
@@ -4374,6 +4650,7 @@
     "fldim7SFpasPkKiOi": "7/8/1985",
     "fldirBebD4ZoJeWfC": "Council Member Miller",
     "fldkkbT5XhwsGbnC9": "Z Da Great",
+    "fldlXDuTBOAjXyVTC": true,
     "fldmpgqHheHG4ASnx": "Hanover, Jamaica",
     "fldnTs1VeBJjhO1Ga": "11423",
     "fldo67zoOMQsJN6xv": "Zanu G. Simpson Way",
@@ -4382,8 +4659,7 @@
     "fldtVvLjk33gCUz6l": "27",
     "fldxddBxzQcA4yv0A": " 99th Avenue and Hollis Avenue",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:41:33.000Z",
-    "fldlXDuTBOAjXyVTC": true
+    "fldGc8Yu4R85MSed4": "2022-09-23T19:41:33.000Z"
   },
   {
     "id": "recpuyBCsECroEIV7",
