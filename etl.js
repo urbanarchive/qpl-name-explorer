@@ -72,7 +72,14 @@ Promise.all([getDataRecursive(locationsData), getDataRecursive(librariesData)]) 
   .then(([locations, libraries]) => {
     // merge in and normalize qpl location data
     return [
-      ...locations,
+      ...locations.map(loc => {
+        const countUnique = locations.filter(a => a[LOCATIONS.COORDS] === (loc[LOCATIONS.COORDS])).length;
+
+        return {
+          IS_UNIQUE: countUnique === 1,
+          ...loc,
+        }
+      }),
       ...libraries.map(l => ({
         id: l.id,
         [LOCATIONS.PLACE_NAME]: l['fldeeMEzOJWI4wTCM'],

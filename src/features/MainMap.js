@@ -50,9 +50,7 @@ function MainMap({ monuments, onLoad }) {
         type: 'FeatureCollection',
         features: monuments.features
           .filter((m, index, array) => {
-            const countUnique = array.filter(a => a.properties[MONUMENT.COORDS] === (m.properties[MONUMENT.COORDS])).length;
-
-            return m.properties[MONUMENT.IS_PRIMARY] || countUnique === 1;
+            return m.properties[MONUMENT.IS_PRIMARY] || m.properties.IS_UNIQUE;
           })
           // surface non-library icons
           .sort((a, b) => {
