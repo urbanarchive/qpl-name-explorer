@@ -9,6 +9,7 @@ import SupportingLayers from './SupportingLayers';
 import MONUMENT from '../models/monument';
 import Map from "../ui/Map";
 import { getIconFromMonumentType } from '../models/monument';
+import { resultFactory } from '../models/monument';
 
 export const SimpleMarker = ({ src, className, ...props }) => {
   return (
@@ -56,11 +57,25 @@ export const addMapboxMarker = (markerComponent, loc, map, options = {}) => {
 function MainMap({ monuments, onLoad }) {
   const navigate = useNavigate();
   const [mapInstance, setMapInstance] = useState();
+
   const didLoad = (map) => {
     setMapInstance(map);
   };
+
   const handleClick = (feature) => {
-    const { properties: { [MONUMENT.COORDS]: coords } } = feature;
+    const { properties: { [MONUMENT.COORDS]: coords, [MONUMENT.TYPE]: type, IS_UNIQUE } } = feature;
+
+    if (type === 'Library') {
+      return;
+    }
+
+    if (IS_UNIQUE) {
+      const result = resultFactory(feature);
+
+      navigate(`/monuments/${result.slug}`);
+
+      return;
+    }
 
     navigate(`/monuments?key=${MONUMENT.COORDS}&value=${coords}`);
   };
@@ -89,18 +104,6 @@ function MainMap({ monuments, onLoad }) {
 
       // markers
       uniqueLocations.features.forEach(f => {
-        // const ref = createRef();
-        // ref.current = document.createElement("div");
-
-        // // Render a Marker Component on our new DOM node
-        // ReactDOM.render(
-        //   <Marker onClick={handleClick} feature={f} />,
-        //   ref.current
-        // );
-
-        // new mapboxgl.Marker(ref.current)
-        //   .setLngLat(f.geometry.coordinates)
-        //   .addTo(mapInstance);
         addMapboxMarker(<Marker onClick={handleClick} feature={f} />, f.geometry.coordinates, mapInstance);
       });
 

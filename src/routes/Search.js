@@ -33,8 +33,7 @@ function Search({ monuments }) {
     if (map && monuments) {
       const primaryLocation = filteredLocations.features.filter(f => f.properties[MONUMENT.IS_PRIMARY] || f.properties.IS_UNIQUE)[0];
 
-      // TODO: Unsure about when to fit bounds or not...
-      if (primaryLocation) {
+      if (primaryLocation && filter.key === MONUMENT.COORDS) {
         const makeActiveLocationEffect = makeActiveLocationSelection(map, primaryLocation.geometry.coordinates);
 
         return () => {
