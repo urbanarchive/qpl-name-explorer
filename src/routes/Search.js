@@ -5,6 +5,7 @@ import ListResult from '../ui/ListResult';
 import { MapContext } from './App';
 import MONUMENT from '../models/monument';
 import { MONUMENT_TYPES } from '../models/monument';
+import { makeActiveLocationSelection } from './Detail';
 
 const LOCATION_TYPES = MONUMENT_TYPES
   .filter((_curr, index) => (index % 2) === 0)
@@ -20,24 +21,29 @@ function Search({ monuments }) {
     value: params.get('value'),
   };
 
-  useEffect(() => {
-    if (map && monuments) {
-      // TODO: Unsure about when to fit bounds or not...
-      // map.fitBounds(bbox(monuments), {
-      //   // TODO: reference the content pane for this information
-      //   ...DEFAULT_PADDING,
-      // });
-    }
-  }, [map, monuments]);
-
   const filteredLocations = {
-    ...monuments,
     features: monuments?.features.filter(m => {
       if (!filter.key || !filter.value) return true;
 
       return filter.value.includes(m.properties[filter.key]);
-    })
+    }) ?? [],
   };
+
+  useEffect(() => {
+    if (map && monuments) {
+      const primaryLocation = filteredLocations.features.filter(f => f.properties[MONUMENT.IS_PRIMARY] || f.properties.IS_UNIQUE)[0];
+
+      // TODO: Unsure about when to fit bounds or not...
+      if (primaryLocation) {
+        const makeActiveLocationEffect = makeActiveLocationSelection(map, primaryLocation.geometry.coordinates);
+
+        return () => {
+          makeActiveLocationEffect();
+        }
+      }
+    }
+  }, [map, monuments, filteredLocations.features]);
+
 
   const handleFilterChange = (selection, keyName) => {
     selection ? setFilterParams({ key: keyName, value: [selection.value] }) : setFilterParams({});
