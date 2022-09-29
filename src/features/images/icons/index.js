@@ -5,6 +5,7 @@ import monument from './monument.png';
 import park from './park.png';
 import school from './school.png';
 import street from './street.png';
+import selected from './selected.png';
 
 const ICONS = {
   building,
@@ -14,6 +15,7 @@ const ICONS = {
   park,
   school,
   street,
+  selected,
 };
 
 export default ICONS;

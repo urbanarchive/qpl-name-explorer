@@ -10,23 +10,48 @@ import MONUMENT from '../models/monument';
 import Map from "../ui/Map";
 import { getIconFromMonumentType } from '../models/monument';
 
-const Marker = ({ onClick, children, feature }) => {
+export const SimpleMarker = ({ src, className, ...props }) => {
+  return (
+    <img
+      src={src}
+      alt="map marker"
+      className={`marker cursor-pointer w-6 h-6 opacity-85 hover:scale-125 duration-100 ${className}`}
+      {...props}
+    />
+  );
+}
+
+export const Marker = ({ onClick, children, feature }) => {
   const _onClick = () => {
     onClick(feature);
   };
   const icon = getIconFromMonumentType(feature.properties);
 
-  return (<>
-    <img
+  return (
+    <SimpleMarker
       src={icon}
       alt='icon'
       onClick={_onClick}
       data-tip
       data-for={feature.properties.id}
-      className="marker cursor-pointer w-6 h-6 opacity-85 hover:scale-125 duration-100"
     />
-  </>);
+  );
 };
+
+export const addMapboxMarker = (markerComponent, loc, map, options = {}) => {
+  const ref = createRef();
+  ref.current = document.createElement("div");
+
+  // Render a Marker Component on our new DOM node
+  ReactDOM.render(
+    markerComponent,
+    ref.current
+  );
+
+  return new mapboxgl.Marker({ element: ref.current, ...options })
+    .setLngLat(loc)
+    .addTo(map);
+}
 
 function MainMap({ monuments, onLoad }) {
   const navigate = useNavigate();
@@ -64,18 +89,19 @@ function MainMap({ monuments, onLoad }) {
 
       // markers
       uniqueLocations.features.forEach(f => {
-        const ref = createRef();
-        ref.current = document.createElement("div");
+        // const ref = createRef();
+        // ref.current = document.createElement("div");
 
-        // Render a Marker Component on our new DOM node
-        ReactDOM.render(
-          <Marker onClick={handleClick} feature={f} />,
-          ref.current
-        );
+        // // Render a Marker Component on our new DOM node
+        // ReactDOM.render(
+        //   <Marker onClick={handleClick} feature={f} />,
+        //   ref.current
+        // );
 
-        new mapboxgl.Marker(ref.current)
-          .setLngLat(f.geometry.coordinates)
-          .addTo(mapInstance);
+        // new mapboxgl.Marker(ref.current)
+        //   .setLngLat(f.geometry.coordinates)
+        //   .addTo(mapInstance);
+        addMapboxMarker(<Marker onClick={handleClick} feature={f} />, f.geometry.coordinates, mapInstance);
       });
 
       // tooltips

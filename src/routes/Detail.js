@@ -5,7 +5,10 @@ import MONUMENT from '../models/monument';
 import { MapContext } from './App';
 import { resultFactory } from '../models/monument';
 import { DEFAULT_PADDING } from '../ui/Map';
+import { addMapboxMarker } from '../features/MainMap';
+import { SimpleMarker } from '../features/MainMap';
 import parse from 'html-react-parser';
+import ICONS from '../features/images/icons';
 
 function extractMonumentIdentifier(slug) {
   return slug.split('-').reverse()[0];
@@ -25,6 +28,17 @@ function Detail({ monuments }) {
 
       if (map) {
         map.easeTo({ center: monument.geometry.coordinates, zoom: 14, ...DEFAULT_PADDING  });
+
+        if (monument.properties) {
+          const marker = addMapboxMarker(<SimpleMarker
+              className={'w-auto h-auto'}
+              src={ICONS['selected']}
+            />, monument.geometry.coordinates, map, { anchor: 'bottom', offset: [0, 20] });
+
+          return () => {
+            marker.remove();
+          };
+        }
       }
     }
   }, [id, monuments, map]);
