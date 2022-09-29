@@ -41,7 +41,7 @@ function Search({ monuments }) {
         }
       }
     }
-  }, [map, monuments, filteredLocations.features]);
+  }, [map, monuments, filteredLocations.features, filter.key]);
 
 
   const handleFilterChange = (selection, keyName) => {
