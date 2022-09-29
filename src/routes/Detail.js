@@ -16,7 +16,10 @@ export const DEFAULT_DETAIL_ZOOM = {
 }
 
 export const makeActiveLocationSelection = (map, coords) => {
-  map.easeTo({ center: coords, ...DEFAULT_DETAIL_ZOOM  });
+  const { zoom, ...otherDefaults } = DEFAULT_DETAIL_ZOOM;
+  const currentZoom = map.getZoom();
+
+  map.easeTo({ center: coords, ...otherDefaults, zoom: (currentZoom < zoom) ? zoom : currentZoom });
 
   if (coords) {
     const marker = addMapboxMarker(<SimpleMarker

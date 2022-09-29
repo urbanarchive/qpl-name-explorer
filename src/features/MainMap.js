@@ -22,7 +22,7 @@ export const SimpleMarker = ({ src, className, ...props }) => {
   );
 }
 
-export const Marker = ({ onClick, children, feature }) => {
+export const Marker = ({ onClick, children, feature, ...props }) => {
   const _onClick = () => {
     onClick(feature);
   };
@@ -35,6 +35,7 @@ export const Marker = ({ onClick, children, feature }) => {
       onClick={_onClick}
       data-tip
       data-for={feature.properties.id}
+      {...props}
     />
   );
 };
@@ -104,7 +105,12 @@ function MainMap({ monuments, onLoad }) {
 
       // markers
       uniqueLocations.features.forEach(f => {
-        addMapboxMarker(<Marker onClick={handleClick} feature={f} />, f.geometry.coordinates, mapInstance);
+        const isInteractive = f.properties[MONUMENT.TYPE] === 'Library';
+        addMapboxMarker(<Marker
+            onClick={handleClick}
+            feature={f}
+            {...{ className: isInteractive ? 'cursor-grab' : '' }}
+          />, f.geometry.coordinates, mapInstance);
       });
 
       // tooltips
