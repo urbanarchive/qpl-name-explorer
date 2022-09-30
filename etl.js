@@ -127,10 +127,13 @@ Promise.all([getDataRecursive(locationsData), getDataRecursive(librariesData), g
   .catch(e => core.setFailed(e));
 
 function jsonToGeoJson(json) {
+  const toCoordinates = (row) => row.split(',').reverse().map(c => parseFloat(c.trim()));
+  const hasValidCoordinates = (row) => toCoordinates(row).every(parseFloat);
+
   return  {
     type: 'FeatureCollection',
     features: json
-      .filter(row => !!row[LOCATIONS.COORDS])
+      .filter(row => hasValidCoordinates(row[LOCATIONS.COORDS]))
       .map(row => {
         return {
           type: 'Feature',
@@ -139,7 +142,7 @@ function jsonToGeoJson(json) {
           },
           geometry: {
             type: 'Point',
-            coordinates: row[LOCATIONS.COORDS].split(',').reverse().map(c => parseFloat(c.trim())),
+            coordinates: toCoordinates(row[LOCATIONS.COORDS]),
           },
         }
       })
