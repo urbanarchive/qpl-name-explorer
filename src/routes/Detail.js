@@ -10,6 +10,7 @@ import { SimpleMarker } from '../features/MainMap';
 import parse from 'html-react-parser';
 import ICONS from '../features/images/icons';
 import { TOUR } from '../models/monument';
+import bbox from '@turf/bbox';
 
 const LocationImage = ({ src }) => 
   <img alt="Location image" className='w-full' src={src}/>
@@ -22,13 +23,7 @@ const LocationHeader = ({ src, alt, type, name }) => <div className='p-4'>
   <h1 className='text-3xl font-feather'>{name}</h1>
 </div>
 
-const AssetView = ({ location }) => <>
-  <LocationHeader
-    src={location?.iconData}
-    alt={location?.properties[MONUMENT.TYPE]}
-    type={location?.properties[MONUMENT.TYPE]}
-    name={location?.properties[MONUMENT.PLACE_NAME]}
-  />
+const LocationBody = ({ location }) => <>
   {!!location?.properties[MONUMENT.IMAGES]?.length && <LocationImage src={location?.properties[MONUMENT.IMAGES][0].url}/>}
   {location?.properties[MONUMENT.CITATION] &&
     <p className='text-sm p-1 text-right'>{location?.properties[MONUMENT.CITATION]}</p>
@@ -45,10 +40,42 @@ const AssetView = ({ location }) => <>
   </div>
 </>;
 
-const TourView = ({ location, locations }) => {
-  if (!location || !locations) return;
+const AssetView = ({ location, map }) => {
+  useEffect(() => {
+    if (map) {
+      const makeActiveLocationEffect = makeActiveLocationSelection(map, location.geometry.coordinates);
 
-  const stops = locations.features.filter(loc => location.properties[TOUR.IMAGES].includes(loc.properties.id));
+      return () => {
+        makeActiveLocationEffect();
+      }
+    }
+  });
+
+  return <>
+    <LocationHeader
+      src={location?.iconData}
+      alt={location?.properties[MONUMENT.TYPE]}
+      type={location?.properties[MONUMENT.TYPE]}
+      name={location?.properties[MONUMENT.PLACE_NAME]}
+    />
+    <LocationBody location={location}/>
+  </>;
+};
+
+const TourView = ({ location, locations, map }) => {
+  const stops = locations.features
+    .filter(loc => location.properties[TOUR.IMAGES].includes(loc.properties.id))
+    .map(resultFactory);
+
+  useEffect(() => {
+    if (map) {
+      const effect = makeActiveTourEffect(map, stops);
+
+      return () => {
+        effect();
+      }
+    }
+  });
 
   return <>
     <LocationHeader
@@ -57,9 +84,14 @@ const TourView = ({ location, locations }) => {
       type={'Tour'}
       name={location?.properties[MONUMENT.PLACE_NAME]}
     />
-    {stops.map((stop, id) => <div key={id}>
-      <h2 className='text-lg'>{stop.properties[MONUMENT.PLACE_NAME]}</h2>
-      {stop.properties[MONUMENT.IMAGES]?.map(image => <LocationImage src={image.url} />)}
+    {stops.map((stop, index) => <div className={index} key={index}>
+      <LocationHeader
+        src={stop?.iconData}
+        alt={stop?.properties[MONUMENT.TYPE]}
+        type={stop?.properties[MONUMENT.TYPE]}
+        name={`${index + 1}. ${stop?.properties[MONUMENT.PLACE_NAME]}`}
+      />
+      <LocationBody location={stop}/>
     </div>)}
   </>
 };
@@ -87,6 +119,27 @@ export const makeActiveLocationSelection = (map, coords) => {
   }
 }
 
+export const makeActiveTourEffect = (map, stops) => {
+  const bounds = bbox({ type: 'FeatureCollection', features: stops });
+
+  map.fitBounds(bounds, { ...DEFAULT_PADDING });
+
+  if (stops) {
+    const markers = stops.map((stop, index) => addMapboxMarker(<SimpleMarker
+      className={'w-auto h-auto relative'}
+      src={ICONS['selected']}
+    >
+      <div className='absolute w-full h-full top-0 text-center pt-1'>
+        <span className='p-1 text-2xl'>{index + 1}</span>
+      </div>
+    </SimpleMarker>, stop.geometry.coordinates, map, { anchor: 'bottom', offset: [0, 20] }));
+
+    return () => {
+      markers.forEach(marker => marker.remove());
+    };
+  }
+}
+
 function extractlocationIdentifier(slug) {
   return slug.split('-').reverse()[0];
 }
@@ -102,20 +155,14 @@ function Detail({ monuments: locations }) {
       const location = locations.features.find(m => m.properties.id === id);
 
       setlocation(resultFactory(location));
-
-      if (map) {
-        const makeActiveLocationEffect = makeActiveLocationSelection(map, location.geometry.coordinates);
-
-        return () => {
-          makeActiveLocationEffect();
-        }
-      }
     }
-  }, [id, locations, map]);
+  }, [id, locations]);
+
+  if (!location) return;
 
   return <main>
-    {location?.properties?.LOCATION_TYPE === 'ASSET' && <AssetView location={location}/>}
-    {location?.properties?.LOCATION_TYPE === 'TOUR' && <TourView location={location} locations={locations} />}
+    {location?.properties?.LOCATION_TYPE === 'ASSET' && <AssetView location={location} map={map}/>}
+    {location?.properties?.LOCATION_TYPE === 'TOUR' && <TourView location={location} locations={locations} map={map} />}
   </main>;
 }
 

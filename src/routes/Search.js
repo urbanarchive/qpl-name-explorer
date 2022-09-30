@@ -23,7 +23,7 @@ function Search({ monuments }) {
 
   const filteredLocations = useMemo(() => monuments?.features.filter(m => {
     if (!filter.key || !filter.value) return true;
-    console.log(m.properties[filter.key], filter.value);
+
     return filter.value.includes(m.properties[filter.key]);
   }), [filter.key, filter.value, monuments?.features]);
 

@@ -11,15 +11,16 @@ import Map from "../ui/Map";
 import { getIconFromMonumentType } from '../models/monument';
 import { resultFactory } from '../models/monument';
 
-export const SimpleMarker = ({ src, className, ...props }) => {
-  return (
+export const SimpleMarker = ({ src, className, children, ...props }) => {
+  return (<div>
     <img
       src={src}
       alt="map marker"
       className={`marker cursor-pointer w-6 h-6 opacity-85 hover:scale-125 duration-100 ${className}`}
       {...props}
     />
-  );
+    {children}
+  </div>);
 }
 
 export const Marker = ({ onClick, children, feature, ...props }) => {
