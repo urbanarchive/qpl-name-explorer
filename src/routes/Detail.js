@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
-import React, { useEffect, useState, useContext } from 'react'
+import React, { useEffect, useState, useContext, useRef } from 'react'
 import { useParams } from "react-router-dom";
 import MONUMENT from '../models/monument';
 import { MapContext } from './App';
@@ -63,6 +63,7 @@ const AssetView = ({ location, map }) => {
 };
 
 const TourView = ({ location, locations, map }) => {
+  const elementRef = useRef();
   const stops = locations.features
     .filter(loc => location.properties[TOUR.IMAGES].includes(loc.properties.id))
     .map(resultFactory);
@@ -77,7 +78,7 @@ const TourView = ({ location, locations, map }) => {
     }
   });
 
-  return <>
+  return <div ref={elementRef}>
     <LocationHeader
       src={ICONS.library}
       alt={'tour'}
@@ -93,7 +94,7 @@ const TourView = ({ location, locations, map }) => {
       />
       <LocationBody location={stop}/>
     </div>)}
-  </>
+  </div>
 };
 
 export const DEFAULT_DETAIL_ZOOM = {
@@ -121,8 +122,9 @@ export const makeActiveLocationSelection = (map, coords) => {
 
 export const makeActiveTourEffect = (map, stops) => {
   const bounds = bbox({ type: 'FeatureCollection', features: stops });
+  const isNotPadded = Object.values(map.getPadding()).every(num => num === 0)
 
-  map.fitBounds(bounds, { ...DEFAULT_PADDING });
+  map.fitBounds(bounds, { ...(isNotPadded ? DEFAULT_PADDING : {}) });
 
   if (stops) {
     const markers = stops.map((stop, index) => addMapboxMarker(<SimpleMarker

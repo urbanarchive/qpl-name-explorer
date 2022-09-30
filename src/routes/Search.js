@@ -57,10 +57,10 @@ function Search({ monuments }) {
         placeholder="Filter..."
       />
     </div>
-    {filteredLocations?.map(f=><ListResult key={f.properties.id} result={f} />)}
+    {filteredLocations?.splice(0,30).map(f=><ListResult key={f.properties.id} result={f} />)}
     {(filteredLocations?.length === 0) && <>
       <div className='p-4'>No matches for "{filter.value}". Showing all:</div>
-      {monuments?.features?.map(f=><ListResult key={f.properties.id} result={f} />)}
+      {monuments?.features?.splice(0,30).map(f=><ListResult key={f.properties.id} result={f} />)}
     </>}
   </>;
 }
