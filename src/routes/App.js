@@ -42,6 +42,7 @@ function App() {
                 <Route path="/" element={<Splash/>} />
                 <Route path="/monuments" element={<Search monuments={monuments} />} />
                 <Route path="/monuments/:slug" element={monuments?.features && <Detail monuments={monuments} />} />
+                <Route path="/tours/:slug" element={monuments?.features && <Detail monuments={monuments}></Detail>} />
               </Routes>
             </div>
           </div>

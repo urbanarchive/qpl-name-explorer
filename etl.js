@@ -31,10 +31,20 @@ const LIBRARIES = {
   view: 'Grid view',
   returnFieldsByFieldId: true,
 };
+const TOURS = {
+  path: '/v0/appS1fzGsI76K6IPO/Tours',
+  view: 'Public',
+  returnFieldsByFieldId: true,
+
+  NAME: 'fld6TCPloQX95dOVJ',
+  IMAGES: 'fldsqdIWbpl4GXLJu',
+  DESCRIPTION: 'fldfcR7YEf8T5M0by',
+};
 const locationsData = `${AIRTABLE.domain}${LOCATIONS.path}?returnFieldsByFieldId=${LOCATIONS.returnFieldsByFieldId}&view=${LOCATIONS.view}&filterByFormula=${LOCATIONS.filterByFormula}`;
 const librariesData = `${AIRTABLE.domain}${LIBRARIES.path}?returnFieldsByFieldId=${LIBRARIES.returnFieldsByFieldId}&view=${LIBRARIES.view}`;
+const toursData = `${AIRTABLE.domain}${TOURS.path}?returnFieldsByFieldId=${TOURS.returnFieldsByFieldId}&view=${TOURS.view}`;
 const dataFolder = '/public/data';
-const pathToData = (ext = '.json') => path.join(__dirname, dataFolder, 'monuments') + ext;
+const pathToData = (name, ext = '.json') => path.join(__dirname, dataFolder, name) + ext;
 
 async function getDataRecursive(endpoint, offsetId) {
   let originalEndpoint = endpoint;
@@ -68,20 +78,36 @@ async function getDataRecursive(endpoint, offsetId) {
 }
 
 // execute and persist data
-Promise.all([getDataRecursive(locationsData), getDataRecursive(librariesData)]) // no top level await... yet
-  .then(([locations, libraries]) => {
-    // merge in and normalize qpl location data
+Promise.all([getDataRecursive(locationsData), getDataRecursive(librariesData), getDataRecursive(toursData)]) // no top level await... yet
+  .then(([locations, libraries, tours]) => {
     return [
+      // merge in tours
+      ...tours.map(t => {
+        const firstLocation = locations.find(loc => loc.id === t[TOURS.IMAGES][0]);
+
+        return {
+          LOCATION_TYPE: 'TOUR',
+          ...t,
+          [LOCATIONS.PLACE_NAME]: t[TOURS.NAME],
+          [LOCATIONS.COORDS]: firstLocation[LOCATIONS.COORDS],
+        }
+      }),
+
       ...locations.map(loc => {
         const countUnique = locations.filter(a => a[LOCATIONS.COORDS] === (loc[LOCATIONS.COORDS])).length;
 
         return {
-          IS_UNIQUE: countUnique === 1,
           ...loc,
+          LOCATION_TYPE: 'ASSET',
+          IS_UNIQUE: countUnique === 1,
+          [LOCATIONS.COORDS]: loc[LOCATIONS.COORDS].trim(),
         }
       }),
+
+      // merge in and normalize qpl location data
       ...libraries.map(l => ({
         id: l.id,
+        LOCATION_TYPE: 'MAP_REFERENCE',
         [LOCATIONS.PLACE_NAME]: l['fldeeMEzOJWI4wTCM'],
         [LOCATIONS.COORDS]: `${l['fldeI0ce6r8V7lx9R']}, ${l['fldzDXng4IKA1rBQZ']}`,
         [LOCATIONS.TYPE]: 'Library',
@@ -90,13 +116,13 @@ Promise.all([getDataRecursive(locationsData), getDataRecursive(librariesData)]) 
         [LOCATIONS.SUBMITTED_AT]: null,
         [LOCATIONS.IS_PRIMARY]: true,
         meta: l, // leave the library-specific values
-      }))
+      })),
     ];
   })
   .then((data) => {
     // persist data
-    fs.writeFileSync(path.resolve(pathToData('.json')), JSON.stringify(data, null, 2));
-    fs.writeFileSync(path.resolve(pathToData('.geojson')), JSON.stringify(jsonToGeoJson(data)));
+    fs.writeFileSync(path.resolve(pathToData('monuments', '.json')), JSON.stringify(data, null, 2));
+    fs.writeFileSync(path.resolve(pathToData('monuments', '.geojson')), JSON.stringify(jsonToGeoJson(data)));
   })
   .catch(e => core.setFailed(e));
 

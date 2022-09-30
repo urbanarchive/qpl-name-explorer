@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useContext, useEffect, useMemo } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import Select from 'react-select'
 import ListResult from '../ui/ListResult';
@@ -21,17 +21,15 @@ function Search({ monuments }) {
     value: params.get('value'),
   };
 
-  const filteredLocations = {
-    features: monuments?.features.filter(m => {
-      if (!filter.key || !filter.value) return true;
-
-      return filter.value.includes(m.properties[filter.key]);
-    }) ?? [],
-  };
+  const filteredLocations = useMemo(() => monuments?.features.filter(m => {
+    if (!filter.key || !filter.value) return true;
+    console.log(m.properties[filter.key], filter.value);
+    return filter.value.includes(m.properties[filter.key]);
+  }), [filter.key, filter.value, monuments?.features]);
 
   useEffect(() => {
     if (map && monuments) {
-      const primaryLocation = filteredLocations.features.filter(f => f.properties[MONUMENT.IS_PRIMARY] || f.properties.IS_UNIQUE)[0];
+      const primaryLocation = filteredLocations.filter(f => f.properties[MONUMENT.IS_PRIMARY] || f.properties.IS_UNIQUE)[0];
 
       if (primaryLocation && filter.key === MONUMENT.COORDS) {
         const makeActiveLocationEffect = makeActiveLocationSelection(map, primaryLocation.geometry.coordinates);
@@ -41,7 +39,7 @@ function Search({ monuments }) {
         }
       }
     }
-  }, [map, monuments, filteredLocations.features, filter.key]);
+  }, [map, monuments, filteredLocations, filter.key]);
 
 
   const handleFilterChange = (selection, keyName) => {
@@ -59,8 +57,8 @@ function Search({ monuments }) {
         placeholder="Filter..."
       />
     </div>
-    {filteredLocations?.features?.map(f=><ListResult key={f.properties.id} result={f} />)}
-    {(filteredLocations?.features?.length === 0) && <>
+    {filteredLocations?.map(f=><ListResult key={f.properties.id} result={f} />)}
+    {(filteredLocations?.length === 0) && <>
       <div className='p-4'>No matches for "{filter.value}". Showing all:</div>
       {monuments?.features?.map(f=><ListResult key={f.properties.id} result={f} />)}
     </>}
