@@ -84,7 +84,6 @@ const AssetView = ({ location, map }) => {
 const TourStop = ({ stopNumber, stop, map }) => {
   const elementRef = useRef(null);
   const executeScroll = () => elementRef.current.scrollIntoView({ behavior: 'smooth' });
-
   const isVisible = useOnScreen(elementRef);
 
   useEffect(() => {
@@ -92,9 +91,9 @@ const TourStop = ({ stopNumber, stop, map }) => {
       const marker = addMapboxMarker(
         <SelectedIconMarker
           onClick={() => executeScroll()}
-          className={`${isVisible && 'animate-ping'}`}
+          className={`${isVisible && 'animate-bounce'}`}
         >
-          <div className='absolute w-full h-full top-0 text-center pt-1 pointer-events-none'>
+          <div className={`${isVisible && 'animate-bounce'} absolute w-full h-full top-0 text-center pt-1 pointer-events-none`}>
             <span className='p-1 text-2xl'>{stopNumber + 1}</span>
           </div>
         </SelectedIconMarker>,
