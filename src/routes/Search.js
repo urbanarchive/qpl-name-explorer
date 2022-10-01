@@ -5,7 +5,7 @@ import ListResult from '../ui/ListResult';
 import { MapContext } from './App';
 import MONUMENT from '../models/monument';
 import { MONUMENT_TYPES } from '../models/monument';
-import { makeActiveLocationSelection } from './Detail';
+import { makeActiveLocationSelection } from '../features/Location';
 
 const LOCATION_TYPES = MONUMENT_TYPES
   .filter((_curr, index) => (index % 2) === 0)
