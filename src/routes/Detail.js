@@ -91,10 +91,10 @@ const TourStop = ({ stopNumber, stop, map }) => {
       const marker = addMapboxMarker(
         <SelectedIconMarker
           onClick={() => executeScroll()}
-          className={`${isVisible && 'animate-bounce'}`}
+          className={`${isVisible ? 'animate-bounce' : 'w-6 h-7'}`}
         >
           <div className={`${isVisible && 'animate-bounce'} absolute w-full h-full top-0 text-center pt-1 pointer-events-none`}>
-            <span className='p-1 text-2xl'>{stopNumber + 1}</span>
+            <span className={`p-1 ${isVisible ? 'text-2xl' : 'text-sm'}`}>{stopNumber + 1}</span>
           </div>
         </SelectedIconMarker>,
         stop.geometry.coordinates,
