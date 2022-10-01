@@ -64,7 +64,7 @@ export const addMapboxMarker = (markerComponent, loc, map, options = {}) => {
     .addTo(map);
 }
 
-function MainMap({ monuments, onLoad }) {
+function MainMap({ locations, onLoad }) {
   const navigate = useNavigate();
   const [mapInstance, setMapInstance] = useState();
 
@@ -82,12 +82,12 @@ function MainMap({ monuments, onLoad }) {
     if (IS_UNIQUE) {
       const result = resultFactory(feature);
 
-      navigate(`/monuments/${result.slug}`);
+      navigate(`/locations/${result.slug}`);
 
       return;
     }
 
-    navigate(`/monuments?key=${MONUMENT.COORDS}&value=${coords}`);
+    navigate(`/locations?key=${MONUMENT.COORDS}&value=${coords}`);
   };
 
   useEffect(() => {
@@ -95,10 +95,10 @@ function MainMap({ monuments, onLoad }) {
   }, [mapInstance]);
 
   useEffect(() => {
-    if (monuments && mapInstance) {
+    if (locations && mapInstance) {
       const uniqueLocations = {
         type: 'FeatureCollection',
-        features: monuments.features
+        features: locations.features
           .filter((m, index, array) => {
             return m.properties[MONUMENT.IS_PRIMARY] || m.properties.IS_UNIQUE;
           })
@@ -143,12 +143,12 @@ function MainMap({ monuments, onLoad }) {
       onLoad(mapInstance);
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [monuments, mapInstance]);
+  }, [locations, mapInstance]);
 
   return <>
-    {monuments && <Map
+    {locations && <Map
       onLoad={didLoad}
-      bounds={bbox(monuments)}
+      bounds={bbox(locations)}
     />}
     {mapInstance && <SupportingLayers map={mapInstance} />}
   </>;

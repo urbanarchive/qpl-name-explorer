@@ -12,7 +12,7 @@ const LOCATION_TYPES = MONUMENT_TYPES
   .map(t => ({ label: t, value: t }))
   .slice(0, -1); // removes last color options as it's the default
 
-function Search({ monuments }) {
+function Search({ locations }) {
   const map = useContext(MapContext);
   const [params, setSearchParams] = useSearchParams();
   const setFilterParams = (filter) => setSearchParams(filter);
@@ -21,14 +21,17 @@ function Search({ monuments }) {
     value: params.get('value'),
   };
 
-  const filteredLocations = useMemo(() => monuments?.features.filter(m => {
-    if (!filter.key || !filter.value) return true;
+  const filteredLocations = useMemo(() =>
+    locations?.features.filter(m => {
+      if (!filter.key || !filter.value) return true;
 
-    return filter.value.includes(m.properties[filter.key]);
-  }), [filter.key, filter.value, monuments?.features]);
+      return filter.value.includes(m.properties[filter.key]);
+    }),
+    [filter.key, filter.value, locations?.features],
+  );
 
   useEffect(() => {
-    if (map && monuments) {
+    if (map && locations) {
       const primaryLocation = filteredLocations.filter(f => f.properties[MONUMENT.IS_PRIMARY] || f.properties.IS_UNIQUE)[0];
 
       if (primaryLocation && filter.key === MONUMENT.COORDS) {
@@ -39,7 +42,7 @@ function Search({ monuments }) {
         }
       }
     }
-  }, [map, monuments, filteredLocations, filter.key]);
+  }, [map, locations, filteredLocations, filter.key]);
 
   const handleFilterChange = (selection, keyName) => {
     selection ? setFilterParams({ key: keyName, value: [selection.value] }) : setFilterParams({});
@@ -59,7 +62,7 @@ function Search({ monuments }) {
     {filteredLocations?.slice(0,30).map(f=><ListResult key={f.properties.id} result={f} />)}
     {(filteredLocations?.length === 0) && <>
       <div className='p-4'>No matches for "{filter.value}". Showing all:</div>
-      {monuments?.features?.slice(0,30).map(f=><ListResult key={f.properties.id} result={f} />)}
+      {locations?.features?.slice(0,30).map(f=><ListResult key={f.properties.id} result={f} />)}
     </>}
   </>;
 }

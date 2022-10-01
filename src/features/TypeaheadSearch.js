@@ -5,11 +5,11 @@ import MONUMENT from '../models/monument';
 const GEOSEARCH = (inputString) =>
   `https://geosearch.planninglabs.nyc/v1/autocomplete?text=${inputString}&focus.point.lon=-73.9579&focus.point.lat=40.7333`;
 
-function TypeaheadSearch({ monuments }) {
+function TypeaheadSearch({ locations }) {
   const navigate = useNavigate();
   const loadOptions = async (inputString, callback) => {
     // search by stringified attributes
-    const foundLocations = monuments?.features
+    const foundLocations = locations?.features
       .filter(f => JSON.stringify(f.properties).includes(inputString))
       .map(f => ({
         label: `${f.properties[MONUMENT.TYPE]}: ${f.properties[MONUMENT.PLACE_NAME]}`,
@@ -43,7 +43,7 @@ function TypeaheadSearch({ monuments }) {
       // TODO: find better approach than this
       window.location.hash = `#14/${value[1]}/${value[0]}`;
     } else {
-      navigate(`/monuments?key=${MONUMENT.COORDS}&value=${value}`);
+      navigate(`/locations?key=${MONUMENT.COORDS}&value=${value}`);
     }
   }
 

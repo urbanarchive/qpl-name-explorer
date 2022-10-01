@@ -3,8 +3,8 @@ import MONUMENT from '../models/monument';
 import { resultFactory } from '../models/monument';
 
 const ROUTES_BY_TYPE = {
-  MAP_REFERENCE: 'monuments',
-  ASSET: 'monuments',
+  MAP_REFERENCE: 'locations',
+  ASSET: 'locations',
   TOUR: 'tours',
 };
 

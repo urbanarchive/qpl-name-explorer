@@ -4,7 +4,7 @@ import TypeaheadSearch from '../features/TypeaheadSearch';
 import qplLogo from '../features/images/qpl_logo.png';
 import Modal from './Modal';
 
-function Header({ monuments }) {
+function Header({ locations }) {
   const [showModal, toggleModal] = useState(false);
 
   return <>
@@ -14,7 +14,7 @@ function Header({ monuments }) {
       </Link>
       <div className="flex h-8 w-80 items-center">
         <TypeaheadSearch
-          monuments={monuments}
+          locations={locations}
         />
       </div>
       <div onClick={() => toggleModal(true)} className="flex h-8 items-center bg-blue-500 text-white p-4 rounded-md cursor-pointer">

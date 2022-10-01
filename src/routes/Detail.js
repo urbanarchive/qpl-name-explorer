@@ -12,7 +12,7 @@ export const DEFAULT_DETAIL_ZOOM = {
   zoom: 14,
 }
 
-function Detail({ monuments: locations }) {
+function Detail({ locations }) {
   const map = useContext(MapContext);
   const [location, setlocation] = useState({});
   const { slug } = useParams();
