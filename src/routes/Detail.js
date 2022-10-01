@@ -6,11 +6,12 @@ import { MapContext } from './App';
 import { resultFactory } from '../models/monument';
 import { DEFAULT_PADDING } from '../ui/Map';
 import { addMapboxMarker } from '../features/MainMap';
-import { SimpleMarker } from '../features/MainMap';
+import { extractlocationIdentifier } from '../models/monument';
 import parse from 'html-react-parser';
 import ICONS from '../features/images/icons';
 import { TOUR } from '../models/monument';
 import bbox from '@turf/bbox';
+import { SelectedIconMarker } from '../features/MainMap';
 
 const LocationImage = ({ src }) => 
   <img alt="Location image" className='w-full' src={src}/>
@@ -62,8 +63,43 @@ const AssetView = ({ location, map }) => {
   </>;
 };
 
+const TourStop = ({ stopNumber, stop, map }) => {
+  const elementRef = useRef(null);
+  const executeScroll = () => elementRef.current.scrollIntoView({ behavior: 'smooth' });
+
+  useEffect(() => {
+    if (map) {
+      const marker = addMapboxMarker(
+        <SelectedIconMarker
+          onClick={() => executeScroll()}
+        >
+          <div className='absolute w-full h-full top-0 text-center pt-1 pointer-events-none'>
+            <span className='p-1 text-2xl'>{stopNumber + 1}</span>
+          </div>
+        </SelectedIconMarker>,
+        stop.geometry.coordinates,
+        map,
+        { anchor: 'bottom', offset: [0, 20] }
+      );
+  
+      return () => {
+        marker.remove();
+      };
+    }
+  }, [map, stop.geometry.coordinates, stopNumber]);
+
+  return <div ref={elementRef} key={stopNumber}>
+    <LocationHeader
+      src={stop?.iconData}
+      alt={stop?.properties[MONUMENT.TYPE]}
+      type={stop?.properties[MONUMENT.TYPE]}
+      name={`${stopNumber + 1}. ${stop?.properties[MONUMENT.PLACE_NAME]}`}
+    />
+    <LocationBody location={stop}/>
+  </div>
+};
+
 const TourView = ({ location, locations, map }) => {
-  const elementRef = useRef();
   const stops = locations.features
     .filter(loc => location.properties[TOUR.IMAGES].includes(loc.properties.id))
     .map(resultFactory);
@@ -78,23 +114,15 @@ const TourView = ({ location, locations, map }) => {
     }
   });
 
-  return <div ref={elementRef}>
+  return <>
     <LocationHeader
       src={ICONS.library}
       alt={'tour'}
       type={'Tour'}
       name={location?.properties[MONUMENT.PLACE_NAME]}
     />
-    {stops.map((stop, index) => <div className={index} key={index}>
-      <LocationHeader
-        src={stop?.iconData}
-        alt={stop?.properties[MONUMENT.TYPE]}
-        type={stop?.properties[MONUMENT.TYPE]}
-        name={`${index + 1}. ${stop?.properties[MONUMENT.PLACE_NAME]}`}
-      />
-      <LocationBody location={stop}/>
-    </div>)}
-  </div>
+    {stops.map((stop, index) => <TourStop key={index} stopNumber={index} stop={stop} map={map} />)}
+  </>
 };
 
 export const DEFAULT_DETAIL_ZOOM = {
@@ -109,10 +137,12 @@ export const makeActiveLocationSelection = (map, coords) => {
   map.easeTo({ center: coords, ...otherDefaults, zoom: (currentZoom < zoom) ? zoom : currentZoom });
 
   if (coords) {
-    const marker = addMapboxMarker(<SimpleMarker
-        className={'w-auto h-auto'}
-        src={ICONS['selected']}
-      />, coords, map, { anchor: 'bottom', offset: [0, 20] });
+    const marker = addMapboxMarker(
+      <SelectedIconMarker />,
+      coords,
+      map,
+      { anchor: 'bottom', offset: [0, 20] }
+    );
 
     return () => {
       marker.remove();
@@ -125,25 +155,6 @@ export const makeActiveTourEffect = (map, stops) => {
   const isNotPadded = Object.values(map.getPadding()).every(num => num === 0)
 
   map.fitBounds(bounds, { ...(isNotPadded ? DEFAULT_PADDING : {}) });
-
-  if (stops) {
-    const markers = stops.map((stop, index) => addMapboxMarker(<SimpleMarker
-      className={'w-auto h-auto relative'}
-      src={ICONS['selected']}
-    >
-      <div className='absolute w-full h-full top-0 text-center pt-1'>
-        <span className='p-1 text-2xl'>{index + 1}</span>
-      </div>
-    </SimpleMarker>, stop.geometry.coordinates, map, { anchor: 'bottom', offset: [0, 20] }));
-
-    return () => {
-      markers.forEach(marker => marker.remove());
-    };
-  }
-}
-
-function extractlocationIdentifier(slug) {
-  return slug.split('-').reverse()[0];
 }
 
 function Detail({ monuments: locations }) {

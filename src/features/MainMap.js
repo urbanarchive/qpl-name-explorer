@@ -10,6 +10,15 @@ import MONUMENT from '../models/monument';
 import Map from "../ui/Map";
 import { getIconFromMonumentType } from '../models/monument';
 import { resultFactory } from '../models/monument';
+import ICONS from './images/icons';
+
+export const SelectedIconMarker = ({ className, children, ...props }) => <SimpleMarker
+  className={`w-auto h-auto ${className}`}
+  src={ICONS['selected']}
+  {...props}
+>
+  {children}
+</SimpleMarker>;
 
 export const SimpleMarker = ({ src, className, children, ...props }) => {
   return (<div>

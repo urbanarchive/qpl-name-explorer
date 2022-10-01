@@ -75,4 +75,8 @@ export const ICONS_BY_MONUMENT_TYPE = {
   'Library': ICONS['library'],
 };
 
+export function extractlocationIdentifier(slug) {
+  return slug.split('-').reverse()[0];
+}
+
 export default MONUMENT;
