@@ -2783,6 +2783,34 @@
       "Hebrew",
       "Greek"
     ],
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "atty6QJm1Iw8WnLrZ",
+        "width": 836,
+        "height": 1114,
+        "url": "https://dl.airtable.com/.attachments/1ee8faa578ab7362436b7c9245c1d178/b917d036/Clement_C._Moore.png",
+        "filename": "Clement Clarke Moore",
+        "size": 240034,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/506c08567f21d8fe06c5bb38ecf4dc27/4ca1d6ab",
+            "width": 27,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/eb38d1cc2ae34da318a4a7cb0a8641af/62c3cfa2",
+            "width": 512,
+            "height": 682
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/d1d2c545c0c6547ff6aec760b00adb3d/19cce1c6",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
     "fldhQfkBDSPZjKjer": "An existing triangular shaped park bounded by Broadway on the east, 45th Ave on the south, and 82nd St on the west",
     "fldim7SFpasPkKiOi": "July 15, 1779",
     "fldlXDuTBOAjXyVTC": true,
@@ -2792,7 +2820,7 @@
     "fldrJjqRjjOeqKf72": "Alina Willis",
     "fldtVvLjk33gCUz6l": "25",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-30T15:09:00.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-01T02:21:25.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -6675,6 +6703,74 @@
     "fldxddBxzQcA4yv0A": " Intersection of 233rd Street and Francis Lewis Boulevar",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
     "fldGc8Yu4R85MSed4": "2022-09-27T15:18:21.000Z",
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": true
+  },
+  {
+    "id": "rectTgpBgLpbxELyA",
+    "fld03C27tmVnEg1rP": "40.737344, -73.867795",
+    "fld18VKjlf9BGaE9N": "Clement Clarke Moore (1779–1863) was a professor of Oriental and Greek literature at New York's General Theological Seminary from 1823 to 1850. He also donated a large piece of land that he had inherited, located in Manhattan's Chelsea neighborhood, to the seminary. Moore wrote on a variety of topics but is best known today as the author of the enduringly popular Christmas poem, \"A Visit from St. Nicholas\" (also known as \"'Twas the Night Before Christmas\"). The poem was first published anonymously in 1823 and there has been debate over its true authorship; many scholars believe it was actually written by Henry Livingston, Jr., but decisive proof has been elusive. \n\nThe Moore family was among the earliest settlers of Elmhurst, Queens, having been granted 80 acres there in the mid-1600s. The Moore Homestead Park, also in Elmhurst, is named in the family's honor.",
+    "fld3zcPVX14gMRFd1": "P.S. 013 Clement C. Moore",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldAHhNbaHDTgQ4ao": "Clement Clarke Moore",
+    "fldAc9y87n6QRJQHv": "Engraving by J. W. Evans, December 1897 (public domain), https://www.poetryfoundation.org/poets/clement-clarke-moore",
+    "fldCwcnz1yvlpDv1D": "\"Clement Clarke Moore,\" Poetry Foundation, accessed September 30, 2022, <https://www.poetryfoundation.org/poets/clement-clarke-moore>\n\n\"Clement Clarke Moore,\" Britannica, accessed September 30, 2022,  <https://www.britannica.com/biography/Clement-Clarke-Moore> \n\n\"Moore Homestead Playground**,\" **New York City Department of Parks & Recreation, accessed September 30, 2022, <https://www.nycgovparks.org/parks/moore-homestead-playground/history>\n\n",
+    "fldEdvOGWNqX5OImX": "Facilities Database  (NYC Open Data)",
+    "fldF1jFzlXZGeH9LP": [
+      "Arts & Entertainment",
+      "Education and Research"
+    ],
+    "fldKz0noCVXmoj4UV": "Elmhurst",
+    "fldLjcdfwIByZ68aX": "July 10, 1863",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fldPMX16WqfXNhJ02": "He/him/his",
+    "fldTAhZe07uxxeoJc": "4",
+    "fldTGROls2PhrOiQU": "Clement Clarke Moore (1779–1863) was a professor of Oriental and Greek literature at New York's General Theological Seminary from 1823 to 1850. He also donated a large piece of land that he had inherited, located in Manhattan's Chelsea neighborhood, to the seminary. Moore wrote on a variety of topics but is best known today as the author of the enduringly popular Christmas poem, \"A Visit from St. Nicholas\" (also known as \"'Twas the Night Before Christmas\"). The poem was first published anonymously in 1823 and there has been debate over its true authorship; many scholars believe it was actually written by Henry Livingston, Jr., but decisive proof has been elusive. \n\nThe Moore family was among the earliest settlers of Elmhurst, Queens, having been granted 80 acres there in the mid-1600s. The Moore Homestead Park, also in Elmhurst, is named in the family's honor.",
+    "fldb2kOoaaol8IIiQ": "School",
+    "fldbxIVG5OzgGGvMj": [
+      "English"
+    ],
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "attqKEmsDtSxcUHPA",
+        "width": 836,
+        "height": 1114,
+        "url": "https://dl.airtable.com/.attachments/fc982d7eb05ce04660d39a26aa72b5a0/9d254f03/Clement_C._Moore.png",
+        "filename": "Clement C. Moore, 1897",
+        "size": 240034,
+        "type": "image/png",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/16561295869595dc9f3a5912a6e98e41/c117f252",
+            "width": 27,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/f4e4d0e7e28f85c2defb880b440e4d79/4cb073a8",
+            "width": 512,
+            "height": 682
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/b396987919f4a13697259e1bca4cda2b/fa289654",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "fldhQfkBDSPZjKjer": "55-01 94th Street",
+    "fldiT7GQqBoUlnanU": true,
+    "fldim7SFpasPkKiOi": "July 15, 1779",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldmpgqHheHG4ASnx": "New York, NY",
+    "fldnTs1VeBJjhO1Ga": "11373",
+    "fldo67zoOMQsJN6xv": "P.S. 013 Clement C. Moore",
+    "fldrJjqRjjOeqKf72": "Ellie Murray/Lori Wallach",
+    "fldtVvLjk33gCUz6l": "25",
+    "fldxddBxzQcA4yv0A": "55-01 94th Street",
+    "fld63z0I0JEzkE26Z": "2022-05-31T00:52:31.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-01T02:14:59.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
