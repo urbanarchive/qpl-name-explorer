@@ -13,6 +13,24 @@ import { TOUR } from '../models/monument';
 import bbox from '@turf/bbox';
 import { SelectedIconMarker } from '../features/MainMap';
 
+export function useOnScreen(ref) {
+
+  const [isIntersecting, setIntersecting] = useState(false)
+
+  const observer = new IntersectionObserver(
+    ([entry]) => setIntersecting(entry.isIntersecting)
+  )
+
+  useEffect(() => {
+    observer.observe(ref.current)
+    // Remove the observer as soon as the component is unmounted
+    return () => { observer.disconnect() }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [])
+
+  return isIntersecting
+}
+
 const LocationImage = ({ src }) => 
   <img alt="Location image" className='w-full' src={src}/>
 
@@ -67,11 +85,14 @@ const TourStop = ({ stopNumber, stop, map }) => {
   const elementRef = useRef(null);
   const executeScroll = () => elementRef.current.scrollIntoView({ behavior: 'smooth' });
 
+  const isVisible = useOnScreen(elementRef);
+
   useEffect(() => {
     if (map) {
       const marker = addMapboxMarker(
         <SelectedIconMarker
           onClick={() => executeScroll()}
+          className={`${isVisible && 'animate-ping'}`}
         >
           <div className='absolute w-full h-full top-0 text-center pt-1 pointer-events-none'>
             <span className='p-1 text-2xl'>{stopNumber + 1}</span>
@@ -86,9 +107,9 @@ const TourStop = ({ stopNumber, stop, map }) => {
         marker.remove();
       };
     }
-  }, [map, stop.geometry.coordinates, stopNumber]);
+  }, [map, stop.geometry.coordinates, stopNumber, isVisible]);
 
-  return <div ref={elementRef} key={stopNumber}>
+  return <><div ref={elementRef} key={stopNumber}>
     <LocationHeader
       src={stop?.iconData}
       alt={stop?.properties[MONUMENT.TYPE]}
@@ -96,7 +117,7 @@ const TourStop = ({ stopNumber, stop, map }) => {
       name={`${stopNumber + 1}. ${stop?.properties[MONUMENT.PLACE_NAME]}`}
     />
     <LocationBody location={stop}/>
-  </div>
+  </div><br/></>
 };
 
 const TourView = ({ location, locations, map }) => {
@@ -106,11 +127,7 @@ const TourView = ({ location, locations, map }) => {
 
   useEffect(() => {
     if (map) {
-      const effect = makeActiveTourEffect(map, stops);
-
-      return () => {
-        effect();
-      }
+      makeActiveTourEffect(map, stops);
     }
   });
 
