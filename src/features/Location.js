@@ -4,6 +4,7 @@ import { SelectedIconMarker } from '../features/MainMap';
 import LOCATION from '../models/location';
 import { DEFAULT_PADDING } from '../ui/Map';
 import parse from 'html-react-parser';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const DEFAULT_DETAIL_ZOOM = {
   ...DEFAULT_PADDING,
@@ -34,8 +35,22 @@ export const makeActiveLocationSelection = (map, coords) => {
   }
 }
 
-const LocationImage = ({ src }) => 
-  <img alt="Location" className='w-full' src={src}/>
+const AirtableImage = ({ location }) => {
+  if (location?.properties[LOCATION.IMAGES]?.length === 0);
+  const images = location.properties[LOCATION.IMAGES];
+
+  if (!images) return <></>;
+  console.log(images);
+  // {location?.properties[LOCATION.IMAGES]?.length && <AirtableImage src={location?.properties[LOCATION.IMAGES][0].url}/>}
+  return images.map(image => <LazyLoadImage
+    key={image.filename}
+    alt='Location'
+    wrapperClassName='w-full'
+    className='w-full'
+    src={image.url}
+    placeholderSrc={image.thumbnails.small.url}
+  />);
+}
 
 export const LocationHeader = ({ src, alt, type, name, children }) => <div className='p-4'>
   <h6 className='text-sm'>
@@ -49,7 +64,7 @@ export const LocationHeader = ({ src, alt, type, name, children }) => <div class
 </div>
 
 export const LocationBody = ({ location }) => <>
-  {!!location?.properties[LOCATION.IMAGES]?.length && <LocationImage src={location?.properties[LOCATION.IMAGES][0].url}/>}
+  <AirtableImage location={location}/>
   {location?.properties[LOCATION.CITATION] &&
     <p className='text-sm p-1 text-right'>{location?.properties[LOCATION.CITATION]}</p>
   }
