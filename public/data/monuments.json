@@ -5763,7 +5763,7 @@
     "fldAHhNbaHDTgQ4ao": "Louis Armstrong",
     "fldAc9y87n6QRJQHv": "Louis Armstrong, 1953, from Library of Congress Prints and Photographs, https://www.loc.gov/pictures/item/00652636/",
     "fldBF9keRqVy6aRau": true,
-    "fldCwcnz1yvlpDv1D": "Louis Armstrong House Museum, <https://www.louisarmstronghouse.org/>\n\n\"Louis Armstrong,\" Biography.com, <https://www.biography.com/musician/louis-armstrong>\n",
+    "fldCwcnz1yvlpDv1D": "Louis Armstrong House Museum, accessed October 1, 2022, <https://www.louisarmstronghouse.org/>\n\n\"Louis Armstrong,\" Biography.com, accessed October 1, 2022, <https://www.biography.com/musician/louis-armstrong>\n",
     "fldF1jFzlXZGeH9LP": [
       "Arts & Entertainment"
     ],
@@ -5819,7 +5819,7 @@
     "fldtVvLjk33gCUz6l": "21",
     "fldxddBxzQcA4yv0A": "34-56 107th Street",
     "fld63z0I0JEzkE26Z": "2022-06-15T01:14:46.000Z",
-    "fldGc8Yu4R85MSed4": "2022-07-05T16:56:18.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-01T17:10:25.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": false
   },
@@ -5880,7 +5880,7 @@
     "fldAHhNbaHDTgQ4ao": "Louis Armstrong",
     "fldAc9y87n6QRJQHv": "Louis Armstrong, 1953, from Library of Congress Prints and Photographs, https://www.loc.gov/pictures/item/006",
     "fldBF9keRqVy6aRau": true,
-    "fldCwcnz1yvlpDv1D": "Louis Armstrong House Museum, <https://www.louisarmstronghouse.org/>\n\n\"Louis Armstrong,\" Biography.com, <https://www.biography.com/musician/louis-armstrong>\n\nNew York City Department of Parks & Recreation, <https://www.nycgovparks.org/facilities/playgrounds/722>\n",
+    "fldCwcnz1yvlpDv1D": "Louis Armstrong House Museum, accessed October 1, 2022, <https://www.louisarmstronghouse.org/>\n\n\"Louis Armstrong,\" Biography.com, accessed October 1, 2022, <https://www.biography.com/musician/louis-armstrong>\n\n\"Louis Armstrong Playground,\" New York City Department of Parks & Recreation, accessed October 1, 2022, <https://www.nycgovparks.org/facilities/playgrounds/722>\n",
     "fldEdvOGWNqX5OImX": "Parks Properties (NYC Open Data)",
     "fldF1jFzlXZGeH9LP": [
       "Arts & Entertainment"
@@ -5938,7 +5938,7 @@
     "fldtVvLjk33gCUz6l": "21",
     "fldxddBxzQcA4yv0A": "34-40 113th Street",
     "fld63z0I0JEzkE26Z": "2022-05-31T00:52:31.000Z",
-    "fldGc8Yu4R85MSed4": "2022-07-05T16:56:20.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-01T17:09:16.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -6819,6 +6819,73 @@
     "IS_UNIQUE": true
   },
   {
+    "id": "rec4AUGmFKInkCXiM",
+    "fld03C27tmVnEg1rP": "40.761783, -73.810932",
+    "fld3zcPVX14gMRFd1": "P.S. 022 Thomas Jefferson",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldAHhNbaHDTgQ4ao": "U.S. President Thomas Jefferson",
+    "fldAc9y87n6QRJQHv": "\"Thomas Jefferson Exhibition Home,\" Library of Congress, https://www.loc.gov/exhibits/jefferson/?&loclr=reclnk ",
+    "fldCwcnz1yvlpDv1D": "\"Presidents: Thomas Jefferson,\" The White House, accessed October 1, 2022,\n<https://www.whitehouse.gov/about-the-white-house/presidents/thomas-jefferson/> \n\n\"Brief Biography of Thomas Jefferson,\" Monticello, accessed October 1, 2022,\n<https://www.monticello.org/thomas-jefferson/brief-biography-of-jefferson/>\n\n\"The Life of Sally Hemings,\" Monticello, accessed October 1, 2022, <https://www.monticello.org/sallyhemings/> \n\n",
+    "fldEdvOGWNqX5OImX": "Facilities Database  (NYC Open Data)",
+    "fldF1jFzlXZGeH9LP": [
+      "Government and Politics"
+    ],
+    "fldKz0noCVXmoj4UV": "Flushing",
+    "fldLjcdfwIByZ68aX": "July 4, 1826",
+    "fldPMX16WqfXNhJ02": "He/him/his",
+    "fldTAhZe07uxxeoJc": "7",
+    "fldTGROls2PhrOiQU": "Thomas Jefferson (1743-1826) was the third president of the United States and an American Founding Father. He was born on April 14, 1743, in Shadwell, Virginia, and quickly became a key figure in the American struggle for independence. A fierce advocate for liberty, Jefferson drafted the Declaration of Independence at 33 as a member of the Second Continental Congress.\n\nHe held many political offices throughout his life, serving as Governor of Virginia from 1779-81, U.S. Minister to France from 1784-90, and Secretary of State to George Washington from 1790-97. Jefferson often famously came into conflict with Alexander Hamilton, especially when Jefferson was Secretary of State and Hamilton was Secretary of the Treasury. Jefferson consistently advocated for a limited federal government and for states’ rights throughout his political career, while Hamilton advocated for the opposite. Jefferson was also Vice President during John Adams’ term as President, and was himself elected President in 1800, completing his second term in 1809. As President, one of his biggest achievements was the acquisition of the Louisiana Territory from Napoleon in 1803, and reducing the national debt significantly.  \n\nJefferson also established the University of Virginia at the age of seventy-six in his retirement, which he largely spent at Monticello, the plantation he inherited from his father. Jefferson also inherited slaves from his father and his father-in-law, most of whom were enslaved at Monticello. Many of those enslaved who worked in the house were of the Hemings family, one of whom was Sally Hemings. Jefferson was the father of at least six of Hemings’ children, and the first was born when Hemings was only 16. He was, however, conflicted about the moral implications regarding slavery. Jefferson died in Monticello on July 4, 1826, on the 50th anniversary of the ratification of the Declaration of Independence.",
+    "fldb2kOoaaol8IIiQ": "School",
+    "fldbxIVG5OzgGGvMj": [
+      "English"
+    ],
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "attOkGiK0HiVmWHOv",
+        "width": 500,
+        "height": 500,
+        "url": "https://dl.airtable.com/.attachments/3a6e811d538610581e8e25b96434854c/64d23f6a/thomasjefferson.jpg",
+        "filename": "Thomas Jefferson",
+        "size": 136326,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/315ea82fe893a9de94bd26c496c96cb0/d38f7b51",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/1fc8f506737c4f9e6997a73a103b7bc9/e12c6cb0",
+            "width": 500,
+            "height": 500
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/d3f804d589c14a4a6d73d3b394f1ebfe/6d351720",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "fldhQfkBDSPZjKjer": "153-33 Sanford Avenue",
+    "fldiT7GQqBoUlnanU": true,
+    "fldim7SFpasPkKiOi": "April 13, 1743",
+    "fldmpgqHheHG4ASnx": "Shadwell, Virginia",
+    "fldnTs1VeBJjhO1Ga": "11355",
+    "fldo67zoOMQsJN6xv": "P.S. 022 Thomas Jefferson",
+    "fldrJjqRjjOeqKf72": "Maryam Ahmad/Ellie Murray",
+    "fldtVvLjk33gCUz6l": "20",
+    "fldxddBxzQcA4yv0A": "153-33 Sanford Avenue",
+    "fld63z0I0JEzkE26Z": "2022-05-31T00:52:31.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-01T16:49:39.000Z",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fld18VKjlf9BGaE9N": "Thomas Jefferson (1743-1826) was the third president of the United States and an American Founding Father. He was born on April 14, 1743, in Shadwell, Virginia, and quickly became a key figure in the American struggle for independence. A fierce advocate for liberty, Jefferson drafted the Declaration of Independence at 33 as a member of the Second Continental Congress.\n\nHe held many political offices throughout his life, serving as Governor of Virginia (1779 -81), U.S. Minister to France (1784-90), and Secretary of State to George Washington (1790-97). Jefferson often famously came into conflict with Alexander Hamilton, especially when Jefferson was Secretary of State and Hamilton was Secretary of the Treasury. Jefferson consistently advocated for a limited federal government and for states’ rights throughout his political career, while Hamilton advocated for the opposite. Jefferson was also Vice President during John Adams’ term as President, and was himself elected President in 1800, completing his second term in 1809. As President, one of his biggest achievements was the acquisition of the Louisiana Territory from Napoleon in 1803, and reducing the national debt significantly.  \n\nJefferson also established the University of Virginia at the age of 76 in his retirement, which he largely spent at Monticello, the plantation he inherited from his father. Jefferson also inherited slaves from his father and his father-in-law, most of whom were enslaved at Monticello. Many of those enslaved who worked in the house were of the Hemings family, including Sally Hemings. Jefferson was the father of at least six of Hemings’ children, and the first was born when Hemings was only 16. He was, however, conflicted about the moral implications regarding slavery, and eventually freed all of Hemings' children. Jefferson died in Monticello on July 4, 1826, on the 50th anniversary of the ratification of the Declaration of Independence.",
+    "fldlXDuTBOAjXyVTC": true,
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": true
+  },
+  {
     "id": "recSNN26t42Hyu9nx",
     "fld03C27tmVnEg1rP": "40.751974, -73.818100",
     "fld18VKjlf9BGaE9N": "Andrew Jackson was the seventh president of the United States, serving from 1829 to 1837. Jackson was born on March 15, 1767, in Waxhaws, near Lancaster, South Carolina. He was orphaned at 14, after his father died shortly after he was born, and his mother and brothers died during the Revolutionary War. He was the first man elected from Tennessee to the House of Representatives, and also served in the Senate. Jackson was a general during the War of 1812, and fought against the British successfully multiple times. He quickly gained renown for his feats during the war, and became one of the most widely respected figures in the military in the United States, especially after his force’s stunning victory at New Orleans against the British in 1815. Jackson was elected president in 1828.\n\nAs president, Jackson consolidated and frequently used his executive power, which invited critiques from Congress and his political opponents, the Whigs. He was watchful over government expenditures, managing to pay off the national debt in 1835. Jackson also advocated for the removal of Native American tribes to the west of the Mississippi River, claiming that the U.S. policy of trying to assimilate them into white society had failed. Congress authorized the Indian Removal Act in 1831, empowering Jackson to make treaties with the tribes and arrange their removal. More than 15,000 members of the Cherokee nation were forced to migrate to present-day Oklahoma. As many as 4,000 died on the journey known as the “Trail of Tears.”  \n\nJackson left office on March 7, 1837. He died on June 8, 1845, after fighting constant infections and pain. He was buried in the garden of his home, the Hermitage, two days later.",
@@ -6883,6 +6950,75 @@
     "fldxddBxzQcA4yv0A": "45-57 Union Street",
     "fld63z0I0JEzkE26Z": "2022-05-31T00:52:31.000Z",
     "fldGc8Yu4R85MSed4": "2022-09-21T17:37:46.000Z",
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": true
+  },
+  {
+    "id": "recTiDKGvNosprqT6",
+    "fld03C27tmVnEg1rP": "40.755801, -73.855963",
+    "fld3zcPVX14gMRFd1": "P.S. 143 Louis Armstrong",
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldAHhNbaHDTgQ4ao": "Louis Armstrong",
+    "fldAc9y87n6QRJQHv": "Louis Armstrong, 1953, from Library of Congress Prints and Photographs, https://www.loc.gov/pictures/item/00652636/",
+    "fldCwcnz1yvlpDv1D": "Louis Armstrong House Museum, accessed October 1, 2022,  <https://www.louisarmstronghouse.org/>\n\n\"Louis Armstrong,\" Biography.com, accessed October 1, 2022,  <https://www.biography.com/musician/louis-armstrong>\n",
+    "fldEdvOGWNqX5OImX": "Facilities Database  (NYC Open Data)",
+    "fldF1jFzlXZGeH9LP": [
+      "Arts & Entertainment"
+    ],
+    "fldKwhgXfbzaB1p1X": "Unknown photographer, 1953. Library of Congress.",
+    "fldKz0noCVXmoj4UV": "Corona",
+    "fldLjcdfwIByZ68aX": "July 6, 1971",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fldPMX16WqfXNhJ02": "He/him/his",
+    "fldTAhZe07uxxeoJc": "3",
+    "fldb2kOoaaol8IIiQ": "School",
+    "fldbxIVG5OzgGGvMj": [
+      "English"
+    ],
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "attByXSnuUMxhaAZR",
+        "width": 1024,
+        "height": 835,
+        "url": "https://dl.airtable.com/.attachments/f045d7d8f76430b7bcd9618faaf519ea/65664a71/LouisArmstrongLOC.jpg",
+        "filename": "Louis Armstrong, 1953",
+        "size": 96259,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/dbaea3553346f7586e2c6711a8d7133e/efa9fe99",
+            "width": 44,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/afc4de6ab5bcfd375689658933d5570a/1f81edb2",
+            "width": 628,
+            "height": 512
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/cbc8fc796bf69d2c94bc312a9bb34b29/10840898",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "fldhQfkBDSPZjKjer": "34-74 113th Street",
+    "fldhhf7THVqO69i5D": "African American community",
+    "fldim7SFpasPkKiOi": "August 4, 1901 ",
+    "fldkkbT5XhwsGbnC9": "Satchmo, Pops",
+    "fldmpgqHheHG4ASnx": "New Orleans, LA",
+    "fldnTs1VeBJjhO1Ga": "11368",
+    "fldo67zoOMQsJN6xv": "P.S. 143 Louis Armstrong",
+    "fldrJjqRjjOeqKf72": "Lori Wallach",
+    "fldtVvLjk33gCUz6l": "21",
+    "fldxddBxzQcA4yv0A": "34-74 113th Street",
+    "fld63z0I0JEzkE26Z": "2022-05-31T00:52:31.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-01T17:06:32.000Z",
+    "fld18VKjlf9BGaE9N": "Louis Armstrong is widely regarded as one of the most innovative and influential figures in jazz, known for both his trumpet improvisations and his  distinctive singing voice. He also broke down numerous racial divides in the music and entertainment worlds, becoming the first Black performer to get featured billing in a major Hollywood film (\"Pennies From Heaven,\" 1936) and the first Black host of a national radio show (Fleischmann's Yeast Show, 1937).\n\nBorn in New Orleans in 1901, Armstrong grew up impoverished in a racially segregated city. He dropped out of school in fifth grade to work, and developed a close relationship with a local Jewish family that gave him odd jobs and nurtured his love of music. By the age of 11, Armstrong wound up in the Colored Waif’s Home for Boys, where he joined the band and studied the cornet in earnest. Upon his release from the home in 1914, he began working as a musician on Mississippi riverboats and other local venues. His reputation skyrocketed, and by the early 1920s he moved north, performing and recording with jazz bands in Chicago and New York. \n\nThroughout the 1920s and '30s, Armstrong made dozens of records with his own and many other ensembles, toured extensively, and began performing in Broadway productions and movies. After some business and health setbacks, and in response to changing musical tastes, Armstrong scaled his group down to a six-piece combo in the 1940s and resumed touring internationally, recording albums and appearing in movies. Some of his biggest popular hits came in the later years of his career, including \"Hello Dolly\" (1964) and \"What A Wonderful World\" (1967). His grueling schedule took its toll on his heart and kidneys and in 1968 he was forced to take time off to recuperate, but he began performing again in 1970. Armstrong died in his sleep in July 1971, just a few months after his final engagement at the Waldorf-Astoria in New York.\n\nArmstrong and his fourth wife, Lucille Wilson, purchased their home in Corona in 1943, shortly after they were married, and lived there for the remainder of their lives. P.S. 143 is located approximately half a mile from their home, which is now the Louis Armstrong House Museum, offering public tours, concerts and educational programs.",
+    "fldlXDuTBOAjXyVTC": true,
+    "fld4ayxzpfL0q0Dsc": true,
+    "fldiT7GQqBoUlnanU": true,
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
