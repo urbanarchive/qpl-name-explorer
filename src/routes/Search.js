@@ -6,6 +6,11 @@ import { MapContext } from './App';
 import MONUMENT from '../models/monument';
 import { MONUMENT_TYPES } from '../models/monument';
 import { makeActiveLocationSelection } from '../features/Location';
+import pointsWithinPolygon from '@turf/points-within-polygon';
+import circle from '@turf/circle';
+import distance from '@turf/distance';
+
+const USE_EXPERIMENTAL_RADIUS_SEARCH = false;
 
 const LOCATION_TYPES = MONUMENT_TYPES
   .filter((_curr, index) => (index % 2) === 0)
@@ -21,14 +26,24 @@ function Search({ locations }) {
     value: params.get('value'),
   };
 
-  const filteredLocations = useMemo(() =>
-    locations?.features.filter(m => {
+  const filteredLocations = useMemo(() => {
+    if (USE_EXPERIMENTAL_RADIUS_SEARCH) {
+      if (filter.key === MONUMENT.COORDS) {
+        const center = JSON.parse(`[${filter.value}]`).reverse();
+        const radius = circle(center, 0.5, { unit: 'miles' })
+  
+        return pointsWithinPolygon(locations, radius)?.features.sort((a, b) => {
+          return distance(center, a.geometry.coordinates) > distance(center, b.geometry.coordinates) ? 1 : -1;
+        });
+      }
+    }
+
+    return locations?.features.filter(m => {
       if (!filter.key || !filter.value) return true;
 
       return filter.value.includes(m.properties[filter.key]);
-    }),
-    [filter.key, filter.value, locations?.features],
-  );
+    });
+  }, [filter.key, filter.value, locations]);
 
   useEffect(() => {
     if (map && locations) {

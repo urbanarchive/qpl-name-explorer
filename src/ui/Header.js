@@ -27,8 +27,7 @@ function Header({ locations }) {
         title='contribute'
         className="airtable-embed"
         src="https://airtable.com/embed/shrgh1JeFy8Yim4hv?backgroundColor=blue"
-        frameborder="0"
-        onmousewheel=""
+        frameBorder="0"
         width="100%"
         height="533"></iframe>
       </Modal>}

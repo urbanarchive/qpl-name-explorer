@@ -7,6 +7,8 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "@turf/bbox-polygon": "^6.5.0",
+    "@turf/circle": "^6.5.0",
+    "@turf/distance": "^6.5.0",
     "@turf/points-within-polygon": "^6.5.0",
     "html-react-parser": "^3.0.1",
     "react": "^17.0.2",
