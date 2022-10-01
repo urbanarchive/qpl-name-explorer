@@ -1,6 +1,6 @@
 import AsyncSelect from 'react-select/async';
 import { useNavigate } from "react-router-dom";
-import MONUMENT from '../models/monument';
+import LOCATION from '../models/location';
 
 const GEOSEARCH = (inputString) =>
   `https://geosearch.planninglabs.nyc/v1/autocomplete?text=${inputString}&focus.point.lon=-73.9579&focus.point.lat=40.7333`;
@@ -12,9 +12,9 @@ function TypeaheadSearch({ locations }) {
     const foundLocations = locations?.features
       .filter(f => JSON.stringify(f.properties).includes(inputString))
       .map(f => ({
-        label: `${f.properties[MONUMENT.TYPE]}: ${f.properties[MONUMENT.PLACE_NAME]}`,
-        value: f.properties[MONUMENT.COORDS],
-        meta: { type: f.properties[MONUMENT.TYPE] },
+        label: `${f.properties[LOCATION.TYPE]}: ${f.properties[LOCATION.PLACE_NAME]}`,
+        value: f.properties[LOCATION.COORDS],
+        meta: { type: f.properties[LOCATION.TYPE] },
       }));
 
     try {
@@ -43,7 +43,7 @@ function TypeaheadSearch({ locations }) {
       // TODO: find better approach than this
       window.location.hash = `#14/${value[1]}/${value[0]}`;
     } else {
-      navigate(`/locations?key=${MONUMENT.COORDS}&value=${value}`);
+      navigate(`/locations?key=${LOCATION.COORDS}&value=${value}`);
     }
   }
 

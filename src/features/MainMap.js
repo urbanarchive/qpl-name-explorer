@@ -6,10 +6,10 @@ import ReactTooltip from 'react-tooltip';
 // eslint-disable-next-line import/no-webpack-loader-syntax
 import mapboxgl from '!mapbox-gl';
 import SupportingLayers from './SupportingLayers';
-import MONUMENT from '../models/monument';
+import LOCATION from '../models/location';
 import Map from "../ui/Map";
-import { getIconFromMonumentType } from '../models/monument';
-import { resultFactory } from '../models/monument';
+import { getIconFromMonumentType } from '../models/location';
+import { resultFactory } from '../models/location';
 import ICONS from './images/icons';
 
 export const SelectedIconMarker = ({ width, height, children, ...props }) => <SimpleMarker
@@ -73,7 +73,7 @@ function MainMap({ locations, onLoad }) {
   };
 
   const handleClick = (feature) => {
-    const { properties: { [MONUMENT.COORDS]: coords, [MONUMENT.TYPE]: type, IS_UNIQUE } } = feature;
+    const { properties: { [LOCATION.COORDS]: coords, [LOCATION.TYPE]: type, IS_UNIQUE } } = feature;
 
     if (type === 'Library') {
       return;
@@ -87,7 +87,7 @@ function MainMap({ locations, onLoad }) {
       return;
     }
 
-    navigate(`/locations?key=${MONUMENT.COORDS}&value=${coords}`);
+    navigate(`/locations?key=${LOCATION.COORDS}&value=${coords}`);
   };
 
   useEffect(() => {
@@ -100,11 +100,11 @@ function MainMap({ locations, onLoad }) {
         type: 'FeatureCollection',
         features: locations.features
           .filter((m, index, array) => {
-            return m.properties[MONUMENT.IS_PRIMARY] || m.properties.IS_UNIQUE;
+            return m.properties[LOCATION.IS_PRIMARY] || m.properties.IS_UNIQUE;
           })
           // surface non-library icons
           .sort((a, b) => {
-            if (a.properties[MONUMENT.TYPE] === 'Library') {
+            if (a.properties[LOCATION.TYPE] === 'Library') {
               return -1;
             }
 
@@ -114,7 +114,7 @@ function MainMap({ locations, onLoad }) {
 
       // markers
       uniqueLocations.features.forEach(f => {
-        const isInteractive = f.properties[MONUMENT.TYPE] === 'Library';
+        const isInteractive = f.properties[LOCATION.TYPE] === 'Library';
         addMapboxMarker(<Marker
             onClick={handleClick}
             feature={f}
@@ -131,7 +131,7 @@ function MainMap({ locations, onLoad }) {
             className='whitespace-nowrap'
             id={feature.properties.id}
           >
-            <h3 className='font-feather text-lg]'>{feature.properties[MONUMENT.PLACE_NAME]}</h3>
+            <h3 className='font-feather text-lg]'>{feature.properties[LOCATION.PLACE_NAME]}</h3>
           </ReactTooltip>,
           ref.current
         );

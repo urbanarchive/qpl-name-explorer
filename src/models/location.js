@@ -2,7 +2,7 @@ import sluggify from '../utils/sluggify';
 import qplLogo from '../features/images/qpl_logo.png';
 import ICONS from '../features/images/icons';
 
-export const MONUMENT_TYPES = [
+export const LOCATION_TYPES = [
   // TODO: make hex
   'Building', '#B973F5',
   'Street/Thoroughfare', '#777777',
@@ -13,7 +13,7 @@ export const MONUMENT_TYPES = [
   /* other */ 'orange',
 ];
 
-const MONUMENT = {
+const LOCATION = {
   PLACE_NAME: 'fld3zcPVX14gMRFd1',
   COORDS: 'fld03C27tmVnEg1rP',
   TYPE: 'fldb2kOoaaol8IIiQ',
@@ -32,7 +32,7 @@ export const TOUR = {
 };
 
 function getMonumentTypeColor(type) {
-  return MONUMENT_TYPES[MONUMENT_TYPES.findIndex(t => t === type) + 1];
+  return LOCATION_TYPES[LOCATION_TYPES.findIndex(t => t === type) + 1];
 }
 
 function parseAirtableRTF(text = '') {
@@ -48,25 +48,25 @@ function parseAirtableRTF(text = '') {
 }
 
 export function getIconFromMonumentType(monument) {
-  return ICONS_BY_MONUMENT_TYPE[monument[MONUMENT.TYPE]] || ICONS['library'];
+  return ICONS_BY_LOCATION_TYPE[monument[LOCATION.TYPE]] || ICONS['library'];
 }
 
 export function resultFactory(result) {
-  const hasImage = !!(result.properties[MONUMENT.IMAGES]?.length);
+  const hasImage = !!(result.properties[LOCATION.IMAGES]?.length);
   return {
     hasImage,
-    mastheadImage: hasImage ? result.properties[MONUMENT.IMAGES][0]?.thumbnails.large.url : qplLogo,
-    submissionDate: result.properties[MONUMENT.SUBMITTED_AT] && (new Date(result.properties[MONUMENT.SUBMITTED_AT])).toLocaleDateString(),
-    truncatedDescription: result.properties[MONUMENT.DESCRIPTION]?.substring(0, 70),
-    typeColor: getMonumentTypeColor(result.properties[MONUMENT.TYPE]),
+    mastheadImage: hasImage ? result.properties[LOCATION.IMAGES][0]?.thumbnails.large.url : qplLogo,
+    submissionDate: result.properties[LOCATION.SUBMITTED_AT] && (new Date(result.properties[LOCATION.SUBMITTED_AT])).toLocaleDateString(),
+    truncatedDescription: result.properties[LOCATION.DESCRIPTION]?.substring(0, 70),
+    typeColor: getMonumentTypeColor(result.properties[LOCATION.TYPE]),
     slug: sluggify(result.properties),
     iconData: getIconFromMonumentType(result.properties),
-    formattedSourceDescription: parseAirtableRTF(result.properties[MONUMENT.SOURCES]),
+    formattedSourceDescription: parseAirtableRTF(result.properties[LOCATION.SOURCES]),
     ...result
   }
 };
 
-export const ICONS_BY_MONUMENT_TYPE = {
+export const ICONS_BY_LOCATION_TYPE = {
   'Building': ICONS['building'],
   'Street/Thoroughfare': ICONS['street'],
   'School': ICONS['school'],
@@ -79,4 +79,4 @@ export function extractlocationIdentifier(slug) {
   return slug.split('-').reverse()[0];
 }
 
-export default MONUMENT;
+export default LOCATION;

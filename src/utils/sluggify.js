@@ -1,10 +1,10 @@
 import dasherize from 'lodash.kebabcase';
-import MONUMENT from '../models/monument';
+import LOCATION from '../models/location';
 
-function sluggify(monument) {
-  const { [MONUMENT.PLACE_NAME]: placeName } = monument;
+function sluggify(location) {
+  const { [LOCATION.PLACE_NAME]: placeName } = location;
 
-  return `${dasherize(placeName)}-${monument.id}`;
+  return `${dasherize(placeName)}-${location.id}`;
 }
 
 export default sluggify;

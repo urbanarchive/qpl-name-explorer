@@ -1,12 +1,12 @@
 import React, { useEffect, useState, useRef } from 'react'
 import bbox from '@turf/bbox';
-import MONUMENT from '../models/monument';
+import LOCATION from '../models/location';
 import { DEFAULT_PADDING } from '../ui/Map';
 import { addMapboxMarker } from '../features/MainMap';
 import { SelectedIconMarker } from '../features/MainMap';
 import { LocationHeader, LocationBody } from './Location';
-import { TOUR } from '../models/monument';
-import { resultFactory } from '../models/monument';
+import { TOUR } from '../models/location';
+import { resultFactory } from '../models/location';
 import ICONS from '../features/images/icons';
 import { zoomToLocation } from './Location';
 
@@ -65,8 +65,8 @@ const TourStop = ({ stopNumber, stop, map }) => {
   return <><div ref={elementRef} key={stopNumber}>
     <LocationHeader
       src={stop?.iconData}
-      alt={stop?.properties[MONUMENT.TYPE]}
-      type={stop?.properties[MONUMENT.TYPE]}
+      alt={stop?.properties[LOCATION.TYPE]}
+      type={stop?.properties[LOCATION.TYPE]}
     >
       <div className='flex items-center gap-2'>
         <div
@@ -75,7 +75,7 @@ const TourStop = ({ stopNumber, stop, map }) => {
         >
           {stopNumber + 1}
         </div>
-        <span className='inline'>{stop?.properties[MONUMENT.PLACE_NAME]}</span>
+        <span className='inline'>{stop?.properties[LOCATION.PLACE_NAME]}</span>
       </div>
     </LocationHeader>
     <LocationBody location={stop}/>
@@ -98,7 +98,7 @@ const TourView = ({ location, locations, map }) => {
       src={ICONS.library}
       alt={'tour'}
       type={'Tour'}
-      name={location?.properties[MONUMENT.PLACE_NAME]}
+      name={location?.properties[LOCATION.PLACE_NAME]}
     />
     {stops.map((stop, index) => <TourStop key={index} stopNumber={index} stop={stop} map={map} />)}
   </>

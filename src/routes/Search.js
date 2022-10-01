@@ -3,8 +3,8 @@ import { useSearchParams } from 'react-router-dom';
 import Select from 'react-select'
 import ListResult from '../ui/ListResult';
 import { MapContext } from './App';
-import MONUMENT from '../models/monument';
-import { MONUMENT_TYPES } from '../models/monument';
+import LOCATION from '../models/location';
+import { LOCATION_TYPES } from '../models/location';
 import { makeActiveLocationSelection } from '../features/Location';
 import pointsWithinPolygon from '@turf/points-within-polygon';
 import circle from '@turf/circle';
@@ -12,7 +12,7 @@ import distance from '@turf/distance';
 
 const USE_EXPERIMENTAL_RADIUS_SEARCH = false;
 
-const LOCATION_TYPES = MONUMENT_TYPES
+const locationTypes = LOCATION_TYPES
   .filter((_curr, index) => (index % 2) === 0)
   .map(t => ({ label: t, value: t }))
   .slice(0, -1); // removes last color options as it's the default
@@ -28,7 +28,7 @@ function Search({ locations }) {
 
   const filteredLocations = useMemo(() => {
     if (USE_EXPERIMENTAL_RADIUS_SEARCH) {
-      if (filter.key === MONUMENT.COORDS) {
+      if (filter.key === LOCATION.COORDS) {
         const center = JSON.parse(`[${filter.value}]`).reverse();
         const radius = circle(center, 0.5, { unit: 'miles' })
   
@@ -47,9 +47,9 @@ function Search({ locations }) {
 
   useEffect(() => {
     if (map && locations) {
-      const primaryLocation = filteredLocations.filter(f => f.properties[MONUMENT.IS_PRIMARY] || f.properties.IS_UNIQUE)[0];
+      const primaryLocation = filteredLocations.filter(f => f.properties[LOCATION.IS_PRIMARY] || f.properties.IS_UNIQUE)[0];
 
-      if (primaryLocation && filter.key === MONUMENT.COORDS) {
+      if (primaryLocation && filter.key === LOCATION.COORDS) {
         const makeActiveLocationEffect = makeActiveLocationSelection(map, primaryLocation.geometry.coordinates);
 
         return () => {
@@ -68,9 +68,9 @@ function Search({ locations }) {
     <div className="flex gap-4 p-4">
       <Select
         className='grow text-gray rounded-md bg-white'
-        options={LOCATION_TYPES}
+        options={locationTypes}
         isClearable={true}
-        onChange={(selection) => { handleFilterChange(selection, MONUMENT.TYPE) }}
+        onChange={(selection) => { handleFilterChange(selection, LOCATION.TYPE) }}
         placeholder="Filter..."
       />
     </div>

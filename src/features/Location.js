@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { addMapboxMarker } from '../features/MainMap';
 import { SelectedIconMarker } from '../features/MainMap';
-import MONUMENT from '../models/monument';
+import LOCATION from '../models/location';
 import { DEFAULT_PADDING } from '../ui/Map';
 import parse from 'html-react-parser';
 
@@ -49,13 +49,13 @@ export const LocationHeader = ({ src, alt, type, name, children }) => <div class
 </div>
 
 export const LocationBody = ({ location }) => <>
-  {!!location?.properties[MONUMENT.IMAGES]?.length && <LocationImage src={location?.properties[MONUMENT.IMAGES][0].url}/>}
-  {location?.properties[MONUMENT.CITATION] &&
-    <p className='text-sm p-1 text-right'>{location?.properties[MONUMENT.CITATION]}</p>
+  {!!location?.properties[LOCATION.IMAGES]?.length && <LocationImage src={location?.properties[LOCATION.IMAGES][0].url}/>}
+  {location?.properties[LOCATION.CITATION] &&
+    <p className='text-sm p-1 text-right'>{location?.properties[LOCATION.CITATION]}</p>
   }
   <div className='p-4 whitespace-pre-line wrap'>
     <p>
-      {location?.properties[MONUMENT.DESCRIPTION]}
+      {location?.properties[LOCATION.DESCRIPTION]}
     </p>
     {location?.formattedSourceDescription &&
       <p className='text-sm p-1 whitespace-pre-line break-words'>
@@ -79,10 +79,10 @@ const LocationView = ({ location, map }) => {
   return <>
     <LocationHeader
       src={location?.iconData}
-      alt={location?.properties[MONUMENT.TYPE]}
-      type={location?.properties[MONUMENT.TYPE]}
+      alt={location?.properties[LOCATION.TYPE]}
+      type={location?.properties[LOCATION.TYPE]}
     >
-      {location?.properties[MONUMENT.PLACE_NAME]}
+      {location?.properties[LOCATION.PLACE_NAME]}
     </LocationHeader>
     <LocationBody location={location}/>
   </>;

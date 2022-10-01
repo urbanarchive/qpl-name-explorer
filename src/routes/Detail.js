@@ -1,9 +1,9 @@
 import React, { useEffect, useState, useContext } from 'react';
 import { useParams } from "react-router-dom";
 import { MapContext } from './App';
-import { resultFactory } from '../models/monument';
+import { resultFactory } from '../models/location';
 import { DEFAULT_PADDING } from '../ui/Map';
-import { extractlocationIdentifier } from '../models/monument';
+import { extractlocationIdentifier } from '../models/location';
 import TourView from '../features/Tour';
 import LocationView from '../features/Location';
 
