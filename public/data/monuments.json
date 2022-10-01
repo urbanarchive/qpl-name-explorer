@@ -5218,6 +5218,74 @@
     "IS_UNIQUE": true
   },
   {
+    "id": "recm48Q0zZccwHPMh",
+    "fld03C27tmVnEg1rP": "40.757935, -73.874695",
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldAHhNbaHDTgQ4ao": "Louis Armstrong",
+    "fldAc9y87n6QRJQHv": "Louis Armstrong, 1953, from Library of Congress Prints and Photographs, https://www.loc.gov/pictures/item/00652636/",
+    "fldEdvOGWNqX5OImX": "Facilities Database  (NYC Open Data)",
+    "fldF1jFzlXZGeH9LP": [
+      "Arts & Entertainment"
+    ],
+    "fldKwhgXfbzaB1p1X": "Unknown photographer, 1953. Library of Congress.",
+    "fldKz0noCVXmoj4UV": "East Elmhurst",
+    "fldLjcdfwIByZ68aX": "July 6, 1971",
+    "fldPMX16WqfXNhJ02": "He/him/his",
+    "fldTAhZe07uxxeoJc": "3",
+    "fldb2kOoaaol8IIiQ": "School",
+    "fldbxIVG5OzgGGvMj": [
+      "English"
+    ],
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "attLyTt5SZCLdbseU",
+        "width": 1024,
+        "height": 835,
+        "url": "https://dl.airtable.com/.attachments/185d53a27ad72d3997d2837ce120498d/3f34d857/LouisArmstrongLOC.jpg",
+        "filename": "Louis Armstrong, 1953",
+        "size": 96259,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/fee6575d8f546a223234a41a27c6fb8f/161a2c49",
+            "width": 44,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/dd567633534f863751c8d41737b6c3ce/c7b7822e",
+            "width": 628,
+            "height": 512
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/9edd59391c87716305403933aa7ef7b5/cfa01550",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "fldhQfkBDSPZjKjer": "32-02 Junction Boulevard",
+    "fldhhf7THVqO69i5D": "African American community",
+    "fldim7SFpasPkKiOi": "August 4, 1901 ",
+    "fldkkbT5XhwsGbnC9": "Satchmo, Pops",
+    "fldmpgqHheHG4ASnx": "New Orleans, LA",
+    "fldo67zoOMQsJN6xv": "I.S. 227 Louis Armstrong",
+    "fldtVvLjk33gCUz6l": "21",
+    "fld63z0I0JEzkE26Z": "2022-05-31T00:52:31.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-01T22:50:30.000Z",
+    "fldCwcnz1yvlpDv1D": "Louis Armstrong House Museum, accessed October 1, 2022, <https://www.louisarmstronghouse.org/>\n\n\"Louis Armstrong,\" Biography.com, accessed October 1, 2022, <https://www.biography.com/musician/louis-armstrong>\n",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fldrJjqRjjOeqKf72": "Lori Wallach",
+    "fld3zcPVX14gMRFd1": "I.S. 227 Louis Armstrong",
+    "fldxddBxzQcA4yv0A": "32-02 Junction Boulevard",
+    "fldnTs1VeBJjhO1Ga": "11369",
+    "fldiT7GQqBoUlnanU": true,
+    "fld18VKjlf9BGaE9N": "Louis Armstrong is widely regarded as one of the most innovative and influential figures in jazz, known for both his trumpet improvisations and his  distinctive singing voice. He also broke down numerous racial divides in the music and entertainment worlds, becoming the first Black performer to get featured billing in a major Hollywood film (\"Pennies From Heaven,\" 1936) and the first Black host of a national radio show (Fleischmann's Yeast Show, 1937).\n\nBorn in New Orleans in 1901, Armstrong grew up impoverished in a racially segregated city. He dropped out of school in fifth grade to work, and developed a close relationship with a local Jewish family that gave him odd jobs and nurtured his love of music. By the age of 11, Armstrong wound up in the Colored Waif’s Home for Boys, where he joined the band and studied the cornet in earnest. Upon his release from the home in 1914, he began working as a musician on Mississippi riverboats and other local venues. His reputation skyrocketed, and by the early 1920s he moved north, performing and recording with jazz bands in Chicago and New York. \n\nThroughout the 1920s and '30s, Armstrong made dozens of records with his own and many other ensembles, toured extensively, and began performing in Broadway productions and movies. After some business and health setbacks, and in response to changing musical tastes, Armstrong scaled his group down to a six-piece combo in the 1940s and resumed touring internationally, recording albums and appearing in movies. Some of his biggest popular hits came in the later years of his career, including \"Hello Dolly\" (1964) and \"What A Wonderful World\" (1967). His grueling schedule took its toll on his heart and kidneys and in 1968 he was forced to take time off to recuperate, but he began performing again in 1970. Armstrong died in his sleep in July 1971, just a few months after his final engagement at the Waldorf-Astoria in New York.\n\nArmstrong and his fourth wife, Lucille Wilson, purchased their home in Corona in 1943, shortly after they were married, and lived there for the remainder of their lives. I.S. 227, a public middle school serving grades 5 through 8, is located approximately one mile from their home, which is now the Louis Armstrong House Museum, offering public tours, concerts and educational programs.",
+    "fldlXDuTBOAjXyVTC": true,
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": true
+  },
+  {
     "id": "recSmLqabRIFAiMyD",
     "fld03C27tmVnEg1rP": "40.712772, -73.779886",
     "fld18VKjlf9BGaE9N": "Susan B. Anthony was a towering figure in the arena of equality and women's rights, especially in the movement to grant women the right to vote. Born in 1820, she was raised with the Quaker idea that all people are equal under God. Her parents and several siblings were active in the abolition movement, and Anthony herself became a leading speaker and activist in that cause at a young age. When the women's suffrage movement was born following the seminal Women's Rights Convention in Seneca Falls, NY (1848), Anthony joined the cause with enthusiasm and quickly became its most visible advocate. With her friend and fellow activist Elizabeth Cady Stanton, Anthony gave speeches and organized protests around the country, and published a newspaper, \"The Revolution,\" focused on women's rights.\n\nIn 1872, Anthony was arrested for attempting to vote in the presidential election, and the resulting trial brought significant national attention to the women's suffrage movement. Thereafter, the organization founded by Anthony and Stanton -- the National Woman Suffrage Association -- focused on calling for a constitutional amendment to give women the right to vote. \n\nAnthony died in 1906, 14 years before the 19th Amendment was passed, guaranteeing women's voting rights. Her grave in Rochester, NY, attracts many visitors who often leave thank-you notes and other memorials for her work on women's behalf. In 1979, she was selected as the first woman featured on a U.S. coin, the Susan B. Anthony dollar.",
@@ -5870,6 +5938,80 @@
     "fldGc8Yu4R85MSed4": "2022-07-05T16:56:19.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": false
+  },
+  {
+    "id": "recUFjJ7hZPzHFh5e",
+    "fld03C27tmVnEg1rP": "40.754025845082815, -73.86123930901756",
+    "fld18VKjlf9BGaE9N": "Louis Armstrong is widely regarded as one of the most innovative and influential figures in jazz, known for both his trumpet improvisations and his  distinctive singing voice. He also broke down numerous racial divides in the music and entertainment worlds, becoming the first Black performer to get featured billing in a major Hollywood film (\"Pennies From Heaven,\" 1936) and the first Black host of a national radio show (Fleischmann's Yeast Show, 1937).\n\nBorn in New Orleans in 1901, Armstrong grew up impoverished in a racially segregated city. He dropped out of school in fifth grade to work, and developed a close relationship with a local Jewish family that gave him odd jobs and nurtured his love of music. By the age of 11, Armstrong wound up in the Colored Waif’s Home for Boys, where he joined the band and studied the cornet in earnest. Upon his release from the home in 1914, he began working as a musician on Mississippi riverboats and other local venues. His reputation skyrocketed, and by the early 1920s he moved north, performing and recording with jazz bands in Chicago and New York. \n\nThroughout the 1920s and '30s, Armstrong made dozens of records with his own and many other ensembles, toured extensively, and began performing in Broadway productions and movies. After some business and health setbacks, and in response to changing musical tastes, Armstrong scaled his group down to a six-piece combo in the 1940s and resumed touring internationally, recording albums and appearing in movies. Some of his biggest popular hits came in the later years of his career, including \"Hello Dolly\" (1964) and \"What A Wonderful World\" (1967). His grueling schedule took its toll on his heart and kidneys and in 1968 he was forced to take time off to recuperate, but he began performing again in 1970. Armstrong died in his sleep in July 1971, just a few months after his final engagement at the Waldorf-Astoria in New York.\n\nThis honorary street naming identifies this block of 107th Street as the location of the Louis Armstrong House Museum, formerly the home of Armstrong and his fourth wife, Lucille Wilson. After Lucille’s passing in 1983, she willed the home and its contents to the city of New York, which designated the City University of New York, Queens College to administer it. The house was designated a National Historic Landmark in 1976 and a New York City Landmark in 1988. The archives became accessible in the 1990s, and the historic house opened for public tours in 2003. It also now serves as a venue for concerts and educational programs.",
+    "fld3zcPVX14gMRFd1": "Louis Armstrong Place",
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldAHhNbaHDTgQ4ao": "Louis Armstrong",
+    "fldEdvOGWNqX5OImX": "Gil Tauber",
+    "fldF1jFzlXZGeH9LP": [
+      "Arts & Entertainment"
+    ],
+    "fldGPBlBpPi8e4PU7": "2003",
+    "fldKz0noCVXmoj4UV": "Corona",
+    "fldTAhZe07uxxeoJc": "3",
+    "fldTGROls2PhrOiQU": "Louis Armstrong is widely regarded as one of the most innovative and influential figures in jazz, known for both his trumpet improvisations and his  distinctive singing voice. He also broke down numerous racial divides in the music and entertainment worlds, becoming the first Black performer to get featured billing in a major Hollywood film (\"Pennies From Heaven,\" 1936) and the first Black host of a national radio show (Fleischmann's Yeast Show, 1937).\n\nBorn in New Orleans in 1901, Armstrong grew up impoverished in a racially segregated city. He dropped out of school in fifth grade to work, and developed a close relationship with a local Jewish family that gave him odd jobs and nurtured his love of music. By the age of 11, Armstrong wound up in the Colored Waif’s Home for Boys, where he joined the band and studied the cornet in earnest. Upon his release from the home in 1914, he began working as a musician on Mississippi riverboats and other local venues. His reputation skyrocketed, and by the early 1920s he moved north, performing and recording with jazz bands in Chicago and New York. \n\nThroughout the 1920s and '30s, Armstrong made dozens of records with his own and many other ensembles, toured extensively, and began performing in Broadway productions and movies. After some business and health setbacks, and in response to changing musical tastes, Armstrong scaled his group down to a six-piece combo in the 1940s and resumed touring internationally, recording albums and appearing in movies. Some of his biggest popular hits came in the later years of his career, including \"Hello Dolly\" (1964) and \"What A Wonderful World\" (1967). His grueling schedule took its toll on his heart and kidneys and in 1968 he was forced to take time off to recuperate, but he began performing again in 1970. Armstrong died in his sleep in July 1971, just a few months after his final engagement at the Waldorf-Astoria in New York.\n\n\n\n\nIntroduced by Council Member Monserrate \nAugust 4, 1901 - 1971Louis Armstrong was born on August 4, 1901. By the time of his death in 1971, the man known around the world as “Satchmo” was widely recognized as a founding father of Jazz – a uniquely American art form. Through the years Armstrong entertained millions, from heads of state and royalty to the children on the stoop of his home on 107th Street near Northern Boulevard in Corona, Queens. This honorary street naming is intended to further identify this block as the sight of the “Louis Armstrong House and Archives”.|2003/34",
+    "fldb2kOoaaol8IIiQ": "Street/Thoroughfare",
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "attYUnlaDIter9pSS",
+        "width": 1024,
+        "height": 835,
+        "url": "https://dl.airtable.com/.attachments/2c4b28e89e70eeb98eca357d0fe6900d/58acc340/LouisArmstrongLOC.jpg",
+        "filename": "Louis Armstrong, 1953",
+        "size": 96259,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/dd5d176053f30fc042bdee6145cb77a0/7619b42a",
+            "width": 44,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/f2b86bf0f463cfddd265f1e9624c9339/ac7b9f20",
+            "width": 628,
+            "height": 512
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/26236da6657dc240567a163a354df399/d42ca530",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "fldd8Ii2y6GrnrkMN": "107th Street",
+    "fldhQfkBDSPZjKjer": "107th Street between 37th Avenue and Northern Boulevard",
+    "fldirBebD4ZoJeWfC": "Council Member Hiram Monserrate ",
+    "fldkkbT5XhwsGbnC9": "Satchmo, Pops",
+    "fldnTs1VeBJjhO1Ga": "11368",
+    "fldo67zoOMQsJN6xv": "Louis Armstrong Place",
+    "fldq5DPdjbB3X7fQy": "2003/34",
+    "fldrJjqRjjOeqKf72": "Lori Wallach",
+    "fldtVvLjk33gCUz6l": "21",
+    "fldxddBxzQcA4yv0A": "107th Street between 37th Avenue and Northern Boulevard",
+    "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-01T22:41:08.000Z",
+    "fldim7SFpasPkKiOi": "August 4, 1901 ",
+    "fldLjcdfwIByZ68aX": "July 6, 1971",
+    "fldmpgqHheHG4ASnx": "New Orleans, LA",
+    "fldPMX16WqfXNhJ02": "He/him/his",
+    "fldbxIVG5OzgGGvMj": [
+      "English"
+    ],
+    "fldhhf7THVqO69i5D": "African American community",
+    "fldAc9y87n6QRJQHv": "Louis Armstrong, 1953, from Library of Congress Prints and Photographs, https://www.loc.gov/pictures/item/00652636/",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fldKwhgXfbzaB1p1X": "Unknown photographer, 1953. Library of Congress.",
+    "fldCwcnz1yvlpDv1D": "Gil Tauber, \"NYC Honorary Street Names,\" accessed June 15, 2022, <http://www.nycstreets.info/>\n\nLouis Armstrong House Museum, accessed October 1, 2022, <https://www.louisarmstronghouse.org/>\n\n\"Louis Armstrong,\" Biography.com, accessed October 1, 2022, <https://www.biography.com/musician/louis-armstrong>\n",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fldiT7GQqBoUlnanU": true,
+    "fldlXDuTBOAjXyVTC": true,
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": true
   },
   {
     "id": "recX6teCQVFTTE27A",
