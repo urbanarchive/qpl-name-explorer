@@ -12,20 +12,19 @@ import { getIconFromMonumentType } from '../models/monument';
 import { resultFactory } from '../models/monument';
 import ICONS from './images/icons';
 
-export const SelectedIconMarker = ({ className, children, ...props }) => <SimpleMarker
-  className={`w-auto h-auto ${className}`}
+export const SelectedIconMarker = ({ width, height, children, ...props }) => <SimpleMarker
   src={ICONS['selected']}
   {...props}
 >
   {children}
 </SimpleMarker>;
 
-export const SimpleMarker = ({ src, className, children, ...props }) => {
+export const SimpleMarker = ({ src, className = '', children, ...props }) => {
   return (<div>
     <img
       src={src}
       alt="map marker"
-      className={`marker cursor-pointer w-6 h-6 opacity-85 hover:scale-125 duration-100 ${className}`}
+      className={`marker cursor-pointer opacity-85 hover:scale-125 duration-100 ${className}`}
       {...props}
     />
     {children}
@@ -119,7 +118,7 @@ function MainMap({ monuments, onLoad }) {
         addMapboxMarker(<Marker
             onClick={handleClick}
             feature={f}
-            {...{ className: isInteractive ? 'cursor-grab' : '' }}
+            className={`w-6 h-6 ${isInteractive ? 'cursor-grab' : ''}`}
           />, f.geometry.coordinates, mapInstance);
       });
 
@@ -127,7 +126,7 @@ function MainMap({ monuments, onLoad }) {
       uniqueLocations.features.forEach(feature => {
         const ref = createRef();
         ref.current = document.createElement("div");
-        
+
         ReactDOM.render(<ReactTooltip
             className='whitespace-nowrap'
             id={feature.properties.id}
