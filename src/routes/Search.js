@@ -41,7 +41,6 @@ function Search({ monuments }) {
     }
   }, [map, monuments, filteredLocations, filter.key]);
 
-
   const handleFilterChange = (selection, keyName) => {
     selection ? setFilterParams({ key: keyName, value: [selection.value] }) : setFilterParams({});
   }
@@ -57,10 +56,10 @@ function Search({ monuments }) {
         placeholder="Filter..."
       />
     </div>
-    {filteredLocations?.splice(0,30).map(f=><ListResult key={f.properties.id} result={f} />)}
+    {filteredLocations?.slice(0,30).map(f=><ListResult key={f.properties.id} result={f} />)}
     {(filteredLocations?.length === 0) && <>
       <div className='p-4'>No matches for "{filter.value}". Showing all:</div>
-      {monuments?.features?.splice(0,30).map(f=><ListResult key={f.properties.id} result={f} />)}
+      {monuments?.features?.slice(0,30).map(f=><ListResult key={f.properties.id} result={f} />)}
     </>}
   </>;
 }
