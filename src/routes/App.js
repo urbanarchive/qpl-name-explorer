@@ -1,6 +1,7 @@
-import React, { useEffect, useState, createContext } from 'react'
+import React, { useState, createContext } from 'react'
 import { Routes, Route } from 'react-router-dom';
 import { useSwipeable } from 'react-swipeable';
+import useSWR from 'swr'
 import Header from '../ui/Header';
 import MainMap from '../features/MainMap';
 import Detail from './Detail';
@@ -8,9 +9,9 @@ import Search from './Search';
 import Splash from './Splash';
 
 export const MapContext = createContext();
+const fetcher = (...args) => fetch(...args).then(res => res.json());
 
 function App() {
-  const [monuments, setData] = useState();
   const [mapInstance, setMapInstance] = useState(null);
   const [setResultListViewState] = useState(true);
   const handlers = useSwipeable({
@@ -19,16 +20,9 @@ function App() {
     swipeDuration: 250,
   });
 
-  // get all monuments
-  useEffect(() => {
-    async function fetchData() {
-      const data = await (await fetch('/data/monuments.geojson')).json();
+  const { data: monuments } = useSWR('/data/monuments.geojson', fetcher);
 
-      setData(data);
-    }
-
-    fetchData();
-  }, []);
+  if (!monuments) return 'Loading...';
 
   return (
     <MapContext.Provider value={mapInstance}>
