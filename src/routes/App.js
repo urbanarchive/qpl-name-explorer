@@ -14,8 +14,10 @@ function App() {
   const contentRef = useRef(null);
   const { pathname } = useLocation();
   const [mapInstance, setMapInstance] = useState(null);
+  const [mode, setMode] = useState('map');
   const { data: locations } = useSWR('/data/monuments.geojson', fetcher);
   const navigate = useNavigate();
+  const isMapMode = mode === 'map';
 
   useEffect(() => {
     contentRef.current?.scrollTo(0, 0);
@@ -24,13 +26,29 @@ function App() {
   if (!locations) return 'Loading...';
 
   return (
-    <MapContext.Provider value={mapInstance}>
-      <div className="flex flex-col h-full w-full max-h-screen">
-        <Header locations={locations}/>
-        <div className="flex h-full overflow-scroll relative">
-          <MainMap locations={locations} onLoad={setMapInstance} />
-          <div className="flex absolute top-0 z-100 h-full w-full overflow-scroll pointer-events-none">
-            <div ref={contentRef} className="lg:basis-1/3 sm:m-5 md:basis-1/2 overflow-scroll bg-white rounded-lg pointer-events-auto shadow-2xl">
+    <div className="flex flex-col h-full w-full max-h-screen">
+      <Header locations={locations}/>
+      <div className="flex h-full relative">
+        <MapContext.Provider value={mapInstance}>
+          <section className='flex h-full w-full'>
+            <MainMap
+              locations={locations}
+              onLoad={setMapInstance}
+            />
+            <div className='sm:hidden absolute bottom-0 flex justify-center w-full z-10'>
+              <div
+                className='p-4 m-4 bg-white drop-shadow-xl h-auto rounded-full text-sm cursor-pointer pointer-events-auto hover:border-qpl-purple border-2 opacity-95'
+                onClick={() => setMode(isMapMode ? 'list' : 'map')}
+              >
+                {isMapMode ? 'List' : 'Map'}
+              </div>
+            </div>
+          </section>
+          <section className="flex absolute top-0 z-100 h-full w-full pointer-events-none">
+            <div
+              ref={contentRef}
+              className={`${isMapMode && 'sm:block hidden'} basis-full lg:basis-1/3 sm:m-5 md:basis-1/2 overflow-scroll bg-white rounded-lg pointer-events-auto shadow-2xl`}
+            >
               <Routes>
                 <Route path="/" element={<Splash/>} />
                 <Route path="/locations" element={<Search locations={locations} />} />
@@ -38,12 +56,15 @@ function App() {
                 <Route path="/tours/:slug" element={locations?.features && <Detail locations={locations}></Detail>} />
               </Routes>
             </div>
-            <div className='basis-2/3 flex justify-center p-5'>
+            <div className={`hidden basis-2/3 flex justify-center p-5`}>
               <div>
                 <div
                   className='p-4 bg-white drop-shadow-xl h-auto rounded-full text-sm cursor-pointer pointer-events-auto hover:border-qpl-purple border-2 opacity-95'
                   onClick={() => {
-                    const bbox = mapInstance.getBounds().toArray().reduce((acc, curr) => [...acc, ...curr], []);
+                    const bbox = mapInstance
+                      .getBounds()
+                      .toArray()
+                      .reduce((acc, curr) => [...acc, ...curr], []);
 
                     navigate(`/locations?key=area&value=${bbox}`);
                   }}
@@ -52,10 +73,10 @@ function App() {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
+          </section>
+        </MapContext.Provider>
       </div>
-    </MapContext.Provider>
+    </div>
   );
 }
 

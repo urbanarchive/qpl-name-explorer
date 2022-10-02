@@ -12,8 +12,6 @@ function ListResult(props) {
   const result = resultFactory(props.result);
   const routeForType = ROUTES_BY_TYPE[result.properties.LOCATION_TYPE];
 
-  const disableInteractions = result.properties[LOCATION.TYPE] === 'Library';
-
   return <div className="flex gap-4">
     <Link to={`/${routeForType}/${result.slug}`} className="flex shrink-0 h-14 w-14">
       <div

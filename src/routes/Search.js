@@ -8,8 +8,6 @@ import { LOCATION_TYPES } from '../models/location';
 import { makeActiveLocationSelection } from '../features/Location';
 import pointsWithinPolygon from '@turf/points-within-polygon';
 import bboxPolygon from '@turf/bbox-polygon';
-import circle from '@turf/circle';
-import distance from '@turf/distance';
 
 const USE_EXPERIMENTAL_RADIUS_SEARCH = true;
 
