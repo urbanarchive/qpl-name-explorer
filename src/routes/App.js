@@ -1,5 +1,5 @@
 import React, { useState, createContext, useRef, useEffect } from 'react'
-import { Routes, Route, useLocation, useNavigate } from 'react-router-dom';
+import { Routes, Route, useLocation, useNavigate, useSearchParams } from 'react-router-dom';
 import useSWR from 'swr'
 import Header from '../ui/Header';
 import MainMap from '../features/MainMap';
@@ -12,9 +12,10 @@ const fetcher = (...args) => fetch(...args).then(res => res.json());
 
 function App() {
   const contentRef = useRef(null);
+  const [params, setSearchParams] = useSearchParams();
   const { pathname } = useLocation();
   const [mapInstance, setMapInstance] = useState(null);
-  const [mode, setMode] = useState('map');
+  const [mode, setMode] = useState(params.get('mode'));
   const { data: locations } = useSWR('/data/monuments.geojson', fetcher);
   const navigate = useNavigate();
   const isMapMode = mode === 'map';
@@ -35,9 +36,9 @@ function App() {
               locations={locations}
               onLoad={setMapInstance}
             />
-            <div className='sm:hidden absolute bottom-0 flex justify-center w-full z-10'>
+            <div className='sm:hidden absolute bottom-0 flex justify-center w-full z-10 pointer-events-none'>
               <div
-                className='p-4 m-4 bg-white drop-shadow-xl h-auto rounded-full text-sm cursor-pointer pointer-events-auto hover:border-qpl-purple border-2 opacity-95'
+                className='pointer-events-all p-4 m-4 bg-white drop-shadow-xl h-auto rounded-full text-sm cursor-pointer pointer-events-auto hover:border-qpl-purple border-2 opacity-95'
                 onClick={() => setMode(isMapMode ? 'list' : 'map')}
               >
                 {isMapMode ? 'List' : 'Map'}
@@ -47,7 +48,7 @@ function App() {
           <section className="flex absolute top-0 z-100 h-full w-full pointer-events-none">
             <div
               ref={contentRef}
-              className={`${isMapMode && 'sm:block hidden'} basis-full lg:basis-1/3 sm:m-5 md:basis-1/2 overflow-scroll bg-white rounded-lg pointer-events-auto shadow-2xl`}
+              className={`${isMapMode && 'sm:block hidden'} basis-full lg:basis-1/3 sm:m-5 md:basis-1/2 overflow-scroll bg-white sm:opacity-100 opacity-90 rounded-lg pointer-events-auto shadow-2xl`}
             >
               <Routes>
                 <Route path="/" element={<Splash/>} />
