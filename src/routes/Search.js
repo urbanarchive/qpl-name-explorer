@@ -7,10 +7,11 @@ import LOCATION from '../models/location';
 import { LOCATION_TYPES } from '../models/location';
 import { makeActiveLocationSelection } from '../features/Location';
 import pointsWithinPolygon from '@turf/points-within-polygon';
+import bboxPolygon from '@turf/bbox-polygon';
 import circle from '@turf/circle';
 import distance from '@turf/distance';
 
-const USE_EXPERIMENTAL_RADIUS_SEARCH = false;
+const USE_EXPERIMENTAL_RADIUS_SEARCH = true;
 
 const locationTypes = LOCATION_TYPES
   .filter((_curr, index) => (index % 2) === 0)
@@ -28,13 +29,10 @@ function Search({ locations }) {
 
   const filteredLocations = useMemo(() => {
     if (USE_EXPERIMENTAL_RADIUS_SEARCH) {
-      if (filter.key === LOCATION.COORDS) {
-        const center = JSON.parse(`[${filter.value}]`).reverse();
-        const radius = circle(center, 0.5, { unit: 'miles' })
-  
-        return pointsWithinPolygon(locations, radius)?.features.sort((a, b) => {
-          return distance(center, a.geometry.coordinates) > distance(center, b.geometry.coordinates) ? 1 : -1;
-        });
+      if (filter.key === 'area' && map) {
+        const bbox = JSON.parse(`[${filter.value}]`);
+
+        return pointsWithinPolygon(locations, bboxPolygon(bbox))?.features;
       }
     }
 
@@ -43,7 +41,7 @@ function Search({ locations }) {
 
       return filter.value.includes(m.properties[filter.key]);
     });
-  }, [filter.key, filter.value, locations]);
+  }, [filter.key, filter.value, locations, map]);
 
   useEffect(() => {
     if (map && locations) {
@@ -63,23 +61,21 @@ function Search({ locations }) {
     selection ? setFilterParams({ key: keyName, value: [selection.value] }) : setFilterParams({});
   }
 
-  return <>
-    <h1 className='text-3xl font-feather uppercase pt-4 pl-4'>Queens Name Explorer</h1>
-    <div className="flex gap-4 p-4">
-      <Select
-        className='grow text-gray rounded-md bg-white'
-        options={locationTypes}
-        isClearable={true}
-        onChange={(selection) => { handleFilterChange(selection, LOCATION.TYPE) }}
-        placeholder="Filter..."
-      />
-    </div>
+  return <div className='flex flex-col p-4 gap-4'>
+    <h1 className='text-3xl font-feather uppercase'>Queens Name Explorer</h1>
+    <Select
+      className='grow text-gray rounded-md bg-white'
+      options={locationTypes}
+      isClearable={true}
+      onChange={(selection) => { handleFilterChange(selection, LOCATION.TYPE) }}
+      placeholder="Filter..."
+    />
     {filteredLocations?.slice(0,30).map(f=><ListResult key={f.properties.id} result={f} />)}
     {(filteredLocations?.length === 0) && <>
       <div className='p-4'>No matches for "{filter.value}". Showing all:</div>
       {locations?.features?.slice(0,30).map(f=><ListResult key={f.properties.id} result={f} />)}
     </>}
-  </>;
+  </div>;
 }
 
 export default Search;

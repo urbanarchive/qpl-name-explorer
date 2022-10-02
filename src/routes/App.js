@@ -1,5 +1,5 @@
 import React, { useState, createContext, useRef, useEffect } from 'react'
-import { Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route, useLocation, useNavigate } from 'react-router-dom';
 import useSWR from 'swr'
 import Header from '../ui/Header';
 import MainMap from '../features/MainMap';
@@ -15,6 +15,7 @@ function App() {
   const { pathname } = useLocation();
   const [mapInstance, setMapInstance] = useState(null);
   const { data: locations } = useSWR('/data/monuments.geojson', fetcher);
+  const navigate = useNavigate();
 
   useEffect(() => {
     contentRef.current?.scrollTo(0, 0);
@@ -36,6 +37,20 @@ function App() {
                 <Route path="/locations/:slug" element={locations?.features && <Detail locations={locations} />} />
                 <Route path="/tours/:slug" element={locations?.features && <Detail locations={locations}></Detail>} />
               </Routes>
+            </div>
+            <div className='basis-2/3 flex justify-center p-5'>
+              <div>
+                <div
+                  className='p-4 bg-white drop-shadow-xl h-auto rounded-full text-sm cursor-pointer pointer-events-auto hover:border-qpl-purple border-2 opacity-95'
+                  onClick={() => {
+                    const bbox = mapInstance.getBounds().toArray().reduce((acc, curr) => [...acc, ...curr], []);
+
+                    navigate(`/locations?key=area&value=${bbox}`);
+                  }}
+                >
+                  Search This Area
+                </div>
+              </div>
             </div>
           </div>
         </div>

@@ -40,8 +40,7 @@ const AirtableImage = ({ location }) => {
   const images = location.properties[LOCATION.IMAGES];
 
   if (!images) return <></>;
-  console.log(images);
-  // {location?.properties[LOCATION.IMAGES]?.length && <AirtableImage src={location?.properties[LOCATION.IMAGES][0].url}/>}
+
   return images.map(image => <LazyLoadImage
     key={image.filename}
     alt='Location'
