@@ -4,7 +4,7 @@ import mapboxgl from '!mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 
 // TODO: This really shouldn't go here because it's specific to the Main Map
-export const DEFAULT_PADDING = { padding: { left: window.innerWidth / 3, top: 60, bottom: 60 } };
+export const DEFAULT_PADDING = { padding: { left: window.innerWidth / 3, top: 40, bottom: 40 } };
 
 mapboxgl.accessToken = 'pk.eyJ1IjoidXJiYW5hcmNoaXZlIiwiYSI6ImNrejcxYXJ5ODE1bDUybm5rdmlsODFldm8ifQ.zSi--O2cC3BcCW5ZUZuD3w';
 
@@ -48,7 +48,7 @@ function Map({
       },
       fitBoundsOptions: {
         // this breaks the map because it's pushing the padding too far right
-        // ...DEFAULT_PADDING,
+        ...DEFAULT_PADDING,
       },
     });
 
