@@ -12,7 +12,7 @@ const fetcher = (...args) => fetch(...args).then(res => res.json());
 
 function App() {
   const contentRef = useRef(null);
-  const [params, setSearchParams] = useSearchParams();
+  const [params] = useSearchParams();
   const { pathname } = useLocation();
   const [mapInstance, setMapInstance] = useState(null);
   const [mode, setMode] = useState(params.get('mode'));
