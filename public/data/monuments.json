@@ -4352,7 +4352,7 @@
     "fldtVvLjk33gCUz6l": "26",
     "fldxddBxzQcA4yv0A": "46th Street between 47th Avenue and 48th Avenue",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-30T13:10:31.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-03T20:19:28.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -5610,6 +5610,126 @@
     "fldGc8Yu4R85MSed4": "2022-10-02T17:17:17.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
+  },
+  {
+    "id": "recO3u3K3ELELafV2",
+    "fld03C27tmVnEg1rP": "40.73652873970117, -73.81724677395057",
+    "fld18VKjlf9BGaE9N": "Dr. Paul Klapper (1885-1952) was the first president and guiding force behind the establishment of Queens College. Born in Romania, Klapper came to the U.S. with his parents as a child and enrolled at City College at the age of 14. After receiving his A.B. degree, he taught in the New York City public schools and at City College, eventually earning an M.A. and Ph.D. from New York University. He became head of the education department at City College in 1917, and served as dean of the college from 1922 to 1937, when he was asked to lead the newly created Queens College.\n\nKlapper personally selected the college’s first faculty, as well as the 400 students who enrolled in that first year. He led the college through its first decade, retiring in 1948. He then served as acting dean of teacher education for CUNY's five four-year colleges, and was a visiting professor at the University of Chicago from 1949 to 1951. He passed away in 1952 at the age of 66. Over the course of his career, Klapper also was a member of the board of trustees for The State University of New York, Brandeis University and The New York State Commission Against Discrimination. He received various honorary degrees from institutions including Yeshiva University, Columbia University and Queens College. His papers are housed in Queens College's Department of Special Collections and Archives.\n\nKlapper Hall was built and dedicated in 1955 as the Paul Klapper Library, and served as the college's main library until the larger Rosenthal Library was constructed in 1988. In 1992, the building was renovated and renamed Klapper Hall; it now houses the school's art and English departments as well as the Godwin-Ternbach Museum.",
+    "fld3zcPVX14gMRFd1": "Klapper Hall",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldAHhNbaHDTgQ4ao": "Paul Klapper",
+    "fldAc9y87n6QRJQHv": "Leon, Charles. (circa 1940). President Paul Klapper. Queens College Special Collections and Archives (Queens, New York). https://jstor.org/stable/community.28460512",
+    "fldCwcnz1yvlpDv1D": "Paul Klapper Collection, Department of Special Collections and Archives, Queens College, City University of New York, <https://qcarchives.libraryhost.com/resources/paul_klapper_papers>\n\nChristina Tsatsakos and Joseph R. Brostek, _“_Places and Faces Special Feature,\" (undated), Department of Special Collections and Archives, Queens College, City University of New York, <https://jstor.org/stable/community.29709170>\n",
+    "fldEdvOGWNqX5OImX": "Queens College buildings list",
+    "fldF1jFzlXZGeH9LP": [
+      "Education and Research"
+    ],
+    "fldGPBlBpPi8e4PU7": "1955",
+    "fldKz0noCVXmoj4UV": "Flushing",
+    "fldLjcdfwIByZ68aX": "March 25, 1952",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fldPMX16WqfXNhJ02": "He/him/his",
+    "fldTAhZe07uxxeoJc": "8",
+    "fldb2kOoaaol8IIiQ": "Building",
+    "fldbxIVG5OzgGGvMj": [
+      "English"
+    ],
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "attrT71kUtng904cu",
+        "width": 813,
+        "height": 1000,
+        "url": "https://dl.airtable.com/.attachments/540d0b168f1c43287fff322cb7e7e1f2/92a049a7/PaulKlapper.jpg",
+        "filename": "Paul Klapper, ca. 1940",
+        "size": 96718,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/345bb22e5f2eca4c88a4f4936128d30d/a33f90ae",
+            "width": 29,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/c8126e34cf121754afbc4b1b8d70dcc2/eb500dcf",
+            "width": 512,
+            "height": 630
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/4f45ccc3a46f2c68edf831ff2a0c8e61/c6c1261d",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "fldhQfkBDSPZjKjer": "Queens College campus",
+    "fldiT7GQqBoUlnanU": true,
+    "fldim7SFpasPkKiOi": "July 17, 1885",
+    "fldirBebD4ZoJeWfC": "Queens College",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldmpgqHheHG4ASnx": "Jassy, Romania",
+    "fldnTs1VeBJjhO1Ga": "11367",
+    "fldo67zoOMQsJN6xv": "Klapper Hall",
+    "fldrJjqRjjOeqKf72": "Lori Wallach",
+    "fldtVvLjk33gCUz6l": "24",
+    "fldxddBxzQcA4yv0A": "Queens College campus",
+    "fld63z0I0JEzkE26Z": "2022-06-24T03:13:48.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-03T02:48:47.000Z",
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": false
+  },
+  {
+    "id": "rec1ozUiHiHBQmjKw",
+    "fld03C27tmVnEg1rP": "40.73652873970117, -73.81724677395057",
+    "fld18VKjlf9BGaE9N": "Klapper Hall as it appeared in the 1950s, then called the Paul Klapper Library.",
+    "fld3zcPVX14gMRFd1": "Klapper Hall",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldAc9y87n6QRJQHv": "Front Exterior of Klapper Hall (circa 1950s). Queens College Special Collections and Archives (Queens, New York). https://jstor.org/stable/community.29709195",
+    "fldCwcnz1yvlpDv1D": "\n",
+    "fldEdvOGWNqX5OImX": "Queens College buildings list",
+    "fldKz0noCVXmoj4UV": "Flushing",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fldb2kOoaaol8IIiQ": "Building",
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "atta1ayRxz7Se58d7",
+        "width": 2271,
+        "height": 2855,
+        "url": "https://dl.airtable.com/.attachments/cce49673d194003c5ea8f03e27529944/538f11ce/KlapperHall1950s.jpg",
+        "filename": "Paul Klapper Library, ca. 1950s",
+        "size": 1039399,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/122d68556d5c55073e5aea6675b4370d/a4ec2cce",
+            "width": 29,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/a3f9bc691699d76b980fb89691c2d23d/4d0e65ad",
+            "width": 512,
+            "height": 644
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/41c856bc54f1dd192ab832b66f8db93c/84567858",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "fldhQfkBDSPZjKjer": "Queens College campus",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldnTs1VeBJjhO1Ga": "11367",
+    "fldo67zoOMQsJN6xv": "Klapper Hall",
+    "fldrJjqRjjOeqKf72": "Lori Wallach",
+    "fldxddBxzQcA4yv0A": "Queens College campus",
+    "fld63z0I0JEzkE26Z": "2022-10-03T03:02:56.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-03T03:08:16.000Z",
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": false
   },
   {
     "id": "recGuDkjg9Zsh2ILg",
@@ -7583,6 +7703,43 @@
     "IS_UNIQUE": true
   },
   {
+    "id": "recrInuIS7Tc7vRgf",
+    "fld03C27tmVnEg1rP": "40.790093, -73.839618",
+    "fld18VKjlf9BGaE9N": "Patricia Larkin was a principal at P.S. 129 and joined the public school system after receiving her bachelor's and master's degrees from Hunter College. She died July 22, 1977, at St. Agnes Hospital, Point Pleasant, N.Y., at age 46.",
+    "fld3zcPVX14gMRFd1": "P.S. 129 Patricia Larkin",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldAHhNbaHDTgQ4ao": "Patricia Larkin",
+    "fldCwcnz1yvlpDv1D": "\"Patricia Ann Larkin, 46, Principal At Public School 129 in Queens,\" The New York Times, July 25, 1977, \n<https://timesmachine.nytimes.com/timesmachine/1977/07/25/80347208.html?pageNumber=18>\n",
+    "fldEdvOGWNqX5OImX": "Facilities Database  (NYC Open Data)",
+    "fldF1jFzlXZGeH9LP": [
+      "Education and Research"
+    ],
+    "fldKz0noCVXmoj4UV": "College Point",
+    "fldLjcdfwIByZ68aX": "July 22, 1977",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fldPMX16WqfXNhJ02": "She/her/hers",
+    "fldTAhZe07uxxeoJc": "7",
+    "fldTGROls2PhrOiQU": "Patricia Larkin was a principal at P.S. 129 and joined the public school system after receiving her bachelor's and master's degrees from Hunter College.  She died July 22, 1977, at St. Agnes Hospital, Point Pleasant, N.Y. She was 46 years old.",
+    "fldb2kOoaaol8IIiQ": "School",
+    "fldbxIVG5OzgGGvMj": [
+      "English"
+    ],
+    "fldhQfkBDSPZjKjer": "128-02 7th Avenue",
+    "fldiT7GQqBoUlnanU": true,
+    "fldim7SFpasPkKiOi": "ca. 1931",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldnTs1VeBJjhO1Ga": "11356",
+    "fldo67zoOMQsJN6xv": "P.S. 129 Patricia Larkin",
+    "fldrJjqRjjOeqKf72": "Marie Cyprien",
+    "fldtVvLjk33gCUz6l": "19",
+    "fldxddBxzQcA4yv0A": "128-02 7th Avenue",
+    "fld63z0I0JEzkE26Z": "2022-05-31T00:52:31.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-03T21:04:49.000Z",
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": true
+  },
+  {
     "id": "recTiDKGvNosprqT6",
     "fld03C27tmVnEg1rP": "40.755801, -73.855963",
     "fld18VKjlf9BGaE9N": "Louis Armstrong is widely regarded as one of the most innovative and influential figures in jazz, known for both his trumpet improvisations and his  distinctive singing voice. He also broke down numerous racial divides in the music and entertainment worlds, becoming the first Black performer to get featured billing in a major Hollywood film (\"Pennies From Heaven,\" 1936) and the first Black host of a national radio show (Fleischmann's Yeast Show, 1937).\n\nBorn in New Orleans in 1901, Armstrong grew up impoverished in a racially segregated city. He dropped out of school in fifth grade to work, and developed a close relationship with a local Jewish family that gave him odd jobs and nurtured his love of music. By the age of 11, Armstrong wound up in the Colored Waif’s Home for Boys, where he joined the band and studied the cornet in earnest. Upon his release from the home in 1914, he began working as a musician on Mississippi riverboats and other local venues. His reputation skyrocketed, and by the early 1920s he moved north, performing and recording with jazz bands in Chicago and New York. \n\nThroughout the 1920s and '30s, Armstrong made dozens of records with his own and many other ensembles, toured extensively, and began performing in Broadway productions and movies. After some business and health setbacks, and in response to changing musical tastes, Armstrong scaled his group down to a six-piece combo in the 1940s and resumed touring internationally, recording albums and appearing in movies. Some of his biggest popular hits came in the later years of his career, including \"Hello Dolly\" (1964) and \"What A Wonderful World\" (1967). His grueling schedule took its toll on his heart and kidneys and in 1968 he was forced to take time off to recuperate, but he began performing again in 1970. Armstrong died in his sleep in July 1971, just a few months after his final engagement at the Waldorf-Astoria in New York.\n\nArmstrong and his fourth wife, Lucille Wilson, purchased their home in Corona in 1943, shortly after they were married, and lived there for the remainder of their lives. P.S. 143 is located approximately half a mile from their home, which is now the Louis Armstrong House Museum, offering public tours, concerts and educational programs.",
@@ -7686,6 +7843,73 @@
     "fldxddBxzQcA4yv0A": "33-52 62nd Street",
     "fld63z0I0JEzkE26Z": "2022-05-31T00:52:31.000Z",
     "fldGc8Yu4R85MSed4": "2022-09-22T19:02:08.000Z",
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": true
+  },
+  {
+    "id": "recLBmWSYkCNGg2AW",
+    "fld03C27tmVnEg1rP": "40.737401, -73.823736",
+    "fld18VKjlf9BGaE9N": "Dr. Paul Klapper (1885-1952) was the first president and guiding force behind the establishment of Queens College. Born in Romania, Klapper came to the U.S. with his parents as a child and enrolled at City College at the age of 14. After receiving his A.B. degree, he taught in the New York City public schools and at City College, eventually earning an M.A. and Ph.D. from New York University. He became head of the education department at City College in 1917, and served as dean of the college from 1922 to 1937, when he was asked to lead the newly created Queens College.\n\nKlapper personally selected the college’s first faculty, as well as the 400 students who enrolled in that first year. He led the college through its first decade, retiring in 1948. He then served as acting dean of teacher education for CUNY's five four-year colleges, and was a visiting professor at the University of Chicago from 1949 to 1951. He passed away in 1952 at the age of 66. Over the course of his career, Klapper also was a member of the board of trustees for The State University of New York, Brandeis University and The New York State Commission Against Discrimination. He received various honorary degrees from institutions including Yeshiva University, Columbia University and Queens College. His papers are housed in Queens College's Department of Special Collections and Archives.\n\nP.S./M.S. 219, named in Dr. Klapper's honor, is a public school serving students from pre-kindergarten through eighth grade.",
+    "fld3zcPVX14gMRFd1": "P.S./M.S. 219 Paul Klapper",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldAHhNbaHDTgQ4ao": "Paul Klapper",
+    "fldAc9y87n6QRJQHv": "Leon, Charles. (circa 1940). President Paul Klapper. Queens College Special Collections and Archives (Queens, New York). https://jstor.org/stable/community.28460512",
+    "fldCwcnz1yvlpDv1D": "Paul Klapper Collection, Department of Special Collections and Archives, Queens College, City University of New York, <https://qcarchives.libraryhost.com/resources/paul_klapper_papers>\n\nP.S./M.S. 219 Paul Klapper website, accessed October 2, 2022, <https://www.psms219.org/>\n",
+    "fldEdvOGWNqX5OImX": "Facilities Database  (NYC Open Data)",
+    "fldF1jFzlXZGeH9LP": [
+      "Education and Research"
+    ],
+    "fldKz0noCVXmoj4UV": "Flushing",
+    "fldLjcdfwIByZ68aX": "March 25, 1952",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fldPMX16WqfXNhJ02": "He/him/his",
+    "fldTAhZe07uxxeoJc": "8",
+    "fldTGROls2PhrOiQU": "Dr. Paul Klapper (1885-1952) was the first president and guiding force behind the establishment of Queens College. Born in Romania, Klapper came to the U.S. with his parents as a child and enrolled at City College at the age of 14. After receiving his A.B. degree, he taught in the New York City public schools and at City College, eventually earning an M.A. and Ph.D. from New York University. He became head of the education department at City College in 1917, and served as dean of the college from 1922 to 1937, when he was asked to lead the newly created Queens College.\n\nKlapper personally selected the the college’s first faculty, as well as the 400 students who enrolled in that first year. He led the college through its first decade, retiring in 1948. He then served as acting dean of teacher education for CUNY's five four-year colleges, and was a visiting professor at the University of Chicago from 1949 to 1951. He passed away in 1952 at the age of 66. Over the course of his career, Klapper also was a member on the board of trustees for The State University of New York, Brandeis University, and The New York State Commission Against Discrimination, and received various honorary degrees from institutions including Yeshiva University, Columbia University and Queens College. His papers are housed in Queens College's Department of Special Collections and Archives.\n\nP.S./M.S. 219, named in Dr. Klapper's honor, is a public school serving students in pre-kindergarten through eighth grade.",
+    "fldb2kOoaaol8IIiQ": "School",
+    "fldbxIVG5OzgGGvMj": [
+      "English"
+    ],
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "att7tZ6avpowPHRwF",
+        "width": 813,
+        "height": 1000,
+        "url": "https://dl.airtable.com/.attachments/71ec007d59c406a65e7f3e6680e51501/303e78a5/PaulKlapper.jpg",
+        "filename": "Paul Klapper, ca. 1940",
+        "size": 96718,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/037948c6ceb650bb020202989f9de0e8/5ddcc2b1",
+            "width": 29,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/09fa9ad19ca1b6fd472e007f05b18536/941ee4ef",
+            "width": 512,
+            "height": 630
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/6b59f8e3376ff143b9720957ea9fa90c/71b6b141",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "fldhQfkBDSPZjKjer": "144-39 Gravett Road",
+    "fldiT7GQqBoUlnanU": true,
+    "fldim7SFpasPkKiOi": "July 17, 1885 ",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldmpgqHheHG4ASnx": "Jassy, Romania",
+    "fldnTs1VeBJjhO1Ga": "11367",
+    "fldo67zoOMQsJN6xv": "P.S./M.S. 219 Paul Klapper",
+    "fldrJjqRjjOeqKf72": "Lori Wallach",
+    "fldtVvLjk33gCUz6l": "24",
+    "fldxddBxzQcA4yv0A": "144-39 Gravett Road",
+    "fld63z0I0JEzkE26Z": "2022-05-31T00:52:31.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-03T02:25:20.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
