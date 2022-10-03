@@ -4352,7 +4352,7 @@
     "fldtVvLjk33gCUz6l": "26",
     "fldxddBxzQcA4yv0A": "46th Street between 47th Avenue and 48th Avenue",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-30T13:10:31.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-03T20:19:28.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -7699,6 +7699,43 @@
     "fldxddBxzQcA4yv0A": "45-57 Union Street",
     "fld63z0I0JEzkE26Z": "2022-05-31T00:52:31.000Z",
     "fldGc8Yu4R85MSed4": "2022-09-21T17:37:46.000Z",
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": true
+  },
+  {
+    "id": "recrInuIS7Tc7vRgf",
+    "fld03C27tmVnEg1rP": "40.790093, -73.839618",
+    "fld18VKjlf9BGaE9N": "Patricia Larkin was a principal at P.S. 129 and joined the public school system after receiving her bachelor's and master's degrees from Hunter College. She died July 22, 1977, at St. Agnes Hospital, Point Pleasant, N.Y., at age 46.",
+    "fld3zcPVX14gMRFd1": "P.S. 129 Patricia Larkin",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldAHhNbaHDTgQ4ao": "Patricia Larkin",
+    "fldCwcnz1yvlpDv1D": "\"Patricia Ann Larkin, 46, Principal At Public School 129 in Queens,\" The New York Times, July 25, 1977, \n<https://timesmachine.nytimes.com/timesmachine/1977/07/25/80347208.html?pageNumber=18>\n",
+    "fldEdvOGWNqX5OImX": "Facilities Database  (NYC Open Data)",
+    "fldF1jFzlXZGeH9LP": [
+      "Education and Research"
+    ],
+    "fldKz0noCVXmoj4UV": "College Point",
+    "fldLjcdfwIByZ68aX": "July 22, 1977",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fldPMX16WqfXNhJ02": "She/her/hers",
+    "fldTAhZe07uxxeoJc": "7",
+    "fldTGROls2PhrOiQU": "Patricia Larkin was a principal at P.S. 129 and joined the public school system after receiving her bachelor's and master's degrees from Hunter College.  She died July 22, 1977, at St. Agnes Hospital, Point Pleasant, N.Y. She was 46 years old.",
+    "fldb2kOoaaol8IIiQ": "School",
+    "fldbxIVG5OzgGGvMj": [
+      "English"
+    ],
+    "fldhQfkBDSPZjKjer": "128-02 7th Avenue",
+    "fldiT7GQqBoUlnanU": true,
+    "fldim7SFpasPkKiOi": "ca. 1931",
+    "fldnTs1VeBJjhO1Ga": "11356",
+    "fldo67zoOMQsJN6xv": "P.S. 129 Patricia Larkin",
+    "fldrJjqRjjOeqKf72": "Marie Cyprien",
+    "fldtVvLjk33gCUz6l": "19",
+    "fldxddBxzQcA4yv0A": "128-02 7th Avenue",
+    "fld63z0I0JEzkE26Z": "2022-05-31T00:52:31.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-03T21:04:49.000Z",
+    "fldlXDuTBOAjXyVTC": true,
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
