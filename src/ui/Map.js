@@ -6,7 +6,15 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 // TODO: This really shouldn't go here because it's specific to the Main Map
 export const DEFAULT_PADDING = {
   padding: {
-    get left() { return window.innerWidth / 3 },
+    get left() {
+      const windowWidth = window.innerWidth;
+
+      if (windowWidth < 640) {
+        return 0;
+      }
+
+      return window.innerWidth / 3;
+    },
     top: 40,
     bottom: 40,
   },
