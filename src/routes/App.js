@@ -57,10 +57,10 @@ function App() {
                 <Route path="/tours/:slug" element={locations?.features && <Detail locations={locations}></Detail>} />
               </Routes>
             </div>
-            <div className={`hidden basis-2/3 flex justify-center p-5`}>
+            <div className={`hidden sm:flex basis-2/3 flex justify-center p-5`}>
               <div>
                 <div
-                  className='p-4 bg-white drop-shadow-xl h-auto rounded-full text-sm cursor-pointer pointer-events-auto hover:border-qpl-purple border-2 opacity-95'
+                  className='p-4 bg-white hidden sm:flex drop-shadow-xl h-auto rounded-full text-sm cursor-pointer pointer-events-auto hover:border-qpl-purple border-2 opacity-95'
                   onClick={() => {
                     const bbox = mapInstance
                       .getBounds()
