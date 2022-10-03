@@ -12,13 +12,12 @@ const fetcher = (...args) => fetch(...args).then(res => res.json());
 
 function App() {
   const contentRef = useRef(null);
-  const [params] = useSearchParams();
+  const [params, setSearchParams] = useSearchParams();
   const { pathname } = useLocation();
   const [mapInstance, setMapInstance] = useState(null);
-  const [mode, setMode] = useState(params.get('mode'));
   const { data: locations } = useSWR('/data/monuments.geojson', fetcher);
   const navigate = useNavigate();
-  const isMapMode = mode === 'map';
+  const isMapMode = params.get('mode') === 'map';
 
   useEffect(() => {
     contentRef.current?.scrollTo(0, 0);
@@ -39,7 +38,10 @@ function App() {
             <div className='sm:hidden absolute bottom-0 flex justify-center w-full z-10 pointer-events-none'>
               <div
                 className='pointer-events-all p-4 m-4 bg-white drop-shadow-xl h-auto rounded-full text-sm cursor-pointer pointer-events-auto hover:border-qpl-purple border-2 opacity-95'
-                onClick={() => setMode(isMapMode ? 'list' : 'map')}
+                onClick={() => {
+                  params.set('mode', isMapMode ? 'list' : 'map');
+                  setSearchParams(params);
+                }}
               >
                 {isMapMode ? 'List' : 'Map'}
               </div>

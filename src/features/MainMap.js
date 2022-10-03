@@ -82,7 +82,7 @@ function MainMap({ locations, onLoad }) {
     if (IS_UNIQUE) {
       const result = resultFactory(feature);
 
-      navigate(`/locations/${result.slug}`);
+      navigate(`/locations/${result.slug}?mode=list`);
 
       return;
     }
