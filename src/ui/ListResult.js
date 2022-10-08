@@ -27,9 +27,6 @@ function ListResult(props) {
       </h2>
       <span className='text-sm truncate'>{result.truncatedDescription}</span>
     </Link>
-    <div className="flex items-center">
-      {result.submissionDate}
-    </div>
   </div>
 }
 
