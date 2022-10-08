@@ -7,6 +7,7 @@ import school from './school.png';
 import street from './street.png';
 import selected from './selected.png';
 import inactive from './inactive.png';
+import tour from './tour.png';
 
 const ICONS = {
   building,
@@ -18,6 +19,7 @@ const ICONS = {
   street,
   selected,
   inactive,
+  tour,
 };
 
 export default ICONS;

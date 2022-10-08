@@ -73,6 +73,7 @@ export const ICONS_BY_LOCATION_TYPE = {
   'Park/Playground': ICONS['park'],
   'Monument/Statue': ICONS['monument'],
   'Library': ICONS['inactive'],
+  'Tour': ICONS['tour'],
 };
 
 export function extractlocationIdentifier(slug) {

@@ -95,7 +95,7 @@ const TourView = ({ location, locations, map }) => {
 
   return <>
     <LocationHeader
-      src={ICONS.library}
+      src={ICONS.tour}
       alt={'tour'}
       type={'Tour'}
       name={location?.properties[LOCATION.PLACE_NAME]}
