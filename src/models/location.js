@@ -1,5 +1,5 @@
 import sluggify from '../utils/sluggify';
-import qplLogo from '../features/images/qpl_logo.png';
+import nameExplorerLogo from '../features/images/noimage.png';
 import ICONS from '../features/images/icons';
 
 export const LOCATION_TYPES = [
@@ -55,7 +55,7 @@ export function resultFactory(result) {
   const hasImage = !!(result.properties[LOCATION.IMAGES]?.length);
   return {
     hasImage,
-    mastheadImage: hasImage ? result.properties[LOCATION.IMAGES][0]?.thumbnails.large.url : qplLogo,
+    mastheadImage: hasImage ? result.properties[LOCATION.IMAGES][0]?.thumbnails.large.url : nameExplorerLogo,
     submissionDate: result.properties[LOCATION.SUBMITTED_AT] && (new Date(result.properties[LOCATION.SUBMITTED_AT])).toLocaleDateString(),
     truncatedDescription: result.properties[LOCATION.DESCRIPTION]?.substring(0, 70),
     typeColor: getMonumentTypeColor(result.properties[LOCATION.TYPE]),
