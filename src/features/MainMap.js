@@ -131,7 +131,7 @@ function MainMap({ locations, onLoad }) {
             className='whitespace-nowrap'
             id={feature.properties.id}
           >
-            <h3 className='font-feather text-lg]'>{feature.properties[LOCATION.PLACE_NAME]}</h3>
+            <h3 className='text-3xl]'>{feature.properties[LOCATION.PLACE_NAME]}</h3>
           </ReactTooltip>,
           ref.current
         );
