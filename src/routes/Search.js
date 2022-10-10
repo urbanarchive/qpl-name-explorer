@@ -65,6 +65,7 @@ function Search({ locations }) {
       className='grow text-gray rounded-md bg-white'
       options={locationTypes}
       isClearable={true}
+      isSearchable={false}
       onChange={(selection) => { handleFilterChange(selection, LOCATION.TYPE) }}
       placeholder="Filter..."
     />
