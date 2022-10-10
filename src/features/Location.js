@@ -56,7 +56,7 @@ export const LocationHeader = ({ src, alt, type, name, children }) => <div class
     <img src={src} alt={alt} className="w-8 h-8 inline mr-1" />
     {type}
   </h6>
-  <h1 className='text-3xl font-feather'>
+  <h1 className='text-3xl font-feather uppercase'>
     {name}
     {children}
   </h1>
