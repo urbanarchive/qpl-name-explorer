@@ -73,7 +73,7 @@ export const LocationBody = ({ location }) => <>
     </p>
     {location?.formattedSourceDescription &&
       <p className='text-sm whitespace-pre-line break-words'>
-        <h1 className='font-bold'>Source:</h1> {parse(location?.formattedSourceDescription)}
+        <b className='font-bold'>Source:</b> {parse(location?.formattedSourceDescription)}
       </p>
     }
   </div>
