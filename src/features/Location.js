@@ -56,7 +56,7 @@ export const LocationHeader = ({ src, alt, type, name, children }) => <div class
     <img src={src} alt={alt} className="w-8 h-8 inline mr-1" />
     {type}
   </h6>
-  <h1 className='text-3xl font-feather uppercase'>
+  <h1 className='text-3xl font-feather leading-[2.215rem] uppercase'>
     {name}
     {children}
   </h1>
@@ -64,16 +64,16 @@ export const LocationHeader = ({ src, alt, type, name, children }) => <div class
 
 export const LocationBody = ({ location }) => <>
   <AirtableImage location={location}/>
-  {location?.properties[LOCATION.CITATION] &&
-    <p className='text-sm p-1 text-right'>{location?.properties[LOCATION.CITATION]}</p>
-  }
   <div className='p-4 whitespace-pre-line wrap'>
-    <p>
+    {location?.properties[LOCATION.CITATION] &&
+      <p className='text-sm text-left mb-1'>{location?.properties[LOCATION.CITATION]}</p>
+    }
+    <p className='mb-2'>
       {location?.properties[LOCATION.DESCRIPTION]}
     </p>
     {location?.formattedSourceDescription &&
-      <p className='text-sm p-1 whitespace-pre-line break-words'>
-        Source: {parse(location?.formattedSourceDescription)}
+      <p className='text-sm whitespace-pre-line break-words'>
+        <h1 className='font-bold'>Source:</h1> {parse(location?.formattedSourceDescription)}
       </p>
     }
   </div>

@@ -4,7 +4,9 @@
 
 @font-face {
   font-family: "Champion-HTF-Featherweight";
-  src: url("../public/fonts/Champion-HTF-Featherweight.otf");
+  font-weight: normal;
+  font-style: normal;
+  src: url("../public/fonts/Champion-HTF-Featherweight.woff");
 }
 
 html, body, #root {
