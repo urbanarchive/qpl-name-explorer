@@ -17,7 +17,7 @@ function Header({ locations }) {
           locations={locations}
         />
       </div>
-      <div onClick={() => toggleModal(true)} className="flex ml-auto h-8 items-center bg-blue-500 text-white p-4 rounded-md cursor-pointer">
+      <div onClick={() => toggleModal(true)} className="flex ml-auto h-8 items-center bg-blue-500 text-white p-4 rounded-full cursor-pointer">
         Add/Edit
       </div>
     </div>
