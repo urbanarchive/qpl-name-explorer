@@ -62,6 +62,7 @@ export function resultFactory(result) {
     slug: sluggify(result.properties),
     iconData: getIconFromMonumentType(result.properties),
     formattedSourceDescription: parseAirtableRTF(result.properties[LOCATION.SOURCES]),
+    thumbnail: hasImage && result.properties[LOCATION.IMAGES][0]?.thumbnails.small.url,
     ...result
   }
 };

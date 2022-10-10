@@ -37,7 +37,7 @@ function App() {
             />
             <div className='sm:hidden absolute bottom-0 flex justify-center w-full z-10 pointer-events-none'>
               <div
-                className='pointer-events-all p-4 m-4 bg-white drop-shadow-xl h-auto rounded-full text-sm cursor-pointer pointer-events-auto hover:border-qpl-purple border-2 opacity-95'
+                className='pointer-events-all p-4 m-4 bg-white drop-shadow-xl h-auto rounded-full text-sm cursor-pointer pointer-events-auto hover:border-qpl-purple border-2'
                 onClick={() => {
                   params.set('mode', isMapMode ? 'list' : 'map');
                   setSearchParams(params);
@@ -50,7 +50,7 @@ function App() {
           <section className="flex absolute top-0 z-100 h-full w-full pointer-events-none">
             <div
               ref={contentRef}
-              className={`${isMapMode && 'sm:block hidden'} basis-full lg:basis-1/3 sm:m-5 md:basis-1/2 overflow-scroll bg-white sm:opacity-100 opacity-90 rounded-lg pointer-events-auto shadow-2xl`}
+              className={`${isMapMode && 'sm:block hidden'} basis-full lg:basis-1/3 sm:m-5 md:basis-1/2 overflow-scroll bg-white rounded-lg pointer-events-auto shadow-2xl`}
             >
               <Routes>
                 <Route path="/" element={<Splash/>} />
@@ -62,7 +62,7 @@ function App() {
             <div className={`hidden sm:flex basis-2/3 flex justify-center p-5`}>
               <div>
                 <div
-                  className='p-4 bg-white hidden sm:flex drop-shadow-xl h-auto rounded-full text-sm cursor-pointer pointer-events-auto hover:border-qpl-purple border-2 opacity-95'
+                  className='p-4 bg-white hidden sm:flex drop-shadow-xl h-auto rounded-full text-sm cursor-pointer pointer-events-auto hover:border-qpl-purple border-2'
                   onClick={() => {
                     const bbox = mapInstance
                       .getBounds()
