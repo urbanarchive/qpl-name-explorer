@@ -68,11 +68,11 @@ export const LocationBody = ({ location }) => <>
     {location?.properties[LOCATION.CITATION] &&
       <p className='text-sm text-left mb-1'>{location?.properties[LOCATION.CITATION]}</p>
     }
-    <p className='mb-2'>
+    <p className='mb-3 text-md'>
       {location?.properties[LOCATION.DESCRIPTION]}
     </p>
     {location?.formattedSourceDescription &&
-      <p className='text-sm whitespace-pre-line break-words'>
+      <p className='text-xs whitespace-pre-line break-words prose'>
         <b className='font-bold'>Source:</b> {parse(location?.formattedSourceDescription)}
       </p>
     }
