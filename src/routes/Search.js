@@ -6,15 +6,15 @@ import { MapContext } from './App';
 import LOCATION from '../models/location';
 import { LOCATION_TYPES } from '../models/location';
 import { makeActiveLocationSelection } from '../features/Location';
+import ICONS from '../features/images/icons';
 import pointsWithinPolygon from '@turf/points-within-polygon';
 import bboxPolygon from '@turf/bbox-polygon';
 
 const USE_EXPERIMENTAL_RADIUS_SEARCH = true;
-
 const locationTypes = LOCATION_TYPES
   .filter((_curr, index) => (index % 2) === 0)
-  .map(t => ({ label: t, value: t }))
-  .slice(0, -1); // removes last color options as it's the default
+  .map(t => ({ label: <><img src={ICONS[t.toLowerCase()]} alt={t}/>{t}</>, value: t }))
+  .slice(0, -1)
 
 function Search({ locations }) {
   const map = useContext(MapContext);
