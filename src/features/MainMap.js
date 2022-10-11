@@ -126,14 +126,12 @@ function MainMap({ locations, onLoad }) {
       uniqueLocations.features.forEach(feature => {
         const ref = createRef();
         ref.current = document.createElement("div");
-        const location = resultFactory(feature);
 
         ReactDOM.render(<ReactTooltip
-            className='whitespace-nowrap'
+            className='whitespace-nowrap !rounded-full'
             id={feature.properties.id}
           >
-            <h3 className='text-3xl]'>{feature.properties[LOCATION.PLACE_NAME]}</h3>
-            {location.hasImage && <img src={location.thumbnail} alt='hoverable thumbnail'/>}
+            <h3 className='text-md rounded-full'>{feature.properties[LOCATION.PLACE_NAME]}</h3>
           </ReactTooltip>,
           ref.current
         );
