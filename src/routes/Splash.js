@@ -6,8 +6,11 @@ function Splash() {
     <h1 className='text-3xl pb-4 font-feather uppercase'>
       Queens Name Explorer
     </h1>
-    <p className='font-light text-sm'>
-      Welcome to the Queens Name Explorer! In partnership with Urban Archive, the Queens Memory Project presents this interactive map exploring the individuals whose names grace public spaces across the borough. We invite you to join us in finding streets, schools, parks, memorials, and other local spaces that are named after specific people–then learn about their historical significance or contributions to Queens. If you know of other named places we have not added yet to the map, please share a photo of the place and what you know about the individual it’s named after here. Happy exploring!
+    <p className='font-light text-md'>
+      This interactive map explores the individuals whose names grace public spaces across the borough of Queens. If you can add photos or additional information to the entries, or know of other named places we have not added yet to the map, please click the “Add/Edit” button to share what you know. Happy exploring!
+    </p>
+    <p className='font-light text-xs mt-2'>
+      Major funding for the Queens Name Explorer project was provided by the Mellon Foundation.
     </p>
     <Link to='/locations'>
       <button className='mt-4 w-full p-2 bg-blue-500 rounded-md text-white'>
