@@ -12,7 +12,7 @@ function TypeaheadSearch({ locations }) {
     const foundLocations = locations?.features
       .filter(f => JSON.stringify(f.properties).includes(inputString))
       .map(f => ({
-        label: `${f.properties[LOCATION.TYPE]}: ${f.properties[LOCATION.PLACE_NAME]}`,
+        label: f.properties[LOCATION.PLACE_NAME],
         value: f.properties[LOCATION.COORDS],
         meta: { type: f.properties[LOCATION.TYPE] },
       }));
@@ -23,7 +23,7 @@ function TypeaheadSearch({ locations }) {
       callback([
         ...foundLocations, // prefer actual known locations
         ...data.features.map(f => ({
-          label: `Address: ${f.properties.label}`,
+          label: f.properties.label,
           value: f.geometry.coordinates,
           meta: { type: 'address' },
         })),
