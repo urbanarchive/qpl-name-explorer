@@ -52,7 +52,7 @@ const AirtableImage = ({ location }) => {
 }
 
 export const LocationHeader = ({ src, alt, type, name, children }) => <div className='p-4'>
-  <h6 className='text-sm'>
+  <h6 className='text-sm pb-4'>
     <img src={src} alt={alt} className="w-4 h-4 inline mr-1" />
     {type}
   </h6>
