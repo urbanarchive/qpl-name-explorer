@@ -37,9 +37,10 @@ function App() {
             />
             <div className='sm:hidden absolute bottom-0 flex justify-center w-full z-10 pointer-events-none'>
               <div
-                className='pointer-events-all p-4 m-4 bg-white drop-shadow-xl h-auto rounded-full text-sm cursor-pointer pointer-events-auto hover:border-qpl-purple border-2'
+                className='bg-blue-500 pointer-events-all p-3 font-bold m-4 drop-shadow-xl h-auto rounded-full text-white text-sm cursor-pointer pointer-events-auto hover:border-qpl-purple border-2'
                 onClick={() => {
-                  params.set('mode', isMapMode ? 'list' : 'map');
+                  const newMode = isMapMode ? 'list' : 'map';
+                  params.set('mode', newMode);
                   setSearchParams(params);
                 }}
               >
@@ -53,7 +54,7 @@ function App() {
               className={`${isMapMode && 'sm:block hidden'} basis-full lg:basis-1/3 sm:m-5 md:basis-1/2 overflow-scroll bg-white rounded-lg pointer-events-auto shadow-2xl`}
             >
               <Routes>
-                <Route path="/" element={<Splash/>} />
+                <Route path="/" element={locations?.features && <Splash locations={locations} />} />
                 <Route path="/locations" element={<Search locations={locations} />} />
                 <Route path="/locations/:slug" element={locations?.features && <Detail locations={locations} />} />
                 <Route path="/tours/:slug" element={locations?.features && <Detail locations={locations}></Detail>} />
