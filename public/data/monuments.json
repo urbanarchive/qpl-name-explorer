@@ -3406,26 +3406,26 @@
     ],
     "fldchc6j0XRMy0vb9": [
       {
-        "id": "attgZWLPU11vcp7fL",
+        "id": "attr0e7SSA7aVRE3y",
         "width": 486,
         "height": 640,
-        "url": "https://dl.airtable.com/.attachments/b9ceebe387ea8d1efca2039bef2be928/4bac529f/LloydDelanyphoto.tif",
+        "url": "https://dl.airtable.com/.attachments/ceab826f617f8221092150b59b58853f/a875ef57/LloydDelanyphotolarger.jpg",
         "filename": "Lloyd T. Delany",
-        "size": 45738836,
-        "type": "image/tiff",
+        "size": 64744,
+        "type": "image/jpeg",
         "thumbnails": {
           "small": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/4fd07f036e5c399b9b221cd6c1753f00/ae6c2b81.png",
+            "url": "https://dl.airtable.com/.attachmentThumbnails/edf9cab9df768b64d051564e4759dd49/04f7334a",
             "width": 27,
             "height": 36
           },
           "large": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/8c853cf963b408c78f56ba124f17bc43/a3e56fad.png",
+            "url": "https://dl.airtable.com/.attachmentThumbnails/cee8bf4dc5b75da3ddf0d30e4c07e415/e0a113f8",
             "width": 486,
             "height": 640
           },
           "full": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/68bde1a0a05f88e09b7239db101a2afd/45e8bb47.png",
+            "url": "https://dl.airtable.com/.attachmentThumbnails/e017baa188761ca37e84a129ca333601/3c1f494e",
             "width": 3000,
             "height": 3000
           }
@@ -3445,7 +3445,7 @@
     "fldtVvLjk33gCUz6l": "24",
     "fldxddBxzQcA4yv0A": "Queens College campus",
     "fld63z0I0JEzkE26Z": "2022-10-05T22:32:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-10-11T22:18:04.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-11T23:42:12.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": false
   },
