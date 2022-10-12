@@ -1,10 +1,7 @@
 import React from 'react'
-import LOCATION from '../models/location';
 import ListResult from '../ui/ListResult';
 
 function Splash({ locations = [] }) {
-  const latestLocations = locations.features.sort((a, b) => a[LOCATION.SUBMITTED_AT] > b[LOCATION.SUBMITTED_AT]);
-
   return <div className='p-4'>
     <h1 className='text-3xl pb-4 font-feather uppercase'>
       Queens Name Explorer
@@ -22,7 +19,7 @@ function Splash({ locations = [] }) {
     </Link> */}
     <h2 className='text-sm my-4 mt-8 font-bold'>The Latest</h2>
     <div className='flex flex-col gap-4'>
-      {latestLocations.slice(0,30).map((location, index) => <ListResult key={index} result={location} />)}
+      {locations.features.slice(0,30).map((location, index) => <ListResult key={index} result={location} />)}
     </div>
   </div>
 }
