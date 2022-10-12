@@ -51,7 +51,7 @@ function App() {
           <section className="flex absolute top-0 z-100 h-full w-full pointer-events-none">
             <div
               ref={contentRef}
-              className={`${isMapMode && 'sm:block hidden'} basis-full lg:basis-1/3 sm:m-5 md:basis-1/2 overflow-scroll bg-white rounded-lg pointer-events-auto shadow-2xl`}
+              className={`${isMapMode && 'sm:block hidden'} relative basis-full lg:basis-1/3 sm:m-5 md:basis-1/2 overflow-scroll bg-white rounded-lg pointer-events-auto shadow-2xl`}
             >
               <Routes>
                 <Route path="/" element={locations?.features && <Splash locations={locations} />} />

@@ -6,15 +6,16 @@ import { MapContext } from './App';
 import LOCATION from '../models/location';
 import { LOCATION_TYPES } from '../models/location';
 import { makeActiveLocationSelection } from '../features/Location';
-import ICONS from '../features/images/icons';
 import pointsWithinPolygon from '@turf/points-within-polygon';
 import bboxPolygon from '@turf/bbox-polygon';
+import { ICONS_BY_LOCATION_TYPE } from '../models/location';
+import CloseButton from '../ui/CloseButton';
 
 const USE_EXPERIMENTAL_RADIUS_SEARCH = true;
 const locationTypes = LOCATION_TYPES
   .filter((_curr, index) => (index % 2) === 0)
-  .map(t => ({ label: <><img src={ICONS[t.toLowerCase()]} alt={t}/>{t}</>, value: t }))
-  .slice(0, -1)
+  .map(t => ({ label: <div><img className='w-4 h-4 float-left' src={ICONS_BY_LOCATION_TYPE[t]} alt={t}/>{t}</div>, value: t }))
+  .slice(0, -1);
 
 function Search({ locations }) {
   const map = useContext(MapContext);
@@ -59,22 +60,26 @@ function Search({ locations }) {
     selection ? setFilterParams({ key: keyName, value: [selection.value] }) : setFilterParams({});
   }
 
-  return <div className='flex flex-col p-4 gap-4'>
-    <h1 className='text-3xl font-feather uppercase'>Queens Name Explorer</h1>
-    <Select
-      className='grow text-gray rounded-md bg-white'
-      options={locationTypes}
-      isClearable={true}
-      isSearchable={false}
-      onChange={(selection) => { handleFilterChange(selection, LOCATION.TYPE) }}
-      placeholder="Filter..."
-    />
-    {filteredLocations?.slice(0,30).map(f=><ListResult key={f.properties.id} result={f} />)}
-    {(filteredLocations?.length === 0) && <>
-      <div className='p-4'>No matches for "{filter.value}". Showing all:</div>
-      {locations?.features?.slice(0,30).map(f=><ListResult key={f.properties.id} result={f} />)}
-    </>}
-  </div>;
+  return <>
+    {(filter.key === LOCATION.COORDS) && <CloseButton />}
+    <div className='flex flex-col p-4 gap-4'>
+      <h1 className='text-3xl font-feather uppercase'>Queens Name Explorer</h1>
+      <Select
+        className='grow text-gray rounded-md bg-white'
+        options={locationTypes}
+        isClearable={true}
+        value={locationTypes.find(l => l.value === filter.value)}
+        isSearchable={false}
+        onChange={(selection) => { handleFilterChange(selection, LOCATION.TYPE) }}
+        placeholder="Filter..."
+      />
+      {filteredLocations?.slice(0,30).map(f=><ListResult key={f.properties.id} result={f} />)}
+      {(filteredLocations?.length === 0) && <>
+        <div className='p-4'>No matches for "{filter.value}". Showing all:</div>
+        {locations?.features?.slice(0,30).map(f=><ListResult key={f.properties.id} result={f} />)}
+      </>}
+    </div>
+  </>;
 }
 
 export default Search;
