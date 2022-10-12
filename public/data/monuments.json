@@ -706,6 +706,7 @@
     "fld4ayxzpfL0q0Dsc": true,
     "fld9CSSvPGKCZyLUG": "QUEENS",
     "fldAHhNbaHDTgQ4ao": "Ann Buehler",
+    "fldAc9y87n6QRJQHv": "Photo by Leo Sano 2022 ",
     "fldBF9keRqVy6aRau": true,
     "fldCwcnz1yvlpDv1D": "Gil Tauber, \"NYC Honorary Street Names,\" accessed June 15, 2022, <http://www.nycstreets.info/>\n\nPantelidis, Michael. (2011, October 12). Astoria street renamed for leader, activist Ann Buehler. QNS.com. <https://qns.com/2011/10/astoria-street-renamed-for-leader-activist-ann-buehler>\n\nQueens Gazette Staff. (2010, October 13). Ex Variety Boys & Girls Club Director Ann Buehler Dies. Queens Gazette. <https://www.qgazette.com/articles/ex-variety-boys-girls-club-director-ann-buehler-dies/>\n\n",
     "fldEdvOGWNqX5OImX": "Gil Tauber",
@@ -723,6 +724,34 @@
     "fldbxIVG5OzgGGvMj": [
       "English"
     ],
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "att5PKnlwUDO7rTj5",
+        "width": 5892,
+        "height": 4640,
+        "url": "https://dl.airtable.com/.attachments/f5d11144c87d3a56fb6da3466dc9acb0/0a56cb1f/AnnBuehlerWay_LS-1.JPG",
+        "filename": "AnnBuehlerWay_LS-1.JPG",
+        "size": 5770634,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/49124db7af84c6bf09f633ee0daa0a4e/50c8d0bb",
+            "width": 46,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/31682889ba4f35cdfdf989906f130d9c/c11a884b",
+            "width": 650,
+            "height": 512
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/179509500c96551b38ef51d87c44bf02/07763c3b",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
     "fldhQfkBDSPZjKjer": "At the intersection of 30th Road and 21st Street",
     "fldhhf7THVqO69i5D": "Boys and Girls Club",
     "fldim7SFpasPkKiOi": "1916",
@@ -735,7 +764,7 @@
     "fldtVvLjk33gCUz6l": "22",
     "fldxddBxzQcA4yv0A": "21st St & 30th Rd",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-28T19:26:33.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-12T19:39:02.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
