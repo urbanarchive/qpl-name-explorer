@@ -1,32 +1,18 @@
 [
   {
     "LOCATION_TYPE": "TOUR",
-    "id": "recCabH4EnUsD6W19",
-    "fld6TCPloQX95dOVJ": "Long Island City Walk",
+    "id": "recDGmO3j6eqhANWw",
+    "fld6TCPloQX95dOVJ": "Hunters Point Walking Tour",
     "fldsqdIWbpl4GXLJu": [
-      "recT0tRiJU1OWvgCU",
-      "recTjf6PsxK3ROqCp",
-      "recSuxvsvy7Zdh7Ov",
-      "recATguZ3sLX55lO6"
+      "rec3eGCweUuv5UdEO",
+      "recgKlhCrPE89uEHw",
+      "recl7Qallt46FVXp8",
+      "recpC1lIbZkWmfU1P"
     ],
+    "fldfcR7YEf8T5M0by": "QPL Name Explorer Hunters Point Walking Tour.",
     "fldb2kOoaaol8IIiQ": "Tour",
-    "fld3zcPVX14gMRFd1": "Long Island City Walk",
-    "fld03C27tmVnEg1rP": "40.715367, -73.748523"
-  },
-  {
-    "LOCATION_TYPE": "TOUR",
-    "id": "recKnD74pvnQki0eX",
-    "fld6TCPloQX95dOVJ": "Flushing Tour",
-    "fldsqdIWbpl4GXLJu": [
-      "recSuxvsvy7Zdh7Ov",
-      "recT0tRiJU1OWvgCU",
-      "recTjf6PsxK3ROqCp",
-      "recTtNJ9lhPL0klZs",
-      "recATguZ3sLX55lO6"
-    ],
-    "fldb2kOoaaol8IIiQ": "Tour",
-    "fld3zcPVX14gMRFd1": "Flushing Tour",
-    "fld03C27tmVnEg1rP": "40.583911, -73.823040"
+    "fld3zcPVX14gMRFd1": "Hunters Point Walking Tour",
+    "fld03C27tmVnEg1rP": "40.742184, -73.958918"
   },
   {
     "id": "recx7YTUtUdLNi0ZE",
@@ -3038,10 +3024,6 @@
     "fld9CSSvPGKCZyLUG": "Queens",
     "fldAHhNbaHDTgQ4ao": "Thomas V. Ognibene",
     "fldBF9keRqVy6aRau": true,
-    "fldCnfJVVHgNn1UWW": [
-      "recCabH4EnUsD6W19",
-      "recKnD74pvnQki0eX"
-    ],
     "fldCwcnz1yvlpDv1D": "Gil Tauber, \"NYC Honorary Street Names,\" accessed June 15, 2022, <http://www.nycstreets.info/>\n\nThomas Ognibene obituary, <https://www.dignitymemorial.com/obituaries/glendale-ny/thomas-ognibene-6631946>\n\nMichael Dorgan, \"Middle Village Street Co-Named After Former Council Member Thomas Ognibene,\" _Sunnyside Post_, December 15, 2021,\n<https://sunnysidepost.com/middle-village-street-co-named-after-former-council-member-thomas-ognibene>\n\n\n",
     "fldEdvOGWNqX5OImX": "Gil Tauber",
     "fldF1jFzlXZGeH9LP": [
@@ -3071,7 +3053,7 @@
     "fldtVvLjk33gCUz6l": "30",
     "fldxddBxzQcA4yv0A": "Intersection of 83rd Street and Furmanville Avenue",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-29T23:26:29.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-13T13:31:32.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -5728,10 +5710,6 @@
     "fld9CSSvPGKCZyLUG": "Queens",
     "fldAHhNbaHDTgQ4ao": "James Conway Sullivan",
     "fldBF9keRqVy6aRau": true,
-    "fldCnfJVVHgNn1UWW": [
-      "recCabH4EnUsD6W19",
-      "recKnD74pvnQki0eX"
-    ],
     "fldCwcnz1yvlpDv1D": "Dan Barry, \"Of Race and the Rockaways: How a Proud Son of Irishtown Is Learning to Get Along,\" _New York Times_, March 8, 1997, <https://timesmachine.nytimes.com/timesmachine/1997/03/08/issue.html>\n",
     "fldEdvOGWNqX5OImX": "Gil Tauber",
     "fldF1jFzlXZGeH9LP": [
@@ -5764,7 +5742,7 @@
     "fldtVvLjk33gCUz6l": "32",
     "fldxddBxzQcA4yv0A": "Rockaway Beach Boulevard between 102nd Street and Beach 105th Street",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-29T23:26:29.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-13T13:31:32.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -6934,7 +6912,10 @@
     "fldtVvLjk33gCUz6l": "26",
     "fldxddBxzQcA4yv0A": "At the southwest corner of 50th Avenue and Vernon Boulevard",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-10-04T23:35:05.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-13T13:30:09.000Z",
+    "fldCnfJVVHgNn1UWW": [
+      "recDGmO3j6eqhANWw"
+    ],
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -8940,10 +8921,6 @@
     "fld9CSSvPGKCZyLUG": "Queens",
     "fldAHhNbaHDTgQ4ao": "Ramesh D. Kalicharran",
     "fldBF9keRqVy6aRau": true,
-    "fldCnfJVVHgNn1UWW": [
-      "recCabH4EnUsD6W19",
-      "recKnD74pvnQki0eX"
-    ],
     "fldCwcnz1yvlpDv1D": "Aminta Kilawan Narine, Esq., \"Ramesh D. Kalicharran, Popularly Known as 'Kali', Passes Away,\" _The West Indian_, December 11, 2017, \n<https://www.thewestindianonline.com/ramesh-d-kalicharran-popularly-known-as-kali-passes-away/>\n\nTangerine Clarke, \"Ramesh D. Kalicharran ‘Kali’ way named for late Guyanese philanthropist,\" _Caribbean Life_, June 15, 2019, \n<https://www.caribbeanlife.com/ramesh-d-kalicharran-kali-way-named-for-late-guyanese-philanthropist/>\n\n",
     "fldEdvOGWNqX5OImX": "Gil Tauber",
     "fldF1jFzlXZGeH9LP": [
@@ -8977,7 +8954,7 @@
     "fldtVvLjk33gCUz6l": "24",
     "fldxddBxzQcA4yv0A": "169th Street between Highland Avenue and Homelawn Street",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-29T23:26:29.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-13T13:31:32.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -9194,10 +9171,6 @@
     "fld9CSSvPGKCZyLUG": "Queens",
     "fldAHhNbaHDTgQ4ao": "Laura G. Lowery",
     "fldBF9keRqVy6aRau": true,
-    "fldCnfJVVHgNn1UWW": [
-      "recCabH4EnUsD6W19",
-      "recKnD74pvnQki0eX"
-    ],
     "fldCwcnz1yvlpDv1D": "\n\n",
     "fldEdvOGWNqX5OImX": "Gil Tauber",
     "fldF1jFzlXZGeH9LP": [
@@ -9228,7 +9201,7 @@
     "fldtVvLjk33gCUz6l": "27",
     "fldxddBxzQcA4yv0A": " Intersection of Jamaica Avenue and Hollis Court Boulevard",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-29T23:26:29.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-13T13:31:32.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -9472,7 +9445,10 @@
     "fldtVvLjk33gCUz6l": "26",
     "fldxddBxzQcA4yv0A": "Northwest corner of 47th Road and Vernon Boulevard",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-10-04T23:13:18.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-13T13:30:43.000Z",
+    "fldCnfJVVHgNn1UWW": [
+      "recDGmO3j6eqhANWw"
+    ],
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -9991,7 +9967,10 @@
     "fldtVvLjk33gCUz6l": "26",
     "fldxddBxzQcA4yv0A": " Intersection of 49th Avenue and Vernon Boulevard",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-10-04T23:49:23.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-13T13:30:34.000Z",
+    "fldCnfJVVHgNn1UWW": [
+      "recDGmO3j6eqhANWw"
+    ],
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -10264,7 +10243,10 @@
     "fldtVvLjk33gCUz6l": "26",
     "fldxddBxzQcA4yv0A": "Borden Ave & Second St",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T19:41:47.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-13T13:30:04.000Z",
+    "fldCnfJVVHgNn1UWW": [
+      "recDGmO3j6eqhANWw"
+    ],
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -10531,9 +10513,6 @@
     "fldAHhNbaHDTgQ4ao": "Walter Becker",
     "fldAc9y87n6QRJQHv": "Photo courtesy of Arielinson via Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Walter-Becker.jpg#file.",
     "fldBF9keRqVy6aRau": true,
-    "fldCnfJVVHgNn1UWW": [
-      "recKnD74pvnQki0eX"
-    ],
     "fldCwcnz1yvlpDv1D": "David Russell, \"Walter Becker Way honors a rock star,\" _Queens Chronicle_, Nov. 1, 2018, <https://www.qchron.com/editions/queenswide/walter-becker-way-honors-a-rock-star/article_2dd6df1c-a05f-5092-ae0d-67f0ad10fbcb.html>\n",
     "fldEdvOGWNqX5OImX": "Gil Tauber",
     "fldF1jFzlXZGeH9LP": [
@@ -10591,7 +10570,7 @@
     "fldtVvLjk33gCUz6l": "29",
     "fldxddBxzQcA4yv0A": "Intersection of 112th Street and 72nd Drive",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-29T22:59:00.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-13T13:31:29.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
