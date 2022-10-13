@@ -2332,6 +2332,7 @@
     "fld4ayxzpfL0q0Dsc": true,
     "fld9CSSvPGKCZyLUG": "Queens",
     "fldAHhNbaHDTgQ4ao": "Vincent Iannece",
+    "fldAc9y87n6QRJQHv": "Photo by Leo Sano 2022",
     "fldCwcnz1yvlpDv1D": "\"Columbus Triangle To Be Renamed For Vincent Iannece,\" _Queens Gazette_, September 19, 2007_, _<https://www.qgazette.com/articles/columbus-triangle-to-be-renamed-for-vincent-iannece/>\n\nRon Brownlow, \"Former Italian Federation Head, Vincent Iannece, Dies At 80,\" _Queens Chronicle_, October 6, 2005, <https://www.qchron.com/editions/western/former-italian-federation-head-vincent-iannece-dies-at-80/article_4b09394c-3460-53b2-8861-f6f0216740ff.html>\n",
     "fldEdvOGWNqX5OImX": "Gil Tauber",
     "fldF1jFzlXZGeH9LP": [
@@ -2350,6 +2351,34 @@
       "Italian",
       "English"
     ],
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "attekw0fbFS3vJWiV",
+        "width": 4640,
+        "height": 4640,
+        "url": "https://dl.airtable.com/.attachments/e64c4572ad4700f22716fe7e65ba1d5d/de054a05/LS_Cav.VinIanneceCrn_1a.jpg",
+        "filename": "LS_Cav.VinIanneceCrn_1a.jpg",
+        "size": 3127132,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/cf2931ba4e8b6f02d7503b20eb77fa37/46c94f8e",
+            "width": 36,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/1768cbeccf68b73238be7827d6c4467a/45fc6cda",
+            "width": 512,
+            "height": 512
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/3eb88e24edac47586682046c75fc3781/0ef7848c",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
     "fldhQfkBDSPZjKjer": "32nd Street and Astoria Blvd.",
     "fldhhf7THVqO69i5D": "Italian Americans",
     "fldiT7GQqBoUlnanU": true,
@@ -2365,7 +2394,7 @@
     "fldtVvLjk33gCUz6l": "22",
     "fldxddBxzQcA4yv0A": "32nd Street and Astoria Blvd.",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-23T01:30:34.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-13T15:20:20.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
