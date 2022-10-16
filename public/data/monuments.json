@@ -2403,7 +2403,7 @@
     "fld4ayxzpfL0q0Dsc": true,
     "fld9CSSvPGKCZyLUG": "Queens",
     "fldAHhNbaHDTgQ4ao": "Vincent Iannece",
-    "fldCwcnz1yvlpDv1D": "\"Columbus Triangle To Be Renamed For Vincent Iannece,\" _Queens Gazette_, September 19, 2007_, _<https://www.qgazette.com/articles/columbus-triangle-to-be-renamed-for-vincent-iannece/>\n\nRon Brownlow, \"Former Italian Federation Head, Vincent Iannece, Dies At 80,\" _Queens Chronicle_, October 6, 2005, <https://www.qchron.com/editions/western/former-italian-federation-head-vincent-iannece-dies-at-80/article_4b09394c-3460-53b2-8861-f6f0216740ff.html>\n",
+    "fldCwcnz1yvlpDv1D": "\"Columbus Triangle To Be Renamed For Vincent Iannece,\" _Queens Gazette, _September 19, 2007_, _<https://www.qgazette.com/articles/columbus-triangle-to-be-renamed-for-vincent-iannece/>\n\nRon Brownlow, \"Former Italian Federation Head, Vincent Iannece, Dies At 80,\" Queens Chronicle, October 6, 2005, <https://www.qchron.com/editions/western/former-italian-federation-head-vincent-iannece-dies-at-80/article_4b09394c-3460-53b2-8861-f6f0216740ff.html>\n",
     "fldEdvOGWNqX5OImX": "Gil Tauber",
     "fldF1jFzlXZGeH9LP": [
       "Community Activism"
@@ -2450,7 +2450,7 @@
         }
       }
     ],
-    "fldhQfkBDSPZjKjer": "32nd Street and Astoria Blvd.",
+    "fldhQfkBDSPZjKjer": "32nd Street and Astoria Boulevard",
     "fldhhf7THVqO69i5D": "Italian Americans",
     "fldiT7GQqBoUlnanU": true,
     "fldim7SFpasPkKiOi": "1925",
@@ -2463,9 +2463,9 @@
     "fldq5DPdjbB3X7fQy": "2006/050",
     "fldrJjqRjjOeqKf72": "Alina Willis/Lori Wallach",
     "fldtVvLjk33gCUz6l": "22",
-    "fldxddBxzQcA4yv0A": "32nd Street and Astoria Blvd.",
+    "fldxddBxzQcA4yv0A": "32nd Street and Astoria Boulevard",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-10-13T17:42:50.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-16T21:45:05.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -2652,6 +2652,78 @@
     "fldGc8Yu4R85MSed4": "2022-09-15T14:34:17.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": false
+  },
+  {
+    "id": "recjecsHewr2DyejV",
+    "fld03C27tmVnEg1rP": "40.774557, -73.922272",
+    "fld18VKjlf9BGaE9N": "Lt. Peter Chappetto (1919 – 1944), an Astoria resident, was a Second Lieutenant in the U.S. Army who was killed in action during World War II. Born in Astoria, he was a standout athlete in baseball and basketball at William Cullen Bryant High School in Long Island City and played for several semi-professional teams in Astoria after graduating. He enlisted with the Army in early 1941, and in 1944 was commissioned as an armored corps officer in the Pacific Theater. During the invasion of Palau at the Battle of Angaur, he was seriously wounded on September 26, 1944, but still managed to direct his platoon to safety. He died later that day and was buried at sea. He was posthumously awarded a Purple Heart, a Silver Star and a presidential citation.",
+    "fld3zcPVX14gMRFd1": "Chappetto Square",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldAHhNbaHDTgQ4ao": "Lieutenant Peter Chappetto",
+    "fldBF9keRqVy6aRau": true,
+    "fldCwcnz1yvlpDv1D": "\"Chappetto Square,\" New York City Department of Parks & Recreation, accessed September 30, 2022, <https://www.nycgovparks.org/parks/chappetto-square/history>\n",
+    "fldEdvOGWNqX5OImX": "Parks Properties (NYC Open Data)",
+    "fldF1jFzlXZGeH9LP": [
+      "Military"
+    ],
+    "fldGPBlBpPi8e4PU7": "1949",
+    "fldKwhgXfbzaB1p1X": "Photo by Leo Sano 2022",
+    "fldLjcdfwIByZ68aX": "1944",
+    "fldTAhZe07uxxeoJc": "1",
+    "fldTGROls2PhrOiQU": "This park is named for 2nd Lieutenant Peter Chappetto, an Astoria resident who was killed in action during World War II. Born in 1913 in Astoria, was a standout athlete in baseball and basketball at William Cullen Bryant High School in Long Island City and played for several semi-professional teams in Astoria after graduating. He enlisted with the Army in early 1941, and in 1944 was commissioned as an armored corps officer in the Pacific Theater. During the invasion of Palau at the Battle of Anguar, he was seriously wounded on September 26, 1944 but still managed to direct his platoon to safety. He died later that day and was buried at sea. He was posthumously awarded a Purple Heart, Silver Star, and presidential citation.\n\nIn October 1946, City Council Member Mae Gallis of East Elmhurst introduced a petition to name this playground in Chappetto’s honor. A flagpole with a plaque memorializing Chappetto and all those who died in World War II was dedicated in 1949. A rededication ceremony was celebrated on Nov. 11, 1999.",
+    "fldZZ1eosVwyix7m4": "23rd Street and Hoyt Avenue North",
+    "fldb2kOoaaol8IIiQ": "Park/Playground",
+    "fldbBQ9Hc4t90wU0X": "https://www.nycgovparks.org/parks/chappetto-square/history",
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "atthIQfwaIynw4TVV",
+        "width": 5568,
+        "height": 4640,
+        "url": "https://dl.airtable.com/.attachments/3b18ce4a16f8450bcdd03d9ea030e2e3/80874534/LS_ChappettoSq1.jpg",
+        "filename": "LS_ChappettoSq1.jpg",
+        "size": 6573781,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/3c011c09a1204067c66df35baec40b62/19f9695c",
+            "width": 43,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/d613879e6104ef04e7f61330d2d577f0/21900af0",
+            "width": 614,
+            "height": 512
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/326b2115256ef218c7678c0ec0657d51/5f8ddfeb",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "fldhQfkBDSPZjKjer": "Hoyt Avenue between 21st and 23rd Streets",
+    "fldim7SFpasPkKiOi": "1913",
+    "fldirBebD4ZoJeWfC": "Council Member Mae Gallis",
+    "fldmpgqHheHG4ASnx": "Astoria",
+    "fldnTs1VeBJjhO1Ga": "11102",
+    "fldo67zoOMQsJN6xv": "Chappetto Square",
+    "fldtVvLjk33gCUz6l": "22",
+    "fld63z0I0JEzkE26Z": "2022-05-31T00:52:31.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-16T21:57:49.000Z",
+    "fldPMX16WqfXNhJ02": "He/him/his",
+    "fldbxIVG5OzgGGvMj": [
+      "English"
+    ],
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fldrJjqRjjOeqKf72": "Aimai Reporter",
+    "fldKz0noCVXmoj4UV": "Astoria",
+    "fldxddBxzQcA4yv0A": "Hoyt Avenue between 21st and 23rd Streets",
+    "fldiT7GQqBoUlnanU": true,
+    "fldlXDuTBOAjXyVTC": true,
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": true
   },
   {
     "id": "recK7JGPEpzBo3xKF",
