@@ -6578,6 +6578,7 @@
     "fldKwhgXfbzaB1p1X": "Photo by Leo Sano, 2022",
     "fldKz0noCVXmoj4UV": "Astoria",
     "fldLjcdfwIByZ68aX": "2/3/2015",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
     "fldPMX16WqfXNhJ02": "He/him/his",
     "fldTAhZe07uxxeoJc": "1",
     "fldTGROls2PhrOiQU": "Theodore Leoutsakos (Died February 3, 2015) was a United States Air Force Veteran who served during the Vietnam War.  He was honorably discharged when he was wounded in combat.  For 24 years, he served as a New York State Court Officer and worked perimeter patrol outside of the New York County Supreme Court at 111 Centre Street in Manhattan.  He was a first responder during the 9/11 terrorist attacks at the World Trade Center and was trapped when the towers collapsed.  He survived the attacks and was credited with helping many survivors that day.  He was awarded the Medal of Valor and was recognized in a proclamation by Senator Hillary Clinton.  He was a founding member of the Fraternal Organization of Court Officers, a charitable organization that began in 1990 and has held hundreds of fundraisers helping people in need.  Shortly after his retirement, he was diagnosed with pancreatic cancer as a result of his response to the World Trade Center and his time spent at Ground Zero.(Constantinides)|Honorifics 2016-92",
@@ -6616,8 +6617,12 @@
     ],
     "fldhQfkBDSPZjKjer": "At the intersection of 29th Street and 21st Avenue",
     "fldhhf7THVqO69i5D": "Greek American community",
+    "fldiT7GQqBoUlnanU": true,
     "fldim7SFpasPkKiOi": "ca. 1950",
     "fldirBebD4ZoJeWfC": "Council Member Costa Constantinides",
+    "fldkkbT5XhwsGbnC9": "Teddy Leoutsakos",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldmpgqHheHG4ASnx": "United States",
     "fldnTs1VeBJjhO1Ga": "11105",
     "fldo67zoOMQsJN6xv": "Lieutenant Theodore Leoutsakos Way",
     "fldq5DPdjbB3X7fQy": "LL 2016/092",
@@ -6626,11 +6631,6 @@
     "fldxddBxzQcA4yv0A": "Intersection of 29th Street and 21st Avenue",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
     "fldGc8Yu4R85MSed4": "2022-10-17T02:53:42.000Z",
-    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
-    "fldiT7GQqBoUlnanU": true,
-    "fldmpgqHheHG4ASnx": "United States",
-    "fldkkbT5XhwsGbnC9": "Teddy Leoutsakos",
-    "fldlXDuTBOAjXyVTC": true,
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -10948,6 +10948,133 @@
     "fldGc8Yu4R85MSed4": "2022-09-23T19:42:20.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
+  },
+  {
+    "id": "recCZwbRH51Ozguqd",
+    "fld03C27tmVnEg1rP": "40.777974513359496, -73.93403954847706",
+    "fld18VKjlf9BGaE9N": "Edward Charles \"Whitey\" Ford (1928 - 2020) was a pitcher for the New York Yankees who was raised in Astoria. Ford was called up to the majors in 1950, beginning a long and illustrious career with the team, though he missed the 1951 and 1952 seasons while serving in the U.S. Army during the Korean War. During his time with the Yankees, he won 236 games as the team won 11 pennants and six World Series. He was a ten-time All Star, and in 1961 he received the Cy Young Award and World Series MVP. He earned the nickname “Chairman of the Board” for his calm, collected demeanor and pitching style.\n\nFollowing his retirement in 1967, Ford served brief stints as the team’s first base and pitching coach and assisted at spring training. His jersey, number 16, was retired when he was inducted into Baseball Hall of Fame in 1974. He was the first Yankee pitcher to have his jersey retired. \n\nThe site of this field was occupied by Eagle Oil Works in the late 19th century, before the City acquired the land in 1906. In 1907, the U.S. Government leased part of the site for a monthly fee of $16.66 to the Coast Guard so it could maintain a lighthouse and bell along the water at the site. The lighthouse remained on the seawall until 1982. In 1942, NYC Parks Commissioner Robert Moses petitioned the City for the site and in October 1943, it was assigned to Parks and became known as Astoria Athletic Field. In 1985, the park’s name was changed to Hellgate Field for the water passage that the park abuts. At a special Yankee Stadium ceremony in August 2000, the field was dedicated to Whitey Ford. ",
+    "fld3zcPVX14gMRFd1": "Whitey Ford Field",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldAHhNbaHDTgQ4ao": "Whitey Ford",
+    "fldBF9keRqVy6aRau": true,
+    "fldCwcnz1yvlpDv1D": "\"Whitey Ford Field,\" New York City Department of Parks & Recreation, accessed September 30, 2022, <https://www.nycgovparks.org/parks/whitey-ford-field/history>\n\n",
+    "fldEdvOGWNqX5OImX": "Parks Properties (NYC Open Data)",
+    "fldF1jFzlXZGeH9LP": [
+      "Sports"
+    ],
+    "fldGPBlBpPi8e4PU7": "2000",
+    "fldKwhgXfbzaB1p1X": "Photo by Leo Sano, 2022",
+    "fldKz0noCVXmoj4UV": "Astoria",
+    "fldLjcdfwIByZ68aX": "October 8, 2020",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fldPMX16WqfXNhJ02": "He/him/his",
+    "fldTAhZe07uxxeoJc": "1",
+    "fldTGROls2PhrOiQU": "This site of this field was occupied by Eagle Oil Works in the late 19th century, before the City acquired the land in 1906. In 1907, the U.S. Government leased part of the site for a monthly fee of $16.66 to the Coast Guard so it could maintain a lighthouse and bell along the water at the site. The lighthouse remained on the seawall until 1982.\n\nIn 1942, NYC Parks Commissioner Robert Moses petitioned the City for the site and in October 1943, it was assigned to Parks and became known as Astoria Athletic Field. In 1985, the park’s name was changed to Hellgate Field for the water passage that the park abuts. \n\nAt a special Yankee Stadium ceremony in August 2000, the field was dedicated to legendary Yankees pitcher Whitey Ford. Although Edward Charles Ford was born on Manhattan’s Upper East Side, he was raised in Astoria. Because the local William Cullen Bryant High School did not have a baseball team, he attended Manhattan High School of Aviation Trades where he played first base. He tried out for the Yankees in the spring of his senior year of high school and signed with them that October as a pitching prospect.\n\nFord was called up to the majors in 1950, beginning a long and illustrious career with the team, though he missed the 1951 and 1952 seasons while serving in the U.S. Army during the Korean War. During his time with the Yankees, he won 236 games and the team won 11 pennants and six World Series. He was a ten-time All Star and in 1961 he received the Cy Young Award and World Series MVP. He earned the nickname “Chairman of the Board” for his calm, collected demeanor and pitching style.\n\nFollowing his retirement in 1967, Ford served brief stints as the team’s first base and pitching coach and assisted at spring training. His jersey, number 16, was retired when Ford was inducted into Baseball Hall of Fame in 1974. He was the first Yankee pitcher to have his jersey retired.\n\n",
+    "fldb2kOoaaol8IIiQ": "Park/Playground",
+    "fldbBQ9Hc4t90wU0X": "*Friends of Whitey Ford Field (Facebook group) - may want to contact them for use of photos; they have photos of field and of Whitey Ford himself*\n\nSource: New York City Department of Parks & Recreation, https://www.nycgovparks.org/parks/whitey-ford-field/history\n\nhttps://www.nycgovparks.org/parks/whitey-ford-field/dailyplant/7494\n\nMLB.com, https://www.mlb.com/player/whitey-ford-114299\n\nhttps://en.wikipedia.org/wiki/Whitey_Ford",
+    "fldbxIVG5OzgGGvMj": [
+      "English"
+    ],
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "attZEcDg2ekMbEoKn",
+        "width": 5984,
+        "height": 4640,
+        "url": "https://dl.airtable.com/.attachments/407c98afdc22a9ad626a6df1f26b5949/1ae79dfa/LS_WhiteyFordField1.jpg",
+        "filename": "LS_WhiteyFordField1.jpg",
+        "size": 7004397,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/897607fd7d0a4e6000603daeaf804042/dc038223",
+            "width": 46,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/87ae0b5961789ad5cf4e8d7c8a7e5ed4/72dd8a8e",
+            "width": 660,
+            "height": 512
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/fc5e42abc16f4321faedbed12ed0179d/38676fed",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "fldd8Ii2y6GrnrkMN": "Hellgate Field",
+    "fldhQfkBDSPZjKjer": "26th Avenue between 1st Street and 2nd Street",
+    "fldiT7GQqBoUlnanU": true,
+    "fldim7SFpasPkKiOi": "October 21, 1928",
+    "fldkkbT5XhwsGbnC9": "Edward Charles Ford",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldmpgqHheHG4ASnx": "Manhattan, NY",
+    "fldnTs1VeBJjhO1Ga": "11102",
+    "fldo67zoOMQsJN6xv": "Whitey Ford Field",
+    "fldrJjqRjjOeqKf72": "Lori Wallach",
+    "fldtVvLjk33gCUz6l": "22",
+    "fldxddBxzQcA4yv0A": "26th Avenue between 1st Street and 2nd Street",
+    "fld63z0I0JEzkE26Z": "2022-05-31T00:52:31.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-17T03:10:53.000Z",
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": false
+  },
+  {
+    "id": "recwe7Fhj3x0PqweX",
+    "fld03C27tmVnEg1rP": "40.777974513359496, -73.93403954847706",
+    "fld18VKjlf9BGaE9N": "The Hell Gate Lighthouse stood on the seawall of this site from 1907 to 1982.",
+    "fld3zcPVX14gMRFd1": "Whitey Ford Field",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldAHhNbaHDTgQ4ao": "Whitey Ford",
+    "fldAc9y87n6QRJQHv": "The Hell Gate Lighthouse stood on the seawall of this site from 1907 to 1982.\n\nPostcard Collection at the Archives at Queens Library, aql:17983",
+    "fldBF9keRqVy6aRau": true,
+    "fldCwcnz1yvlpDv1D": "\n\n",
+    "fldEdvOGWNqX5OImX": "Parks Properties (NYC Open Data)",
+    "fldKwhgXfbzaB1p1X": "Photo courtesy of the Archives at Queens Library.",
+    "fldKz0noCVXmoj4UV": "Astoria",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fldb2kOoaaol8IIiQ": "Park/Playground",
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "attk3RJBnk8X4Zulx",
+        "width": 200,
+        "height": 314,
+        "url": "https://dl.airtable.com/.attachments/5cd57e10edd7607c5564644105b383e8/7b71d4ea/HellGateLighthouse1908.jpg",
+        "filename": "Hell Gate Lighthouse, 1908",
+        "size": 9069,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/85757c23db6a389f3bb2b2ee4541e5ae/87284ed0",
+            "width": 23,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/facd4e5f0f63e9599635896d508a1d32/5fe5c149",
+            "width": 200,
+            "height": 314
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/bf0c3c328f5558c4b216ffa2792b9522/1ebfe43e",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "fldhQfkBDSPZjKjer": "26th Avenue between 1st Street and 2nd Street",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldnTs1VeBJjhO1Ga": "11102",
+    "fldo67zoOMQsJN6xv": "Whitey Ford Field",
+    "fldrJjqRjjOeqKf72": "Lori Wallach",
+    "fldxddBxzQcA4yv0A": "26th Avenue between 1st Street and 2nd Street",
+    "fld63z0I0JEzkE26Z": "2022-10-17T03:11:05.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-17T03:14:35.000Z",
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": false
   },
   {
     "id": "recet0Jv3ZO70ZuNu",
