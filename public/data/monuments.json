@@ -1,5 +1,39 @@
 [
   {
+    "LOCATION_TYPE": "TOUR",
+    "id": "recCZDJcPkZnykOQx",
+    "fld6TCPloQX95dOVJ": "Hunters Point Walking Tour",
+    "fldsqdIWbpl4GXLJu": [
+      "rec3eGCweUuv5UdEO",
+      "recgKlhCrPE89uEHw",
+      "recF0g6feYjFmECbj",
+      "recl7Qallt46FVXp8",
+      "recpC1lIbZkWmfU1P",
+      "recPpU7QqPl0bo0oR",
+      "recrnVkEiAguMQ1Dv"
+    ],
+    "fldfcR7YEf8T5M0by": "This walking tour explores the individuals whose names grace public spaces in Hunters Point, Queens.",
+    "fldb2kOoaaol8IIiQ": "Tour",
+    "fld3zcPVX14gMRFd1": "Hunters Point Walking Tour",
+    "fld03C27tmVnEg1rP": "40.742184, -73.958918"
+  },
+  {
+    "LOCATION_TYPE": "TOUR",
+    "id": "rec4Gjspg9kgID3OK",
+    "fld6TCPloQX95dOVJ": "Jamaica Walking Tour",
+    "fldsqdIWbpl4GXLJu": [
+      "rec2xmvxIQFWAa3ar",
+      "recMstx4dm2vzxSl0",
+      "rec8d9wInmMkEanmW",
+      "recUt2sBH9ELg5mh5",
+      "recOYfUETLsCZuq84"
+    ],
+    "fldfcR7YEf8T5M0by": "This walking tour explores the individuals whose names grace public spaces in Jamaica, Queens.",
+    "fldb2kOoaaol8IIiQ": "Tour",
+    "fld3zcPVX14gMRFd1": "Jamaica Walking Tour",
+    "fld03C27tmVnEg1rP": "40.705827, -73.793949"
+  },
+  {
     "id": "recx7YTUtUdLNi0ZE",
     "fld03C27tmVnEg1rP": "40.76176651376746, -73.83040972331887",
     "fld18VKjlf9BGaE9N": "Rep. Benjamin S. Rosenthal (D-NY) represented northeast Queens in the U.S. Congress from 1962 until his death in January 1983. Born in Manhattan, Rosenthal attended New York City public schools, Long Island University and City College before serving in the U.S. Army during WWII. He received his law degree from Brooklyn Law School and was admitted to the bar in 1949. In 1962, Rosenthal won a special election to the Eighty-Seventh Congress to fill the vacancy caused when Rep. Lester Holtzman won a seat on the state Supreme Court; Rosenthal was then reelected to the 11 succeeding Congresses.\n\nDuring his congressional tenure, Rosenthal was an early opponent of the Vietnam War and a champion of consumer protection causes. He was a member of the Foreign Affairs Committee and chairman of the Subcommittee for Commerce, Consumer, and Monetary Affairs.",
@@ -666,6 +700,48 @@
     "fldxddBxzQcA4yv0A": "137th Ave & 227th St",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
     "fldGc8Yu4R85MSed4": "2022-09-28T19:26:28.000Z",
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": true
+  },
+  {
+    "id": "recF0g6feYjFmECbj",
+    "fld03C27tmVnEg1rP": "40.743443, -73.954378",
+    "fld18VKjlf9BGaE9N": "This park opened to the public in 1932. That same year, the Board of Aldermen named the facility Andrews Playground for one John F. Andrews \"to do honor to the memory of one active in the civic affairs of the Borough of Queens during his lifetime.\" Unfortunately, very little is known about Andrews, save that he was born on December 15, 1896, in Long Island City and died in August 1980. Soon after the playground first opened, it underwent massive reconstruction and reopened in 1936 equipped with a children's play area and comfort station.\n\nIn the 1950s, Andrews Playground was enlarged twice. The City of New York acquired one of the park's additions by private purchase in 1951, and the other by condemnation in 1955. These two additions brought the park to its current size of 2.542 acres.",
+    "fld3zcPVX14gMRFd1": "Andrews Grove",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldAHhNbaHDTgQ4ao": "John F. Andrews ",
+    "fldCwcnz1yvlpDv1D": "\"Andrews Grove,\" New York City Department of Parks & Recreation, accessed October 19, 2022, <https://www.nycgovparks.org/parks/andrews-grove>\n",
+    "fldEdvOGWNqX5OImX": "Parks Properties (NYC Open Data)",
+    "fldF1jFzlXZGeH9LP": [
+      "Community Activism"
+    ],
+    "fldGPBlBpPi8e4PU7": "1932",
+    "fldKz0noCVXmoj4UV": "Long Island City",
+    "fldLjcdfwIByZ68aX": "August 1980",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fldPMX16WqfXNhJ02": "He/him/his",
+    "fldTAhZe07uxxeoJc": "2",
+    "fldTGROls2PhrOiQU": "This park opened to the public in 1932. That same year, the Board of Alderman named the facility Andrews Playground for one John F. Andrews \"to do honor to the memory of one active in the civic affairs of the Borough of Queens during his lifetime.\" Unfortunately, very little is known about Andrews, save that he was born on December 15, 1896, in Long Island City and died in August 1980. Soon after the playground first opened, it underwent massive reconstruction and reopened in 1936 equipped with a children's play area and comfort station.\n\nIn the 1950s, Andrews Playground was enlarged twice. The City of New York acquired one of the park's additions by private purchase in 1951, and the other by condemnation in 1955. These two additions brought the park to its current size of 2.542 acres.",
+    "fldb2kOoaaol8IIiQ": "Park/Playground",
+    "fldbxIVG5OzgGGvMj": [
+      "English"
+    ],
+    "fldhQfkBDSPZjKjer": "49th Avenue between 5th Street and Vernon Boulevard",
+    "fldiT7GQqBoUlnanU": true,
+    "fldim7SFpasPkKiOi": "December 15, 1896",
+    "fldirBebD4ZoJeWfC": "Board of Aldermen",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldnTs1VeBJjhO1Ga": "11101",
+    "fldo67zoOMQsJN6xv": "Andrews Grove",
+    "fldrJjqRjjOeqKf72": "Lori Wallach",
+    "fldtVvLjk33gCUz6l": "26",
+    "fldxddBxzQcA4yv0A": "49th Avenue between 5th Street and Vernon Boulevard",
+    "fld63z0I0JEzkE26Z": "2022-05-31T00:52:31.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-20T12:40:09.000Z",
+    "fldCnfJVVHgNn1UWW": [
+      "recCZDJcPkZnykOQx"
+    ],
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -4817,13 +4893,13 @@
   {
     "id": "rec2xmvxIQFWAa3ar",
     "fld03C27tmVnEg1rP": "40.705827, -73.793949",
-    "fld18VKjlf9BGaE9N": "Rev. Floyd H. Flake (b. 1945) is a former congressman and the longtime pastor of the Greater Allen African Methodist Episcopal Cathedral. He served as a member of the United States House of Representatives from 1987 to 1997; served as President of Wilberforce University from 2002 to 2008; and is the senior pastor of the Greater Allen A. M. E. Cathedral of New York in Jamaica, Queens. Rev. Flake is also the author of the books \"The Way of the Bootstrapper: Nine Action Steps for Achieving Your Dreams\", and \"The African American Church Management Handbook\". In Congress, he funded the Nation’s first One Stop Small Business Capital Center; it has been the model for additional centers that are now operating in the Federal Empowerment Zones and provides technical assistance and loans to small businesses.",
+    "fld18VKjlf9BGaE9N": "Rev. Floyd H. Flake (b. 1945) is a former congressman and the longtime pastor of the Greater Allen African Methodist Episcopal Cathedral. He served as a member of the United States House of Representatives from 1987 to 1997; served as president of Wilberforce University from 2002 to 2008; and is the senior pastor of the Greater Allen A. M. E. Cathedral of New York in Jamaica. Rev. Flake is also the author of the books \"The Way of the Bootstrapper: Nine Action Steps for Achieving Your Dreams\" and \"The African American Church Management Handbook.\" In Congress, he funded the nation’s first One Stop Small Business Capital Center; it has been the model for additional centers that are now operating in the Federal Empowerment Zones and provides technical assistance and loans to small businesses.",
     "fld3zcPVX14gMRFd1": "Floyd H. Flake Boulevard",
     "fld4ayxzpfL0q0Dsc": true,
-    "fld9CSSvPGKCZyLUG": "QUEENS",
+    "fld9CSSvPGKCZyLUG": "Queens",
     "fldAHhNbaHDTgQ4ao": "Floyd H. Flake",
     "fldBF9keRqVy6aRau": true,
-    "fldCwcnz1yvlpDv1D": "Gil Tauber, \"NYC Honorary Street Names,\" accessed June 15, 2022, <http://www.nycstreets.info/>\n\nMichael Gannon, \" Merrick Boulevard renamed for Floyd Flake,” _Queens Chronicle_, October 5, 2020, <https://www.qchron.com/editions/central/merrick-boulevard-renamed-for-floyd-flake/article_024a294c-0740-11eb-b17b-374421822103.html> \n\nTodd Maisel, \"Hundreds jam Queens street for roadway renaming honoring longtime leader Floyd Flake,” _amny_, October 5, 2020, <https://www.amny.com/news/hundreds-jam-queens-street-for-roadway-renaming-honoring-longtime-leader-floyd-flake/> \n",
+    "fldCwcnz1yvlpDv1D": "Gil Tauber, \"NYC Honorary Street Names,\" accessed June 15, 2022, <http://www.nycstreets.info/>\n\nMichael Gannon, \"Merrick Boulevard renamed for Floyd Flake,” Queens Chronicle, October 5, 2020, <https://www.qchron.com/editions/central/merrick-boulevard-renamed-for-floyd-flake/article_024a294c-0740-11eb-b17b-374421822103.html> \n\nTodd Maisel, \"Hundreds jam Queens street for roadway renaming honoring longtime leader Floyd Flake,” amny, October 5, 2020, <https://www.amny.com/news/hundreds-jam-queens-street-for-roadway-renaming-honoring-longtime-leader-floyd-flake/> \n",
     "fldEdvOGWNqX5OImX": "Gil Tauber",
     "fldF1jFzlXZGeH9LP": [
       "Government and Politics",
@@ -4831,8 +4907,10 @@
       "Religion & Spirituality"
     ],
     "fldGPBlBpPi8e4PU7": "October 3, 2020",
+    "fldKwhgXfbzaB1p1X": "Unknown photographer, Collection of the U.S. House of Representatives.",
     "fldKz0noCVXmoj4UV": "Jamaica",
     "fldLjcdfwIByZ68aX": "N/A",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
     "fldPMX16WqfXNhJ02": "He/him/his",
     "fldTAhZe07uxxeoJc": "12",
     "fldTGROls2PhrOiQU": "Rev. Floyd H. Flake (b. 1945) is a former member of the United States House of Representatives serving from 1987 to 1997; a former president of Wilberforce University; and senior pastor of the Greater Allen African Methodist Episcopal Cathedral.   Greater Allen A.M.E. Cathedral has become one of the nation’s foremost Christian churches and is listed among the top twenty churches in America in Outreach Magazine’s Annual Survey.  Rev. Flake is also the author the  best-selling book The Way of the Bootstrapper: Nine Action Steps for Achieving Your Dreams, and The African American Church Management Handbook.   In Congress, he funded the Nation’s first One Stop Small Business Capital Center.  It has been the model for additional centers that are now operating in the Federal Empowerment Zones and provides technical assistance and loans to small businesses. (Miller)|Honorifics 2021 LL 14",
@@ -4841,10 +4919,39 @@
     "fldbxIVG5OzgGGvMj": [
       "English"
     ],
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "attY4PIFKEAMQvJe4",
+        "width": 256,
+        "height": 364,
+        "url": "https://dl.airtable.com/.attachments/862f2dcbf68a54d2f003812900a2f10b/0ecf7f3a/Floyd_Flake.jpg",
+        "filename": "Floyd_Flake.jpg",
+        "size": 18184,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/f518875144f17590b2e36c0a18b261f9/9703629f",
+            "width": 25,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/486120f875553fd6acb6ec2f54a0ceba/4dc2dd9a",
+            "width": 256,
+            "height": 364
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/70e6a545300b1903ad7d28f4791ebc04/360b13e1",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
     "fldhQfkBDSPZjKjer": "Merrick Boulevard between Jamaica Avenue and the Cross Island Parkway",
     "fldhhf7THVqO69i5D": "African American",
+    "fldiT7GQqBoUlnanU": true,
     "fldim7SFpasPkKiOi": "1/30/1945",
-    "fldirBebD4ZoJeWfC": "Council Member Miller",
+    "fldirBebD4ZoJeWfC": "Council Member Daneek Miller",
     "fldlXDuTBOAjXyVTC": true,
     "fldmpgqHheHG4ASnx": "Los Angeles, CA",
     "fldnTs1VeBJjhO1Ga": "11433",
@@ -4854,7 +4961,10 @@
     "fldtVvLjk33gCUz6l": "27",
     "fldxddBxzQcA4yv0A": "Merrick Boulevard between Jamaica Avenue and the Cross Island Parkway",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-30T13:09:30.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-20T12:43:23.000Z",
+    "fldCnfJVVHgNn1UWW": [
+      "rec4Gjspg9kgID3OK"
+    ],
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -5351,6 +5461,53 @@
     "fldGc8Yu4R85MSed4": "2022-09-13T15:06:19.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": false
+  },
+  {
+    "id": "recMstx4dm2vzxSl0",
+    "fld03C27tmVnEg1rP": "40.70457428171756, -73.79701804561007",
+    "fld18VKjlf9BGaE9N": "Guy R. Brewer (1904-1978) was a pioneer in the Civil Rights movement and the first Black person elected to the New York State Assembly. After graduating from Morehouse College in Atlanta, Brewer moved to Harlem in the 1920s, starting a real estate business and becoming involved in local Democratic politics. In 1941, he and his wife Marie Brown bought a home in South Jamaica and moved their real estate business there. He served as Secretary to the Borough President of Queens (1960-1962) and later as assistant Borough President. Brewer was elected to the state Assembly in 1968 and represented southeast Queens from 1969 to 1977, serving as the state’s first Black majority whip for several years. ",
+    "fld3zcPVX14gMRFd1": "Guy R. Brewer Boulevard",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldAHhNbaHDTgQ4ao": "Guy R. Brewer",
+    "fldCwcnz1yvlpDv1D": "Ron Marzlock, \"Guy R. Brewer left his legacy on New York politics,\" Queens Chronicle, February 18, 2021, <https://www.qchron.com/qboro/i_have_often_walked/guy-r-brewer-left-his-legacy-on-new-york-politics/article_3811a670-720e-11eb-9a4b-afb2bf167085.html>\n\nCourtney Dentch, \"Guy R. Brewer. Politician,\" QNS.com, February 27, 2003, <https://qns.com/2003/02/guy-r-brewer-politician/>\n",
+    "fldEdvOGWNqX5OImX": "Gil Tauber, POC 1982 v. 1-B p. 470.|Excel LL Extracts 1974-1982",
+    "fldF1jFzlXZGeH9LP": [
+      "Government and Politics",
+      "Community Activism",
+      "Business and Entrepreneurs"
+    ],
+    "fldGPBlBpPi8e4PU7": "1982",
+    "fldKz0noCVXmoj4UV": "Jamaica",
+    "fldLjcdfwIByZ68aX": "October 31, 1978",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fldPMX16WqfXNhJ02": "He/him/his",
+    "fldTAhZe07uxxeoJc": "12",
+    "fldTGROls2PhrOiQU": "Guy R. Brewer (1904-1978) was a pioneer in the Civil Rights movement and the first Black person elected to the New York State Assembly. After graduating from Morehouse College in Atlanta, Brewer moved to Harlem in the 1920s, starting a real estate business and becoming involved in local Democratic politics. In 1941, he and his wife Marie Brown bought a home in South Jamaica and moved their real estate business there. He served as Secretary to the Borough President of Queens (1960-1962) and later as assistant Borough President. Brewer was elected to the state Assembly in 1968 and represented southeast Queens from 1969 to 1977, serving as the state’s first Black majority whip for several years. ",
+    "fldb2kOoaaol8IIiQ": "Street/Thoroughfare",
+    "fldbxIVG5OzgGGvMj": [
+      "English"
+    ],
+    "fldd8Ii2y6GrnrkMN": "Formerly New York Boulevard",
+    "fldhQfkBDSPZjKjer": "Jamaica Avenue to Rockaway Boulevard",
+    "fldhhf7THVqO69i5D": "African American community",
+    "fldiT7GQqBoUlnanU": true,
+    "fldim7SFpasPkKiOi": "January 27, 1904",
+    "fldirBebD4ZoJeWfC": "Council Member Archie Spigner",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldmpgqHheHG4ASnx": "Georgia",
+    "fldnTs1VeBJjhO1Ga": "11433",
+    "fldo67zoOMQsJN6xv": "Guy R. Brewer Boulevard",
+    "fldrJjqRjjOeqKf72": "Alina Willis/Lori Wallach",
+    "fldtVvLjk33gCUz6l": "28",
+    "fldxddBxzQcA4yv0A": "Jamaica Avenue to Rockaway Boulevard",
+    "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-20T12:43:29.000Z",
+    "fldCnfJVVHgNn1UWW": [
+      "rec4Gjspg9kgID3OK"
+    ],
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": true
   },
   {
     "id": "rechYHeD6FXp5H63p",
@@ -5991,6 +6148,193 @@
     "IS_UNIQUE": true
   },
   {
+    "id": "recPpU7QqPl0bo0oR",
+    "fld03C27tmVnEg1rP": "40.745498, -73.953143",
+    "fld18VKjlf9BGaE9N": "Joseph Imperato (1944-2005), a longtime resident of Long Island City, was a community leader dedicated to assisting the elderly, keeping his neighborhood clean and serving St. Mary’s Church. He owned and operated Joe Imp’s Restaurant in Long Island City for many years and was a fixture in the neighborhood. Prior to the opening of his restaurant, Imperato also served as a City sanitation worker and as a soldier in the U.S. Army. He passed unexpectedly following knee surgery at the age of 60.",
+    "fld3zcPVX14gMRFd1": "Joe Imp’s Place",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldAHhNbaHDTgQ4ao": "Joe Imperato",
+    "fldCwcnz1yvlpDv1D": "Gil Tauber, \"NYC Honorary Street Names,\" accessed June 15, 2022, <http://www.nycstreets.info/>\n\nJennifer Manley, \"Long Island City Remembers Joe ‘Imp,’\" Queens Chronicle, June 14, 2007, [https://www.qchron.com/editions/western/long-island-city-remembers-joe-imp/article\\_944f85ca-5540-5e59-97e3-7943fc0c8341.html ](https://www.qchron.com/editions/western/long-island-city-remembers-joe-imp/article_944f85ca-5540-5e59-97e3-7943fc0c8341.html)\n\n",
+    "fldEdvOGWNqX5OImX": "Gil Tauber",
+    "fldF1jFzlXZGeH9LP": [
+      "Business and Entrepreneurs",
+      "Community Activism"
+    ],
+    "fldGPBlBpPi8e4PU7": "June 9, 2007",
+    "fldKz0noCVXmoj4UV": "Long Island City",
+    "fldLjcdfwIByZ68aX": "July 24, 2005",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fldPMX16WqfXNhJ02": "He/him/his",
+    "fldTAhZe07uxxeoJc": "2",
+    "fldTGROls2PhrOiQU": "Joseph Imperato (1944-2005), a longtime resident of Long Island City, was a community leader dedicated to assisting the elderly, keeping his neighborhood clean and serving St. Mary’s Church. He owned and operated Joe Imp’s Restaurant in Long Island City for many years and was a fixture in the neighborhood. Prior to the opening of his restaurant, Imperato also served as a City sanitation worker and as a soldier in the U.S. Army. He passed unexpectedly following knee surgery at the age of 60.",
+    "fldb2kOoaaol8IIiQ": "Street/Thoroughfare",
+    "fldbxIVG5OzgGGvMj": [
+      "English"
+    ],
+    "fldhQfkBDSPZjKjer": "Northeast corner of 47th Avenue and Vernon Boulevard",
+    "fldiT7GQqBoUlnanU": true,
+    "fldim7SFpasPkKiOi": "December 17, 1944",
+    "fldirBebD4ZoJeWfC": "Council Member Eric Gioia",
+    "fldkkbT5XhwsGbnC9": "Joe \"Imp\"",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldmpgqHheHG4ASnx": "Queens, NY",
+    "fldnTs1VeBJjhO1Ga": "11101",
+    "fldo67zoOMQsJN6xv": "Joe Imp’s Place",
+    "fldq5DPdjbB3X7fQy": "2007/028",
+    "fldrJjqRjjOeqKf72": "Alina Willis/Lori Wallach",
+    "fldtVvLjk33gCUz6l": "26",
+    "fldxddBxzQcA4yv0A": "Northeast corner of 47th Avenue and Vernon Boulevard",
+    "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-20T12:40:28.000Z",
+    "fldCnfJVVHgNn1UWW": [
+      "recCZDJcPkZnykOQx"
+    ],
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": true
+  },
+  {
+    "id": "rec8d9wInmMkEanmW",
+    "fld03C27tmVnEg1rP": "40.70285768950933, -73.80078702923628",
+    "fld18VKjlf9BGaE9N": "In the course of his 25 years in politics, Joseph Addabbo (1925-1986) won much respect from his colleagues, constituents and community for his ability to be just, compassionate and effective. A lifelong resident of Ozone Park, he was educated at City College and St. John’s University, where he received his law degree in 1946. Addabbo began his career as a lawyer.\n\nFirst elected to represent the 6th District in Queens in 1960, Addabbo, a Democrat, was re-elected to Congress 12 times. He supported legislation to benefit the elderly, education, small businesses, veterans benefits, and appropriation of funds for economically depressed areas. As Chairman of the Appropriations Subcommittee on Defense (1979-1986), Addabbo played a powerful role in both shaping and challenging national defense policy. He worked to curb defense spending, sponsored legislation to halt the Vietnam War, and advocated a nuclear freeze while at the same time bolstering defense contracts for New York. Addabbo served in Congress until he died on April 10, 1986.\n\nThe 12-story Joseph P. Addabbo Federal Building was constructed in 1989 and currently houses offices of the Social Security Administration, among other tenants.",
+    "fld3zcPVX14gMRFd1": "Joseph P. Addabbo Federal Building",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldAHhNbaHDTgQ4ao": "Joseph P. Addabbo",
+    "fldAc9y87n6QRJQHv": "Collection of the U.S. House of Representatives, https://history.house.gov/People/Listing/A/ADDABBO,-Joseph-Patrick-(A000052)/",
+    "fldCwcnz1yvlpDv1D": "Biographical Directory of the U.S. Congress, Joseph Patrick Addabbo, <https://history.house.gov/People/Listing/A/ADDABBO,-Joseph-Patrick-(A000052)/>\n\n\"Joseph P. Addabbo Federal Building in Queens Gets Needed Repairs as Part of President Obama’s Fiscal Year 2017 Budget,\" U.S. General Services Administration, February 9, 2016, <https://www.gsa.gov/about-us/newsroom/news-releases/joseph-p-addabbo-federal-building-in-queens-gets-needed-repairs-as-part-of-president-obamas-fiscal-year-2017-budget>\n",
+    "fldF1jFzlXZGeH9LP": [
+      "Government and Politics"
+    ],
+    "fldGPBlBpPi8e4PU7": "1989",
+    "fldKwhgXfbzaB1p1X": "Unknown photographer, Collection of the U.S. House of Representatives.",
+    "fldKz0noCVXmoj4UV": "Jamaica",
+    "fldLjcdfwIByZ68aX": "April 10, 1986",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fldPMX16WqfXNhJ02": "He/him/his",
+    "fldTAhZe07uxxeoJc": "12",
+    "fldb2kOoaaol8IIiQ": "Building",
+    "fldbxIVG5OzgGGvMj": [
+      "English"
+    ],
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "attNgDmqjediSM5a1",
+        "width": 175,
+        "height": 233,
+        "url": "https://dl.airtable.com/.attachments/7b3694fee3d764c2b65187d096204a87/88a4c5f3/JosephAddabbo.jpg",
+        "filename": "Joseph Addabbo.jpg",
+        "size": 55564,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/3250daa9710b966a2b041eec312b8c57/83476fdb",
+            "width": 27,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/3887b2304f034f0de2c27ec31eeb344a/266001a8",
+            "width": 175,
+            "height": 233
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/86980fd352bf4a6e7b7d2e0242dbc666/ab9d8897",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "fldhQfkBDSPZjKjer": "155-10 Jamaica Avenue",
+    "fldiT7GQqBoUlnanU": true,
+    "fldim7SFpasPkKiOi": "March 17, 1925",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldmpgqHheHG4ASnx": "Ozone Park, NY",
+    "fldnTs1VeBJjhO1Ga": "11432",
+    "fldo67zoOMQsJN6xv": "Joseph P. Addabbo Federal Building",
+    "fldrJjqRjjOeqKf72": "Lori Wallach",
+    "fldtVvLjk33gCUz6l": "27",
+    "fldxddBxzQcA4yv0A": "155-10 Jamaica Avenue",
+    "fld63z0I0JEzkE26Z": "2022-07-12T22:15:31.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-20T12:43:42.000Z",
+    "fldCnfJVVHgNn1UWW": [
+      "rec4Gjspg9kgID3OK"
+    ],
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": true
+  },
+  {
+    "id": "rec6uUVhctZajie1W",
+    "fld03C27tmVnEg1rP": "40.67330984852359, -73.8541163718218",
+    "fld18VKjlf9BGaE9N": "In the course of his 25 years in politics, Joseph Addabbo (1925-1986) won much respect from his colleagues, constituents and community for his ability to be just, compassionate and effective. A lifelong resident of Ozone Park, he was educated at City College and St. John’s University, where he received his law degree in 1946. Addabbo began his career as a lawyer.\n\nFirst elected to represent the 6th District in Queens in 1960, Addabbo, a Democrat, was re-elected to Congress 12 times. He supported legislation to benefit the elderly, education, small businesses, veterans benefits, and appropriation of funds for economically depressed areas. As Chairman of the Appropriations Subcommittee on Defense (1979-1986), Addabbo played a powerful role in both shaping and challenging national defense policy. He worked to curb defense spending, sponsored legislation to halt the Vietnam War, and advocated a nuclear freeze while at the same time bolstering defense contracts for New York. Addabbo served in Congress until he died on April 10, 1986.\n\nThe area bounded by 80th and 83rd Streets, 133rd Avenue and North Conduit Avenue was named for Addabbo in 1986. It is one section of Tudor Park, which consists of 24.2 acres acquired as parkland between 1915 and 1974. ",
+    "fld3zcPVX14gMRFd1": "Joseph P. Addabbo Memorial Park",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldAHhNbaHDTgQ4ao": "Joseph P. Addabbo",
+    "fldAc9y87n6QRJQHv": "Collection of the U.S. House of Representatives, https://history.house.gov/People/Listing/A/ADDABBO,-Joseph-Patrick-(A000052)/",
+    "fldCwcnz1yvlpDv1D": "\"Tudor Park Highlights: Joseph P. Addabbo Park,\" New York City Department of Parks & Recreation, accessed October 19, 2022, <https://www.nycgovparks.org/parks/tudor-park/highlights/6429>\n\nBiographical Directory of the U.S. Congress, Joseph Patrick Addabbo, <https://history.house.gov/People/Listing/A/ADDABBO,-Joseph-Patrick-(A000052)/>\n",
+    "fldEdvOGWNqX5OImX": "Gil Tauber, POC 1986 v. 1, p. 1041-1042.|Excel LL Extracts 1983-1989",
+    "fldF1jFzlXZGeH9LP": [
+      "Government and Politics"
+    ],
+    "fldGPBlBpPi8e4PU7": "1986",
+    "fldKwhgXfbzaB1p1X": "Unknown photographer, Collection of the U.S. House of Representatives.",
+    "fldKz0noCVXmoj4UV": "Ozone Park",
+    "fldLjcdfwIByZ68aX": "April 10, 1986",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fldPMX16WqfXNhJ02": "He/him/his",
+    "fldTAhZe07uxxeoJc": "10",
+    "fldTGROls2PhrOiQU": "In the course of his 25 years in politics, Joseph Addabbo (1925-1986) won much respect from his colleagues, constituents and community for his ability to be just, compassionate and effective. A lifelong resident of Ozone Park, he was educated at City College and St. John’s University, where he received his law degree in 1946. Addabbo began his career as a lawyer.\n\nFirst elected to represent the 6th District in Queens in 1960, Addabbo, a Democrat, was re-elected to Congress 12 times. He supported legislation to benefit the elderly, education, small businesses, veterans benefits, and appropriation of funds for economically depressed areas. As Chairman of the Appropriations Subcommittee on Defense (1979-1986), Addabbo played a powerful role in both shaping and challenging national defense policy. He worked to curb defense spending, sponsored legislation to halt the Vietnam War, and advocated a nuclear freeze while at the same time bolstering defense contracts for New York. Addabbo served in Congress until he died on April 10, 1986.\n\nThe area bounded by 80th and 83rd Streets, 133rd Avenue and North Conduit Avenue was named for Addabbo in 1986. It is one section of Tudor Park, which consists of 24.2 acres acquired as parkland between 1915 and 1974. ",
+    "fldb2kOoaaol8IIiQ": "Park/Playground",
+    "fldbxIVG5OzgGGvMj": [
+      "English"
+    ],
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "attKd9HH7zm8NDjTB",
+        "width": 175,
+        "height": 233,
+        "url": "https://dl.airtable.com/.attachments/123476c54505f3e775e8888cc5b397e9/ff8fa10f/JosephAddabbo.jpg",
+        "filename": "Joseph Addabbo.jpg",
+        "size": 55564,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/6b489187edfe3e7b7c005cd5ecd8b9a5/3fc969aa",
+            "width": 27,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/e8df6fc4d7f332e977ac422dfc10518c/e887d3fb",
+            "width": 175,
+            "height": 233
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/ba239c9666895abdb91129446e0fe2e8/f2ba0e7f",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "fldd8Ii2y6GrnrkMN": "Tudor Park",
+    "fldhQfkBDSPZjKjer": "Within Tudor Park, bounded by 80th and 83rd Streets, 133rd Avenue and North Conduit Avenue ",
+    "fldiT7GQqBoUlnanU": true,
+    "fldim7SFpasPkKiOi": "March 17, 1925",
+    "fldirBebD4ZoJeWfC": "Council Member Walter Ward",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldmpgqHheHG4ASnx": "Ozone Park, NY",
+    "fldnTs1VeBJjhO1Ga": "11417",
+    "fldo67zoOMQsJN6xv": "Joseph P. Addabbo Memorial Park",
+    "fldrJjqRjjOeqKf72": "Alina Willis/Lori Wallach",
+    "fldtVvLjk33gCUz6l": "32",
+    "fldxddBxzQcA4yv0A": "Within Tudor Park, bounded by 80th and 83rd Streets, 133rd Avenue and North Conduit Avenue ",
+    "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-20T01:32:12.000Z",
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": true
+  },
+  {
     "id": "recirqJyJXrL1wr3b",
     "fld03C27tmVnEg1rP": "40.726423199454786, -73.78917990785153",
     "fld18VKjlf9BGaE9N": "Justice Jenkin Hockert (1894-1990) was long time resident of Jamaica Estates. A graduate of Valpariso University and and Columbia Law School, he served in World War I as a 1st Lieutenant in Army Air Corps.  He was Queens County Clerk, City Magistrate and Judge of the Civil Court before becoming a judge of the New York State Supreme Court. Hockert was a founding member and President of the Jamaica Estates Association. ",
@@ -6026,6 +6370,75 @@
     "fldxddBxzQcA4yv0A": "17916 Union Tpke, Fresh Meadows, NY 11366",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
     "fldGc8Yu4R85MSed4": "2022-10-02T17:17:17.000Z",
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": true
+  },
+  {
+    "id": "recGGXLp5wN6YBqHE",
+    "fld03C27tmVnEg1rP": "40.70328446082156, -73.80379498816566",
+    "fld18VKjlf9BGaE9N": "Rufus King (1755-1827) was a distinguished lawyer, statesman and gentleman farmer. The son of a wealthy lumber merchant from Maine, King graduated from Harvard in 1777, served in the Revolutionary War in 1778, and was admitted to the bar in Massachusetts in 1780. He was a member of the Confederation Congress from 1784 to 1787, where he introduced a plan that prevented the spread of slavery into the Northwest Territories. King was a delegate to the Constitutional Convention in 1787, and made his most famous contribution to American history as a framer and signer of the U.S. Constitution.\n\nAfter his marriage to Mary Alsop in 1786, King relocated to New York and was appointed to the first U.S. Senate, serving from 1789 to 1796 and again from 1813 to 1825. An outspoken opponent of slavery, he led the Senate debates in 1819 and 1820 against the admission of Missouri as a slave state. King served as Minister Plenipotentiary to Great Britain from 1796 to 1803 and again from 1825 to 1826. In 1816 he was the last Federalist to run for the presidency, losing the election to James Monroe. \n\nThe earliest part of the King Manor building dates to the mid-1700s. In 1805 Rufus King purchased the farmhouse and a 90-acre farm for $12,000. He planted orchards, fields and some of the stately oak trees that still survive near the house. King added the eastern section of the house and a summer kitchen, and introduced Georgian and Federal design elements, such as the dining room with its curved end wall and the neoclassical marble fireplace in the parlor.\n\nBy the time of Rufus King’s death in 1827, the estate had grown to 122 acres. King’s eldest son John Alsop King lived here and updated the house with Greek Revival details, such as the entrance portico. Cornelia King, granddaughter of Rufus, was the last family member to occupy the house. After her death in 1896, the house and the remaining 11 acres were bought by the Village of Jamaica, and the property came under the jurisdiction of the Parks Department in 1898.\n\nKing Manor has operated as a museum since 1900 under the care of the King Manor Association of Long Island, Inc. The house is listed on the National Register of Historic Places, and the house and park are designated New York City landmarks. King Manor Museum is open on a regular basis for tours, educational programs and community events.",
+    "fld3zcPVX14gMRFd1": "King Manor Museum",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldAHhNbaHDTgQ4ao": "Rufus King",
+    "fldAc9y87n6QRJQHv": "Rufus King, U.S. Senate Historical Office, https://www.senate.gov/about/images/king-rufus.htm",
+    "fldCwcnz1yvlpDv1D": "\"Rufus King Park: King Manor Museum and Park,\" New York City Department of Parks & Recreation, accessed October 19, 2022, <https://www.nycgovparks.org/parks/rufus-king-park/history>\n\nBiographical Directory of the U.S. Congress, Rufus King, <https://bioguide.congress.gov/search/bio/K000212>\n",
+    "fldEdvOGWNqX5OImX": "Landmarks Preservation Commission",
+    "fldF1jFzlXZGeH9LP": [
+      "Government and Politics"
+    ],
+    "fldKwhgXfbzaB1p1X": "Photo courtesy of U.S. Senate Historical Office",
+    "fldKz0noCVXmoj4UV": "Jamaica",
+    "fldLjcdfwIByZ68aX": "April 29, 1827",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fldPMX16WqfXNhJ02": "He/him/his",
+    "fldTAhZe07uxxeoJc": "12",
+    "fldZZ1eosVwyix7m4": "Within Rufus King Park",
+    "fldb2kOoaaol8IIiQ": "Building",
+    "fldbBQ9Hc4t90wU0X": "Public Hearing: 1/11/1966; 2/8/1966 | Designated: 04/19/1966 | Landmark Type: Individual Landmark | Date: 1733 - 1755 | Bldg. Name: Rufus King House | Notes: The rear portion of the house dates from 1730 and the remaining portion from 1750. When Rufus King bought the house in 1805 he added additional sections and the house eventually grew to 17 rooms. | LM Orig Name: King Mansion | LM New Name: Rufus King House | Not determined; Not determined | Architectural Style: Mid-18th century Colonial, Greek Revival | Materials: Wood Frame, Wood Shingles | Building uses: Residential, single-family | Building Type: Free-standing House",
+    "fldbxIVG5OzgGGvMj": [
+      "English"
+    ],
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "attxbMs2oGoYtnzuZ",
+        "width": 176,
+        "height": 225,
+        "url": "https://dl.airtable.com/.attachments/7efe1d84f6aecfcce5dc8d389c2001d6/6d29c4c9/RufusKing.jpg",
+        "filename": "Rufus King.jpg",
+        "size": 19207,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/d1b7ee95cd26fc922905567a37d0d6d1/92636728",
+            "width": 28,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/75d24c8631bb31bad7212e3adb30e597/d6b84d2e",
+            "width": 176,
+            "height": 225
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/3c1366c67a1f131c9a8d38fa045ab819/ee6fbf63",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "fldhQfkBDSPZjKjer": "150-03 Jamaica Avenue",
+    "fldiT7GQqBoUlnanU": true,
+    "fldim7SFpasPkKiOi": "March 24, 1755",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldmpgqHheHG4ASnx": "Scarboro, Maine",
+    "fldnTs1VeBJjhO1Ga": "11432",
+    "fldo67zoOMQsJN6xv": "King Manor Museum",
+    "fldrJjqRjjOeqKf72": "Lori Wallach/Angela Miskis",
+    "fldtVvLjk33gCUz6l": "24",
+    "fldxddBxzQcA4yv0A": "150-03 Jamaica Avenue",
+    "fld63z0I0JEzkE26Z": "2022-07-13T20:53:30.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-20T03:24:43.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -7188,7 +7601,10 @@
     "fldtVvLjk33gCUz6l": "26",
     "fldxddBxzQcA4yv0A": "At the southwest corner of 50th Avenue and Vernon Boulevard",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-10-13T13:57:24.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-20T12:40:02.000Z",
+    "fldCnfJVVHgNn1UWW": [
+      "recCZDJcPkZnykOQx"
+    ],
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -7878,6 +8294,51 @@
     "fldxddBxzQcA4yv0A": "Intersection of 157th Street and 110th Avenue",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
     "fldGc8Yu4R85MSed4": "2022-09-26T19:03:20.000Z",
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": true
+  },
+  {
+    "id": "recrnVkEiAguMQ1Dv",
+    "fld03C27tmVnEg1rP": "40.747309, -73.947771",
+    "fld18VKjlf9BGaE9N": "John F. Murray (1889-1944) was a lifelong Queens resident and a dedicated recreation supervisor for Queens parks for many years. Although his Parks job kept him busy, he also devoted much of his time to a variety of other activities. He supervised the Long Island City Knights of Columbus, which organized blood donation campaigns and sports programs for youths, promoted religious activities, and articulated Catholic opinion on social issues. Murray also helped supervise recreational activities for the Elmhurst Elks, organized local boxing tournaments and trained prizefighters. \n\nThe City of New York acquired the land that constitutes Murray Playground in four parts by purchase and condemnation between 1941 and 1945. The playground was opened and dedicated in Murray's name on April 10, 1949.",
+    "fld3zcPVX14gMRFd1": "Murray Playground",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldAHhNbaHDTgQ4ao": "John F. Murray",
+    "fldCwcnz1yvlpDv1D": "\"Murray Playground,\" New York City Department of Parks & Recreation, accessed October 19, 2022, <https://www.nycgovparks.org/parks/murray-playground/history>\n\n",
+    "fldEdvOGWNqX5OImX": "Parks Properties (NYC Open Data)",
+    "fldF1jFzlXZGeH9LP": [
+      "Community Activism",
+      "Sports",
+      "Religion & Spirituality"
+    ],
+    "fldGPBlBpPi8e4PU7": "April 10, 1949",
+    "fldKz0noCVXmoj4UV": "Long Island City",
+    "fldLjcdfwIByZ68aX": "April 6, 1944",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fldPMX16WqfXNhJ02": "He/him/his",
+    "fldTAhZe07uxxeoJc": "2",
+    "fldTGROls2PhrOiQU": "John F. Murray (1889-1944) was a lifelong Queens resident and a dedicated recreation supervisor for Queens parks for many years. Although his Parks job kept him busy, he also devoted much of his time to a variety of other activities. He supervised the Long Island City Knights of Columbus, which organized blood donation campaigns and sports programs for youths, promoted religious activities, and articulated Catholic opinion on social issues. Murray also helped supervise recreational activities for the Elmhurst Elks, organized local boxing tournaments and trained prizefighters. \n\nThe City of New York acquired the land that constitutes Murray Playground in four parts by purchase and condemnation between 1941 and 1945. It was opened and dedicated in Murray's name on April 10, 1949.",
+    "fldb2kOoaaol8IIiQ": "Park/Playground",
+    "fldbxIVG5OzgGGvMj": [
+      "English"
+    ],
+    "fldhQfkBDSPZjKjer": "45th Avenue and 45th Road between 11th Street and 21st Street",
+    "fldiT7GQqBoUlnanU": true,
+    "fldim7SFpasPkKiOi": "1889",
+    "fldirBebD4ZoJeWfC": "Parks Department",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldmpgqHheHG4ASnx": "Queens, NY",
+    "fldnTs1VeBJjhO1Ga": "11101",
+    "fldo67zoOMQsJN6xv": "Murray Playground",
+    "fldrJjqRjjOeqKf72": "Lori Wallach",
+    "fldtVvLjk33gCUz6l": "26",
+    "fldxddBxzQcA4yv0A": "45th Avenue and 45th Road between 11th Street and 21st Street",
+    "fld63z0I0JEzkE26Z": "2022-05-31T00:52:31.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-20T12:40:34.000Z",
+    "fldCnfJVVHgNn1UWW": [
+      "recCZDJcPkZnykOQx"
+    ],
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -8742,6 +9203,50 @@
     "fldxddBxzQcA4yv0A": "Liberty Ave & 133rd St",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
     "fldGc8Yu4R85MSed4": "2022-09-27T15:25:32.000Z",
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": true
+  },
+  {
+    "id": "recUt2sBH9ELg5mh5",
+    "fld03C27tmVnEg1rP": "40.76364593702316, -73.8228735390936",
+    "fld18VKjlf9BGaE9N": "Samuel Bowne Parsons Sr. (1819-1906) was the son of famed Quaker abolitionists Samuel Parsons and Mary Bowne Parsons. Along with his brothers Robert and William, he established the Parsons Nursery in Flushing in 1838-1840. Parsons traveled around the world to locate rare plants, including  \npink-flowering dogwood, Japanese maple, rhododendrons, azaleas, fruit trees and roses. In 1847, he imported a European Weeping Beech, which became the legendary weeping beech tree that survived on 37th Avenue until 1998; a cross-section of that tree was replanted and now grows in the same spot in Weeping Beech Park. \n\nAccording to research done by the Bowne House, the three Parsons brothers were actively involved in the New York Underground Railroad in the 1840s,  providing assistance to fugitive slaves by raising funds and acting as conductors to help harbor them in their Flushing neighborhood.",
+    "fld3zcPVX14gMRFd1": "Parsons Boulevard",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldAHhNbaHDTgQ4ao": "Samuel Bowne Parsons Sr.",
+    "fldCwcnz1yvlpDv1D": "\"The Parsons,\" Bowne House, <https://www.bownehouse.org/theparsons>\n\nRoger Clark, \"A massive weeping beech tree grows in Flushing,\" NY1.com,  August 16, 2022, <https://www.ny1.com/nyc/all-boroughs/human-interest/2022/08/15/a-massive-weeping-beech-tree-grows-in-flushing>\n",
+    "fldEdvOGWNqX5OImX": "Gil Tauber",
+    "fldF1jFzlXZGeH9LP": [
+      "Community Activism",
+      "Business and Entrepreneurs",
+      "Religion & Spirituality"
+    ],
+    "fldKz0noCVXmoj4UV": "Flushing through Jamaica",
+    "fldLjcdfwIByZ68aX": "1906",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fldPMX16WqfXNhJ02": "He/him/his",
+    "fldTAhZe07uxxeoJc": "7",
+    "fldTGROls2PhrOiQU": "Samuel Bowne Parsons Sr. (1819-1906) was the son of famed Quaker abolitionists Samuel Parsons and Mary Bowne Parsons. Along with his brothers Robert and William, he established the Parsons Nursery in Flushing in 1838-1840. Parsons traveled around the world to locate rare plants, including  \npink-flowering dogwood, Japanese maple, rhododendrons, azaleas, fruit trees and roses. In 1847, he imported a European Weeping Beech, which became the legendary weeping beech tree that survived on 37th Avenue until 1998; a cross-section of that tree was replanted and now grows in the same spot in Weeping Beech Park. \n\nAccording to research done by the Bowne House, the three Parsons brothers were actively involved in the New York Underground Railroad in the 1840s,  providing assistance to fugitive slaves by raising funds and acting as conductors to help harbor them in their Flushing neighborhood.",
+    "fldb2kOoaaol8IIiQ": "Street/Thoroughfare",
+    "fldbxIVG5OzgGGvMj": [
+      "English"
+    ],
+    "fldhQfkBDSPZjKjer": "From Flushing through Jamaica",
+    "fldhhf7THVqO69i5D": "Quakers",
+    "fldiT7GQqBoUlnanU": true,
+    "fldim7SFpasPkKiOi": "1819",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldmpgqHheHG4ASnx": "Flushing, NY",
+    "fldnTs1VeBJjhO1Ga": "11354",
+    "fldo67zoOMQsJN6xv": "Parsons Boulevard",
+    "fldrJjqRjjOeqKf72": "Lori Wallach",
+    "fldtVvLjk33gCUz6l": "20",
+    "fldxddBxzQcA4yv0A": "Parsons Boulevard",
+    "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-20T12:43:50.000Z",
+    "fldCnfJVVHgNn1UWW": [
+      "rec4Gjspg9kgID3OK"
+    ],
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -9719,6 +10224,77 @@
     "IS_UNIQUE": true
   },
   {
+    "id": "recOYfUETLsCZuq84",
+    "fld03C27tmVnEg1rP": "40.705121, -73.803645",
+    "fld18VKjlf9BGaE9N": "Rufus King (1755-1827) was a distinguished lawyer, statesman and gentleman farmer. The son of a wealthy lumber merchant from Maine, King graduated from Harvard in 1777, served in the Revolutionary War in 1778, and was admitted to the bar in Massachusetts in 1780. He was a member of the Confederation Congress from 1784 to 1787, where he introduced a plan that prevented the spread of slavery into the Northwest Territories. King was a delegate to the Constitutional Convention in 1787, and made his most famous contribution to American history as a framer and signer of the U.S. Constitution.\n\nAfter his marriage to Mary Alsop in 1786, King relocated to New York and was appointed to the first U.S. Senate, serving from 1789 to 1796 and again from 1813 to 1825. An outspoken opponent of slavery, he led the Senate debates in 1819 and 1820 against the admission of Missouri as a slave state. King served as Minister Plenipotentiary to Great Britain from 1796 to 1803 and again from 1825 to 1826. In 1816 he was the last Federalist to run for the presidency, losing the election to James Monroe. \n\nIn 1805, King purchased a farmhouse and 90-acre farm in Jamaica for $12,000. He planted orchards, fields and some of the stately oak trees that still survive near the house in the park. By the time of his death in 1827, the estate had grown to 122 acres. Cornelia King, granddaughter of Rufus, was the last family member to occupy the house. After her death in 1896, the house and the remaining 11 acres were bought by the Village of Jamaica for $50,000. The village was absorbed into City of New York in 1898, and the property came under the jurisdiction of the Parks Department.",
+    "fld3zcPVX14gMRFd1": "Rufus King Park",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldAHhNbaHDTgQ4ao": "Rufus King",
+    "fldAc9y87n6QRJQHv": "Rufus King, U.S. Senate Historical Office, https://www.senate.gov/about/images/king-rufus.htm",
+    "fldCwcnz1yvlpDv1D": "\"Rufus King Park: King Manor Museum and Park,\" New York City Department of Parks & Recreation, accessed October 19, 2022, <https://www.nycgovparks.org/parks/rufus-king-park/history>\n\nBiographical Directory of the U.S. Congress, Rufus King, <https://bioguide.congress.gov/search/bio/K000212>\n",
+    "fldEdvOGWNqX5OImX": "Parks Properties (NYC Open Data)",
+    "fldF1jFzlXZGeH9LP": [
+      "Government and Politics"
+    ],
+    "fldKwhgXfbzaB1p1X": "Photo courtesy of U.S. Senate Historical Office",
+    "fldKz0noCVXmoj4UV": "Jamaica",
+    "fldLjcdfwIByZ68aX": "April 29, 1827",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fldPMX16WqfXNhJ02": "He/him/his",
+    "fldTAhZe07uxxeoJc": "12",
+    "fldTGROls2PhrOiQU": "Rufus King (1755-1827) was a distinguished lawyer, statesman and gentleman farmer. The son of a wealthy lumber merchant from Maine, King graduated from Harvard in 1777, served in the Revolutionary War in 1778, and was admitted to the bar in Massachusetts in 1780. He was a member of the Confederation Congress from 1784 to 1787, where he introduced a plan that prevented the spread of slavery into the Northwest Territories. King was a delegate to the Constitutional Convention in 1787, and made his most famous contribution to American history as a framer and signer of the U.S. Constitution.\n\nAafter his marriage to Mary Alsop in 1786, King relocated to New York and was appointed to the first U.S. Senate, serving from 1789 to 1796 and again from 1813 to 1825. An outspoken opponent of slavery, he led the Senate debates in 1819 and 1820 against the admission of Missouri as a slave state. King served as Minister Plenipotentiary to Great Britain from 1796 to 1803 and again from 1825 to 1826. In 1816 he was the last Federalist to run for the presidency, losing the election to James Monroe. \n\nKing Manor reflects the changing tastes of its owners and the times in which they lived. The earliest part of the building dates to the mid-1700s. In 1805 Rufus King purchased the farmhouse and a 90-acre farm for $12,000. He planted orchards, fields, and some of the stately oak trees that still survive near the house. King added the eastern section of the house and a summer kitchen, and introduced Georgian and Federal design elements, such as the dining room with its curved end wall and the neoclassical marble fireplace in the parlor.\n\nBy the time of Rufus King’s death in 1827, the estate had grown to 122 acres. King’s eldest son John Alsop King lived here and updated the house with Greek Revival details, such as the entrance portico. Cornelia King, granddaughter of Rufus, was the last family member to occupy the house. After her death in 1896, the house and the remaining eleven acres were bought by the Village of Jamaica for $50,000. The village was absorbed into City of New York in 1898, and the property came under the jurisdiction of the Parks Department.\n\nPark improvements were initiated immediately. Early work included landscaping, fencing, laying sidewalks, planting trees and shrubs, and repairing the old mansion. In 1915 the 3-acre \"Hockey Field\" was graded and sodded as a place where park-goers could play tennis in the spring and summer and play field hockey in the fall. Also that year a new bandstand was constructed in the center of the park. The 1916 Annual Report for the Parks Department of the Borough of Queens stated that King Park was \"a model neighborhood park.\"",
+    "fldb2kOoaaol8IIiQ": "Park/Playground",
+    "fldbxIVG5OzgGGvMj": [
+      "English"
+    ],
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "attF7mttpuldt1zjy",
+        "width": 176,
+        "height": 225,
+        "url": "https://dl.airtable.com/.attachments/d393142da4ac87f330a87be55333f464/396c0d5d/RufusKing.jpg",
+        "filename": "Rufus King.jpg",
+        "size": 19207,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/bae1937f86ee433f4fcd819a0182dee5/24fe922b",
+            "width": 28,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/8c55519d2346053f5607fb721d8df42f/c9516220",
+            "width": 176,
+            "height": 225
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/03322b59acd76df8ca189d3f9058825b/73b532ef",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "fldhQfkBDSPZjKjer": "Jamaica Avenue to 89th Avenue, between 150th Street and 153rd Street",
+    "fldiT7GQqBoUlnanU": true,
+    "fldim7SFpasPkKiOi": "March 24, 1755",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldmpgqHheHG4ASnx": "Scarboro, Maine",
+    "fldnTs1VeBJjhO1Ga": "11432",
+    "fldo67zoOMQsJN6xv": "Rufus King Park",
+    "fldrJjqRjjOeqKf72": "Lori Wallach",
+    "fldtVvLjk33gCUz6l": "24",
+    "fldxddBxzQcA4yv0A": "Jamaica Avenue to 89th Avenue, between 150th Street and 153rd Street",
+    "fld63z0I0JEzkE26Z": "2022-05-31T00:52:31.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-20T12:43:55.000Z",
+    "fldCnfJVVHgNn1UWW": [
+      "rec4Gjspg9kgID3OK"
+    ],
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": true
+  },
+  {
     "id": "recgRk7lJSwt5Qwro",
     "fld03C27tmVnEg1rP": "40.703656, -73.823256",
     "fld18VKjlf9BGaE9N": "Staff Sergeant Patbouvier Enrique “Bobby” Ortiz (1964-1991) was a longtime resident of Queens who was killed in action during Operation Desert Shield. Born in Munich where his father, a US Army 1st Sergeant was stationed, Ortiz was raised in Richmond Hill, Queens. In  May 1983, at age 19, he followed his father's footsteps by enlisting in Army. He rose to rank of Staff Sergeant. His unit was one of first to be deployed to Persian Gulf in Operation Desert Shield.  On February 27, 1991, he volunteer to go on a rescue mission to find a pilot who had been shot down behind enemy lines.  While flying in a UH-60 Blackhawk helicopter searching for the downed pilot, the craft was shot down. Ortiz was killed, along with helicopter's pilot and co-pilot. He was 27 years old. ",
@@ -9793,7 +10369,10 @@
     "fldtVvLjk33gCUz6l": "26",
     "fldxddBxzQcA4yv0A": "Northwest corner of 47th Road and Vernon Boulevard",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-10-13T13:57:24.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-20T12:40:23.000Z",
+    "fldCnfJVVHgNn1UWW": [
+      "recCZDJcPkZnykOQx"
+    ],
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -10312,7 +10891,10 @@
     "fldtVvLjk33gCUz6l": "26",
     "fldxddBxzQcA4yv0A": " Intersection of 49th Avenue and Vernon Boulevard",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-10-13T13:57:24.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-20T12:40:18.000Z",
+    "fldCnfJVVHgNn1UWW": [
+      "recCZDJcPkZnykOQx"
+    ],
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -10551,13 +11133,13 @@
   {
     "id": "rec3eGCweUuv5UdEO",
     "fld03C27tmVnEg1rP": "40.742184, -73.958918",
-    "fld18VKjlf9BGaE9N": "Anthony Mazzarella, who died in 2015, was a boxing enthusiast as well as a dedicated fundraiser for people with cancer. He owned the Crab House restaurant, known for its seafood and for its sports and boxing memorabilia. He donated to the precinct council, which used such donations to feed and clothe the homeless and also donated food for various events. He was a member of the New York State Boxing Commission, the NY State Wine and Grape Foundation, and the American Cancer Society Queens Division. He founded the Patty Fund for Childhood Cancer to help families with the financial burdens of medical bills. He started an annual Fourth of July block party that raised thousands of dollars for cancer patients, and also hosted a Christmas party for kids with cancer. He was honored with the American Cancer Society’s St. George Medal, its highest award for service and leadership in the fight against cancer.",
+    "fld18VKjlf9BGaE9N": "Anthony Mazzarella (ca. 1937-2015) was a boxing enthusiast as well as a dedicated fundraiser for people with cancer. He owned the Crab House restaurant, known for its seafood and for its sports and boxing memorabilia. He donated to the precinct council, which used such donations to feed and clothe the homeless and also donated food for various events. He was a member of the New York State Boxing Commission, the NY State Wine and Grape Foundation, and the American Cancer Society Queens Division. He founded the Patty Fund for Childhood Cancer to help families with the financial burdens of medical bills. He started an annual Fourth of July block party that raised thousands of dollars for cancer patients, and also hosted a Christmas party for kids with cancer. He was honored with the American Cancer Society’s St. George Medal, its highest award for service and leadership in the fight against cancer.",
     "fld3zcPVX14gMRFd1": "Tony Mazzarella Way",
     "fld4ayxzpfL0q0Dsc": true,
-    "fld9CSSvPGKCZyLUG": "QUEENS",
+    "fld9CSSvPGKCZyLUG": "Queens",
     "fldAHhNbaHDTgQ4ao": "Tony Mazzarella",
     "fldBF9keRqVy6aRau": true,
-    "fldCwcnz1yvlpDv1D": "Birth year and exact date of death:  Anthony R. Mazzarella obituary. (2015, January 28). Pizzi Funeral Home. <https://pizzifuneralhome.com/?p=1353>\n\n\n\n\n",
+    "fldCwcnz1yvlpDv1D": "Gil Tauber, \"NYC Honorary Street Names,\" accessed October 19, 2022, <http://www.nycstreets.info/>\n\n\"Anthony R. Mazzarella obituary,\" Pizzi Funeral Home, January 28, 2015, <https://pizzifuneralhome.com/?p=1353>\n\n",
     "fldEdvOGWNqX5OImX": "Gil Tauber",
     "fldF1jFzlXZGeH9LP": [
       "Community Activism",
@@ -10565,6 +11147,7 @@
     ],
     "fldKz0noCVXmoj4UV": "Long Island City",
     "fldLjcdfwIByZ68aX": "1/24/2015",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
     "fldPMX16WqfXNhJ02": "He/him/his",
     "fldTAhZe07uxxeoJc": "2",
     "fldTGROls2PhrOiQU": "Anthony Mazzarella, who died in 2015, was a boxing enthusiast as well as a dedicated fundraiser for people with cancer.  He owned the Crab House restaurant, known for its seafood and for its sports and boxing memorabilia.  He donated to the precinct council, which used such donations to feed and clothe the homeless and also donated food for various events.  He was a member of the New York State Boxing Commission, the NY State Wine and Grape Foundation, and  the American Cancer Society Queens Division.  He founded the Patty Fund for Childhood Cancer to help families with the financial burdens of medical bills.  He started an annual Fourth of July block party that raised thousands of dollars for cancer patients, and also hosted a Christmas party for kids with cancer.  He was honored with the American Cancer Society’s St. George Medal, its highest award for service and leadership in the fight against cancer.  (Van Bramer)|Honorifics 2017 LL 45",
@@ -10574,8 +11157,9 @@
     ],
     "fldhQfkBDSPZjKjer": "At the intersection of 2nd Street and Borden Avenue",
     "fldht45SH87udX5wy": "Place of birth: Ringside Report: https://ringsidereport.com/?p=50378",
-    "fldim7SFpasPkKiOi": "1937",
-    "fldirBebD4ZoJeWfC": "Council Member Van Bramer",
+    "fldiT7GQqBoUlnanU": true,
+    "fldim7SFpasPkKiOi": "ca. 1937",
+    "fldirBebD4ZoJeWfC": "Council Member Jimmy Van Bramer",
     "fldlXDuTBOAjXyVTC": true,
     "fldmpgqHheHG4ASnx": "Queens, NY",
     "fldnTs1VeBJjhO1Ga": "11101",
@@ -10583,9 +11167,12 @@
     "fldq5DPdjbB3X7fQy": "LL 2017/045",
     "fldrJjqRjjOeqKf72": "Fran Kipnis",
     "fldtVvLjk33gCUz6l": "26",
-    "fldxddBxzQcA4yv0A": "Borden Ave & Second St",
+    "fldxddBxzQcA4yv0A": "At the intersection of 2nd Street and Borden Avenue",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-10-13T13:57:24.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-20T12:39:56.000Z",
+    "fldCnfJVVHgNn1UWW": [
+      "recCZDJcPkZnykOQx"
+    ],
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
