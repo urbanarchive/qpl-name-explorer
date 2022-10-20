@@ -3,6 +3,7 @@
     "LOCATION_TYPE": "TOUR",
     "id": "recCZDJcPkZnykOQx",
     "fld6TCPloQX95dOVJ": "Hunters Point Walking Tour",
+    "fldfcR7YEf8T5M0by": "This walking tour explores the individuals whose names grace public spaces in Hunters Point, Queens.",
     "fldsqdIWbpl4GXLJu": [
       "rec3eGCweUuv5UdEO",
       "recgKlhCrPE89uEHw",
@@ -12,7 +13,6 @@
       "recPpU7QqPl0bo0oR",
       "recrnVkEiAguMQ1Dv"
     ],
-    "fldfcR7YEf8T5M0by": "This walking tour explores the individuals whose names grace public spaces in Hunters Point, Queens.",
     "fldb2kOoaaol8IIiQ": "Tour",
     "fld3zcPVX14gMRFd1": "Hunters Point Walking Tour",
     "fld03C27tmVnEg1rP": "40.742184, -73.958918"
@@ -21,6 +21,7 @@
     "LOCATION_TYPE": "TOUR",
     "id": "rec4Gjspg9kgID3OK",
     "fld6TCPloQX95dOVJ": "Jamaica Walking Tour",
+    "fldfcR7YEf8T5M0by": "This walking tour explores the individuals whose names grace public spaces in Jamaica, Queens.",
     "fldsqdIWbpl4GXLJu": [
       "rec2xmvxIQFWAa3ar",
       "recMstx4dm2vzxSl0",
@@ -28,7 +29,6 @@
       "recUt2sBH9ELg5mh5",
       "recOYfUETLsCZuq84"
     ],
-    "fldfcR7YEf8T5M0by": "This walking tour explores the individuals whose names grace public spaces in Jamaica, Queens.",
     "fldb2kOoaaol8IIiQ": "Tour",
     "fld3zcPVX14gMRFd1": "Jamaica Walking Tour",
     "fld03C27tmVnEg1rP": "40.705827, -73.793949"
@@ -711,6 +711,9 @@
     "fld4ayxzpfL0q0Dsc": true,
     "fld9CSSvPGKCZyLUG": "Queens",
     "fldAHhNbaHDTgQ4ao": "John F. Andrews ",
+    "fldCnfJVVHgNn1UWW": [
+      "recCZDJcPkZnykOQx"
+    ],
     "fldCwcnz1yvlpDv1D": "\"Andrews Grove,\" New York City Department of Parks & Recreation, accessed October 19, 2022, <https://www.nycgovparks.org/parks/andrews-grove>\n",
     "fldEdvOGWNqX5OImX": "Parks Properties (NYC Open Data)",
     "fldF1jFzlXZGeH9LP": [
@@ -739,9 +742,6 @@
     "fldxddBxzQcA4yv0A": "49th Avenue between 5th Street and Vernon Boulevard",
     "fld63z0I0JEzkE26Z": "2022-05-31T00:52:31.000Z",
     "fldGc8Yu4R85MSed4": "2022-10-20T12:40:09.000Z",
-    "fldCnfJVVHgNn1UWW": [
-      "recCZDJcPkZnykOQx"
-    ],
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -4899,6 +4899,9 @@
     "fld9CSSvPGKCZyLUG": "Queens",
     "fldAHhNbaHDTgQ4ao": "Floyd H. Flake",
     "fldBF9keRqVy6aRau": true,
+    "fldCnfJVVHgNn1UWW": [
+      "rec4Gjspg9kgID3OK"
+    ],
     "fldCwcnz1yvlpDv1D": "Gil Tauber, \"NYC Honorary Street Names,\" accessed June 15, 2022, <http://www.nycstreets.info/>\n\nMichael Gannon, \"Merrick Boulevard renamed for Floyd Flake,” Queens Chronicle, October 5, 2020, <https://www.qchron.com/editions/central/merrick-boulevard-renamed-for-floyd-flake/article_024a294c-0740-11eb-b17b-374421822103.html> \n\nTodd Maisel, \"Hundreds jam Queens street for roadway renaming honoring longtime leader Floyd Flake,” amny, October 5, 2020, <https://www.amny.com/news/hundreds-jam-queens-street-for-roadway-renaming-honoring-longtime-leader-floyd-flake/> \n",
     "fldEdvOGWNqX5OImX": "Gil Tauber",
     "fldF1jFzlXZGeH9LP": [
@@ -4962,9 +4965,6 @@
     "fldxddBxzQcA4yv0A": "Merrick Boulevard between Jamaica Avenue and the Cross Island Parkway",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
     "fldGc8Yu4R85MSed4": "2022-10-20T12:43:23.000Z",
-    "fldCnfJVVHgNn1UWW": [
-      "rec4Gjspg9kgID3OK"
-    ],
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -5470,6 +5470,9 @@
     "fld4ayxzpfL0q0Dsc": true,
     "fld9CSSvPGKCZyLUG": "Queens",
     "fldAHhNbaHDTgQ4ao": "Guy R. Brewer",
+    "fldCnfJVVHgNn1UWW": [
+      "rec4Gjspg9kgID3OK"
+    ],
     "fldCwcnz1yvlpDv1D": "Ron Marzlock, \"Guy R. Brewer left his legacy on New York politics,\" Queens Chronicle, February 18, 2021, <https://www.qchron.com/qboro/i_have_often_walked/guy-r-brewer-left-his-legacy-on-new-york-politics/article_3811a670-720e-11eb-9a4b-afb2bf167085.html>\n\nCourtney Dentch, \"Guy R. Brewer. Politician,\" QNS.com, February 27, 2003, <https://qns.com/2003/02/guy-r-brewer-politician/>\n",
     "fldEdvOGWNqX5OImX": "Gil Tauber, POC 1982 v. 1-B p. 470.|Excel LL Extracts 1974-1982",
     "fldF1jFzlXZGeH9LP": [
@@ -5503,9 +5506,6 @@
     "fldxddBxzQcA4yv0A": "Jamaica Avenue to Rockaway Boulevard",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
     "fldGc8Yu4R85MSed4": "2022-10-20T12:43:29.000Z",
-    "fldCnfJVVHgNn1UWW": [
-      "rec4Gjspg9kgID3OK"
-    ],
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -6155,6 +6155,9 @@
     "fld4ayxzpfL0q0Dsc": true,
     "fld9CSSvPGKCZyLUG": "Queens",
     "fldAHhNbaHDTgQ4ao": "Joe Imperato",
+    "fldCnfJVVHgNn1UWW": [
+      "recCZDJcPkZnykOQx"
+    ],
     "fldCwcnz1yvlpDv1D": "Gil Tauber, \"NYC Honorary Street Names,\" accessed June 15, 2022, <http://www.nycstreets.info/>\n\nJennifer Manley, \"Long Island City Remembers Joe ‘Imp,’\" Queens Chronicle, June 14, 2007, [https://www.qchron.com/editions/western/long-island-city-remembers-joe-imp/article\\_944f85ca-5540-5e59-97e3-7943fc0c8341.html ](https://www.qchron.com/editions/western/long-island-city-remembers-joe-imp/article_944f85ca-5540-5e59-97e3-7943fc0c8341.html)\n\n",
     "fldEdvOGWNqX5OImX": "Gil Tauber",
     "fldF1jFzlXZGeH9LP": [
@@ -6187,9 +6190,6 @@
     "fldxddBxzQcA4yv0A": "Northeast corner of 47th Avenue and Vernon Boulevard",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
     "fldGc8Yu4R85MSed4": "2022-10-20T12:40:28.000Z",
-    "fldCnfJVVHgNn1UWW": [
-      "recCZDJcPkZnykOQx"
-    ],
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -6202,6 +6202,9 @@
     "fld9CSSvPGKCZyLUG": "Queens",
     "fldAHhNbaHDTgQ4ao": "Joseph P. Addabbo",
     "fldAc9y87n6QRJQHv": "Collection of the U.S. House of Representatives, https://history.house.gov/People/Listing/A/ADDABBO,-Joseph-Patrick-(A000052)/",
+    "fldCnfJVVHgNn1UWW": [
+      "rec4Gjspg9kgID3OK"
+    ],
     "fldCwcnz1yvlpDv1D": "Biographical Directory of the U.S. Congress, Joseph Patrick Addabbo, <https://history.house.gov/People/Listing/A/ADDABBO,-Joseph-Patrick-(A000052)/>\n\n\"Joseph P. Addabbo Federal Building in Queens Gets Needed Repairs as Part of President Obama’s Fiscal Year 2017 Budget,\" U.S. General Services Administration, February 9, 2016, <https://www.gsa.gov/about-us/newsroom/news-releases/joseph-p-addabbo-federal-building-in-queens-gets-needed-repairs-as-part-of-president-obamas-fiscal-year-2017-budget>\n",
     "fldF1jFzlXZGeH9LP": [
       "Government and Politics"
@@ -6257,9 +6260,6 @@
     "fldxddBxzQcA4yv0A": "155-10 Jamaica Avenue",
     "fld63z0I0JEzkE26Z": "2022-07-12T22:15:31.000Z",
     "fldGc8Yu4R85MSed4": "2022-10-20T12:43:42.000Z",
-    "fldCnfJVVHgNn1UWW": [
-      "rec4Gjspg9kgID3OK"
-    ],
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -7569,6 +7569,9 @@
     "fld4ayxzpfL0q0Dsc": true,
     "fld9CSSvPGKCZyLUG": "Queens",
     "fldAHhNbaHDTgQ4ao": "Luis Alvarez",
+    "fldCnfJVVHgNn1UWW": [
+      "recCZDJcPkZnykOQx"
+    ],
     "fldCwcnz1yvlpDv1D": "Emily Shapiro, \"Luis Alvarez, 9/11 responder and advocate, mourned by family, NYPD at emotional funeral,\" ABC News, July 3, 2019, <https://abcnews.go.com/US/luis-alvarez-911-responder-advocate-mourned-family-nypd/story?id=64107256>\n\nSam Roberts, \"Luis Alvarez, Champion of 9/11 Responders, Dies at 53,\" The New York Times, June 29, 2019, <https://www.nytimes.com/2019/06/29/obituaries/luis-alvarez-dead.html>\n\n",
     "fldEdvOGWNqX5OImX": "Gil Tauber",
     "fldF1jFzlXZGeH9LP": [
@@ -7602,9 +7605,6 @@
     "fldxddBxzQcA4yv0A": "At the southwest corner of 50th Avenue and Vernon Boulevard",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
     "fldGc8Yu4R85MSed4": "2022-10-20T12:40:02.000Z",
-    "fldCnfJVVHgNn1UWW": [
-      "recCZDJcPkZnykOQx"
-    ],
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -8305,6 +8305,9 @@
     "fld4ayxzpfL0q0Dsc": true,
     "fld9CSSvPGKCZyLUG": "Queens",
     "fldAHhNbaHDTgQ4ao": "John F. Murray",
+    "fldCnfJVVHgNn1UWW": [
+      "recCZDJcPkZnykOQx"
+    ],
     "fldCwcnz1yvlpDv1D": "\"Murray Playground,\" New York City Department of Parks & Recreation, accessed October 19, 2022, <https://www.nycgovparks.org/parks/murray-playground/history>\n\n",
     "fldEdvOGWNqX5OImX": "Parks Properties (NYC Open Data)",
     "fldF1jFzlXZGeH9LP": [
@@ -8336,9 +8339,6 @@
     "fldxddBxzQcA4yv0A": "45th Avenue and 45th Road between 11th Street and 21st Street",
     "fld63z0I0JEzkE26Z": "2022-05-31T00:52:31.000Z",
     "fldGc8Yu4R85MSed4": "2022-10-20T12:40:34.000Z",
-    "fldCnfJVVHgNn1UWW": [
-      "recCZDJcPkZnykOQx"
-    ],
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -9214,6 +9214,9 @@
     "fld4ayxzpfL0q0Dsc": true,
     "fld9CSSvPGKCZyLUG": "Queens",
     "fldAHhNbaHDTgQ4ao": "Samuel Bowne Parsons Sr.",
+    "fldCnfJVVHgNn1UWW": [
+      "rec4Gjspg9kgID3OK"
+    ],
     "fldCwcnz1yvlpDv1D": "\"The Parsons,\" Bowne House, <https://www.bownehouse.org/theparsons>\n\nRoger Clark, \"A massive weeping beech tree grows in Flushing,\" NY1.com,  August 16, 2022, <https://www.ny1.com/nyc/all-boroughs/human-interest/2022/08/15/a-massive-weeping-beech-tree-grows-in-flushing>\n",
     "fldEdvOGWNqX5OImX": "Gil Tauber",
     "fldF1jFzlXZGeH9LP": [
@@ -9244,9 +9247,6 @@
     "fldxddBxzQcA4yv0A": "Parsons Boulevard",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
     "fldGc8Yu4R85MSed4": "2022-10-20T12:43:50.000Z",
-    "fldCnfJVVHgNn1UWW": [
-      "rec4Gjspg9kgID3OK"
-    ],
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -10232,6 +10232,9 @@
     "fld9CSSvPGKCZyLUG": "Queens",
     "fldAHhNbaHDTgQ4ao": "Rufus King",
     "fldAc9y87n6QRJQHv": "Rufus King, U.S. Senate Historical Office, https://www.senate.gov/about/images/king-rufus.htm",
+    "fldCnfJVVHgNn1UWW": [
+      "rec4Gjspg9kgID3OK"
+    ],
     "fldCwcnz1yvlpDv1D": "\"Rufus King Park: King Manor Museum and Park,\" New York City Department of Parks & Recreation, accessed October 19, 2022, <https://www.nycgovparks.org/parks/rufus-king-park/history>\n\nBiographical Directory of the U.S. Congress, Rufus King, <https://bioguide.congress.gov/search/bio/K000212>\n",
     "fldEdvOGWNqX5OImX": "Parks Properties (NYC Open Data)",
     "fldF1jFzlXZGeH9LP": [
@@ -10288,9 +10291,6 @@
     "fldxddBxzQcA4yv0A": "Jamaica Avenue to 89th Avenue, between 150th Street and 153rd Street",
     "fld63z0I0JEzkE26Z": "2022-05-31T00:52:31.000Z",
     "fldGc8Yu4R85MSed4": "2022-10-20T12:43:55.000Z",
-    "fldCnfJVVHgNn1UWW": [
-      "rec4Gjspg9kgID3OK"
-    ],
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -10338,6 +10338,9 @@
     "fld4ayxzpfL0q0Dsc": true,
     "fld9CSSvPGKCZyLUG": "Queens",
     "fldAHhNbaHDTgQ4ao": "Sal Anzalone",
+    "fldCnfJVVHgNn1UWW": [
+      "recCZDJcPkZnykOQx"
+    ],
     "fldCwcnz1yvlpDv1D": "Joseph Conley, \"Santo (Sal) Anzalone, Board 2 Member,\" Queens Gazette, \nMarch 23, 2005, <https://www.qgazette.com/articles/santo-sal-anzalone-board-2-member/>\n\n\"Cassino Italian Restaurant,\" Queens Gazette, July 26, 2006, <https://www.qgazette.com/articles/cassino-italian-restaurant/>\n\n",
     "fldEdvOGWNqX5OImX": "Gil Tauber",
     "fldF1jFzlXZGeH9LP": [
@@ -10370,9 +10373,6 @@
     "fldxddBxzQcA4yv0A": "Northwest corner of 47th Road and Vernon Boulevard",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
     "fldGc8Yu4R85MSed4": "2022-10-20T12:40:23.000Z",
-    "fldCnfJVVHgNn1UWW": [
-      "recCZDJcPkZnykOQx"
-    ],
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -10863,6 +10863,9 @@
     "fld9CSSvPGKCZyLUG": "Queens",
     "fldAHhNbaHDTgQ4ao": "Terri Mona Adams",
     "fldBF9keRqVy6aRau": true,
+    "fldCnfJVVHgNn1UWW": [
+      "recCZDJcPkZnykOQx"
+    ],
     "fldCwcnz1yvlpDv1D": "Murray, Christian, \"Terri Adams, a Hunters Point civic leader, has passed away,\" licpost,, September 18, 2017, <https://licpost.com/terri-adams-a-hunters-point-civic-leader-has-passed-away>\n\nMcCaffrey, Orla, \"A tireless advocate for Hunters Point,\" Queens Chronicle, May 23, 2019, <https://www.qchron.com/editions/western/a-tireless-advocate-for-hunters-point-1/image_999e9d66-432f-5c77-aeb4-7565256c3dc9.html>\n\n",
     "fldEdvOGWNqX5OImX": "Gil Tauber",
     "fldF1jFzlXZGeH9LP": [
@@ -10892,9 +10895,6 @@
     "fldxddBxzQcA4yv0A": " Intersection of 49th Avenue and Vernon Boulevard",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
     "fldGc8Yu4R85MSed4": "2022-10-20T12:40:18.000Z",
-    "fldCnfJVVHgNn1UWW": [
-      "recCZDJcPkZnykOQx"
-    ],
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -11139,6 +11139,9 @@
     "fld9CSSvPGKCZyLUG": "Queens",
     "fldAHhNbaHDTgQ4ao": "Tony Mazzarella",
     "fldBF9keRqVy6aRau": true,
+    "fldCnfJVVHgNn1UWW": [
+      "recCZDJcPkZnykOQx"
+    ],
     "fldCwcnz1yvlpDv1D": "Gil Tauber, \"NYC Honorary Street Names,\" accessed October 19, 2022, <http://www.nycstreets.info/>\n\n\"Anthony R. Mazzarella obituary,\" Pizzi Funeral Home, January 28, 2015, <https://pizzifuneralhome.com/?p=1353>\n\n",
     "fldEdvOGWNqX5OImX": "Gil Tauber",
     "fldF1jFzlXZGeH9LP": [
@@ -11170,9 +11173,6 @@
     "fldxddBxzQcA4yv0A": "At the intersection of 2nd Street and Borden Avenue",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
     "fldGc8Yu4R85MSed4": "2022-10-20T12:39:56.000Z",
-    "fldCnfJVVHgNn1UWW": [
-      "recCZDJcPkZnykOQx"
-    ],
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
