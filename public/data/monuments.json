@@ -10559,6 +10559,7 @@
       "Government and Politics"
     ],
     "fldGPBlBpPi8e4PU7": "1977",
+    "fldKwhgXfbzaB1p1X": "Photo courtesy of Queens College Special Collections and Archives",
     "fldKz0noCVXmoj4UV": "Flushing",
     "fldLjcdfwIByZ68aX": "March 2, 1974",
     "fldN4Y2p7v28XMK4l": "Yes, I agree.",
@@ -10610,7 +10611,6 @@
     "fldxddBxzQcA4yv0A": "Queens College campus",
     "fld63z0I0JEzkE26Z": "2022-09-13T20:12:26.000Z",
     "fldGc8Yu4R85MSed4": "2022-10-22T02:50:38.000Z",
-    "fldKwhgXfbzaB1p1X": "Photo courtesy of Queens College Special Collections and Archives",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": false
   },
@@ -11146,6 +11146,60 @@
     "fldxddBxzQcA4yv0A": "169th Street between Highland Avenue and Homelawn Street",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
     "fldGc8Yu4R85MSed4": "2022-10-13T13:31:32.000Z",
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": true
+  },
+  {
+    "id": "rectuwjW9zaygbrLV",
+    "fld03C27tmVnEg1rP": "40.73756752439088, -73.8164567298674",
+    "fld18VKjlf9BGaE9N": "Rathaus Hall on the campus of Queens College, 2022.",
+    "fld3zcPVX14gMRFd1": "Rathaus Hall",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldAHhNbaHDTgQ4ao": "Karol Rathaus",
+    "fldAc9y87n6QRJQHv": "Kareen Pierre-Louis for Queens College Special Collections and Archives,  August 2022.",
+    "fldCwcnz1yvlpDv1D": "\n",
+    "fldEdvOGWNqX5OImX": "Queens College buildings list",
+    "fldKwhgXfbzaB1p1X": "Kareen Pierre-Louis, 2022. Queens College Library, Department of Special Collections and Archives.",
+    "fldKz0noCVXmoj4UV": "Flushing",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fldb2kOoaaol8IIiQ": "Building",
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "attZfuHokhg3yVYmG",
+        "width": 4032,
+        "height": 3024,
+        "url": "https://dl.airtable.com/.attachments/74675db6400fa030388fcce1a3587c26/e7363f67/RathausHall.JPG",
+        "filename": "Rathaus Hall",
+        "size": 4600192,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/da17174bd8c1d27459a3670934f53608/fe727cb8",
+            "width": 27,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/af6f10b8bc7c85b6508dc3ec8f0b2389/942d2a60",
+            "width": 512,
+            "height": 683
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/6ec9fbfafc6b8f6fe42d909040a1cc53/ca7ea3ab",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "fldhQfkBDSPZjKjer": "Queens College campus",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldnTs1VeBJjhO1Ga": "11367",
+    "fldo67zoOMQsJN6xv": "Rathaus Hall",
+    "fldrJjqRjjOeqKf72": "Lori Wallach",
+    "fldxddBxzQcA4yv0A": "Queens College campus",
+    "fld63z0I0JEzkE26Z": "2022-10-22T03:06:11.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-22T03:10:06.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
