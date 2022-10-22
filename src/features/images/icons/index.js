@@ -6,6 +6,7 @@ import park from './park.png';
 import school from './school.png';
 import street from './street.png';
 import selected from './selected.png';
+import selectedTour from './selected_tour.png';
 import inactive from './inactive.png';
 import tour from './tour.png';
 
@@ -18,6 +19,7 @@ const ICONS = {
   school,
   street,
   selected,
+  selectedTour,
   inactive,
   tour,
 };

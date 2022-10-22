@@ -44,11 +44,12 @@ const TourStop = ({ stopNumber, stop, map }) => {
     if (map) {
       const marker = addMapboxMarker(
         <SelectedIconMarker
+          src={ICONS['selectedTour']}
           onClick={() => executeScroll()}
-          className={`${isVisible ? 'animate-bounce' : 'w-6 h-7'}`}
+          className={`${isVisible ? 'animate-bounce' : 'w-7 h-7'}`}
         >
-          <div className={`${isVisible && 'animate-bounce'} absolute w-full h-full top-0 text-center pt-1 pointer-events-none`}>
-            <span className={`p-1 ${isVisible ? 'text-2xl' : 'text-sm'}`}>{stopNumber + 1}</span>
+          <div className={`${isVisible && 'animate-bounce pt-1'} absolute w-full h-full top-0 text-center p-auto m-auto pointer-events-none`}>
+            <span className={`text-white p-1 ${isVisible ? 'text-xl' : 'text-xs'}`}>{stopNumber + 1}</span>
           </div>
         </SelectedIconMarker>,
         stop.geometry.coordinates,
