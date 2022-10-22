@@ -100,6 +100,9 @@ const TourView = ({ location, locations, map }) => {
       type={'Tour'}
       name={location?.properties[LOCATION.PLACE_NAME]}
     />
+    <p className='mb-4 px-4 text-md'>
+      {location?.properties[TOUR.DESCRIPTION]}
+    </p>
     {stops.map((stop, index) => <TourStop key={index} stopNumber={index} stop={stop} map={map} />)}
   </>
 };

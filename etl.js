@@ -91,6 +91,7 @@ Promise.all([getDataRecursive(locationsData), getDataRecursive(librariesData), g
           [LOCATIONS.TYPE]: 'Tour',
           [LOCATIONS.PLACE_NAME]: t[TOURS.NAME],
           [LOCATIONS.COORDS]: firstLocation[LOCATIONS.COORDS],
+          [LOCATIONS.DESCRIPTION]: t[TOURS.DESCRIPTION]
         }
       }),
 
