@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import TypeaheadSearch from '../features/TypeaheadSearch';
-import qplLogo from '../features/images/qpl_logo.png';
+import qplLogo from '../features/images/noimage.png';
 import Modal from './Modal';
 
 function Header({ locations }) {
