@@ -12568,6 +12568,65 @@
     "IS_UNIQUE": true
   },
   {
+    "id": "recM4z3BhJkW2jZJq",
+    "fld03C27tmVnEg1rP": "40.734976, -73.821357",
+    "fld18VKjlf9BGaE9N": "Townsend Harris High School, August 2022.",
+    "fld3zcPVX14gMRFd1": "Townsend Harris High School",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldAHhNbaHDTgQ4ao": "Townsend Harris",
+    "fldAc9y87n6QRJQHv": "Kareen Pierre-Louis for Queens College Special Collections and Archives,  August 2022.",
+    "fldEdvOGWNqX5OImX": "Facilities Database  (NYC Open Data)",
+    "fldF1jFzlXZGeH9LP": [],
+    "fldKwhgXfbzaB1p1X": "Kareen Pierre-Louis, 2022. Queens College Library, Department of Special Collections and Archives.",
+    "fldKz0noCVXmoj4UV": "Flushing",
+    "fldPMX16WqfXNhJ02": "He/him/his",
+    "fldTAhZe07uxxeoJc": "8",
+    "fldb2kOoaaol8IIiQ": "School",
+    "fldbxIVG5OzgGGvMj": [
+      "English"
+    ],
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "atteGWjJHtzMTehAg",
+        "width": 4032,
+        "height": 3024,
+        "url": "https://dl.airtable.com/.attachments/867db9e654fcf0112852d0aee7ce6616/e474160d/TownsendHarrisHighSchool.JPG",
+        "filename": "Townsend Harris High School, 2022",
+        "size": 4848856,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/cac5d7f277cfc05d4f0c56fae585bef7/038bd4a8",
+            "width": 48,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/c6826bc52b2cbe5244104ad44af11b58/e052521e",
+            "width": 683,
+            "height": 512
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/eb116fdd547e9430154d299c2df7dc59/ac862b0e",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "fldhQfkBDSPZjKjer": "149-11 Melbourne Avenue",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldnTs1VeBJjhO1Ga": "11367",
+    "fldo67zoOMQsJN6xv": "Townsend Harris High School",
+    "fldrJjqRjjOeqKf72": "Lori Wallach",
+    "fldtVvLjk33gCUz6l": "24",
+    "fldxddBxzQcA4yv0A": "149-11 Melbourne Avenue",
+    "fld63z0I0JEzkE26Z": "2022-05-31T00:52:31.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-22T16:48:55.000Z",
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": true
+  },
+  {
     "id": "recZuBx9cPAYSM5ZI",
     "fld03C27tmVnEg1rP": "40.794000, -73.811675",
     "fld18VKjlf9BGaE9N": "Thomas R. O’Dea was born on December 10, 1962. He served with the New York City Police Department for 19 ½ years. When the World Trade Center disaster occurred on September 11, 2001, Thomas went down to the site in order to dig and to look for survivors during the first 40 days. He was so determined in this effort that he checked into a hotel near the site so that he could spend as much time as possible helping to sort through the rubble. Shortly after this Thomas was diagnosed with cancer. He died of this illness on June 7, 2004.",
