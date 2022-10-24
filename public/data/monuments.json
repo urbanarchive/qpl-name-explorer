@@ -8708,6 +8708,7 @@
     "fld5p2mCngthblT9S": "frankipnis@berkeley.edu",
     "fld9CSSvPGKCZyLUG": "QUEENS",
     "fldAHhNbaHDTgQ4ao": "Maureen Walthers",
+    "fldAc9y87n6QRJQHv": "Aimai Reporter took during Ridgewood Walking tour 10-22-2022",
     "fldBF9keRqVy6aRau": true,
     "fldCwcnz1yvlpDv1D": "Gil Tauber, \"NYC Honorary Street Names,\" accessed June 15, 2022, <http://www.nycstreets.info/>\n\nRebecca Roche, \"Maureen Walthers, former owner and publisher of Ridgewood Times, to be honored with street renaming ceremony,\" QNS.com, August 18, 2022, <https://qns.com/2022/08/maureen-walthers-street-renaming/>\n\n",
     "fldEdvOGWNqX5OImX": "Gil Tauber",
@@ -8727,6 +8728,34 @@
     "fldbxIVG5OzgGGvMj": [
       "English"
     ],
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "attrMtCS4ZgRrdmqC",
+        "width": 4032,
+        "height": 3024,
+        "url": "https://dl.airtable.com/.attachments/fde76da3223bcac8e75ad45c7d2d5bab/51aaaaf0/6A9493A0-F433-4849-9CB8-E4BFDF311730.jpeg",
+        "filename": "6A9493A0-F433-4849-9CB8-E4BFDF311730.jpeg",
+        "size": 2888711,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/eaeacea34f9dfdcc5315a3f3e5288fb4/963dc99e",
+            "width": 48,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/5603dbbc06fdfa3fc32174e1f396ebbf/9ebb4326",
+            "width": 683,
+            "height": 512
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/c6bff0ed2228f5f76af99455600866ea/921b155e",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
     "fldhQfkBDSPZjKjer": "At the intersection of Woodbine Street and Fresh Pond Road",
     "fldhhf7THVqO69i5D": "Ridgewood Times and Times Newsweek; Greater Ridgewood Historical Society; Queens Community Board 5; Greater Ridgewood Restoration Corporation",
     "fldim7SFpasPkKiOi": "1934",
@@ -8739,7 +8768,7 @@
     "fldtVvLjk33gCUz6l": "30",
     "fldxddBxzQcA4yv0A": "Intersection of Woodbine Street and Fresh Pond Road",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-10-21T15:00:29.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-24T19:19:21.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -10681,7 +10710,7 @@
     "fldrJjqRjjOeqKf72": "Lori Wallach",
     "fldxddBxzQcA4yv0A": "Queens College campus",
     "fld63z0I0JEzkE26Z": "2022-09-14T17:55:42.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-21T17:41:51.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-24T19:18:34.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": false
   },
