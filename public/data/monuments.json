@@ -3904,7 +3904,10 @@
     "fldtVvLjk33gCUz6l": "24",
     "fldxddBxzQcA4yv0A": "Queens College campus",
     "fld63z0I0JEzkE26Z": "2022-10-05T22:32:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-10-25T05:22:19.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-26T03:33:10.000Z",
+    "fldCnfJVVHgNn1UWW": [
+      "recaXFOzRUctU9BNG"
+    ],
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": false
   },
@@ -5662,7 +5665,10 @@
     "fldtVvLjk33gCUz6l": "24",
     "fldxddBxzQcA4yv0A": "Queens College campus",
     "fld63z0I0JEzkE26Z": "2022-08-02T21:29:04.000Z",
-    "fldGc8Yu4R85MSed4": "2022-10-25T06:20:53.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-26T03:33:52.000Z",
+    "fldCnfJVVHgNn1UWW": [
+      "recaXFOzRUctU9BNG"
+    ],
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": false
   },
@@ -6895,7 +6901,10 @@
     "fldo67zoOMQsJN6xv": "Kiely Hall",
     "fldxddBxzQcA4yv0A": "Queens College campus",
     "fld63z0I0JEzkE26Z": "2022-10-25T23:38:17.000Z",
-    "fldGc8Yu4R85MSed4": "2022-10-26T00:35:26.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-26T03:32:46.000Z",
+    "fldCnfJVVHgNn1UWW": [
+      "recaXFOzRUctU9BNG"
+    ],
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -12684,7 +12693,10 @@
     "fldAHhNbaHDTgQ4ao": "Townsend Harris",
     "fldAc9y87n6QRJQHv": "Kareen Pierre-Louis for Queens College Special Collections and Archives,  August 2022.",
     "fldEdvOGWNqX5OImX": "Facilities Database  (NYC Open Data)",
-    "fldF1jFzlXZGeH9LP": [],
+    "fldF1jFzlXZGeH9LP": [
+      "Government and Politics",
+      "Education and Research"
+    ],
     "fldKwhgXfbzaB1p1X": "Kareen Pierre-Louis, 2022. Queens College Library, Department of Special Collections and Archives.",
     "fldKz0noCVXmoj4UV": "Flushing",
     "fldPMX16WqfXNhJ02": "He/him/his",
@@ -12729,7 +12741,11 @@
     "fldtVvLjk33gCUz6l": "24",
     "fldxddBxzQcA4yv0A": "149-11 Melbourne Avenue",
     "fld63z0I0JEzkE26Z": "2022-05-31T00:52:31.000Z",
-    "fldGc8Yu4R85MSed4": "2022-10-22T16:48:55.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-26T03:40:56.000Z",
+    "fldCnfJVVHgNn1UWW": [
+      "recaXFOzRUctU9BNG"
+    ],
+    "fldGPBlBpPi8e4PU7": "19",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -13041,7 +13057,10 @@
     "fldrJjqRjjOeqKf72": "Lori Wallach",
     "fldxddBxzQcA4yv0A": "Queens College campus",
     "fld63z0I0JEzkE26Z": "2022-10-25T23:39:14.000Z",
-    "fldGc8Yu4R85MSed4": "2022-10-26T00:23:28.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-26T03:32:53.000Z",
+    "fldCnfJVVHgNn1UWW": [
+      "recaXFOzRUctU9BNG"
+    ],
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
