@@ -6844,6 +6844,62 @@
     "IS_UNIQUE": true
   },
   {
+    "id": "recnU9GRMWZp9XrOv",
+    "fld03C27tmVnEg1rP": "40.736090827583304, -73.81596589548857",
+    "fld18VKjlf9BGaE9N": "Kiely Hall on the campus of Queens College",
+    "fld3zcPVX14gMRFd1": "Kiely Hall",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldAHhNbaHDTgQ4ao": "Margaret Kiely",
+    "fldF1jFzlXZGeH9LP": [
+      "Education and Research"
+    ],
+    "fldGPBlBpPi8e4PU7": "1983",
+    "fldKwhgXfbzaB1p1X": "Image trimmed from Jefferson Hall and Kiely Hall. undated. Queens College Special Collections and Archives, https://jstor.org/stable/community.29709002.",
+    "fldKz0noCVXmoj4UV": "Flushing",
+    "fldb2kOoaaol8IIiQ": "Building",
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "attdMPpzBtYmjJjRA",
+        "width": 1548,
+        "height": 1876,
+        "url": "https://dl.airtable.com/.attachments/a9d180b2d42c90d6ab0643405cb9b7de/5b7698d8/KielyHallsnipped.jpg",
+        "filename": "Kiely Hall snipped.jpg",
+        "size": 897410,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/df54d4c294e83057bc021d1700ce743a/ac85e563",
+            "width": 30,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/c7c7031b21bd146c3293fc2e87f5b3a6/0a7388f2",
+            "width": 512,
+            "height": 620
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/6779c71367802e5b1402bf9e76403142/b0625389",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "fldd8Ii2y6GrnrkMN": "Formerly Academic II Building",
+    "fldhQfkBDSPZjKjer": "Queens College campus",
+    "fldiT7GQqBoUlnanU": true,
+    "fldirBebD4ZoJeWfC": "Queens College",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldnTs1VeBJjhO1Ga": "11367",
+    "fldo67zoOMQsJN6xv": "Kiely Hall",
+    "fldxddBxzQcA4yv0A": "Queens College campus",
+    "fld63z0I0JEzkE26Z": "2022-10-25T23:38:17.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-26T00:35:26.000Z",
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": true
+  },
+  {
     "id": "recGGXLp5wN6YBqHE",
     "fld03C27tmVnEg1rP": "40.70328446082156, -73.80379498816566",
     "fld18VKjlf9BGaE9N": "Rufus King (1755-1827) was a distinguished lawyer, statesman and gentleman farmer. The son of a wealthy lumber merchant from Maine, King graduated from Harvard in 1777, served in the Revolutionary War in 1778, and was admitted to the bar in Massachusetts in 1780. He was a member of the Confederation Congress from 1784 to 1787, where he introduced a plan that prevented the spread of slavery into the Northwest Territories. King was a delegate to the Constitutional Convention in 1787, and made his most famous contribution to American history as a framer and signer of the U.S. Constitution.\n\nAfter his marriage to Mary Alsop in 1786, King relocated to New York and was appointed to the first U.S. Senate, serving from 1789 to 1796 and again from 1813 to 1825. An outspoken opponent of slavery, he led the Senate debates in 1819 and 1820 against the admission of Missouri as a slave state. King served as Minister Plenipotentiary to Great Britain from 1796 to 1803 and again from 1825 to 1826. In 1816 he was the last Federalist to run for the presidency, losing the election to James Monroe. \n\nThe earliest part of the King Manor building dates to the mid-1700s. In 1805 Rufus King purchased the farmhouse and a 90-acre farm for $12,000. He planted orchards, fields and some of the stately oak trees that still survive near the house. King added the eastern section of the house and a summer kitchen, and introduced Georgian and Federal design elements, such as the dining room with its curved end wall and the neoclassical marble fireplace in the parlor.\n\nBy the time of Rufus King’s death in 1827, the estate had grown to 122 acres. King’s eldest son John Alsop King lived here and updated the house with Greek Revival details, such as the entrance portico. Cornelia King, granddaughter of Rufus, was the last family member to occupy the house. After her death in 1896, the house and the remaining 11 acres were bought by the Village of Jamaica, and the property came under the jurisdiction of the Parks Department in 1898.\n\nKing Manor has operated as a museum since 1900 under the care of the King Manor Association of Long Island, Inc. The house is listed on the National Register of Historic Places, and the house and park are designated New York City landmarks. King Manor Museum is open on a regular basis for tours, educational programs and community events.",
@@ -12932,10 +12988,19 @@
   },
   {
     "id": "recCLoxDPKNYb0LJY",
+    "fld03C27tmVnEg1rP": "40.73486808655515, -73.81638837415636",
+    "fld18VKjlf9BGaE9N": "Stone commemorating the former location of the Jamaica Academy on the Queens College campus. Walt Whitman taught at the Academy in 1839.",
+    "fld3zcPVX14gMRFd1": "Walt Whitman Garden",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "Queens",
     "fldAHhNbaHDTgQ4ao": "Walt Whitman",
     "fldF1jFzlXZGeH9LP": [
       "Authors and Journalists"
     ],
+    "fldGPBlBpPi8e4PU7": "2005",
+    "fldKwhgXfbzaB1p1X": "Photo courtesy of Nkabouris via Wikimedia Commons, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Walt_Whitman_Stone.jpg",
+    "fldKz0noCVXmoj4UV": "Flushing",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
     "fldb2kOoaaol8IIiQ": "Park/Playground",
     "fldbxIVG5OzgGGvMj": [
       "English"
@@ -12969,23 +13034,14 @@
       }
     ],
     "fldhQfkBDSPZjKjer": "Queens College campus",
+    "fldiT7GQqBoUlnanU": true,
+    "fldlXDuTBOAjXyVTC": true,
+    "fldnTs1VeBJjhO1Ga": "11367",
     "fldo67zoOMQsJN6xv": "Walt Whitman Garden",
     "fldrJjqRjjOeqKf72": "Lori Wallach",
+    "fldxddBxzQcA4yv0A": "Queens College campus",
     "fld63z0I0JEzkE26Z": "2022-10-25T23:39:14.000Z",
     "fldGc8Yu4R85MSed4": "2022-10-26T00:23:28.000Z",
-    "fldKwhgXfbzaB1p1X": "Photo courtesy of Nkabouris via Wikimedia Commons, CC BY-SA 3.0, https://commons.wikimedia.org/wiki/File:Walt_Whitman_Stone.jpg",
-    "fld3zcPVX14gMRFd1": "Walt Whitman Garden",
-    "fld18VKjlf9BGaE9N": "Stone commemorating the former location of the Jamaica Academy on the Queens College campus. Walt Whitman taught at the Academy in 1839.",
-    "fld03C27tmVnEg1rP": "40.73486808655515, -73.81638837415636",
-    "fldxddBxzQcA4yv0A": "Queens College campus",
-    "fldKz0noCVXmoj4UV": "Flushing",
-    "fld9CSSvPGKCZyLUG": "Queens",
-    "fldnTs1VeBJjhO1Ga": "11367",
-    "fldGPBlBpPi8e4PU7": "2005",
-    "fldlXDuTBOAjXyVTC": true,
-    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
-    "fld4ayxzpfL0q0Dsc": true,
-    "fldiT7GQqBoUlnanU": true,
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
