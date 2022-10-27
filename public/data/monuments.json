@@ -11971,6 +11971,64 @@
     "IS_UNIQUE": true
   },
   {
+    "id": "recV4ayzt7T1aTJok",
+    "fld03C27tmVnEg1rP": "40.73490283194764, -73.81883087208955",
+    "fld18VKjlf9BGaE9N": "Remsen Hall on the campus of Queens College",
+    "fld3zcPVX14gMRFd1": "Remsen Hall",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldAHhNbaHDTgQ4ao": "Ira Remsen",
+    "fldCwcnz1yvlpDv1D": "\n",
+    "fldF1jFzlXZGeH9LP": [
+      "Science and technology"
+    ],
+    "fldKwhgXfbzaB1p1X": "Photo courtesy of Lori Wallach",
+    "fldKz0noCVXmoj4UV": "Flushing",
+    "fldPMX16WqfXNhJ02": "He/him/his",
+    "fldTAhZe07uxxeoJc": "8",
+    "fldb2kOoaaol8IIiQ": "Building",
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "attXIwIQMxSHRkIG9",
+        "width": 1280,
+        "height": 960,
+        "url": "https://dl.airtable.com/.attachments/f9c82cefff3561ee1fc286007b818364/de7796e4/RemsenHall2022.jpg",
+        "filename": "Remsen Hall 2022.jpg",
+        "size": 445997,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/93817aedbaff112d0358cea318eb9417/9930c162",
+            "width": 48,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/dd40c78b5fc0ba6925b9ad68dd55cd9b/e4cb94e7",
+            "width": 683,
+            "height": 512
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/af47f4f95b1f6468e1a84d77956fcfcb/81466d49",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "fldhQfkBDSPZjKjer": "Queens College campus",
+    "fldiT7GQqBoUlnanU": true,
+    "fldlXDuTBOAjXyVTC": true,
+    "fldnTs1VeBJjhO1Ga": "11367",
+    "fldo67zoOMQsJN6xv": "Remsen Hall",
+    "fldrJjqRjjOeqKf72": "Lori Wallach",
+    "fldtVvLjk33gCUz6l": "24",
+    "fldxddBxzQcA4yv0A": "Queens College campus",
+    "fld63z0I0JEzkE26Z": "2022-10-26T20:47:24.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-27T22:39:50.000Z",
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": true
+  },
+  {
     "id": "recCUeWW2XI4MUkNV",
     "fld03C27tmVnEg1rP": "40.677777, -73.791131",
     "fld18VKjlf9BGaE9N": "The Reverend Dr. Eldridge Gittens born and raised in New York City. He attended Haaren High School and Shelton College before serving in the United States Army during World War II. In 1955, at a meeting held in his Jamaica, New York home, Rev. Gittens and eleven others founded the Rush Temple African Methodist Episcopal Zion Church. Today, the Church is a pillar in the Queens community it serves. Its active congregation, under the leadership of its wise, patient and congenial pastor, embraces all who come. Among its many community programs are such needed activities as a food pantry for the hungry, a clothing distribution program, scouting, academic tutoring, family counseling, housing development, an addiction recovery program, a youth choir and, of course worship. Rev. Gittens for more than 40 years was committed to improving the lives of people in the community. ",
@@ -14214,6 +14272,67 @@
     "fldtVvLjk33gCUz6l": "29",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
     "fldGc8Yu4R85MSed4": "2022-09-23T19:42:16.000Z",
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": true
+  },
+  {
+    "id": "recaGrPwpWnKYny0k",
+    "fld03C27tmVnEg1rP": "40.73522606900502, -73.81979749711805",
+    "fld18VKjlf9BGaE9N": "The Rantus Rock on the campus of Queens College, with commemorative plaque.",
+    "fld3zcPVX14gMRFd1": "Wilson Rantus Rock",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldAHhNbaHDTgQ4ao": "Wilson Rantus",
+    "fldGPBlBpPi8e4PU7": "October 27, 2022",
+    "fldKwhgXfbzaB1p1X": "Photo courtesy of Annie Tummino.",
+    "fldKz0noCVXmoj4UV": "Flushing",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fldPMX16WqfXNhJ02": "He/him/his",
+    "fldTAhZe07uxxeoJc": "8",
+    "fldb2kOoaaol8IIiQ": "Monument/Statue",
+    "fldbxIVG5OzgGGvMj": [
+      "English"
+    ],
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "attrENy9xGsxnXmNH",
+        "width": 960,
+        "height": 1280,
+        "url": "https://dl.airtable.com/.attachments/d35bf7fd6db0cfc46f0d0e7fdae973a5/c04b3530/RantusRock.jpg",
+        "filename": "Rantus Rock.jpg",
+        "size": 434730,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/c02ae8c2ae8a22cf4b457c2940fbe5b6/8828c919",
+            "width": 27,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/9c3f17e5b70ee419b408000f1d47b3e6/224703ee",
+            "width": 512,
+            "height": 683
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/b241579e2b699b76a90acc9aec46843e/5b2ac671",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "fldhQfkBDSPZjKjer": "Queens College campus",
+    "fldhhf7THVqO69i5D": "African American community",
+    "fldiT7GQqBoUlnanU": true,
+    "fldirBebD4ZoJeWfC": "Queens College",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldnTs1VeBJjhO1Ga": "11367",
+    "fldo67zoOMQsJN6xv": "Wilson Rantus Rock",
+    "fldrJjqRjjOeqKf72": "Lori Wallach",
+    "fldtVvLjk33gCUz6l": "24",
+    "fldxddBxzQcA4yv0A": "Queens College campus",
+    "fld63z0I0JEzkE26Z": "2022-10-26T19:03:45.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-27T22:18:41.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
