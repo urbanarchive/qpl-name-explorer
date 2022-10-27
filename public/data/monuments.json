@@ -2706,7 +2706,9 @@
     ],
     "fldd8Ii2y6GrnrkMN": "Sohncke Square",
     "fldhQfkBDSPZjKjer": "Woodside Ave., 58 St., Roosevelt Ave.",
+    "fldht45SH87udX5wy": "Pictures of the Square: Bridge and Tunnel Club https://www.bridgeandtunnelclub.com/bigmap/queens/woodside/sohnckesquare/index.htm",
     "fldim7SFpasPkKiOi": "6/6/1894",
+    "fldlXDuTBOAjXyVTC": true,
     "fldmpgqHheHG4ASnx": "Woodside, Queens",
     "fldnTs1VeBJjhO1Ga": "11377",
     "fldo67zoOMQsJN6xv": "Carl R. Sohncke Square",
@@ -2715,8 +2717,116 @@
     "fldxddBxzQcA4yv0A": "Woodside Ave., 58 St., Roosevelt Ave.",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
     "fldGc8Yu4R85MSed4": "2022-10-27T14:14:35.000Z",
-    "fldht45SH87udX5wy": "Pictures of the Square: Bridge and Tunnel Club https://www.bridgeandtunnelclub.com/bigmap/queens/woodside/sohnckesquare/index.htm",
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": true
+  },
+  {
+    "id": "recRFhrsBW4BNwHxK",
+    "fld03C27tmVnEg1rP": "40.739848, -73.924104",
+    "fld18VKjlf9BGaE9N": "Carlo A. Lanzillotti (1911-1979), who served in the NYS State Senate from 1952 to 1954, was commander of the American Legion’s Blissville Post No. 727. He was a leader of the Sunnyside Chamber of Commerce and several other civic, political and youth-service organizations. ",
+    "fld3zcPVX14gMRFd1": "Carlo A. Lanzillotti Place",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "QUEENS",
+    "fldAHhNbaHDTgQ4ao": "Carlo A. Lanzillotti",
+    "fldCwcnz1yvlpDv1D": "Bill Parry, \"Street Co-Named After Former State Senator,\" Sunnyside Post, July 23, 2012, <https://sunnysidepost.com/street-co-named-after-former-state-senator>\n\nRich Bockmann, \"Street renamed for late Sen. Lanzillotti,\" QNS.com, July 28, 2012, <https://qns.com/2012/07/street-renamed-for-late-sen-lanzillotti/>\n\n# \n\n",
+    "fldEdvOGWNqX5OImX": "Gil Tauber",
+    "fldF1jFzlXZGeH9LP": [
+      "Community Activism",
+      "Government and Politics"
+    ],
+    "fldGPBlBpPi8e4PU7": "7/21/2012",
+    "fldKwhgXfbzaB1p1X": "Courtesy of Leonore  Lanzillotti, 2012 CC-BY-NC-SA 3.0",
+    "fldKz0noCVXmoj4UV": "Sunnyside",
+    "fldLjcdfwIByZ68aX": "5/12/1979",
+    "fldPMX16WqfXNhJ02": "He/him",
+    "fldTAhZe07uxxeoJc": "2",
+    "fldTGROls2PhrOiQU": "Carlo A. Lanzillotti (1911-1979), who served in the NYS State Senate from 1952 to 1954, was commander of the American Legion’s Blissville Post No. 727. He was a leader of the Sunnyside Chamber of Commerce and several other civic, political and youth-service organizations. \nLL:2013/50\n\n\n\n",
+    "fldb2kOoaaol8IIiQ": "Street/Thoroughfare",
+    "fldbxIVG5OzgGGvMj": [
+      "English"
+    ],
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "attu6Ji770X58gyZw",
+        "width": 2351,
+        "height": 1587,
+        "url": "https://dl.airtable.com/.attachments/8a9ef4d601b989bd013913af2abb8173/162cd6e5/qmp-ll-06042015-008-0.jpg",
+        "filename": "qmp-ll-06042015-008-0.jpg",
+        "size": 1145123,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/6441c503a3a8c538b022903b33f724e3/09a0591a",
+            "width": 53,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/eefd12243a38bf51ba0549bd17818cd7/48e4d888",
+            "width": 758,
+            "height": 512
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/c443fdc7cc7a44dac2d57bd6c28188d9/58d849a6",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "fldhQfkBDSPZjKjer": " Intersection of 41st Street and 48th Avenue",
+    "fldim7SFpasPkKiOi": "2/18/1911",
+    "fldirBebD4ZoJeWfC": "Councilman Jimmy Van Bramer ",
     "fldlXDuTBOAjXyVTC": true,
+    "fldnTs1VeBJjhO1Ga": "11104",
+    "fldo67zoOMQsJN6xv": "Carlo A. Lanzillotti Place",
+    "fldq5DPdjbB3X7fQy": "LL:2013/50",
+    "fldrJjqRjjOeqKf72": "Fran Kipnis",
+    "fldtVvLjk33gCUz6l": "26",
+    "fldxddBxzQcA4yv0A": "48th Ave &  41st St",
+    "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-27T14:38:14.000Z",
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": true
+  },
+  {
+    "id": "reciHLdFPEAeC6UBV",
+    "fld03C27tmVnEg1rP": "40.767681, -73.925531",
+    "fld18VKjlf9BGaE9N": "Carlos Lillo (b. 1963), a paramedic, was killed while assisting in rescue operations on September 11, 2001 following the terrorist attack on the World Trade Center. ",
+    "fld3zcPVX14gMRFd1": "Carlos Lillo Way",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "QUEENS",
+    "fldAHhNbaHDTgQ4ao": "Carlos Lillo",
+    "fldCwcnz1yvlpDv1D": "9/11 Memorial Staff, \"A Promise Kept on  9-11,\" 9/11 Memorial Museum, <https://www.911memorial.org/connect/blog/promise-kept-911>\n\n\"Carlos Lillo,\" National Fallen Firefighters Foundation, accessed September 30, 2022,  <https://www.firehero.org/fallen-firefighter/carlos-lillo/>\n\nPaul Menchaca, \"Astoria Honors EMS Worker Who Died On September 11th,\" Queens Chronicle, May 22, 2003, <https://www.qchron.com/editions/western/astoria-honors-ems-worker-who-died-on-september-11th/article_d8a25090-0dac-5527-89b5-ad258d0fe759.html> \n",
+    "fldEdvOGWNqX5OImX": "Gil Tauber",
+    "fldF1jFzlXZGeH9LP": [
+      "Law Enforcement & First Responders",
+      "911 Memorial"
+    ],
+    "fldGPBlBpPi8e4PU7": "May 2003",
+    "fldKz0noCVXmoj4UV": "Astoria",
+    "fldLjcdfwIByZ68aX": "9/11/2001",
+    "fldPMX16WqfXNhJ02": "He/him/his",
+    "fldTAhZe07uxxeoJc": "1",
+    "fldTGROls2PhrOiQU": "Carlos Lillo (b. 1963), a paramedic, was killed while assisting in rescue operations on September 11, 2001 following the terrorist attack on the World Trade Center. \nLL:2003/ 06",
+    "fldZZ1eosVwyix7m4": "30th Road",
+    "fldb2kOoaaol8IIiQ": "Street/Thoroughfare",
+    "fldbxIVG5OzgGGvMj": [
+      "Spanish",
+      "English"
+    ],
+    "fldhQfkBDSPZjKjer": "30th Road between Crescent Street and 29th Street",
+    "fldim7SFpasPkKiOi": "11/18/1963",
+    "fldirBebD4ZoJeWfC": "City Councilman Peter Vallone Jr.",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldmpgqHheHG4ASnx": "Ponce, Puerto Rico",
+    "fldnTs1VeBJjhO1Ga": "11102",
+    "fldo67zoOMQsJN6xv": "Carlos Lillo Way",
+    "fldq5DPdjbB3X7fQy": "LL:2003/ 06",
+    "fldrJjqRjjOeqKf72": "Fran Kipnis",
+    "fldtVvLjk33gCUz6l": "22",
+    "fldxddBxzQcA4yv0A": "30th Road between Crescent Street and 29th Street",
+    "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-27T14:44:01.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -3178,6 +3288,43 @@
     "fldxddBxzQcA4yv0A": "161st Street between 140th Avenue and South Conduit Boulevard",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
     "fldGc8Yu4R85MSed4": "2022-09-28T19:29:56.000Z",
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": true
+  },
+  {
+    "id": "recMgnloa13YyewGW",
+    "fld03C27tmVnEg1rP": "40.776410, -73.817634",
+    "fld18VKjlf9BGaE9N": "Charles P. Lucania (1966-2011), an electrician who was raised in Whitestone, Queens, was killed in the terrorist attack on the World Trade Center on September 11, 2001.  He was on the 98th floor of the South Tower working for P.E. Stone. ",
+    "fld3zcPVX14gMRFd1": "Charles Lucania Memorial Way",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "QUEENS",
+    "fldAHhNbaHDTgQ4ao": "Charles Lucania",
+    "fldCwcnz1yvlpDv1D": "\"Charles Peter Lucania,\" October 25, 2001, via Legacy.com, [https://www.legacy.com/us/obituaries/newsday/name/emma-brandt-obituary?id=5205291 ](http://www.legacy.com/sept11/story.aspx?personid=118284&psl=1)\n\n",
+    "fldEdvOGWNqX5OImX": "Gil Tauber",
+    "fldF1jFzlXZGeH9LP": [
+      "911 Memorial"
+    ],
+    "fldKz0noCVXmoj4UV": "Whitestone",
+    "fldLjcdfwIByZ68aX": "9/11/2001",
+    "fldPMX16WqfXNhJ02": "He/him/his",
+    "fldTAhZe07uxxeoJc": "7",
+    "fldTGROls2PhrOiQU": "Charles P. Lucania (1966-2011), an electrician who was raised in Whitestone, Queens, was killed in the terrorist attack on the World Trade Center on September 11, 2001.  He was on the 98th floor of the South Tower working for P.E. Stone.  (Vallone)|Honorifics \nLL 2016-23",
+    "fldb2kOoaaol8IIiQ": "Street/Thoroughfare",
+    "fldbxIVG5OzgGGvMj": [
+      "English"
+    ],
+    "fldhQfkBDSPZjKjer": "At the northwest corner of 149th Street and Willets Point Boulevard",
+    "fldim7SFpasPkKiOi": "9/18/1966,",
+    "fldirBebD4ZoJeWfC": "Council Member Vallone",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldnTs1VeBJjhO1Ga": "11357",
+    "fldo67zoOMQsJN6xv": "Charles Lucania Memorial Way",
+    "fldq5DPdjbB3X7fQy": "LL 2016-23",
+    "fldrJjqRjjOeqKf72": "Fran Kipnis",
+    "fldtVvLjk33gCUz6l": "19",
+    "fldxddBxzQcA4yv0A": "Willets Point Blvd & 149th St",
+    "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-27T14:45:51.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -5908,6 +6055,7 @@
       "Authors and Journalists"
     ],
     "fldGPBlBpPi8e4PU7": "June 16, 2021",
+    "fldKwhgXfbzaB1p1X": "Courtesy of PBS NewsHour, CC BY-SA 2.0, https://www.flickr.com/photos/newshour/7907972936/",
     "fldKz0noCVXmoj4UV": "Jamaica",
     "fldLjcdfwIByZ68aX": "November 14, 2016",
     "fldN4Y2p7v28XMK4l": "Yes, I agree.",
@@ -5960,7 +6108,7 @@
     "fldtVvLjk33gCUz6l": "27",
     "fldxddBxzQcA4yv0A": "129th Avenue between 172nd Street and 176th Street",
     "fld63z0I0JEzkE26Z": "2022-05-31T00:52:31.000Z",
-    "fldGc8Yu4R85MSed4": "2022-10-04T17:31:50.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-27T14:28:33.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -8905,6 +9053,7 @@
       "Authors and Journalists"
     ],
     "fldGPBlBpPi8e4PU7": "2022",
+    "fldKwhgXfbzaB1p1X": "Photo by Aimai Reporter, 2022",
     "fldKz0noCVXmoj4UV": "Ridgewood",
     "fldLjcdfwIByZ68aX": "8/30/2020",
     "fldPMX16WqfXNhJ02": "She/her/hers",
@@ -8956,7 +9105,7 @@
     "fldtVvLjk33gCUz6l": "30",
     "fldxddBxzQcA4yv0A": "Intersection of Woodbine Street and Fresh Pond Road",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-10-26T20:05:32.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-27T14:25:32.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -12429,6 +12578,7 @@
     "fldF1jFzlXZGeH9LP": [
       "Sports"
     ],
+    "fldKwhgXfbzaB1p1X": "Courtesy of PBS NewsHour, CC BY-SA 2.0, https://www.flickr.com/photos/newshour/7907972936/",
     "fldKz0noCVXmoj4UV": "Elmhurst",
     "fldLjcdfwIByZ68aX": "May 9, 1986",
     "fldN4Y2p7v28XMK4l": "Yes, I agree.",
@@ -12482,7 +12632,7 @@
     "fldtVvLjk33gCUz6l": "25",
     "fldxddBxzQcA4yv0A": "75th Street between Broadway and Woodside Avenue",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-09-30T03:31:15.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-27T14:29:28.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
