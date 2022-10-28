@@ -14342,17 +14342,24 @@
   {
     "id": "recaGrPwpWnKYny0k",
     "fld03C27tmVnEg1rP": "40.73522606900502, -73.81979749711805",
-    "fld18VKjlf9BGaE9N": "The Rantus Rock on the campus of Queens College, with commemorative plaque.",
+    "fld18VKjlf9BGaE9N": "Wilson Rantus (1807-1861) was a free African American businessman, farmer and civil rights activist who owned land in both Flushing and Jamaica in the mid-1800s. He built a school for Black children and took part in the struggle for equal voting rights in New York State, seeking to end property requirements for African American citizens. He also was a financial backer of Thomas Hamilton’s \"Anglo-African\" magazine and newspaper. The Rantus family farm and cemetery were located adjacent to the site on the Queens College campus where this commemorative boulder is found.",
     "fld3zcPVX14gMRFd1": "Wilson Rantus Rock",
     "fld4ayxzpfL0q0Dsc": true,
     "fld9CSSvPGKCZyLUG": "Queens",
     "fldAHhNbaHDTgQ4ao": "Wilson Rantus",
+    "fldCwcnz1yvlpDv1D": "Mary French, \"Rantus Family Cemetery,\" New York City Cemetery Project, June 25, 2018, <https://nycemetery.wordpress.com/2018/06/25/rantus-family-cemetery/>\n\nAnonymous, \"Guide to the Wilson and Jane Rantus Papers 1834-1883 Control #R-1,\" Queens Public Library Digital Archives,  <http://digitalarchives.queenslibrary.org/browse/guide-wilson-and-jane-rantus-papers-1834-1883-control-r-1>\n\nSignage at commemorative site on Queens College campus.\n",
+    "fldF1jFzlXZGeH9LP": [
+      "Community Activism",
+      "Business and Entrepreneurs"
+    ],
     "fldGPBlBpPi8e4PU7": "October 27, 2022",
     "fldKwhgXfbzaB1p1X": "Photo courtesy of Annie Tummino.",
     "fldKz0noCVXmoj4UV": "Flushing",
+    "fldLjcdfwIByZ68aX": "May 13, 1861",
     "fldN4Y2p7v28XMK4l": "Yes, I agree.",
     "fldPMX16WqfXNhJ02": "He/him/his",
     "fldTAhZe07uxxeoJc": "8",
+    "fldTGROls2PhrOiQU": "Wilson Rantus (1807-1861) was a free African American businessman, farmer and civil rights activist who owned land in both Flushing and Jamaica in the mid-1800s. He built a school for Black children and took part in the struggle for equal voting rights in New York State, seeking to end property requirements for African American citizens. He also was a financial backer of Thomas Hamilton’s \"Anglo-African\" magazine and newspaper. The Rantus family farm and cemetery were located adjacent to the site on the Queens College campus where this commemorative boulder is found.",
     "fldb2kOoaaol8IIiQ": "Monument/Statue",
     "fldbxIVG5OzgGGvMj": [
       "English"
@@ -14388,7 +14395,9 @@
     "fldhQfkBDSPZjKjer": "Queens College campus",
     "fldhhf7THVqO69i5D": "African American community",
     "fldiT7GQqBoUlnanU": true,
+    "fldim7SFpasPkKiOi": "1807",
     "fldirBebD4ZoJeWfC": "Queens College",
+    "fldkkbT5XhwsGbnC9": "Wilson Rantous",
     "fldlXDuTBOAjXyVTC": true,
     "fldnTs1VeBJjhO1Ga": "11367",
     "fldo67zoOMQsJN6xv": "Wilson Rantus Rock",
@@ -14396,16 +14405,7 @@
     "fldtVvLjk33gCUz6l": "24",
     "fldxddBxzQcA4yv0A": "Queens College campus",
     "fld63z0I0JEzkE26Z": "2022-10-26T19:03:45.000Z",
-    "fldGc8Yu4R85MSed4": "2022-10-28T16:05:52.000Z",
-    "fldkkbT5XhwsGbnC9": "Wilson Rantous",
-    "fldim7SFpasPkKiOi": "1807",
-    "fldLjcdfwIByZ68aX": "May 13, 1861",
-    "fldF1jFzlXZGeH9LP": [
-      "Community Activism",
-      "Business and Entrepreneurs"
-    ],
-    "fldTGROls2PhrOiQU": "Wilson Rantus was an educated African American farmer and activist who had large landholdings in both Flushing and Jamaica, Queens, in the mid-1800s. He took part in the struggle for equal voting rights in New York State, fought for educational rights for black children, and was a financial backer of Thomas Hamilton’s Anglo-African magazine and newspaper. The inscription on his gravestone was partially transcribed in",
-    "fldCwcnz1yvlpDv1D": "Mary French, \"Rantus Family Cemetery,\" New York City Cemetery Project, June 25, 2018, <https://nycemetery.wordpress.com/2018/06/25/rantus-family-cemetery/>\n\n\n",
+    "fldGc8Yu4R85MSed4": "2022-10-28T16:30:59.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
