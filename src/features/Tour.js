@@ -84,8 +84,8 @@ const TourStop = ({ stopNumber, stop, map }) => {
 };
 
 const TourView = ({ location, locations, map }) => {
-  const stops = locations.features
-    .filter(loc => location.properties[TOUR.IMAGES].includes(loc.properties.id))
+  const stops = location.properties[TOUR.IMAGES]
+    .map(tourStopId => locations.features.find(locFeature => tourStopId === locFeature.properties.id))
     .map(resultFactory);
 
   useEffect(() => {
