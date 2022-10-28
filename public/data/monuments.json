@@ -41,6 +41,7 @@
     "LOCATION_TYPE": "TOUR",
     "id": "recaXFOzRUctU9BNG",
     "fld6TCPloQX95dOVJ": "Queens College Campus Walking Tour",
+    "fldXy6eMERcn4jSzn": true,
     "fldfcR7YEf8T5M0by": "This walking tour explores some of the buildings and other features on the Queens College campus that are named for individuals connected with the college.",
     "fldsqdIWbpl4GXLJu": [
       "recUlya2Z0BKLAUtG",
@@ -55,7 +56,6 @@
       "recJvPhHQb79CAZXw",
       "recM4z3BhJkW2jZJq"
     ],
-    "fldXy6eMERcn4jSzn": true,
     "fldb2kOoaaol8IIiQ": "Tour",
     "fld3zcPVX14gMRFd1": "Queens College Campus Walking Tour",
     "fld03C27tmVnEg1rP": "40.73637477735741, -73.82002704963422",
@@ -452,13 +452,13 @@
   {
     "id": "recpYSOTS4wroMRy1",
     "fld03C27tmVnEg1rP": "40.77105217511345, -73.73769754445078",
-    "fld18VKjlf9BGaE9N": "Admiral David Dixon Porter, for whom both the park and the adjacent Public School 94 are named, was born in Chester, Pennsylvania. He followed in his father’s footsteps and joined the United States Navy. During the Civil War, Porter served under Admiral Farragut during the capture of New Orleans. Later, as the commander of the Mississippi River Squadron, he joined General Ulysses S. Grant in the historic Vicksburg Campaign and was promoted to rear admiral, one rank below full admiral. In January 1865, Porter directed the bombardment of Fort Fisher in Wilmington, North Carolina. Porter was promoted to full admiral after Farragut’s death in 1870, and he remained the most senior officer in the Navy for the next 21 years.\n\nIn 1951, the City of New York acquired the land adjacent to P.S. 94 and constructed a park for the school’s use. The City named the new park in honor of Sy Seplowe, a community activist and youth advocate who founded the Little Neck-Douglaston Youth Club and was a founding member of Community Board 11. In 1985, Parks renamed the property Admiral Park; however, the playground within the park continues to be known as Sy Seplowe Playground (see separate entry). \n\nThe park’s nautical theme was inspired by Admiral Porter’s career in the U.S. Navy. The nautical motif is especially evident in the spray shower, a magnificent, 15-foot-tall sea serpent.",
+    "fld18VKjlf9BGaE9N": "Admiral David Dixon Porter (1813-1891), for whom both the park and the adjacent Public School 94 are named, was born in Chester, Pennsylvania. He followed in his father’s footsteps and joined the United States Navy. During the Civil War, Porter served under Admiral Farragut during the capture of New Orleans. Later, as the commander of the Mississippi River Squadron, he joined General Ulysses S. Grant in the historic Vicksburg Campaign and was promoted to rear admiral, one rank below full admiral. In January 1865, Porter directed the bombardment of Fort Fisher in Wilmington, North Carolina. Porter was promoted to full admiral after Farragut’s death in 1870, and he remained the most senior officer in the Navy for the next 21 years.\n\nIn 1951, the City of New York acquired the land adjacent to P.S. 94 and constructed a park for the school’s use. The City named the new park in honor of Sy Seplowe, a community activist and youth advocate who founded the Little Neck-Douglaston Youth Club and was a founding member of Community Board 11. In 1985, Parks renamed the property Admiral Park; however, the playground within the park continues to be known as Sy Seplowe Playground (see separate entry). \n\nThe park’s nautical theme was inspired by Admiral Porter’s career in the U.S. Navy. The nautical motif is especially evident in the spray shower, a magnificent, 15-foot-tall sea serpent.",
     "fld3zcPVX14gMRFd1": "Admiral Park and Playground",
     "fld9CSSvPGKCZyLUG": "Queens",
     "fldAHhNbaHDTgQ4ao": "Admiral David Dixon Porter",
     "fldAc9y87n6QRJQHv": "Photo of Admiral Porter, ca. 1860-1865, by Mathew Brady, Brady National Photographic Art Gallery, Library of Congress (Public Domain), http://loc.gov/pictures/resource/cwpb.04806/",
     "fldBF9keRqVy6aRau": true,
-    "fldCwcnz1yvlpDv1D": "New York City Department of Parks & Recreation, <https://www.nycgovparks.org/parks/admiral-park/history>; \n\nNavy Historical Center, <https://www.ibiblio.org/hyperwar/OnlineLibrary/photos/pers-us/uspers-p/dd-portr.htm>\n",
+    "fldCwcnz1yvlpDv1D": "\"Admiral Park Sy Seplowe Playground,\" New York City Department of Parks & Recreation, accessed October 27, 2022, <https://www.nycgovparks.org/parks/admiral-park/history>\n\nNavy Historical Center, <https://www.ibiblio.org/hyperwar/OnlineLibrary/photos/pers-us/uspers-p/dd-portr.htm>\n",
     "fldEdvOGWNqX5OImX": "Parks Properties (NYC Open Data)",
     "fldF1jFzlXZGeH9LP": [
       "Military"
@@ -517,7 +517,7 @@
     "fldtVvLjk33gCUz6l": "19",
     "fldxddBxzQcA4yv0A": "42-33 Little Neck Parkway",
     "fld63z0I0JEzkE26Z": "2022-06-07T16:48:49.000Z",
-    "fldGc8Yu4R85MSed4": "2022-10-26T20:17:19.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-28T00:44:37.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -12937,6 +12937,46 @@
     "fldxddBxzQcA4yv0A": "Beach 46th Street between Rockaway Beach Boulevard and Beach Channel Drive",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
     "fldGc8Yu4R85MSed4": "2022-09-23T19:41:44.000Z",
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": true
+  },
+  {
+    "id": "rec2UfBs6tFNoEolu",
+    "fld03C27tmVnEg1rP": "40.770987177566596, -73.73814811400943",
+    "fld18VKjlf9BGaE9N": "Sy Seplowe Playground is located within Admiral Park (see separate entry). \n\nSeymour “Sy” Seplowe was a community activist and youth advocate. He was born in the Bronx, served in World War II, then settled in northeastern Queens during the early 1950s. Seplowe organized the Little Neck-Douglaston Memorial Day Parade and, in 1953, founded the Little Neck-Douglaston Youth Club, an organization of 1,200 members dedicated to providing community youth with athletic opportunities. Seplowe was also a founding member of Community Board 11 and the president of the Little Neck-Douglaston Community Council. Throughout his life, Seplowe worked to promote baseball, and served as the Little League administrator for School District 26 for 35 years.  \n\nIn 1951, the City of New York acquired the land adjacent to P.S. 94 and constructed a park for the school’s use. The City named the new park in honor of Seplowe. In 1985, Parks renamed the property Admiral Park; however, the playground within the park continues to be known as Sy Seplowe Playground.",
+    "fld3zcPVX14gMRFd1": "Sy Seplowe Playground",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldAHhNbaHDTgQ4ao": "Sy Seplowe",
+    "fldCwcnz1yvlpDv1D": "\"Admiral Park Sy Seplowe Playground,\" New York City Department of Parks & Recreation, accessed October 27, 2022, <https://www.nycgovparks.org/parks/admiral-park/history>\n",
+    "fldF1jFzlXZGeH9LP": [
+      "Community Activism"
+    ],
+    "fldGPBlBpPi8e4PU7": "1951",
+    "fldKz0noCVXmoj4UV": "Little Neck",
+    "fldLjcdfwIByZ68aX": "1994?",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fldPMX16WqfXNhJ02": "He/him/his",
+    "fldTAhZe07uxxeoJc": "11",
+    "fldTGROls2PhrOiQU": "Sy Seplowe Playground is located within Admiral Park (see separate entry). \n\nSeymour “Sy” Seplowe was a community activist and youth advocate. He was born in the Bronx, served in World War II, then settled in northeastern Queens during the early 1950s. Seplowe organized the Little Neck-Douglaston Memorial Day Parade and, in 1953, founded the Little Neck-Douglaston Youth Club, an organization of 1,200 members dedicated to providing community youth with athletic opportunities. Seplowe was also a founding member of Community Board 11 and the president of the Little Neck-Douglaston Community Council. Throughout his life, Seplowe worked to promote baseball, and served as the Little League administrator for School District 26 for 35 years.  \n\nIn 1951, the City of New York acquired the land adjacent to P.S. 94 and constructed a park for the school’s use. The City named the new park in honor of Seplowe. In 1985, Parks renamed the property Admiral Park; however, the playground within the park continues to be known as Sy Seplowe Playground.",
+    "fldb2kOoaaol8IIiQ": "Park/Playground",
+    "fldbBQ9Hc4t90wU0X": "*Possible task for intern: Take photo of playground, esp. sea serpent spray shower (see description under Admiral Park).*",
+    "fldbxIVG5OzgGGvMj": [
+      "English"
+    ],
+    "fldd8Ii2y6GrnrkMN": "Admiral Park Playground",
+    "fldhQfkBDSPZjKjer": "42-33 Little Neck Parkway",
+    "fldiT7GQqBoUlnanU": true,
+    "fldkkbT5XhwsGbnC9": "Seymour Seplowe, Seymour Seplowitz",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldmpgqHheHG4ASnx": "Bronx, NY",
+    "fldnTs1VeBJjhO1Ga": "11363",
+    "fldo67zoOMQsJN6xv": "Sy Seplowe Playground",
+    "fldrJjqRjjOeqKf72": "Lori Wallach",
+    "fldtVvLjk33gCUz6l": "19",
+    "fldxddBxzQcA4yv0A": "42-33 Little Neck Parkway",
+    "fld63z0I0JEzkE26Z": "2022-06-07T17:10:54.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-28T00:45:24.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
