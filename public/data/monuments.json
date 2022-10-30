@@ -7082,7 +7082,7 @@
     "id": "recPpU7QqPl0bo0oR",
     "fld03C27tmVnEg1rP": "40.745498, -73.953143",
     "fld18VKjlf9BGaE9N": "Joseph Imperato (1944-2005), a longtime resident of Long Island City, was a community leader dedicated to assisting the elderly, keeping his neighborhood clean and serving St. Mary’s Church. He owned and operated Joe Imp’s Restaurant in Long Island City for many years and was a fixture in the neighborhood. Prior to the opening of his restaurant, Imperato also served as a City sanitation worker and as a soldier in the U.S. Army. He passed unexpectedly following knee surgery at the age of 60.",
-    "fld3zcPVX14gMRFd1": "Joe Imp’s Place",
+    "fld3zcPVX14gMRFd1": "Joe Imp’s Way",
     "fld4ayxzpfL0q0Dsc": true,
     "fld9CSSvPGKCZyLUG": "Queens",
     "fldAHhNbaHDTgQ4ao": "Joe Imperato",
@@ -7096,6 +7096,7 @@
       "Community Activism"
     ],
     "fldGPBlBpPi8e4PU7": "June 9, 2007",
+    "fldKwhgXfbzaB1p1X": "Photo courtesy of Leo Sano.",
     "fldKz0noCVXmoj4UV": "Long Island City",
     "fldLjcdfwIByZ68aX": "July 24, 2005",
     "fldN4Y2p7v28XMK4l": "Yes, I agree.",
@@ -7105,6 +7106,34 @@
     "fldb2kOoaaol8IIiQ": "Street/Thoroughfare",
     "fldbxIVG5OzgGGvMj": [
       "English"
+    ],
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "attXHYCUt4fqJHGVy",
+        "width": 6960,
+        "height": 4640,
+        "url": "https://dl.airtable.com/.attachments/46c24f244c96634a114d6831c1ad499f/c4319302/JoeImpsWay.jpeg",
+        "filename": "Joe Imps Way.jpeg",
+        "size": 8097010,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/3a4b02ce61b98434fb224dc64c55118f/c357f9fd",
+            "width": 54,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/fd2301040d740ab7d1397d2eb90475c7/46552aa7",
+            "width": 768,
+            "height": 512
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/b4bb973b497e4d945b926fd7cd1b0cf1/87ca4e32",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
     ],
     "fldhQfkBDSPZjKjer": "Northeast corner of 47th Avenue and Vernon Boulevard",
     "fldiT7GQqBoUlnanU": true,
@@ -7120,7 +7149,7 @@
     "fldtVvLjk33gCUz6l": "26",
     "fldxddBxzQcA4yv0A": "Northeast corner of 47th Avenue and Vernon Boulevard",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-10-30T03:41:55.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-30T03:45:10.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -14411,28 +14440,18 @@
   },
   {
     "id": "rechOU55lhQfqckkE",
-    "fldo67zoOMQsJN6xv": "Wilson Rantus Rock",
-    "fldAHhNbaHDTgQ4ao": "Wilson Rantus",
-    "fldkkbT5XhwsGbnC9": "Wilson Rantous",
-    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
-    "fldrJjqRjjOeqKf72": "Lori Wallach",
+    "fld03C27tmVnEg1rP": "40.73522606900502, -73.81979749711805",
     "fld18VKjlf9BGaE9N": "Ribbon-cutting ceremony for the Wilson Rantus Rock, October 27, 2022.",
     "fld3zcPVX14gMRFd1": "Wilson Rantus Rock",
-    "fld03C27tmVnEg1rP": "40.73522606900502, -73.81979749711805",
-    "fldxddBxzQcA4yv0A": "Queens College campus",
-    "fldKz0noCVXmoj4UV": "Flushing",
-    "fld9CSSvPGKCZyLUG": "Queens",
-    "fldGPBlBpPi8e4PU7": "October 27, 2022",
-    "fldirBebD4ZoJeWfC": "Queens College",
-    "fldlXDuTBOAjXyVTC": true,
-    "fldhQfkBDSPZjKjer": "Queens College campus",
-    "fldb2kOoaaol8IIiQ": "Monument/Statue",
-    "fldKwhgXfbzaB1p1X": "Photo courtesy of Jacqueline Colson.",
-    "fldnTs1VeBJjhO1Ga": "11367",
-    "fldCwcnz1yvlpDv1D": "\n",
     "fld4ayxzpfL0q0Dsc": true,
-    "fld63z0I0JEzkE26Z": "2022-10-30T03:31:32.000Z",
-    "fldGc8Yu4R85MSed4": "2022-10-30T03:36:51.000Z",
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldAHhNbaHDTgQ4ao": "Wilson Rantus",
+    "fldCwcnz1yvlpDv1D": "\n",
+    "fldGPBlBpPi8e4PU7": "October 27, 2022",
+    "fldKwhgXfbzaB1p1X": "Photo courtesy of Jacqueline Colson.",
+    "fldKz0noCVXmoj4UV": "Flushing",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fldb2kOoaaol8IIiQ": "Monument/Statue",
     "fldchc6j0XRMy0vb9": [
       {
         "id": "attLwGZXGIcd7G9zG",
@@ -14461,6 +14480,16 @@
         }
       }
     ],
+    "fldhQfkBDSPZjKjer": "Queens College campus",
+    "fldirBebD4ZoJeWfC": "Queens College",
+    "fldkkbT5XhwsGbnC9": "Wilson Rantous",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldnTs1VeBJjhO1Ga": "11367",
+    "fldo67zoOMQsJN6xv": "Wilson Rantus Rock",
+    "fldrJjqRjjOeqKf72": "Lori Wallach",
+    "fldxddBxzQcA4yv0A": "Queens College campus",
+    "fld63z0I0JEzkE26Z": "2022-10-30T03:31:32.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-30T03:36:51.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": false
   },
