@@ -7114,13 +7114,13 @@
     "fldlXDuTBOAjXyVTC": true,
     "fldmpgqHheHG4ASnx": "Queens, NY",
     "fldnTs1VeBJjhO1Ga": "11101",
-    "fldo67zoOMQsJN6xv": "Joe Imp’s Place",
+    "fldo67zoOMQsJN6xv": "Joe Imp’s Way",
     "fldq5DPdjbB3X7fQy": "2007/028",
     "fldrJjqRjjOeqKf72": "Alina Willis/Lori Wallach",
     "fldtVvLjk33gCUz6l": "26",
     "fldxddBxzQcA4yv0A": "Northeast corner of 47th Avenue and Vernon Boulevard",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-10-20T12:40:28.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-30T03:41:55.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -14407,7 +14407,62 @@
     "fld63z0I0JEzkE26Z": "2022-10-26T19:03:45.000Z",
     "fldGc8Yu4R85MSed4": "2022-10-28T16:30:59.000Z",
     "LOCATION_TYPE": "ASSET",
-    "IS_UNIQUE": true
+    "IS_UNIQUE": false
+  },
+  {
+    "id": "rechOU55lhQfqckkE",
+    "fldo67zoOMQsJN6xv": "Wilson Rantus Rock",
+    "fldAHhNbaHDTgQ4ao": "Wilson Rantus",
+    "fldkkbT5XhwsGbnC9": "Wilson Rantous",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fldrJjqRjjOeqKf72": "Lori Wallach",
+    "fld18VKjlf9BGaE9N": "Ribbon-cutting ceremony for the Wilson Rantus Rock, October 27, 2022.",
+    "fld3zcPVX14gMRFd1": "Wilson Rantus Rock",
+    "fld03C27tmVnEg1rP": "40.73522606900502, -73.81979749711805",
+    "fldxddBxzQcA4yv0A": "Queens College campus",
+    "fldKz0noCVXmoj4UV": "Flushing",
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldGPBlBpPi8e4PU7": "October 27, 2022",
+    "fldirBebD4ZoJeWfC": "Queens College",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldhQfkBDSPZjKjer": "Queens College campus",
+    "fldb2kOoaaol8IIiQ": "Monument/Statue",
+    "fldKwhgXfbzaB1p1X": "Photo courtesy of Jacqueline Colson.",
+    "fldnTs1VeBJjhO1Ga": "11367",
+    "fldCwcnz1yvlpDv1D": "\n",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld63z0I0JEzkE26Z": "2022-10-30T03:31:32.000Z",
+    "fldGc8Yu4R85MSed4": "2022-10-30T03:36:51.000Z",
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "attLwGZXGIcd7G9zG",
+        "width": 1440,
+        "height": 960,
+        "url": "https://dl.airtable.com/.attachments/d2f24d6c9645ad80bad1f17ba3407ea2/b4f5d418/RantusRockceremony.jpg",
+        "filename": "Rantus Rock ceremony.jpg",
+        "size": 194225,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/42228d09658d064cf811889ca4736b47/702b0e6e",
+            "width": 54,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/5a96c270d5b32bf476c01ab57442adf0/6caf20c9",
+            "width": 768,
+            "height": 512
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/6bdb0de1d20cd10b67b7059531cface1/ad732a4a",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": false
   },
   {
     "id": "recOg48FNnwDgIEIr",
