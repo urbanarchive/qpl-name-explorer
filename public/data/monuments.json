@@ -18904,7 +18904,7 @@
     "id": "recWtubz8wg9lqN5A",
     "fld03C27tmVnEg1rP": "40.748873, -73.937364",
     "fld18VKjlf9BGaE9N": "William D. Modell (1921-2008) was born in Manhattan Beach, Brooklyn, and attended New York University. He succeeded his father in running Modell’s, the nation’s oldest family-owned sporting goods company, for 60 years. Under his leadership, Modell’s became a popular chain of sporting good stores selling athletic equipment and accessories. He was appointed by President Jimmy Carter to the Panama Canal Treaty negotiating committee and was also co-founder of the Jeffrey Modell Foundation for Immunological Research (his son Michael died of Crohn’s disease) and founder of Gilda’s Club in New York. He was inducted into the National Sporting Goods Hall of Fame by former President George H.W. Bush in 1994 and also became a member of the Discount Retail Hall of Fame.",
-    "fld3zcPVX14gMRFd1": "William Modell Way",
+    "fld3zcPVX14gMRFd1": "William D. Modell Way",
     "fld4ayxzpfL0q0Dsc": true,
     "fld9CSSvPGKCZyLUG": "Queens",
     "fldAHhNbaHDTgQ4ao": "William D. Modell",
@@ -18968,7 +18968,7 @@
     "fldtVvLjk33gCUz6l": "26",
     "fldxddBxzQcA4yv0A": "At the intersection of Jackson Avenue and Queens Boulevard",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-11-06T02:59:13.000Z",
+    "fldGc8Yu4R85MSed4": "2022-11-06T04:15:26.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": false
   },
@@ -19149,6 +19149,34 @@
     "fldKz0noCVXmoj4UV": "Long Island City",
     "fldN4Y2p7v28XMK4l": "Yes, I agree.",
     "fldb2kOoaaol8IIiQ": "Street/Thoroughfare",
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "atttoc0sQuoNNEucZ",
+        "width": 6960,
+        "height": 4640,
+        "url": "https://dl.airtable.com/.attachments/e2c68a591f42c14ac256cabbbb996448/543727cd/IMG_5972.jpeg",
+        "filename": "IMG_5972.jpeg",
+        "size": 6145335,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/cca304245848d39135128a79de75b918/0fca1e43",
+            "width": 54,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/6bfb720af2c5c1a155221fa251760316/ee265c19",
+            "width": 768,
+            "height": 512
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/a9c0f9838a6354415d65ab44dfbd08bd/cf8105a1",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
     "fldhQfkBDSPZjKjer": "At the intersection of Jackson Avenue and Queens Boulevard",
     "fldlXDuTBOAjXyVTC": true,
     "fldnTs1VeBJjhO1Ga": "11101",
@@ -19156,7 +19184,7 @@
     "fldqyYHIfriGMRU5x": true,
     "fldxddBxzQcA4yv0A": "At the intersection of Jackson Avenue and Queens Boulevard",
     "fld63z0I0JEzkE26Z": "2022-11-06T02:51:34.000Z",
-    "fldGc8Yu4R85MSed4": "2022-11-06T02:56:24.000Z",
+    "fldGc8Yu4R85MSed4": "2022-11-06T04:17:59.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": false
   },
