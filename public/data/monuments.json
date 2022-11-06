@@ -18909,13 +18909,16 @@
     "fld9CSSvPGKCZyLUG": "Queens",
     "fldAHhNbaHDTgQ4ao": "William D. Modell",
     "fldBF9keRqVy6aRau": true,
+    "fldCwcnz1yvlpDv1D": "Gil Tauber, \"NYC Honorary Street Names,\" accessed June 15, 2022, <http://www.nycstreets.info/>\n",
     "fldEdvOGWNqX5OImX": "Gil Tauber",
     "fldF1jFzlXZGeH9LP": [
       "Business and Entrepreneurs",
       "Government and Politics"
     ],
+    "fldKwhgXfbzaB1p1X": "Photo courtesy of Leo Sano, 2022.",
     "fldKz0noCVXmoj4UV": "Long Island City",
     "fldLjcdfwIByZ68aX": "February 14, 2008",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
     "fldPMX16WqfXNhJ02": "He/him/his",
     "fldTAhZe07uxxeoJc": "2",
     "fldTGROls2PhrOiQU": "Section 61. William Modell WayIntroduced by Council Member Van BramerMay 13, 1921 – February 14, 2008William Modell was born in Manhattan Beach Brooklyn and attended New York University. He succeeded his father in running Modell’s, the nation’s oldest family-owned sporting goods company for sixty years. Under his leadership, Modell’s became a popular chain of sporting good stores selling athletic equipment and accessories. He was appointed by President Jimmy Carter to the Panama Canal Treaty negotiating committee and also co-founder of the Jeffrey Modell Foundation for Immunological Research (his son Michael died of Crohn’s disease) and founder of Gilda’s Club in New York. He was inducted into the National Sporting Goods Hall of Fame by former President George H.W. Bush in 1994 and also became a member of the Discount Retail Hall of Fame.|2011/03",
@@ -18923,7 +18926,36 @@
     "fldbxIVG5OzgGGvMj": [
       "English"
     ],
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "att1pYOWSt8yRgBjt",
+        "width": 6960,
+        "height": 4640,
+        "url": "https://dl.airtable.com/.attachments/cad11c7a7b118ef8cd5bd306eeb916a6/279b0559/IMG_5970.jpeg",
+        "filename": "IMG_5970.jpeg",
+        "size": 6955740,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/6c16826fbae52f994b98266b7cddd730/6c5d6103",
+            "width": 54,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/6f7d9f01d1c941fee587808edef6abdd/d1b285ce",
+            "width": 768,
+            "height": 512
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/eb405aafb4c7e5fa3983f0751b0e15e8/3f2b9563",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
     "fldhQfkBDSPZjKjer": "At the intersection of Jackson Avenue and Queens Boulevard",
+    "fldiT7GQqBoUlnanU": true,
     "fldim7SFpasPkKiOi": "May 13, 1921",
     "fldirBebD4ZoJeWfC": "Council Member Jimmy Van Bramer",
     "fldlXDuTBOAjXyVTC": true,
@@ -18936,109 +18968,195 @@
     "fldtVvLjk33gCUz6l": "26",
     "fldxddBxzQcA4yv0A": "At the intersection of Jackson Avenue and Queens Boulevard",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-11-06T02:42:35.000Z",
-    "fldchc6j0XRMy0vb9": [
-      {
-        "id": "att1pYOWSt8yRgBjt",
-        "width": 6960,
-        "height": 4640,
-        "url": "https://dl.airtable.com/.attachments/cad11c7a7b118ef8cd5bd306eeb916a6/279b0559/IMG_5970.jpeg",
-        "filename": "IMG_5970.jpeg",
-        "size": 6955740,
-        "type": "image/jpeg",
-        "thumbnails": {
-          "small": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/6c16826fbae52f994b98266b7cddd730/6c5d6103",
-            "width": 54,
-            "height": 36
-          },
-          "large": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/6f7d9f01d1c941fee587808edef6abdd/d1b285ce",
-            "width": 768,
-            "height": 512
-          },
-          "full": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/eb405aafb4c7e5fa3983f0751b0e15e8/3f2b9563",
-            "width": 3000,
-            "height": 3000
-          }
-        }
-      }
-    ],
-    "fldKwhgXfbzaB1p1X": "Photo courtesy of Leo Sano, 2022.",
-    "fldiT7GQqBoUlnanU": true,
-    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fldGc8Yu4R85MSed4": "2022-11-06T02:59:13.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": false
   },
   {
     "id": "rec9R97neumVY6581",
-    "fldo67zoOMQsJN6xv": "William D. Modell Way",
+    "fld03C27tmVnEg1rP": "40.748873, -73.937364",
+    "fld18VKjlf9BGaE9N": "William D. Modell Way at Queens Plaza.",
+    "fld3zcPVX14gMRFd1": "William D. Modell Way",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldAHhNbaHDTgQ4ao": "William D. Modell",
+    "fldAc9y87n6QRJQHv": "William D. Modell Way at Queens Plaza.",
+    "fldBF9keRqVy6aRau": true,
+    "fldEdvOGWNqX5OImX": "Gil Tauber",
+    "fldKwhgXfbzaB1p1X": "Photo courtesy of Leo Sano, 2022.",
+    "fldKz0noCVXmoj4UV": "Long Island City",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fldb2kOoaaol8IIiQ": "Street/Thoroughfare",
     "fldchc6j0XRMy0vb9": [
       {
-        "id": "att1pYOWSt8yRgBjt",
+        "id": "attqLQHOO6Z1Cwq93",
         "width": 6960,
         "height": 4640,
-        "url": "https://dl.airtable.com/.attachments/cad11c7a7b118ef8cd5bd306eeb916a6/279b0559/IMG_5970.jpeg",
-        "filename": "IMG_5970.jpeg",
-        "size": 6955740,
+        "url": "https://dl.airtable.com/.attachments/8137749498dd38fa4e183a2c8c7792fd/24fa37bb/IMG_5971.jpeg",
+        "filename": "IMG_5971.jpeg",
+        "size": 5583119,
         "type": "image/jpeg",
         "thumbnails": {
           "small": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/6c16826fbae52f994b98266b7cddd730/6c5d6103",
+            "url": "https://dl.airtable.com/.attachmentThumbnails/1278bfa5911eb7ab3729dc405e491b56/a5835d63",
             "width": 54,
             "height": 36
           },
           "large": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/6f7d9f01d1c941fee587808edef6abdd/d1b285ce",
+            "url": "https://dl.airtable.com/.attachmentThumbnails/d53ff435489a0ff7cde7fcf60612774e/9519dc2e",
             "width": 768,
             "height": 512
           },
           "full": {
-            "url": "https://dl.airtable.com/.attachmentThumbnails/eb405aafb4c7e5fa3983f0751b0e15e8/3f2b9563",
+            "url": "https://dl.airtable.com/.attachmentThumbnails/9f8e10f944215b21e479d1eafc0a2f72/60ab0437",
             "width": 3000,
             "height": 3000
           }
         }
       }
     ],
-    "fldAHhNbaHDTgQ4ao": "William D. Modell",
-    "fldim7SFpasPkKiOi": "May 13, 1921",
-    "fldTGROls2PhrOiQU": "Section 61. William Modell WayIntroduced by Council Member Van BramerMay 13, 1921 – February 14, 2008William Modell was born in Manhattan Beach Brooklyn and attended New York University. He succeeded his father in running Modell’s, the nation’s oldest family-owned sporting goods company for sixty years. Under his leadership, Modell’s became a popular chain of sporting good stores selling athletic equipment and accessories. He was appointed by President Jimmy Carter to the Panama Canal Treaty negotiating committee and also co-founder of the Jeffrey Modell Foundation for Immunological Research (his son Michael died of Crohn’s disease) and founder of Gilda’s Club in New York. He was inducted into the National Sporting Goods Hall of Fame by former President George H.W. Bush in 1994 and also became a member of the Discount Retail Hall of Fame.|2011/03",
-    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
-    "fldrJjqRjjOeqKf72": "Alina Willis",
-    "fld18VKjlf9BGaE9N": "William D. Modell (1921-2008) was born in Manhattan Beach, Brooklyn, and attended New York University. He succeeded his father in running Modell’s, the nation’s oldest family-owned sporting goods company, for 60 years. Under his leadership, Modell’s became a popular chain of sporting good stores selling athletic equipment and accessories. He was appointed by President Jimmy Carter to the Panama Canal Treaty negotiating committee and was also co-founder of the Jeffrey Modell Foundation for Immunological Research (his son Michael died of Crohn’s disease) and founder of Gilda’s Club in New York. He was inducted into the National Sporting Goods Hall of Fame by former President George H.W. Bush in 1994 and also became a member of the Discount Retail Hall of Fame.",
-    "fld3zcPVX14gMRFd1": "William Modell Way",
-    "fld03C27tmVnEg1rP": "40.748873, -73.937364",
-    "fldxddBxzQcA4yv0A": "At the intersection of Jackson Avenue and Queens Boulevard",
-    "fldKz0noCVXmoj4UV": "Long Island City",
-    "fld9CSSvPGKCZyLUG": "Queens",
-    "fldtVvLjk33gCUz6l": "26",
-    "fldirBebD4ZoJeWfC": "Council Member Jimmy Van Bramer",
-    "fldq5DPdjbB3X7fQy": "2011/03",
-    "fldlXDuTBOAjXyVTC": true,
     "fldhQfkBDSPZjKjer": "At the intersection of Jackson Avenue and Queens Boulevard",
-    "fldb2kOoaaol8IIiQ": "Street/Thoroughfare",
-    "fldLjcdfwIByZ68aX": "February 14, 2008",
-    "fldmpgqHheHG4ASnx": "Brooklyn, NY",
-    "fldPMX16WqfXNhJ02": "He/him/his",
-    "fldF1jFzlXZGeH9LP": [
-      "Business and Entrepreneurs",
-      "Government and Politics"
-    ],
-    "fldbxIVG5OzgGGvMj": [
-      "English"
-    ],
-    "fldKwhgXfbzaB1p1X": "Photo courtesy of Leo Sano, 2022.",
-    "fldTAhZe07uxxeoJc": "2",
+    "fldlXDuTBOAjXyVTC": true,
     "fldnTs1VeBJjhO1Ga": "11101",
-    "fldEdvOGWNqX5OImX": "Gil Tauber",
-    "fld4ayxzpfL0q0Dsc": true,
-    "fldBF9keRqVy6aRau": true,
-    "fldiT7GQqBoUlnanU": true,
+    "fldo67zoOMQsJN6xv": "William D. Modell Way",
     "fldqyYHIfriGMRU5x": true,
+    "fldxddBxzQcA4yv0A": "At the intersection of Jackson Avenue and Queens Boulevard",
     "fld63z0I0JEzkE26Z": "2022-11-06T02:46:20.000Z",
-    "fldGc8Yu4R85MSed4": "2022-11-06T02:46:32.000Z",
+    "fldGc8Yu4R85MSed4": "2022-11-06T02:48:49.000Z",
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": false
+  },
+  {
+    "id": "rec3dsZRnMXlOhip8",
+    "fld03C27tmVnEg1rP": "40.748873, -73.937364",
+    "fld18VKjlf9BGaE9N": "William D. Modell Way at Queens Plaza.",
+    "fld3zcPVX14gMRFd1": "William D. Modell Way",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldAHhNbaHDTgQ4ao": "William D. Modell",
+    "fldAc9y87n6QRJQHv": "William D. Modell Way at Queens Plaza.",
+    "fldBF9keRqVy6aRau": true,
+    "fldEdvOGWNqX5OImX": "Gil Tauber",
+    "fldKwhgXfbzaB1p1X": "Photo courtesy of Leo Sano, 2022.",
+    "fldKz0noCVXmoj4UV": "Long Island City",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fldb2kOoaaol8IIiQ": "Street/Thoroughfare",
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "att0brkG6EDlGZxN7",
+        "width": 6960,
+        "height": 4640,
+        "url": "https://dl.airtable.com/.attachments/3912cc14942e746614cbf80c8c36e9b7/53758e81/IMG_5975.jpeg",
+        "filename": "IMG_5975.jpeg",
+        "size": 6115362,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/131dbafffd17db554aa0554228971034/1d5ac82b",
+            "width": 54,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/1ca8faa3ce1fc044d4cf389a16b72912/ebf1c488",
+            "width": 768,
+            "height": 512
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/2e373f4a76f6b14b52cc091355004c8a/dce0b699",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "fldhQfkBDSPZjKjer": "At the intersection of Jackson Avenue and Queens Boulevard",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldnTs1VeBJjhO1Ga": "11101",
+    "fldo67zoOMQsJN6xv": "William D. Modell Way",
+    "fldqyYHIfriGMRU5x": true,
+    "fldxddBxzQcA4yv0A": "At the intersection of Jackson Avenue and Queens Boulevard",
+    "fld63z0I0JEzkE26Z": "2022-11-06T02:49:22.000Z",
+    "fldGc8Yu4R85MSed4": "2022-11-06T02:50:12.000Z",
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": false
+  },
+  {
+    "id": "recvv98fGDLta8ON2",
+    "fld03C27tmVnEg1rP": "40.748873, -73.937364",
+    "fld18VKjlf9BGaE9N": "William D. Modell Way at Queens Plaza.",
+    "fld3zcPVX14gMRFd1": "William D. Modell Way",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldAHhNbaHDTgQ4ao": "William D. Modell",
+    "fldAc9y87n6QRJQHv": "William D. Modell Way at Queens Plaza.",
+    "fldBF9keRqVy6aRau": true,
+    "fldEdvOGWNqX5OImX": "Gil Tauber",
+    "fldKwhgXfbzaB1p1X": "Photo courtesy of Leo Sano, 2022.",
+    "fldKz0noCVXmoj4UV": "Long Island City",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fldb2kOoaaol8IIiQ": "Street/Thoroughfare",
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "att8Sz6oVCtLDl0bJ",
+        "width": 6960,
+        "height": 4640,
+        "url": "https://dl.airtable.com/.attachments/afde5118316864a14fee59c4b68d8632/bacfeac6/IMG_5977.jpeg",
+        "filename": "IMG_5977.jpeg",
+        "size": 6805250,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/f181cacaf02e17186b7ede8407e95570/7adec796",
+            "width": 54,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/306bcce3b72d031617790255ce12b299/fbef1b78",
+            "width": 768,
+            "height": 512
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/328d597247ef1aff82014e273ce26d6b/190fdb79",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "fldhQfkBDSPZjKjer": "At the intersection of Jackson Avenue and Queens Boulevard",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldnTs1VeBJjhO1Ga": "11101",
+    "fldo67zoOMQsJN6xv": "William D. Modell Way",
+    "fldqyYHIfriGMRU5x": true,
+    "fldxddBxzQcA4yv0A": "At the intersection of Jackson Avenue and Queens Boulevard",
+    "fld63z0I0JEzkE26Z": "2022-11-06T02:50:31.000Z",
+    "fldGc8Yu4R85MSed4": "2022-11-06T02:51:12.000Z",
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": false
+  },
+  {
+    "id": "recqZVWo4z2cDUU0S",
+    "fld03C27tmVnEg1rP": "40.748873, -73.937364",
+    "fld18VKjlf9BGaE9N": "William D. Modell Way at Queens Plaza.",
+    "fld3zcPVX14gMRFd1": "William D. Modell Way",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldAHhNbaHDTgQ4ao": "William D. Modell",
+    "fldAc9y87n6QRJQHv": "William D. Modell Way at Queens Plaza.",
+    "fldBF9keRqVy6aRau": true,
+    "fldEdvOGWNqX5OImX": "Gil Tauber",
+    "fldKwhgXfbzaB1p1X": "Photo courtesy of Leo Sano, 2022.",
+    "fldKz0noCVXmoj4UV": "Long Island City",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fldb2kOoaaol8IIiQ": "Street/Thoroughfare",
+    "fldhQfkBDSPZjKjer": "At the intersection of Jackson Avenue and Queens Boulevard",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldnTs1VeBJjhO1Ga": "11101",
+    "fldo67zoOMQsJN6xv": "William D. Modell Way",
+    "fldqyYHIfriGMRU5x": true,
+    "fldxddBxzQcA4yv0A": "At the intersection of Jackson Avenue and Queens Boulevard",
+    "fld63z0I0JEzkE26Z": "2022-11-06T02:51:34.000Z",
+    "fldGc8Yu4R85MSed4": "2022-11-06T02:56:24.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": false
   },
