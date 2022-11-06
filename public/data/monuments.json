@@ -18936,9 +18936,111 @@
     "fldtVvLjk33gCUz6l": "26",
     "fldxddBxzQcA4yv0A": "At the intersection of Jackson Avenue and Queens Boulevard",
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
-    "fldGc8Yu4R85MSed4": "2022-11-05T21:50:09.000Z",
+    "fldGc8Yu4R85MSed4": "2022-11-06T02:42:35.000Z",
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "att1pYOWSt8yRgBjt",
+        "width": 6960,
+        "height": 4640,
+        "url": "https://dl.airtable.com/.attachments/cad11c7a7b118ef8cd5bd306eeb916a6/279b0559/IMG_5970.jpeg",
+        "filename": "IMG_5970.jpeg",
+        "size": 6955740,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/6c16826fbae52f994b98266b7cddd730/6c5d6103",
+            "width": 54,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/6f7d9f01d1c941fee587808edef6abdd/d1b285ce",
+            "width": 768,
+            "height": 512
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/eb405aafb4c7e5fa3983f0751b0e15e8/3f2b9563",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "fldKwhgXfbzaB1p1X": "Photo courtesy of Leo Sano, 2022.",
+    "fldiT7GQqBoUlnanU": true,
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
     "LOCATION_TYPE": "ASSET",
-    "IS_UNIQUE": true
+    "IS_UNIQUE": false
+  },
+  {
+    "id": "rec9R97neumVY6581",
+    "fldo67zoOMQsJN6xv": "William D. Modell Way",
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "att1pYOWSt8yRgBjt",
+        "width": 6960,
+        "height": 4640,
+        "url": "https://dl.airtable.com/.attachments/cad11c7a7b118ef8cd5bd306eeb916a6/279b0559/IMG_5970.jpeg",
+        "filename": "IMG_5970.jpeg",
+        "size": 6955740,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/6c16826fbae52f994b98266b7cddd730/6c5d6103",
+            "width": 54,
+            "height": 36
+          },
+          "large": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/6f7d9f01d1c941fee587808edef6abdd/d1b285ce",
+            "width": 768,
+            "height": 512
+          },
+          "full": {
+            "url": "https://dl.airtable.com/.attachmentThumbnails/eb405aafb4c7e5fa3983f0751b0e15e8/3f2b9563",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "fldAHhNbaHDTgQ4ao": "William D. Modell",
+    "fldim7SFpasPkKiOi": "May 13, 1921",
+    "fldTGROls2PhrOiQU": "Section 61. William Modell WayIntroduced by Council Member Van BramerMay 13, 1921 – February 14, 2008William Modell was born in Manhattan Beach Brooklyn and attended New York University. He succeeded his father in running Modell’s, the nation’s oldest family-owned sporting goods company for sixty years. Under his leadership, Modell’s became a popular chain of sporting good stores selling athletic equipment and accessories. He was appointed by President Jimmy Carter to the Panama Canal Treaty negotiating committee and also co-founder of the Jeffrey Modell Foundation for Immunological Research (his son Michael died of Crohn’s disease) and founder of Gilda’s Club in New York. He was inducted into the National Sporting Goods Hall of Fame by former President George H.W. Bush in 1994 and also became a member of the Discount Retail Hall of Fame.|2011/03",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fldrJjqRjjOeqKf72": "Alina Willis",
+    "fld18VKjlf9BGaE9N": "William D. Modell (1921-2008) was born in Manhattan Beach, Brooklyn, and attended New York University. He succeeded his father in running Modell’s, the nation’s oldest family-owned sporting goods company, for 60 years. Under his leadership, Modell’s became a popular chain of sporting good stores selling athletic equipment and accessories. He was appointed by President Jimmy Carter to the Panama Canal Treaty negotiating committee and was also co-founder of the Jeffrey Modell Foundation for Immunological Research (his son Michael died of Crohn’s disease) and founder of Gilda’s Club in New York. He was inducted into the National Sporting Goods Hall of Fame by former President George H.W. Bush in 1994 and also became a member of the Discount Retail Hall of Fame.",
+    "fld3zcPVX14gMRFd1": "William Modell Way",
+    "fld03C27tmVnEg1rP": "40.748873, -73.937364",
+    "fldxddBxzQcA4yv0A": "At the intersection of Jackson Avenue and Queens Boulevard",
+    "fldKz0noCVXmoj4UV": "Long Island City",
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldtVvLjk33gCUz6l": "26",
+    "fldirBebD4ZoJeWfC": "Council Member Jimmy Van Bramer",
+    "fldq5DPdjbB3X7fQy": "2011/03",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldhQfkBDSPZjKjer": "At the intersection of Jackson Avenue and Queens Boulevard",
+    "fldb2kOoaaol8IIiQ": "Street/Thoroughfare",
+    "fldLjcdfwIByZ68aX": "February 14, 2008",
+    "fldmpgqHheHG4ASnx": "Brooklyn, NY",
+    "fldPMX16WqfXNhJ02": "He/him/his",
+    "fldF1jFzlXZGeH9LP": [
+      "Business and Entrepreneurs",
+      "Government and Politics"
+    ],
+    "fldbxIVG5OzgGGvMj": [
+      "English"
+    ],
+    "fldKwhgXfbzaB1p1X": "Photo courtesy of Leo Sano, 2022.",
+    "fldTAhZe07uxxeoJc": "2",
+    "fldnTs1VeBJjhO1Ga": "11101",
+    "fldEdvOGWNqX5OImX": "Gil Tauber",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fldBF9keRqVy6aRau": true,
+    "fldiT7GQqBoUlnanU": true,
+    "fldqyYHIfriGMRU5x": true,
+    "fld63z0I0JEzkE26Z": "2022-11-06T02:46:20.000Z",
+    "fldGc8Yu4R85MSed4": "2022-11-06T02:46:32.000Z",
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": false
   },
   {
     "id": "recJn7nTLp52EYjEa",
