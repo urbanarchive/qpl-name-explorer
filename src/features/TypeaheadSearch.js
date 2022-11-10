@@ -10,7 +10,7 @@ function TypeaheadSearch({ locations }) {
   const loadOptions = async (inputString, callback) => {
     // search by stringified attributes
     const foundLocations = locations?.features
-      .filter(f => JSON.stringify(f.properties).includes(inputString))
+      .filter(f => JSON.stringify(f.properties).toLowerCase().includes(inputString.toLowerCase()))
       .map(f => ({
         label: f.properties[LOCATION.PLACE_NAME],
         value: f.properties[LOCATION.COORDS],
