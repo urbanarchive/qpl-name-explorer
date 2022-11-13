@@ -3002,26 +3002,6 @@
   {
     "id": "reco2F9MMUJ3hyiKm",
     "fldo67zoOMQsJN6xv": "Benjamin N. Cardozo High School",
-    "fld18VKjlf9BGaE9N": "More info coming soon. If you have information about a named place currently missing from our map, please click on \"Add/Edit\" and fill out the form. This will help us fill in the blanks and complete the map!",
-    "fld3zcPVX14gMRFd1": "Benjamin N. Cardozo High School",
-    "fld03C27tmVnEg1rP": "40.752333, -73.755990",
-    "fldKz0noCVXmoj4UV": "Bayside",
-    "fld9CSSvPGKCZyLUG": "Queens",
-    "fldtVvLjk33gCUz6l": "23",
-    "fldlXDuTBOAjXyVTC": true,
-    "fldhQfkBDSPZjKjer": "57-00 223rd Street",
-    "fldb2kOoaaol8IIiQ": "School",
-    "fldF1jFzlXZGeH9LP": [
-      "Government and Politics"
-    ],
-    "fldTAhZe07uxxeoJc": "11",
-    "fldnTs1VeBJjhO1Ga": "11364",
-    "fldEdvOGWNqX5OImX": "2019 DOE High School Directory (NYC Open Data)",
-    "fldZZ1eosVwyix7m4": "57-00 223RD STREET, BAYSIDE NY 11364",
-    "fld63z0I0JEzkE26Z": "2022-05-31T00:52:31.000Z",
-    "fldGc8Yu4R85MSed4": "2022-11-13T03:55:50.000Z",
-    "fldKwhgXfbzaB1p1X": "Photo courtesy of Patrick Wallach, 2022.",
-    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
     "fldchc6j0XRMy0vb9": [
       {
         "id": "attI5VnwXaw4sxPXl",
@@ -3051,12 +3031,32 @@
       }
     ],
     "fldAHhNbaHDTgQ4ao": "Benjamin N. Cardozo",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fld18VKjlf9BGaE9N": "More info coming soon. If you have information about a named place currently missing from our map, please click on \"Add/Edit\" and fill out the form. This will help us fill in the blanks and complete the map!",
+    "fld3zcPVX14gMRFd1": "Benjamin N. Cardozo High School",
+    "fld03C27tmVnEg1rP": "40.752333, -73.755990",
+    "fldxddBxzQcA4yv0A": "57-00 223rd Street",
+    "fldKz0noCVXmoj4UV": "Bayside",
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldtVvLjk33gCUz6l": "23",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldhQfkBDSPZjKjer": "57-00 223rd Street",
+    "fldb2kOoaaol8IIiQ": "School",
     "fldPMX16WqfXNhJ02": "He/him/his",
+    "fldF1jFzlXZGeH9LP": [
+      "Government and Politics"
+    ],
     "fldbxIVG5OzgGGvMj": [
       "English"
     ],
-    "fldxddBxzQcA4yv0A": "57-00 223rd Street",
+    "fldKwhgXfbzaB1p1X": "Photo courtesy of Patrick Wallach, 2022.",
+    "fldTAhZe07uxxeoJc": "11",
+    "fldnTs1VeBJjhO1Ga": "11364",
+    "fldEdvOGWNqX5OImX": "2019 DOE High School Directory (NYC Open Data)",
+    "fldZZ1eosVwyix7m4": "57-00 223RD STREET, BAYSIDE NY 11364",
     "fldiT7GQqBoUlnanU": true,
+    "fld63z0I0JEzkE26Z": "2022-05-31T00:52:31.000Z",
+    "fldGc8Yu4R85MSed4": "2022-11-13T03:55:50.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
