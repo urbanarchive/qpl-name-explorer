@@ -14622,7 +14622,90 @@
     "fld63z0I0JEzkE26Z": "2022-05-31T00:52:31.000Z",
     "fldGc8Yu4R85MSed4": "2022-11-14T21:18:44.000Z",
     "LOCATION_TYPE": "ASSET",
-    "IS_UNIQUE": true
+    "IS_UNIQUE": false
+  },
+  {
+    "id": "recimO5HP1gnKuCXV",
+    "fldo67zoOMQsJN6xv": "Latham Park",
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "attz9PzpiMrr89HD9",
+        "width": 2327,
+        "height": 2368,
+        "url": "https://v5.airtableusercontent.com/v1/10/10/1668571200000/_Kty389Hk4S5-FSTs928Tw/G5byPHANjzxc0UQgk1c2i8E8oO1e0uDsbCHN3QEnlgaPpOKdq3jJC8gWjaIpxHlDre6t4Qx1sITkwduGYicGq7rM20Xp0GjsbCj9phMkstA/dOazxboQkfnbwtW2s4ZQwDZASzHbxHDDVPNksK7G2XU",
+        "filename": "susan-latham-001-0.tif",
+        "size": 16551038,
+        "type": "image/tiff",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v1/10/10/1668571200000/2cfmmcg2NSFaje3bbZwZpw/8Yz71jR3hVQa25c2fUo-u27bnKGDAdSub44VvfuvKxeoAWaNLIfFka2O5XkUHkXBWPdA9L_5RwOoHpFQXSVaLM5uWcEzhuQQTFy2SEcalwo/7J65cyjVJxQ8PpFVxArbODwS_9UHgRVLYksFEhe7m68",
+            "width": 35,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v1/10/10/1668571200000/oDSX3GCAcJBByZpqjqj0qA/480mYSoRiSvYsXSbOUK8AGwKUqCX4fKYs-RD67kaHd6S5Yv9sA3kaHeTtBKXKZGl29vovsj8ckSWsxjrkiPYTlKPvLq7y0BGM9doivuAI4M/rmi8Q0QwZ6Ikwuq3VWQDEDQfF8xaR7ljceXzlV-Z6WI",
+            "width": 512,
+            "height": 521
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v1/10/10/1668571200000/SOyj-EMKlsK0tkZSbqAJzw/Udh8Y6JGkrIhcDr6FMYZP8lrdv5_9lkWqabP4l6fgqtQn8V7HFX_Ztm7wrkEB7Wfap9QvjOveU83ASYhdBwppEk4iZsPCTGSR55RquT_xws/6Rq4hH7mKlWOFzM8b0wQ4gxBkwEe9EALhC-cU5iRIWg",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      },
+      {
+        "id": "att6OtFtiXNzmIqzG",
+        "width": 4124,
+        "height": 2898,
+        "url": "https://v5.airtableusercontent.com/v1/10/10/1668571200000/D4KaDVO8JGsWd36WT9dclA/WtBo9UboSnF7gLpnaxIoMnRV9JQwZUUPa7lC7QPOU9w62PeUNWfKpd5DTRtKhL_mK5Gfy6ewEQk3H5_TRPG4zwHwKcq2czBNErkNHQGqhjw/Gx8JW3taQgcofeBcjJZCa6E9JP8sby3jdhYtlkyaUYs",
+        "filename": "susan-latham-002-0.tif",
+        "size": 40384260,
+        "type": "image/tiff",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v1/10/10/1668571200000/BKgw-beLNb9YyJDjV4ps1A/icHfDd6wAhoNHwV2g8LuVdlRJUmKIhgLWkbGMfJ7zAS3CTbyImVlHtvyYwp8PfM3syC95liOt4oUpscRrvFfPYNtTXqoX8F9hEuwtkLKw-c/Ar-S2W_VA8f7-OkFou-OHwOf6vvmMtdfKmmDNbO01O8",
+            "width": 51,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v1/10/10/1668571200000/h2IS9S5HnFyo1DiLyaf2kA/zbEUNGjmKTs-KrbzbJDcCZtnU5XAFOYKZStVVxkgcj72aekxVnBRI8YorSxuPusUNgPPF06xdh5anqMMrl-zXQqGMpUANZ3hI82mvMcvFQk/tiIbsXSrzHK_cDR9YmjQUi9SD4YYGilrFVXr_SpGt3c",
+            "width": 729,
+            "height": 512
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v1/10/10/1668571200000/fhd1m5YpdB1ZKkf9b4UonQ/PWToNoDl9_crmsqgcP10fpBeSqYVSgkWxuY6KvcdJrTufct3qe-XZo1f8d4eRakkNWMkXUqYmHePCoijOVkz5qVxTgOH_059lJpF-lTK7po/G41LJuzdh8khIJqUR8ILtZGqUBWP0qts6MfHx4NzwOw",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "fldAHhNbaHDTgQ4ao": "William H. Latham",
+    "fldkkbT5XhwsGbnC9": "William Harris Latham",
+    "fldTGROls2PhrOiQU": "Latham Park is named after my grandfather, William Harris Latham, in recognition of his long association with Robert Moses, New York City’s master builder who was responsible for creating much of our city’s parks and transportation infrastructure. My grandfather died when I was in my early 20s, well before I fully understood who Robert Moses was and the significant impact of my grandfather’s work in New York City and New York State. \n\nMy grandfather grew up in Norwich, CT, and like his father, Alan Latham, he was an avid beekeeper – which led to the name “B-Daddy,” as he was known by all of his grandchildren. The B-Daddy that I grew up with lived in Lewiston, NY, near Niagara Falls, where he worked with the New York Power Authority as the chief engineer of the Niagara Project; at the time this was the largest hydroelectric power plant in the world. I have a vague childhood memory of seeing B-Daddy on television when he gave Soviet premier Alexei Kosygin an impromptu tour of the power plant, and I remember that my grandmother was unhappy that he was in shirt sleeves instead of a suit.\n\nMost of my experience with B-Daddy was after he retired – although he still had a lot of clout and got us free tours of the power plant, as well as free rides on the Maid of the Mist and all the Niagara Falls attractions when we visited every summer. He was a tall, strong man who loved to fish and hunt, and he was very athletic – there was a photo of him with his rowing team at MIT at my grandparents’ home. He was also an avid gardener and beekeeper, which meant we enjoyed fresh-picked vegetables and all the honey, honeycomb and honey butter we could ever want when we visited. Peanut butter and honey sandwiches were common lunch fare.\n\nIt was only after he died in 1987 that I learned more about his professional career, much of it from Robert Caro’s book \"The Power Broker,\" and more recently, from Internet searches. B-Daddy graduated from the Massachusetts Institute of Technology in 1926 with a degree in civil engineering. In 1927 he began working with Robert Moses – or “RM,” as B-Daddy called him – at the Long Island State Park Commission. When Moses was named Commissioner of New York City Parks, B-Daddy followed him to New York City, where he became the Consulting Park Engineer. As the head of the Division of Design, he was responsible for the preparation of all plans and specifications within the Parks Department, and he played a major role in the design and installation of the 11 New York City public pools that opened in 1936, including Astoria, McCarren, Crotona and Jackie Robinson Pools. He also worked as general superintendent and director of maintenance and operations at the New York City Parks Department, and was heavily involved in the 1939 World’s Fair at Flushing Meadows Park (somewhere, there are home movies he filmed of King George and Queen Elizabeth visiting the Fair). \n\nIn the 1950s, he moved upstate to engineer the St. Lawrence Power Project, the first active power plant of the New York Power Authority, which opened in 1958. He then moved to Lewiston to oversee the construction and opening of the Niagara Power Plant. In 1987, after his death, the New York Power Authority dedicated a new icebreaker (a ship designed to break through ice blocks and create a clear passage) on the Niagara River as the Latham in his honor, citing him as a “major figure in construction of the St. Lawrence and Niagara hydroelectric projects.” I got to see it in person in 2019.\n\nI should note that I grew up in New Jersey and moved to Queens in 1989. My apartment in Woodside on 51st Street, where I lived for 11 years, and my current home in Jackson Heights on 79th Street, where I’ve lived for 20+ years, are equidistant to the original site of Latham Park, which was on 69th Street and Broadway. In fact, I passed through it many times over the years without ever realizing that it was named after B-Daddy. And then one day, my brother – who is also named William Harris Latham – found it in a Google search of his name and sent me a link, asking if I had any idea where this park was. And of course I did! Honestly, what are the odds that a girl from New Jersey whose grandfather lived in upstate New York would end up living just blocks away from a park in New York City named after him!?\n\nOf course, Robert Moses is a controversial figure. His urban renewal and highway construction projects displaced thousands of people and destroyed neighborhoods, and my grandfather’s close association with him for so many years makes me more than slightly uncomfortable. But I can’t change who he was – and I do take some pride in the fact that my grandfather had a hand in so much of New York City’s infrastructure that we rely on today.",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fldrJjqRjjOeqKf72": "Susan Latham",
+    "fld5p2mCngthblT9S": "sllatham@verizon.net",
+    "fldOCpYNm9TSteDPU": "917.647.1869",
+    "fld18VKjlf9BGaE9N": "This is a photo of my sister Beth and I sitting with my grandparents, Noni and  B-Daddy. The second photo is a formal shot of my grandparents, Bill and Cecelia Latham.\n\nLatham Park is named after my grandfather, William Harris Latham, in recognition of his long association with Robert Moses, New York City’s master builder who was responsible for creating much of our city’s parks and transportation infrastructure. My grandfather died when I was in my early 20s, well before I fully understood who Robert Moses was and the significant impact of my grandfather’s work in New York City and New York State. \n\nMy grandfather grew up in Norwich, CT, and like his father, Alan Latham, he was an avid beekeeper – which led to the name “B-Daddy,” as he was known by all of his grandchildren. The B-Daddy that I grew up with lived in Lewiston, NY, near Niagara Falls, where he worked with the New York Power Authority as the chief engineer of the Niagara Project; at the time, this was the largest hydroelectric power plant in the world. I have a vague childhood memory of seeing B-Daddy on television when he gave Soviet premier Alexei Kosygin an impromptu tour of the power plant, and I remember that my grandmother was unhappy that he was in shirt sleeves instead of a suit.\n\nMost of my experience with B-Daddy was after he retired – although he still had a lot of clout and got us free tours of the power plant, as well as free rides on the Maid of the Mist and all the Niagara Falls attractions when we visited every summer. He was a tall, strong man who loved to fish and hunt, and he was very athletic – there was a photo of him with his rowing team at MIT at my grandparents’ home. He was also an avid gardener and beekeeper, which meant we enjoyed fresh-picked vegetables and all the honey, honeycomb and honey butter we could ever want when we visited. Peanut butter and honey sandwiches were common lunch fare.\n\nIt was only after he died in 1987 that I learned more about his professional career, much of it from Robert Caro’s book \"The Power Broker,\" and more recently, from Internet searches. B-Daddy graduated from the Massachusetts Institute of Technology in 1926 with a degree in civil engineering. In 1927 he began working with Robert Moses – or “RM,” as B-Daddy called him – at the Long Island State Park Commission. When Moses was named Commissioner of New York City Parks, B-Daddy followed him to New York City, where he became the Consulting Park Engineer. As the head of the Division of Design, he was responsible for the preparation of all plans and specifications within the Parks Department, and he played a major role in the design and installation of the 11 New York City public pools that opened in 1936, including Astoria, McCarren, Crotona and Jackie Robinson Pools. He also worked as general superintendent and director of maintenance and operations at the New York City Parks Department, and was heavily involved in the 1939 World’s Fair at Flushing Meadows Park (somewhere, there are home movies he filmed of King George and Queen Elizabeth visiting the Fair). \n\nIn the 1950s, he moved upstate to engineer the St. Lawrence Power Project, the first active power plant of the New York Power Authority, which opened in 1958. He then moved to Lewiston to oversee the construction and opening of the Niagara Power Plant. In 1987, after his death, the New York Power Authority dedicated a new icebreaker (a ship designed to break through ice blocks and create a clear passage) on the Niagara River as the Latham in his honor, citing him as a “major figure in construction of the St. Lawrence and Niagara hydroelectric projects.” I got to see it in person in 2019.\n\nI should note that I grew up in New Jersey and moved to Queens in 1989. My apartment in Woodside on 51st Street, where I lived for 11 years, and my current home in Jackson Heights on 79th Street, where I’ve lived for 20+ years, are equidistant to the original site of Latham Park, which was on 69th Street and Broadway. In fact, I passed through it many times over the years without ever realizing that it was named after B-Daddy. And then one day, my brother – who is also named William Harris Latham – found it in a Google search of his name and sent me a link, asking if I had any idea where this park was. And of course I did! Honestly, what are the odds that a girl from New Jersey whose grandfather lived in upstate New York would end up living just blocks away from a park in New York City named after him!?\n\nOf course, Robert Moses is a controversial figure. His urban renewal and highway construction projects displaced thousands of people and destroyed neighborhoods, and my grandfather’s close association with him for so many years makes me more than slightly uncomfortable. But I can’t change who he was – and I do take some pride in the fact that my grandfather had a hand in so much of New York City’s infrastructure that we rely on today.",
+    "fld3zcPVX14gMRFd1": "Latham Park",
+    "fld03C27tmVnEg1rP": "40.741909, -73.897874",
+    "fldxddBxzQcA4yv0A": "43rd Avenue between 66th Street and 67th Street and the Brooklyn Queens Expressway",
+    "fldKz0noCVXmoj4UV": "Woodside",
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldhQfkBDSPZjKjer": "43rd Avenue between 66th Street and 67th Street and the Brooklyn-Queens Expressway",
+    "fldb2kOoaaol8IIiQ": "Park/Playground",
+    "fldKwhgXfbzaB1p1X": "Photos and text courtesy of Susan Latham.",
+    "fldnTs1VeBJjhO1Ga": "11377",
+    "fldCwcnz1yvlpDv1D": "\"Latham Park,\" New York City Department of Parks & Recreation, accessed November 2, 2022, <https://www.nycgovparks.org/parks/latham-park>\n\nAlistair Cooke, \"Mr Kosygin turns tourist for a day,\" The Guardian, June 26, 1967, <https://www.theguardian.com/world/2014/jun/26/kosygin-visits-niagara-falls-1967-archive>\n\n\"William H. Latham,\" Wikipedia, accessed November 9, 2022, <https://en.wikipedia.org/wiki/William_H._Latham>\n\n\"William H. Latham (icebreaker),\" Wikipedia, accessed November 9, 2022, <https://en.wikipedia.org/wiki/William_H._Latham_(icebreaker)>\n\n",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fldrVXAeKOK5HD4mU": true,
+    "fld63z0I0JEzkE26Z": "2022-11-15T23:43:45.000Z",
+    "fldGc8Yu4R85MSed4": "2022-11-16T00:26:17.000Z",
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": false
   },
   {
     "id": "recGuDkjg9Zsh2ILg",
