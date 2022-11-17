@@ -1,44 +1,6 @@
 [
   {
     "LOCATION_TYPE": "TOUR",
-    "id": "recCZDJcPkZnykOQx",
-    "fld6TCPloQX95dOVJ": "Hunters Point Walking Tour",
-    "fldsqdIWbpl4GXLJu": [
-      "rec3eGCweUuv5UdEO",
-      "recgKlhCrPE89uEHw",
-      "recF0g6feYjFmECbj",
-      "recl7Qallt46FVXp8",
-      "recpC1lIbZkWmfU1P",
-      "recPpU7QqPl0bo0oR",
-      "recrnVkEiAguMQ1Dv"
-    ],
-    "fldfcR7YEf8T5M0by": "This walking tour explores individuals whose names grace several public spaces in Hunters Point, Queens.",
-    "fldXy6eMERcn4jSzn": true,
-    "fldb2kOoaaol8IIiQ": "Tour",
-    "fld3zcPVX14gMRFd1": "Hunters Point Walking Tour",
-    "fld03C27tmVnEg1rP": "40.742184, -73.958918",
-    "fld18VKjlf9BGaE9N": "This walking tour explores individuals whose names grace several public spaces in Hunters Point, Queens."
-  },
-  {
-    "LOCATION_TYPE": "TOUR",
-    "id": "rec4Gjspg9kgID3OK",
-    "fld6TCPloQX95dOVJ": "Jamaica Walking Tour",
-    "fldsqdIWbpl4GXLJu": [
-      "rec2xmvxIQFWAa3ar",
-      "recMstx4dm2vzxSl0",
-      "rec8d9wInmMkEanmW",
-      "recUt2sBH9ELg5mh5",
-      "recOYfUETLsCZuq84"
-    ],
-    "fldfcR7YEf8T5M0by": "This walking tour explores individuals whose names grace several public spaces in Jamaica, Queens.",
-    "fldXy6eMERcn4jSzn": true,
-    "fldb2kOoaaol8IIiQ": "Tour",
-    "fld3zcPVX14gMRFd1": "Jamaica Walking Tour",
-    "fld03C27tmVnEg1rP": "40.705827, -73.793949",
-    "fld18VKjlf9BGaE9N": "This walking tour explores individuals whose names grace several public spaces in Jamaica, Queens."
-  },
-  {
-    "LOCATION_TYPE": "TOUR",
     "id": "recaXFOzRUctU9BNG",
     "fld6TCPloQX95dOVJ": "Queens College Campus Walking Tour",
     "fldsqdIWbpl4GXLJu": [
