@@ -16853,25 +16853,6 @@
   {
     "id": "recaRx5Ny1vLTh0ZO",
     "fldo67zoOMQsJN6xv": "M.S. 158 Marie Curie",
-    "fld18VKjlf9BGaE9N": "More info coming soon. If you have information about a named place currently missing from our map, please click on \"Add/Edit\" and fill out the form. This will help us fill in the blanks and complete the map!",
-    "fld3zcPVX14gMRFd1": "M.S. 158 Marie Curie",
-    "fld03C27tmVnEg1rP": "40.756283, -73.772335",
-    "fldKz0noCVXmoj4UV": "BAYSIDE",
-    "fld9CSSvPGKCZyLUG": "Queens",
-    "fldtVvLjk33gCUz6l": "19",
-    "fldlXDuTBOAjXyVTC": true,
-    "fldhQfkBDSPZjKjer": "46-35 Oceania Street",
-    "fldb2kOoaaol8IIiQ": "School",
-    "fldF1jFzlXZGeH9LP": [
-      "Science and technology"
-    ],
-    "fldTAhZe07uxxeoJc": "11",
-    "fldEdvOGWNqX5OImX": "Facilities Database  (NYC Open Data)",
-    "fld63z0I0JEzkE26Z": "2022-05-31T00:52:31.000Z",
-    "fldGc8Yu4R85MSed4": "2022-11-17T02:37:47.000Z",
-    "fldAHhNbaHDTgQ4ao": "Marie Curie",
-    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
-    "fldnTs1VeBJjhO1Ga": "11361",
     "fldchc6j0XRMy0vb9": [
       {
         "id": "attSpjV2kOVRgIAUP",
@@ -16926,7 +16907,28 @@
         }
       }
     ],
-    "fldKwhgXfbzaB1p1X": "Ph",
+    "fldAHhNbaHDTgQ4ao": "Marie Curie",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fld18VKjlf9BGaE9N": "More info coming soon. If you have information about a named place currently missing from our map, please click on \"Add/Edit\" and fill out the form. This will help us fill in the blanks and complete the map!",
+    "fld3zcPVX14gMRFd1": "M.S. 158 Marie Curie",
+    "fld03C27tmVnEg1rP": "40.756283, -73.772335",
+    "fldxddBxzQcA4yv0A": "46-35 Oceania Street",
+    "fldKz0noCVXmoj4UV": "Bayside",
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldtVvLjk33gCUz6l": "19",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldhQfkBDSPZjKjer": "46-35 Oceania Street",
+    "fldb2kOoaaol8IIiQ": "School",
+    "fldF1jFzlXZGeH9LP": [
+      "Science and technology"
+    ],
+    "fldKwhgXfbzaB1p1X": "Photos courtesy of Patrick Wallach, 2022.",
+    "fldTAhZe07uxxeoJc": "11",
+    "fldnTs1VeBJjhO1Ga": "11361",
+    "fldEdvOGWNqX5OImX": "Facilities Database  (NYC Open Data)",
+    "fldiT7GQqBoUlnanU": true,
+    "fld63z0I0JEzkE26Z": "2022-05-31T00:52:31.000Z",
+    "fldGc8Yu4R85MSed4": "2022-11-17T02:38:22.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -17534,7 +17536,36 @@
   },
   {
     "id": "reciOLirejz5aBpX6",
-    "fldo67zoOMQsJN6xv": "MARIE CURIE PLAYGROUND",
+    "fldo67zoOMQsJN6xv": "Marie Curie Playground",
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "attpTaI0I8KpGO5rh",
+        "width": 4032,
+        "height": 3024,
+        "url": "https://v5.airtableusercontent.com/v1/11/11/1668664800000/3B9mJaG9hYcDDwAO1IueAA/oXkgg5hK-z3Y3JNbvEbpLc4Ym_bLL6NiUCfHHNo226FwhZZCzpsqaNxdGqCYEQPA011DnJLFJVT6VylEVn9KoKyliEpZo9IyG2-JhtakFGE/iHDW_uaGouRCglBZG0byZEPELOJKUEzzOehLR24dPCY",
+        "filename": "Playground.jpg",
+        "size": 6479330,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v1/11/11/1668664800000/FHIDJ6E-sDTb2-sC8jmKgg/DQu6Jhh7xuE_DicX1Xu1sWWP_cJ38zBrowigjoGZRQmHDA2iV5y1PKSvJMFBbCKpkJ3KiOUMiIiEY8IlB1sKzw/ywJpaHpEInoYuQNGubYZXAqCPyRys34OrQV2OXsUjpE",
+            "width": 48,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v1/11/11/1668664800000/c-Vzp2eslZtXcvSqtJm6Fg/MXVNO0Yj3Qzk4x1FHMz6A05lin0ng7kxiot_2Bp3b3Jb3ZD5XAjro6DCiL0lzyMTJR6TMjpbKET_cnm9ZAevFQ/A5834C8aFHEcUw4QLb9Ig_2dYul1xROk5mEDuKjrTG4",
+            "width": 683,
+            "height": 512
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v1/11/11/1668664800000/DbMULZRS2D_u-w_lbqSWEA/2tk5L-IaDZPOp0pU6bkzQ5mijSKr3rNb05xt107ukaGwRn5uwd2GrHEig_ijjrubDEmFwe949_rerPkAbOHoaw/e0wwM3KFqDW6XN4Bquk3bYr1Q6CRsOOeK3d37dr5A_U",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "fldAHhNbaHDTgQ4ao": "Marie Curie",
     "fld18VKjlf9BGaE9N": "More info coming soon. If you have information about a named place currently missing from our map, please click on \"Add/Edit\" and fill out the form. This will help us fill in the blanks and complete the map!",
     "fld3zcPVX14gMRFd1": "Marie Curie Playground",
     "fld03C27tmVnEg1rP": "40.756549, -73.771825",
@@ -17546,11 +17577,13 @@
     "fldF1jFzlXZGeH9LP": [
       "Science and technology"
     ],
+    "fldKwhgXfbzaB1p1X": "Photo courtesy of Patrick Wallach, 2022.",
     "fldTAhZe07uxxeoJc": "11",
     "fldEdvOGWNqX5OImX": "Parks Properties (NYC Open Data)",
     "fldZZ1eosVwyix7m4": "46 AVE., 46 RD. BET. OCEANIA ST. AND 211 ST.",
+    "fldiT7GQqBoUlnanU": true,
     "fld63z0I0JEzkE26Z": "2022-05-31T00:52:31.000Z",
-    "fldGc8Yu4R85MSed4": "2022-11-04T17:09:57.000Z",
+    "fldGc8Yu4R85MSed4": "2022-11-17T02:41:06.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
