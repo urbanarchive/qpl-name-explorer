@@ -20750,8 +20750,11 @@
   {
     "id": "recmLwCplj2jBKwWD",
     "fldo67zoOMQsJN6xv": "P.S. 084 Steinway School",
-    "fldbBQ9Hc4t90wU0X": "It could be in reference to the Steinway neighborhood in Astoria, Queens.",
-    "fldrJjqRjjOeqKf72": "Marie Cyprien",
+    "fldd8Ii2y6GrnrkMN": "Heinrich Engelhardt Steinweg",
+    "fldAHhNbaHDTgQ4ao": "Henry Engelhard Steinway",
+    "fldim7SFpasPkKiOi": "February 15, 1797",
+    "fldTGROls2PhrOiQU": "Henry Engelhard Steinway was born in Germany by the name of Heinrich Engelhardt Steinweg. He fought in the Napoleonic Wars and opened up a piano-making business before moving to America and starting a shop there. He moved his company, known as Steinway & Sons from Manhattan to Astoria, Queens, forming the \"Steinway Village.\" This factory is still operating today. ",
+    "fldrJjqRjjOeqKf72": "Alice Kallman",
     "fld18VKjlf9BGaE9N": "More info coming soon. If you have information about a named place currently missing from our map, please click on \"Add/Edit\" and fill out the form. This will help us fill in the blanks and complete the map!",
     "fld3zcPVX14gMRFd1": "P.S. 084 Steinway School",
     "fld03C27tmVnEg1rP": "40.771151, -73.906120",
@@ -20761,12 +20764,23 @@
     "fldlXDuTBOAjXyVTC": true,
     "fldhQfkBDSPZjKjer": "22-45 41 STREET",
     "fldb2kOoaaol8IIiQ": "School",
-    "fldF1jFzlXZGeH9LP": [],
+    "fldLjcdfwIByZ68aX": "February 7, 1871",
+    "fldmpgqHheHG4ASnx": "Wolfshagen, Braunschweig [Germany]",
+    "fldPMX16WqfXNhJ02": "He, him",
+    "fldF1jFzlXZGeH9LP": [
+      "Business and Entrepreneurs"
+    ],
+    "fldhhf7THVqO69i5D": "Owned a factory in Astoria, Queens",
+    "fldbxIVG5OzgGGvMj": [
+      "German",
+      "English"
+    ],
     "fldTAhZe07uxxeoJc": "1",
     "fldEdvOGWNqX5OImX": "Facilities Database  (NYC Open Data)",
+    "fldCwcnz1yvlpDv1D": "<https://www.steinway.com/news/features/inside-the-new-york-city-factory>\n\n<https://www.britannica.com/biography/Henry-Engelhard-Steinway>\n\n<https://www.steinway.com/news/features/inside-the-new-york-city-factory>\n\n",
     "fld4ayxzpfL0q0Dsc": true,
     "fld63z0I0JEzkE26Z": "2022-05-31T00:52:31.000Z",
-    "fldGc8Yu4R85MSed4": "2022-11-11T17:44:47.000Z",
+    "fldGc8Yu4R85MSed4": "2022-11-29T20:22:01.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
@@ -20855,7 +20869,7 @@
     "fldEdvOGWNqX5OImX": "Facilities Database  (NYC Open Data)",
     "fldCwcnz1yvlpDv1D": "<https://www.britannica.com/biography/Horace-Mann> \n",
     "fld63z0I0JEzkE26Z": "2022-05-31T00:52:31.000Z",
-    "fldGc8Yu4R85MSed4": "2022-11-11T17:44:22.000Z",
+    "fldGc8Yu4R85MSed4": "2022-11-29T20:22:25.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": true
   },
