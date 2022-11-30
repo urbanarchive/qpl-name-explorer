@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useContext } from 'react';
 import { useParams } from "react-router-dom";
 import { MapContext } from './App';
-import { resultFactory } from '../models/location';
+import LOCATION, { resultFactory } from '../models/location';
 import { DEFAULT_PADDING } from '../ui/Map';
 import { extractlocationIdentifier } from '../models/location';
 import TourView from '../features/Tour';
@@ -18,6 +18,20 @@ function Detail({ locations }) {
   const [location, setlocation] = useState({});
   const { slug } = useParams();
   const id = extractlocationIdentifier(slug);
+
+  useEffect(() => {
+    let title = "Queens Name Explorer";
+/* Analytics will reflect aggregate data for all records with the same location.
+  To change this, uncomment below to add unique RecordID to the end of titles. */
+//    const recordId = slug?.match(/rec[a-zA-Z0-9]{14}/)?.[0];
+//    if (recordId) title = `${title} (${recordId})`;
+    const locationName = location?.properties?.[LOCATION.PLACE_NAME];
+    if (locationName) title = `${locationName} | ${title}`;
+
+    document.title = title;
+
+    return () => { document.title = "Queens Name Explorer"; };
+  }, [location, slug]);
 
   useEffect(() => {
     if (locations.features) {
