@@ -24,6 +24,21 @@
     "fld18VKjlf9BGaE9N": "This walking tour explores some of the buildings and other features on the Queens College campus that are named for individuals connected with the college."
   },
   {
+    "LOCATION_TYPE": "TOUR",
+    "id": "rec3aPRsv4eAMyJnj",
+    "fld6TCPloQX95dOVJ": "Spotlight On: Latham Park",
+    "fldfcR7YEf8T5M0by": "Thanks to his granddaughter, Susan Latham, we can tell a fuller story about William Latham, whose name graces a pocket park in Elmhurst.",
+    "fldsqdIWbpl4GXLJu": [
+      "recejnBcdzEZ4eGMb",
+      "recimO5HP1gnKuCXV"
+    ],
+    "fldXy6eMERcn4jSzn": true,
+    "fldb2kOoaaol8IIiQ": "Tour",
+    "fld3zcPVX14gMRFd1": "Spotlight On: Latham Park",
+    "fld03C27tmVnEg1rP": "40.741909, -73.897874",
+    "fld18VKjlf9BGaE9N": "Thanks to his granddaughter, Susan Latham, we can tell a fuller story about William Latham, whose name graces a pocket park in Elmhurst."
+  },
+  {
     "id": "receAmuAnCQS7OArl",
     "fldo67zoOMQsJN6xv": "\"UNCLE\" VITO F. MARANZANO GLENDALE PLAYGROUND",
     "fld18VKjlf9BGaE9N": "More info coming soon. If you have information about a named place currently missing from our map, please click on \"Add/Edit\" and fill out the form. This will help us fill in the blanks and complete the map!",
@@ -14602,7 +14617,10 @@
     "fld4ayxzpfL0q0Dsc": true,
     "fldiT7GQqBoUlnanU": true,
     "fld63z0I0JEzkE26Z": "2022-05-31T00:52:31.000Z",
-    "fldGc8Yu4R85MSed4": "2022-11-14T21:18:44.000Z",
+    "fldGc8Yu4R85MSed4": "2022-11-30T16:56:07.000Z",
+    "fldCnfJVVHgNn1UWW": [
+      "rec3aPRsv4eAMyJnj"
+    ],
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": false
   },
@@ -14685,7 +14703,10 @@
     "fld4ayxzpfL0q0Dsc": true,
     "fldrVXAeKOK5HD4mU": true,
     "fld63z0I0JEzkE26Z": "2022-11-15T23:43:45.000Z",
-    "fldGc8Yu4R85MSed4": "2022-11-17T19:07:58.000Z",
+    "fldGc8Yu4R85MSed4": "2022-11-30T16:56:13.000Z",
+    "fldCnfJVVHgNn1UWW": [
+      "rec3aPRsv4eAMyJnj"
+    ],
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": false
   },
