@@ -3095,7 +3095,7 @@
     "fld63z0I0JEzkE26Z": "2022-06-16T01:58:37.000Z",
     "fldGc8Yu4R85MSed4": "2022-11-04T15:29:07.000Z",
     "LOCATION_TYPE": "ASSET",
-    "IS_UNIQUE": true
+    "IS_UNIQUE": false
   },
   {
     "id": "recVng2BgzlmPtzRg",
@@ -5123,6 +5123,62 @@
     ],
     "fld63z0I0JEzkE26Z": "2022-09-13T20:12:26.000Z",
     "fldGc8Yu4R85MSed4": "2022-10-23T02:24:33.000Z",
+    "LOCATION_TYPE": "ASSET",
+    "IS_UNIQUE": false
+  },
+  {
+    "id": "recEYpIdevXVolEiF",
+    "fldo67zoOMQsJN6xv": "Joe Imp's Way",
+    "fldchc6j0XRMy0vb9": [
+      {
+        "id": "attoj469xlxmHgF9d",
+        "width": 1170,
+        "height": 2532,
+        "url": "https://v5.airtableusercontent.com/v1/11/11/1669932000000/JV3chkTwO8lBDDrWxnPl5Q/uotv-3UZsAmPHvQf3oXI508DqGS4W81EPc0gsyRck3or7gzbmx2CFz3Sq69qU7TnCBfQuCjH3IKhj52MBl23jWW0ZeD3UhmolcRlYVG86QDdqQkasdJqucCc20M92LauXOeGMchSffRfp0vOGJue1Q/gpgE0J5IwR5Bnmu5jxIBDqUtcOpuoxIW1RXGoCF2vsM",
+        "filename": "D85FCA99-344B-4955-8568-2A872B95090A.jpeg",
+        "size": 439809,
+        "type": "image/jpeg",
+        "thumbnails": {
+          "small": {
+            "url": "https://v5.airtableusercontent.com/v1/11/11/1669932000000/_NWxzC8BFaUTUABgYnGptQ/lq1c2xblMpQEJvoB-nk8LagJr6iaOjBSJt-P_JzhafZUyn9h7ernImfdeBJRjFZ7NP2vhqmDD6gPbiHxbjBdWA/CH7t4QtUbOIg89JFPyLOSdAbC7IcAfmB6NblnuCrOaU",
+            "width": 17,
+            "height": 36
+          },
+          "large": {
+            "url": "https://v5.airtableusercontent.com/v1/11/11/1669932000000/LR4vWpJ0VCnwcZTiAuAAkw/b8A1fCqkPTaZDxseMRkcnD4zCF5qp26lLpC0h70xQ9LUV7tBLjb3j4V5Cdsm1OscbkpuuqGy-8Qt7AoElp97_g/Xm9soh_l2_44vKZ5_3hX5kPW9vDjzArLNt8GZJjrNfc",
+            "width": 512,
+            "height": 1108
+          },
+          "full": {
+            "url": "https://v5.airtableusercontent.com/v1/11/11/1669932000000/MbUStCPSmcIC_9OC3uTTGw/sbRG6djYxn8Ax27CytiU4kR2gb1iRjxr_83r3_H5jD4KD1-R5AT3awGWn9cIoHJcD9x9G0BBKzYFc7ikg7xOOw/iUnhXEXPg4AMN5KscGeYW0WaNb7jAOMkfD0Tqdlg5TI",
+            "width": 3000,
+            "height": 3000
+          }
+        }
+      }
+    ],
+    "fldAHhNbaHDTgQ4ao": "Joseph Imparato ",
+    "fldkkbT5XhwsGbnC9": "Joe Imp",
+    "fldTGROls2PhrOiQU": "The reason Joe Imp's way was named after Joseph Imparato was because of the following:\n﻿\nMy husband, Joseph Imparato, better known in Long Island City as Joe Imp, was a native of LIC, and he set an example for everyone to follow.\n\nHe helped the elderly, whether it was bringing them shopping, taking them to the doctors or shoveling snow. He did this for them on his day off. His life was dedicated to helping his community.\n\nHe opened his restaurant on Jackson Avenue, Joe Imp's, which introduced many people to the area. \n\nSaint Mary’s Church was an extremely important part of Joe’s life. His dedication to the people in his community was evident by his dedication to the church. \n\nIf there were those who couldn’t afford a tree for Christmas and he found out about it, he would buy a tree for them and decorate it, put presents under the tree and would never take credit for doing it. \n\nJoe wasn’t only a gem to me, he was a LIC gem. That’s why my husband Joe deserved the honor of having a street named after him. ",
+    "fldAc9y87n6QRJQHv": "Joe’s heart comes through in his smile. ",
+    "fldN4Y2p7v28XMK4l": "Yes, I agree.",
+    "fldrJjqRjjOeqKf72": "Marie Imparato ",
+    "fld5p2mCngthblT9S": "Marieimps@aol.com",
+    "fldOCpYNm9TSteDPU": "917-359-5583",
+    "fld18VKjlf9BGaE9N": "My husband, Joseph Imparato, better known in Long Island City as Joe Imp, was a native of LIC, and he set an example for everyone to follow.\n\nHe helped the elderly, whether it was bringing them shopping, taking them to the doctors or shoveling snow. He did this for them on his day off. His life was dedicated to helping his community.\n\nHe opened his restaurant on Jackson Avenue, Joe Imp's, which introduced many people to the area. \n\nSaint Mary’s Church was an extremely important part of Joe’s life. His dedication to the people in his community was evident by his dedication to the church. \n\nIf there were those who couldn’t afford a tree for Christmas and he found out about it, he would buy a tree for them and decorate it, put presents under the tree and would never take credit for doing it. \n\nJoe wasn’t only a gem to me, he was a LIC gem. That’s why my husband Joe deserved the honor of having a street named after him. ",
+    "fld3zcPVX14gMRFd1": "Joe Imp's Way",
+    "fld03C27tmVnEg1rP": "40.745498, -73.953143",
+    "fldxddBxzQcA4yv0A": "Northeast corner of 47th Avenue and Vernon Boulevard",
+    "fldKz0noCVXmoj4UV": "Long Island City",
+    "fld9CSSvPGKCZyLUG": "Queens",
+    "fldlXDuTBOAjXyVTC": true,
+    "fldhQfkBDSPZjKjer": "Northeast corner of 47th Avenue and Vernon Boulevard",
+    "fldb2kOoaaol8IIiQ": "Street/Thoroughfare",
+    "fldKwhgXfbzaB1p1X": "Photo and text courtesy of Marie Imparato.",
+    "fld4ayxzpfL0q0Dsc": true,
+    "fld5S6yAEbuvwY4lL": "No",
+    "fld63z0I0JEzkE26Z": "2022-12-01T18:04:18.000Z",
+    "fldGc8Yu4R85MSed4": "2022-12-01T18:11:01.000Z",
     "LOCATION_TYPE": "ASSET",
     "IS_UNIQUE": false
   },
