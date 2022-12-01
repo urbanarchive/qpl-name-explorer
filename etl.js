@@ -19,7 +19,6 @@ const LOCATIONS = {
 
   PLACE_NAME: 'fld3zcPVX14gMRFd1',
   COORDS: 'fld03C27tmVnEg1rP',
-  ATTACHMENTS: 'fldchc6j0XRMy0vb9',
   TYPE: 'fldb2kOoaaol8IIiQ',
   IMAGES: 'fldchc6j0XRMy0vb9',
   DESCRIPTION: 'fld18VKjlf9BGaE9N',
@@ -40,7 +39,7 @@ const TOURS = {
   IMAGES: 'fldsqdIWbpl4GXLJu',
   DESCRIPTION: 'fldfcR7YEf8T5M0by',
 };
-const locationsData = `${AIRTABLE.domain}${LOCATIONS.path}?returnFieldsByFieldId=${LOCATIONS.returnFieldsByFieldId}&view=${LOCATIONS.view}&filterByFormula=${LOCATIONS.filterByFormula}`;
+const locationsData = `${AIRTABLE.domain}${LOCATIONS.path}?returnFieldsByFieldId=${LOCATIONS.returnFieldsByFieldId}&view=${LOCATIONS.view}&filterByFormula=${LOCATIONS.filterByFormula}&sort[0][field]=${LOCATIONS.IMAGES}&&sort[0][direction]=desc`;
 const librariesData = `${AIRTABLE.domain}${LIBRARIES.path}?returnFieldsByFieldId=${LIBRARIES.returnFieldsByFieldId}&view=${LIBRARIES.view}`;
 const toursData = `${AIRTABLE.domain}${TOURS.path}?returnFieldsByFieldId=${TOURS.returnFieldsByFieldId}&view=${TOURS.view}`;
 const dataFolder = '/public/data';
@@ -103,6 +102,7 @@ Promise.all([getDataRecursive(locationsData), getDataRecursive(librariesData), g
           LOCATION_TYPE: 'ASSET',
           IS_UNIQUE: countUnique === 1,
           [LOCATIONS.COORDS]: loc[LOCATIONS.COORDS].trim(),
+          [LOCATIONS.IMAGES]: loc[LOCATIONS.IMAGES] ? loc[LOCATIONS.IMAGES].filter(img => img.type.includes('image')) : [],
         }
       }),
 
