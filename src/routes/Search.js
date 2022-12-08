@@ -73,7 +73,7 @@ function Search({ locations }) {
         onChange={(selection) => { handleFilterChange(selection, LOCATION.TYPE) }}
         placeholder="Filter..."
       />
-      {filteredLocations?.slice(0,30).map(f=><ListResult key={f.properties.id} result={f} />)}
+      {filteredLocations?.map(f=><ListResult key={f.properties.id} result={f} />)}
       {(filteredLocations?.length === 0) && <>
         <div className='p-4'>No matches for "{filter.value}". Showing all:</div>
         {locations?.features?.slice(0,30).map(f=><ListResult key={f.properties.id} result={f} />)}
