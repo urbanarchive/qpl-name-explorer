@@ -30,6 +30,7 @@ export const TOUR = {
   NAME: 'fld6TCPloQX95dOVJ',
   IMAGES: 'fldsqdIWbpl4GXLJu',
   DESCRIPTION: 'fldfcR7YEf8T5M0by',
+  FEATURED: 'fldmWvev4WRC12YTL',
 };
 
 function getMonumentTypeColor(type) {

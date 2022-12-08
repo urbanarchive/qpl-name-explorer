@@ -39,6 +39,7 @@ const TOURS = {
   NAME: 'fld6TCPloQX95dOVJ',
   IMAGES: 'fldsqdIWbpl4GXLJu',
   DESCRIPTION: 'fldfcR7YEf8T5M0by',
+  FEATURED: 'fldmWvev4WRC12YTL',
 };
 const locationsData = `${AIRTABLE.domain}${LOCATIONS.path}?returnFieldsByFieldId=${LOCATIONS.returnFieldsByFieldId}&view=${LOCATIONS.view}&filterByFormula=${LOCATIONS.filterByFormula}`;
 const librariesData = `${AIRTABLE.domain}${LIBRARIES.path}?returnFieldsByFieldId=${LIBRARIES.returnFieldsByFieldId}&view=${LIBRARIES.view}`;
