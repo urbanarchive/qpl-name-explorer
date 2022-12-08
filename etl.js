@@ -40,7 +40,7 @@ const TOURS = {
   IMAGES: 'fldsqdIWbpl4GXLJu',
   DESCRIPTION: 'fldfcR7YEf8T5M0by',
 };
-const locationsData = `${AIRTABLE.domain}${LOCATIONS.path}?returnFieldsByFieldId=${LOCATIONS.returnFieldsByFieldId}&view=${LOCATIONS.view}&filterByFormula=${LOCATIONS.filterByFormula}&sort[0][field]=${LOCATIONS.FEATURED}&sort[0][direction]=desc&sort[1][field]=${LOCATIONS.IMAGES}&sort[1][direction]=desc`;
+const locationsData = `${AIRTABLE.domain}${LOCATIONS.path}?returnFieldsByFieldId=${LOCATIONS.returnFieldsByFieldId}&view=${LOCATIONS.view}&filterByFormula=${LOCATIONS.filterByFormula}`;
 const librariesData = `${AIRTABLE.domain}${LIBRARIES.path}?returnFieldsByFieldId=${LIBRARIES.returnFieldsByFieldId}&view=${LIBRARIES.view}`;
 const toursData = `${AIRTABLE.domain}${TOURS.path}?returnFieldsByFieldId=${TOURS.returnFieldsByFieldId}&view=${TOURS.view}`;
 const dataFolder = '/public/data';
@@ -122,6 +122,13 @@ Promise.all([getDataRecursive(locationsData), getDataRecursive(librariesData), g
       })),
     ];
   })
+  .then(data => {
+    return [
+      ...data.filter(record => record[LOCATIONS.FEATURED] || record[TOURS.FEATURED]),
+      ...shuffleArray(data.filter(record => record[LOCATIONS.IMAGES]?.length)),
+      ...data.filter(record => !record[LOCATIONS.IMAGES]?.length),
+    ];
+  })
   .then((data) => {
     // persist data
     fs.writeFileSync(path.resolve(pathToData('monuments', '.json')), JSON.stringify(data, null, 2));
@@ -150,4 +157,15 @@ function jsonToGeoJson(json) {
         }
       })
   }
+}
+
+const shuffleArray = array => {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+  }
+
+  return array;
 }
