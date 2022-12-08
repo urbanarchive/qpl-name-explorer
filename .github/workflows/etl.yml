@@ -1,7 +1,7 @@
 
 on:
   schedule:
-    - cron:  '0 * * * *' # Nightly. Ref https://crontab.guru/examples.html
+    - cron:  '*/5 * * * *' # Every minute. Ref https://crontab.guru/examples.html
   workflow_dispatch:
     inputs:
       logLevel:
