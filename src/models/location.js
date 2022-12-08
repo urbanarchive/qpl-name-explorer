@@ -23,6 +23,7 @@ const LOCATION = {
   IS_PRIMARY: 'fldiT7GQqBoUlnanU',
   CITATION: 'fldKwhgXfbzaB1p1X',
   SOURCES: 'fldCwcnz1yvlpDv1D',
+  FEATURED: 'fldsdW0uRUGtdXZwO',
 };
 
 export const TOUR = {

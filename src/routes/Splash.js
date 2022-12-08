@@ -1,6 +1,7 @@
 import React, { useRef, useEffect, useState } from 'react'
 import ListResult from '../ui/ListResult';
 import { useOnScreen } from '../features/Tour';
+import LOCATION from '../models/location';
 
 const INCREMENT = 30;
 
@@ -17,7 +18,12 @@ const shuffleArray = array => {
 
 function Splash({ locations = [] }) {
   const elementRef = useRef(null);
-  const [visibleFeatures, updateVisibleFeatures] = useState(shuffleArray(locations.features.slice(0,30)));
+  const firstPageLocations = locations.features.slice(0,30);
+  const startingLocations = [
+    ...firstPageLocations.filter(location => location.properties[LOCATION.FEATURED]),
+    ...shuffleArray(firstPageLocations),
+  ];
+  const [visibleFeatures, updateVisibleFeatures] = useState(startingLocations);
   const endOfPageInView = useOnScreen(elementRef);
 
   useEffect(() => {
