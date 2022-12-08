@@ -4,9 +4,20 @@ import { useOnScreen } from '../features/Tour';
 
 const INCREMENT = 30;
 
+const shuffleArray = array => {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+  }
+
+  return array;
+}
+
 function Splash({ locations = [] }) {
   const elementRef = useRef(null);
-  const [visibleFeatures, updateVisibleFeatures] = useState(locations.features.slice(0,30));
+  const [visibleFeatures, updateVisibleFeatures] = useState(shuffleArray(locations.features.slice(0,30)));
   const endOfPageInView = useOnScreen(elementRef);
 
   useEffect(() => {
