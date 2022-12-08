@@ -1,7 +1,21 @@
-import React from 'react'
+import React, { useRef, useEffect, useState } from 'react'
 import ListResult from '../ui/ListResult';
+import { useOnScreen } from '../features/Tour';
+
+const INCREMENT = 30;
 
 function Splash({ locations = [] }) {
+  const elementRef = useRef(null);
+  const [visibleFeatures, updateVisibleFeatures] = useState(locations.features.slice(0,30));
+  const endOfPageInView = useOnScreen(elementRef);
+
+  useEffect(() => {
+    if (endOfPageInView) {
+      const currLength = visibleFeatures.length;
+      updateVisibleFeatures([...visibleFeatures, ...locations.features.slice(currLength, currLength + INCREMENT)]);
+    }
+  }, [endOfPageInView, locations.features, visibleFeatures]);
+
   return <div className='p-4'>
     <h1 className='text-3xl pb-4 font-feather uppercase'>
       Queens Name Explorer
@@ -12,14 +26,12 @@ function Splash({ locations = [] }) {
     <p className='font-light text-xs mt-2'>
       Major funding for the Queens Name Explorer project was provided by the <a href="https://mellon.org/" target="_blank" rel="noreferrer">Mellon Foundation</a>.
     </p>
-    {/* <Link to='/locations'>
-      <button className='mt-4 w-full p-2 bg-blue-500 rounded-md text-white'>
-        Start Exploring
-      </button>
-    </Link> */}
     <h2 className='text-sm my-4 mt-8 font-bold'>The Latest</h2>
     <div className='flex flex-col gap-4'>
-      {locations.features.slice(0,30).map((location, index) => <ListResult key={index} result={location} />)}
+      {visibleFeatures
+        .map((location, index) => <ListResult key={index} result={location} />)
+      }
+      <div ref={elementRef}></div>
     </div>
   </div>
 }
