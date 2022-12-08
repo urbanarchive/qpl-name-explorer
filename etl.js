@@ -24,6 +24,7 @@ const LOCATIONS = {
   DESCRIPTION: 'fld18VKjlf9BGaE9N',
   SUBMITTED_AT: 'fld63z0I0JEzkE26Z',
   IS_PRIMARY: 'fldiT7GQqBoUlnanU',
+  FEATURED: 'fldsdW0uRUGtdXZwO',
 };
 const LIBRARIES = {
   path: '/v0/appS1fzGsI76K6IPO/Internal: QPL Locations',
@@ -39,7 +40,7 @@ const TOURS = {
   IMAGES: 'fldsqdIWbpl4GXLJu',
   DESCRIPTION: 'fldfcR7YEf8T5M0by',
 };
-const locationsData = `${AIRTABLE.domain}${LOCATIONS.path}?returnFieldsByFieldId=${LOCATIONS.returnFieldsByFieldId}&view=${LOCATIONS.view}&filterByFormula=${LOCATIONS.filterByFormula}&sort[0][field]=${LOCATIONS.IMAGES}&&sort[0][direction]=desc`;
+const locationsData = `${AIRTABLE.domain}${LOCATIONS.path}?returnFieldsByFieldId=${LOCATIONS.returnFieldsByFieldId}&view=${LOCATIONS.view}&filterByFormula=${LOCATIONS.filterByFormula}&sort[0][field]=${LOCATIONS.FEATURED}&sort[0][direction]=desc&sort[1][field]=${LOCATIONS.IMAGES}&sort[1][direction]=desc`;
 const librariesData = `${AIRTABLE.domain}${LIBRARIES.path}?returnFieldsByFieldId=${LIBRARIES.returnFieldsByFieldId}&view=${LIBRARIES.view}`;
 const toursData = `${AIRTABLE.domain}${TOURS.path}?returnFieldsByFieldId=${TOURS.returnFieldsByFieldId}&view=${TOURS.view}`;
 const dataFolder = '/public/data';
