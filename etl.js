@@ -83,8 +83,8 @@ Promise.all([getDataRecursive(locationsData), getDataRecursive(librariesData), g
   .then(([locations, libraries, tours]) => {
     return [
       // merge in tours
-      ...tours.map(t => {
-        const firstLocation = locations.find(loc => loc.id === t[TOURS.IMAGES][0]);
+      ...tours.filter(t => t[TOURS.IMAGES]).map(t => {
+        const firstLocation = locations.find(loc => loc.id === (t[TOURS.IMAGES] || [])[0]) || {};
 
         return {
           LOCATION_TYPE: 'TOUR',
