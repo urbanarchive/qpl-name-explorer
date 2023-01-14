@@ -77,6 +77,7 @@ export const ICONS_BY_LOCATION_TYPE = {
   'Monument/Statue': ICONS['monument'],
   'Library': ICONS['inactive'],
   'Tour': ICONS['tour'],
+  'Other - Describe in Additional notes': ICONS['other']
 };
 
 export function extractlocationIdentifier(slug) {

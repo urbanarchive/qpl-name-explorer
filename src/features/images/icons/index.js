@@ -9,6 +9,7 @@ import selected from './selected.png';
 import selectedTour from './selected_tour.png';
 import inactive from './inactive.png';
 import tour from './tour.png';
+import other from './other.png';
 
 const ICONS = {
   building,
@@ -22,6 +23,7 @@ const ICONS = {
   selectedTour,
   inactive,
   tour,
+  other,
 };
 
 export default ICONS;
