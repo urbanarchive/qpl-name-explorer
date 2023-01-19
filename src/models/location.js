@@ -51,7 +51,7 @@ function parseAirtableRTF(text = '') {
 }
 
 export function getIconFromMonumentType(monument) {
-  if (monument[LOCATION.TYPE] == 'Tour') {
+  if (monument[LOCATION.TYPE] === 'Tour') {
     return ICONS_BY_TOUR_TYPE[monument[TOUR.TOUR_TYPE]] || ICONS['library'];
   } else {
     return ICONS_BY_LOCATION_TYPE[monument[LOCATION.TYPE]] || ICONS['library'];

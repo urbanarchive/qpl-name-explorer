@@ -94,7 +94,7 @@ const TourView = ({ location, locations, map }) => {
     }
   });
 
-  console.log(location?.properties[TOUR.TOUR_TYPE]);
+  
 
   return <>
     <LocationHeader
