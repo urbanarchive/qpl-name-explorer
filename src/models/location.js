@@ -31,6 +31,7 @@ export const TOUR = {
   IMAGES: 'fldsqdIWbpl4GXLJu',
   DESCRIPTION: 'fldfcR7YEf8T5M0by',
   FEATURED: 'fldmWvev4WRC12YTL',
+  TOUR_TYPE: 'fldNAduLHxHzuCySS',
 };
 
 function getMonumentTypeColor(type) {
@@ -50,7 +51,11 @@ function parseAirtableRTF(text = '') {
 }
 
 export function getIconFromMonumentType(monument) {
-  return ICONS_BY_LOCATION_TYPE[monument[LOCATION.TYPE]] || ICONS['library'];
+  if (monument[LOCATION.TYPE] === 'Tour') {
+    return ICONS_BY_TOUR_TYPE[monument[TOUR.TOUR_TYPE]] || ICONS['library'];
+  } else {
+    return ICONS_BY_LOCATION_TYPE[monument[LOCATION.TYPE]] || ICONS['library'];
+  }
 }
 
 export function resultFactory(result) {
@@ -77,9 +82,13 @@ export const ICONS_BY_LOCATION_TYPE = {
   'Monument/Statue': ICONS['monument'],
   'Library': ICONS['inactive'],
   'Tour': ICONS['tour'],
-  'Other - Describe in Additional notes': ICONS['other']
+  'Other - Describe in Additional notes': ICONS['other'],
+  'Curated Collection': ICONS['collection'],
 };
-
+export const ICONS_BY_TOUR_TYPE = {
+  'Tour': ICONS['tour'],
+  'Curated Collection': ICONS['collection'],
+};
 export function extractlocationIdentifier(slug) {
   return slug.split('-').reverse()[0];
 }
