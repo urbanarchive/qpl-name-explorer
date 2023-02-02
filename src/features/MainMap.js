@@ -64,7 +64,7 @@ export const addMapboxMarker = (markerComponent, loc, map, options = {}) => {
     .addTo(map);
 }
 
-function MainMap({ locations, onLoad }) {
+function MainMap({ locations, lines_polygons, onLoad }) {
   const navigate = useNavigate();
   const [mapInstance, setMapInstance] = useState();
 
@@ -138,6 +138,25 @@ function MainMap({ locations, onLoad }) {
         new mapboxgl.Marker(ref.current)
           .setLngLat(feature.geometry.coordinates)
           .addTo(mapInstance);
+      });
+
+      //lines and polygons
+      console.log(lines_polygons)
+      mapInstance.addSource('routes', {
+        'type': 'geojson',
+        'data': lines_polygons})
+      mapInstance.addLayer({
+        'id': 'routes',
+        'type': 'line',
+        'source': 'routes',
+        'layout': {
+        'line-join': 'round',
+        'line-cap': 'round'
+        },
+        'paint': {
+        'line-color': '#888',
+        'line-width': 3
+        }
       });
 
       onLoad(mapInstance);

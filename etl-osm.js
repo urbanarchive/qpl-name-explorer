@@ -5,7 +5,7 @@ const axios = require("axios");
 const OVERPASS_ENDPOINT = "https://overpass-api.de/api/interpreter";
 const OSM_URL_COLUMN = "fldRVYhlmgXfsXhzN";
 const monuments_file = "./public/data/monuments.json";
-const monuments_lines = "./public/data/monuments_lines.geojson";
+const lines_polygons_file = "./public/data/lines_polygons.geojson";
 
 function checkIfArea(tags) {
   if (tags.leisure) return true;
@@ -85,7 +85,7 @@ async function main() {
     features,
   };
 
-  fs.writeFileSync(monuments_lines, JSON.stringify(fc), "utf-8");
+  fs.writeFileSync(lines_polygons_file, JSON.stringify(fc), "utf-8");
 }
 
 main();
