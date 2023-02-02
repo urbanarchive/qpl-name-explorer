@@ -96,7 +96,9 @@ Promise.all([getDataRecursive(locationsData), getDataRecursive(librariesData), g
         }
       }),
 
-      ...locations.map(loc => {
+      ...locations
+      .filter(loc => loc[LOCATIONS.COORDS])
+      .map(loc => {
         const countUnique = locations.filter(a => a[LOCATIONS.COORDS] === (loc[LOCATIONS.COORDS])).length;
 
         return {
