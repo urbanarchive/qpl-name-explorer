@@ -29,7 +29,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "etl": "node ./etl.js"
+    "etl": "node ./etl.js",
+    "etl-osm": "node ./etl-osm.js"
   },
   "eslintConfig": {
     "extends": [

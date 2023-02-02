@@ -19,6 +19,8 @@ jobs:
       run: yarn install
     - name: Scrape
       run: yarn run etl 
+    - name: Scrape OSM
+      run: yarn run etl-osm
       env:
         AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
     - uses: mikeal/publish-to-github-action@master

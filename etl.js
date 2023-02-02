@@ -104,7 +104,7 @@ Promise.all([getDataRecursive(locationsData), getDataRecursive(librariesData), g
           ...loc,
           LOCATION_TYPE: 'ASSET',
           IS_UNIQUE: countUnique === 1,
-          [LOCATIONS.COORDS]: loc[LOCATIONS.COORDS].trim(),
+          [LOCATIONS.COORDS]: loc[LOCATIONS.COORDS]?.trim()?? '0,0', //temp fix to undefined coords
           [LOCATIONS.IMAGES]: loc[LOCATIONS.IMAGES] ? loc[LOCATIONS.IMAGES].filter(img => img.type.includes('image')) : [],
         }
       }),
