@@ -5,7 +5,7 @@ import { DEFAULT_PADDING } from '../ui/Map';
 import { addMapboxMarker } from '../features/MainMap';
 import { SelectedIconMarker } from '../features/MainMap';
 import { LocationHeader, LocationBody } from './Location';
-import { TOUR } from '../models/location';
+import { TOUR, ICONS_BY_TOUR_TYPE } from '../models/location';
 import { resultFactory } from '../models/location';
 import ICONS from '../features/images/icons';
 import { zoomToLocation } from './Location';
@@ -94,11 +94,13 @@ const TourView = ({ location, locations, map }) => {
     }
   });
 
+  
+
   return <>
     <LocationHeader
-      src={ICONS.tour}
-      alt={'tour'}
-      type={'Tour'}
+      src={ICONS_BY_TOUR_TYPE[location?.properties[TOUR.TOUR_TYPE]]}
+      alt={location?.properties[TOUR.TOUR_TYPE]}
+      type={location?.properties[TOUR.TOUR_TYPE]}
       name={location?.properties[LOCATION.PLACE_NAME]}
     />
     <p className='mb-4 px-4 text-md'>
