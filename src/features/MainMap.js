@@ -1,8 +1,7 @@
-import React, { createRef, useEffect, useState } from 'react';
+import React, { createRef, useEffect, useState, useRef } from 'react';
 import { useNavigate } from "react-router-dom";
 import bbox from '@turf/bbox';
 import ReactDOM from "react-dom";
-import ReactTooltip from 'react-tooltip';
 // eslint-disable-next-line import/no-webpack-loader-syntax
 import mapboxgl from '!mapbox-gl';
 import SupportingLayers from './SupportingLayers';
@@ -11,6 +10,7 @@ import Map from "../ui/Map";
 import { getIconFromMonumentType, ICONS_BY_SIMPLIFIED_NAME } from '../models/location';
 import { resultFactory } from '../models/location';
 import ICONS from './images/icons';
+import toFlattenedArray from '../utils/to-flattened-array';
 
 export const SelectedIconMarker = ({ width, height, children, ...props }) => <SimpleMarker
   src={ICONS['selected']}
@@ -31,19 +31,13 @@ export const SimpleMarker = ({ src, className = '', children, ...props }) => {
   </div>);
 }
 
-export const Marker = ({ onClick, children, feature, ...props }) => {
-  const _onClick = () => {
-    onClick(feature);
-  };
+export const Marker = ({ children, feature, ...props }) => {
   const icon = getIconFromMonumentType(feature.properties);
 
   return (
     <SimpleMarker
       src={icon}
       alt='icon'
-      onClick={_onClick}
-      data-tip
-      data-for={feature.properties.id}
       {...props}
     />
   );
@@ -67,6 +61,11 @@ export const addMapboxMarker = (markerComponent, loc, map, options = {}) => {
 function MainMap({ locations, onLoad }) {
   const navigate = useNavigate();
   const [mapInstance, setMapInstance] = useState();
+  const tooltipRef = useRef(new mapboxgl.Popup({
+    closeButton: false,
+    closeOnClick: false,
+    offset: 15,
+  }));
 
   const didLoad = (map) => {
     setMapInstance(map);
@@ -112,57 +111,69 @@ function MainMap({ locations, onLoad }) {
           }),
       };
 
-      mapInstance.addSource('locations', {
+      mapInstance.addSource('qpl-locations', {
         type: 'geojson',
         data: uniqueLocations,
-        // cluster: true,
-        // clusterRadius: 10,
       });
 
       mapInstance.addLayer({
-        'id': 'point',
-        'source': 'locations',
+        'id': 'qpl-locations-markers',
+        'source': 'qpl-locations',
         'type': 'symbol',
         'layout': {
           'icon-image': [
             'match',
             ['get', LOCATION.TYPE],
-            ...Object.entries(ICONS_BY_SIMPLIFIED_NAME)
-              .reduce((acc, [key, value]) => [key, value, ...acc], []),
+            ...toFlattenedArray(ICONS_BY_SIMPLIFIED_NAME),
             /* other */ 'other'
           ],
-          'icon-size': 0.5,
+          'icon-size': ['match', ['get', 'id'], 0, 0.8, 0.5],
           'icon-allow-overlap': true,
         },
       });
 
-      // markers
-      // uniqueLocations.features.forEach(f => {
-      //   const isInteractive = f.properties[LOCATION.TYPE] === 'Library';
-      //   addMapboxMarker(<Marker
-      //       onClick={handleClick}
-      //       feature={f}
-      //       className={`w-6 h-6 ${isInteractive ? 'cursor-grab' : ''}`}
-      //     />, f.geometry.coordinates, mapInstance);
-      // });
+      let hovered = null;
 
-      // tooltips
-      // uniqueLocations.features.forEach(feature => {
-      //   const ref = createRef();
-      //   ref.current = document.createElement("div");
+      mapInstance.on('mousemove', (e) => {
+        var features = mapInstance.queryRenderedFeatures(e.point, { layers: ['qpl-locations-markers'] });
 
-      //   ReactDOM.render(<ReactTooltip
-      //       className='whitespace-nowrap !rounded-full'
-      //       id={feature.properties.id}
-      //     >
-      //       <h3 className='text-md rounded-full'>{feature.properties[LOCATION.PLACE_NAME]}</h3>
-      //     </ReactTooltip>,
-      //     ref.current
-      //   );
-      //   new mapboxgl.Marker(ref.current)
-      //     .setLngLat(feature.geometry.coordinates)
-      //     .addTo(mapInstance);
-      // });
+        if (!features.length) {
+          mapInstance.getCanvas().style.cursor = 'cursor';
+          mapInstance.setLayoutProperty(
+            'qpl-locations-markers', 'icon-size', ['match', ['get', 'id'], 0, 0.8, 0.5]
+          );
+          hovered = null;
+          tooltipRef.current.remove();
+          return;
+        }
+
+        mapInstance.getCanvas().style.cursor = 'pointer';
+
+        hovered = features[0];
+        mapInstance.setLayoutProperty(
+          'qpl-locations-markers', 'icon-size', ['match', ['get', 'id'], hovered.properties.id, 0.8, 0.5]
+        );
+        mapInstance.getCanvasContainer().style.cursor = 'pointer';
+
+        // Populate the popup and set its coordinates
+        // based on the feature found.
+        const popupNode = document.createElement("div");
+        ReactDOM.render(
+          <h3 className='text-md'>{hovered.properties[LOCATION.PLACE_NAME]}</h3>,
+          popupNode
+        );
+
+        tooltipRef.current
+          .setLngLat(e.lngLat)
+          .setDOMContent(popupNode)
+          .addTo(mapInstance)
+      });
+
+      mapInstance.on('click', (e) => {
+        if (hovered) {
+          handleClick(hovered);
+        }
+      });
 
       onLoad(mapInstance);
     }
