@@ -84,6 +84,7 @@ export const ICONS_BY_LOCATION_TYPE = {
   'Tour': ICONS['tour'],
   'Other - Describe in Additional notes': ICONS['other'],
   'Curated Collection': ICONS['collection'],
+  'Marker': ICONS['marker']
 };
 export const ICONS_BY_TOUR_TYPE = {
   'Tour': ICONS['tour'],

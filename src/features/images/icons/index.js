@@ -1,6 +1,7 @@
 import building from './building.png';
 import landmark from './landmark.png';
 import library from './library.png';
+import marker from './marker.png';
 import monument from './monument.png';
 import park from './park.png';
 import school from './school.png';
@@ -17,6 +18,7 @@ const ICONS = {
   building,
   landmark,
   library,
+  marker,
   monument,
   park,
   school,
