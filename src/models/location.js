@@ -86,6 +86,7 @@ export const ICONS_BY_SIMPLIFIED_NAME = {
   'Tour': 'tour',
   'Other - Describe in Additional notes': 'other',
   'Curated Collection': 'collection',
+  'Marker': 'marker',
 }
 
 export const ICONS_BY_LOCATION_TYPE = Object.keys(ICONS_BY_SIMPLIFIED_NAME)
