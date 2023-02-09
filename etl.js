@@ -1,5 +1,15 @@
 #!/usr/bin/env node
 
+// map
+// COORDS
+// TYPE
+// COORDS
+// IS_PRIMARY
+// TYPE
+// TYPE
+// PLACE_NAME
+// id
+
 const fs = require('fs');
 const path = require('path');
 const axios = require('axios');
@@ -137,6 +147,7 @@ Promise.all([getDataRecursive(locationsData), getDataRecursive(librariesData), g
     // persist data
     fs.writeFileSync(path.resolve(pathToData('monuments', '.json')), JSON.stringify(data, null, 2));
     fs.writeFileSync(path.resolve(pathToData('monuments', '.geojson')), JSON.stringify(jsonToGeoJson(data)));
+    fs.writeFileSync(path.resolve(pathToData('locations', '.geojson')), JSON.stringify(jsonToGeoJson(prepareForMap(data))));
   })
   .catch(e => core.setFailed(e));
 
@@ -172,4 +183,27 @@ const shuffleArray = array => {
   }
 
   return array;
+}
+
+const prepareForMap = data => {
+  return data.map(location => { 
+    const {
+      [LOCATIONS.COORDS]: COORDS,
+      [LOCATIONS.TYPE]: TYPE,
+      [LOCATIONS.IS_PRIMARY]: IS_PRIMARY,
+      [LOCATIONS.PLACE_NAME]: PLACE_NAME,
+      LOCATION_TYPE,
+      IS_UNIQUE = false,
+    } = location;
+
+    return {
+      id: location.id,
+      LOCATION_TYPE,
+      IS_UNIQUE,
+      [LOCATIONS.COORDS]: COORDS,
+      [LOCATIONS.TYPE]: TYPE,
+      [LOCATIONS.IS_PRIMARY]: IS_PRIMARY,
+      [LOCATIONS.PLACE_NAME]: PLACE_NAME,
+    }
+  });
 }

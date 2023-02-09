@@ -16,6 +16,7 @@ function App() {
   const { pathname } = useLocation();
   const [mapInstance, setMapInstance] = useState(null);
   const { data: locations } = useSWR('/data/monuments.geojson', fetcher);
+  const { data: mapData } = useSWR('/data/locations.geojson', fetcher);
   const navigate = useNavigate();
   const isMapMode = params.get('mode') === 'map';
 
@@ -32,10 +33,10 @@ function App() {
         <MapContext.Provider value={mapInstance}>
           <section className='flex h-full w-full'>
             <MainMap
-              locations={locations}
+              locations={mapData}
               onLoad={setMapInstance}
             />
-            <div className='sm:hidden absolute bottom-0 flex justify-center w-full z-10 pointer-events-none'>
+            {/* <div className='sm:hidden absolute bottom-0 flex justify-center w-full z-10 pointer-events-none'>
               <div
                 className='bg-blue-500 pointer-events-all p-3 font-bold m-4 drop-shadow-xl h-auto rounded-full text-white text-sm cursor-pointer pointer-events-auto hover:border-qpl-purple border-2'
                 onClick={() => {
@@ -46,7 +47,7 @@ function App() {
               >
                 {isMapMode ? 'List' : 'Map'}
               </div>
-            </div>
+            </div> */}
           </section>
           <section className="flex absolute top-0 z-100 h-full w-full pointer-events-none">
             <div

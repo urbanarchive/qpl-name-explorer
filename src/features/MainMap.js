@@ -8,7 +8,7 @@ import mapboxgl from '!mapbox-gl';
 import SupportingLayers from './SupportingLayers';
 import LOCATION from '../models/location';
 import Map from "../ui/Map";
-import { getIconFromMonumentType } from '../models/location';
+import { getIconFromMonumentType, ICONS_BY_SIMPLIFIED_NAME } from '../models/location';
 import { resultFactory } from '../models/location';
 import ICONS from './images/icons';
 
@@ -112,33 +112,57 @@ function MainMap({ locations, onLoad }) {
           }),
       };
 
-      // markers
-      uniqueLocations.features.forEach(f => {
-        const isInteractive = f.properties[LOCATION.TYPE] === 'Library';
-        addMapboxMarker(<Marker
-            onClick={handleClick}
-            feature={f}
-            className={`w-6 h-6 ${isInteractive ? 'cursor-grab' : ''}`}
-          />, f.geometry.coordinates, mapInstance);
+      mapInstance.addSource('locations', {
+        type: 'geojson',
+        data: uniqueLocations,
+        // cluster: true,
+        // clusterRadius: 10,
       });
+
+      mapInstance.addLayer({
+        'id': 'point',
+        'source': 'locations',
+        'type': 'symbol',
+        'layout': {
+          'icon-image': [
+            'match',
+            ['get', LOCATION.TYPE],
+            ...Object.entries(ICONS_BY_SIMPLIFIED_NAME)
+              .reduce((acc, [key, value]) => [key, value, ...acc], []),
+            /* other */ 'other'
+          ],
+          'icon-size': 0.5,
+          'icon-allow-overlap': true,
+        },
+      });
+
+      // markers
+      // uniqueLocations.features.forEach(f => {
+      //   const isInteractive = f.properties[LOCATION.TYPE] === 'Library';
+      //   addMapboxMarker(<Marker
+      //       onClick={handleClick}
+      //       feature={f}
+      //       className={`w-6 h-6 ${isInteractive ? 'cursor-grab' : ''}`}
+      //     />, f.geometry.coordinates, mapInstance);
+      // });
 
       // tooltips
-      uniqueLocations.features.forEach(feature => {
-        const ref = createRef();
-        ref.current = document.createElement("div");
+      // uniqueLocations.features.forEach(feature => {
+      //   const ref = createRef();
+      //   ref.current = document.createElement("div");
 
-        ReactDOM.render(<ReactTooltip
-            className='whitespace-nowrap !rounded-full'
-            id={feature.properties.id}
-          >
-            <h3 className='text-md rounded-full'>{feature.properties[LOCATION.PLACE_NAME]}</h3>
-          </ReactTooltip>,
-          ref.current
-        );
-        new mapboxgl.Marker(ref.current)
-          .setLngLat(feature.geometry.coordinates)
-          .addTo(mapInstance);
-      });
+      //   ReactDOM.render(<ReactTooltip
+      //       className='whitespace-nowrap !rounded-full'
+      //       id={feature.properties.id}
+      //     >
+      //       <h3 className='text-md rounded-full'>{feature.properties[LOCATION.PLACE_NAME]}</h3>
+      //     </ReactTooltip>,
+      //     ref.current
+      //   );
+      //   new mapboxgl.Marker(ref.current)
+      //     .setLngLat(feature.geometry.coordinates)
+      //     .addTo(mapInstance);
+      // });
 
       onLoad(mapInstance);
     }

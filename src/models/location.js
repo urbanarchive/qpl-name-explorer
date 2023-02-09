@@ -74,17 +74,23 @@ export function resultFactory(result) {
   }
 };
 
-export const ICONS_BY_LOCATION_TYPE = {
-  'Building': ICONS['building'],
-  'Street/Thoroughfare': ICONS['street'],
-  'School': ICONS['school'],
-  'Park/Playground': ICONS['park'],
-  'Monument/Statue': ICONS['monument'],
-  'Library': ICONS['inactive'],
-  'Tour': ICONS['tour'],
-  'Other - Describe in Additional notes': ICONS['other'],
-  'Curated Collection': ICONS['collection'],
-};
+export const ICONS_BY_SIMPLIFIED_NAME = {
+  'Building': 'building',
+  'Street/Thoroughfare': 'street',
+  'School': 'school',
+  'Park/Playground': 'park',
+  'Monument/Statue': 'monument',
+  'Library': 'inactive',
+  'Tour': 'tour',
+  'Other - Describe in Additional notes': 'other',
+  'Curated Collection': 'collection',
+}
+
+export const ICONS_BY_LOCATION_TYPE = Object.keys(ICONS_BY_SIMPLIFIED_NAME)
+  .reduce((acc, curr) => {
+    return { [curr]: ICONS[ICONS_BY_SIMPLIFIED_NAME[curr]], ...acc };
+  }, {});
+
 export const ICONS_BY_TOUR_TYPE = {
   'Tour': ICONS['tour'],
   'Curated Collection': ICONS['collection'],
