@@ -10,6 +10,8 @@ export const LOCATION_TYPES = [
   'Park/Playground', '#00AC4F',
   'Monument/Statue', '#0094FF',
   'Library', '#6E2991',
+  'Marker', '#FF6648',
+  'Other - Describe in Additional notes', '#02A991',
   /* other */ 'orange',
 ];
 
