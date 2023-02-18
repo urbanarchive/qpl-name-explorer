@@ -3,7 +3,6 @@ import nameExplorerLogo from '../features/images/noimage.png';
 import ICONS from '../features/images/icons';
 
 export const LOCATION_TYPES = [
-  // TODO: make hex
   'Building', '#B973F5',
   'Street/Thoroughfare', '#777777',
   'School', '#B973F5',
@@ -38,7 +37,7 @@ export const TOUR = {
 
 function getMonumentTypeColor(type) {
   return LOCATION_TYPES[LOCATION_TYPES.findIndex(t => t === type) + 1];
-}
+};
 
 function parseAirtableRTF(text = '') {
   return text.replaceAll(/<(.*?)>/g, (m) => {
@@ -50,7 +49,7 @@ function parseAirtableRTF(text = '') {
       return '';
     }
   });
-}
+};
 
 export function getIconFromMonumentType(monument) {
   if (monument[LOCATION.TYPE] === 'Tour') {
@@ -58,7 +57,7 @@ export function getIconFromMonumentType(monument) {
   } else {
     return ICONS_BY_LOCATION_TYPE[monument[LOCATION.TYPE]] || ICONS['library'];
   }
-}
+};
 
 export function resultFactory(result) {
   const hasImage = !!(result.properties[LOCATION.IMAGES]?.length);
@@ -86,8 +85,8 @@ export const ICONS_BY_SIMPLIFIED_NAME = {
   'Tour': 'tour',
   'Other - Describe in Additional notes': 'other',
   'Curated Collection': 'collection',
-  'Marker': 'marker',
-}
+  'Marker': 'pin',
+};
 
 export const ICONS_BY_LOCATION_TYPE = Object.keys(ICONS_BY_SIMPLIFIED_NAME)
   .reduce((acc, curr) => {
@@ -98,8 +97,9 @@ export const ICONS_BY_TOUR_TYPE = {
   'Tour': ICONS['tour'],
   'Curated Collection': ICONS['collection'],
 };
+
 export function extractlocationIdentifier(slug) {
   return slug.split('-').reverse()[0];
-}
+};
 
 export default LOCATION;
