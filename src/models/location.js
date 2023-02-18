@@ -10,6 +10,7 @@ export const LOCATION_TYPES = [
   'Monument/Statue', '#0094FF',
   'Library', '#6E2991',
   'Marker', '#FF6648',
+  'Bridge', '#FF6648',
   'Other - Describe in Additional notes', '#02A991',
   /* other */ 'orange',
 ];
@@ -86,6 +87,7 @@ export const ICONS_BY_SIMPLIFIED_NAME = {
   'Other - Describe in Additional notes': 'other',
   'Curated Collection': 'collection',
   'Marker': 'pin',
+  'Bridge': 'bridge',
 };
 
 export const ICONS_BY_LOCATION_TYPE = Object.keys(ICONS_BY_SIMPLIFIED_NAME)
