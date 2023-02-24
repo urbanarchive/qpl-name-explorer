@@ -19,7 +19,7 @@ function Detail({ locations }) {
   const { slug } = useParams();
   const id = extractlocationIdentifier(slug);
 
-  useEffect(() => {
+  function titleForLocation(location) {
     let title = "Queens Name Explorer";
 /* Analytics will reflect aggregate data for all records with the same location.
   To change this, uncomment below to add unique RecordID to the end of titles. */
@@ -28,10 +28,24 @@ function Detail({ locations }) {
     const locationName = location?.properties?.[LOCATION.PLACE_NAME];
     if (locationName) title = `${locationName} | ${title}`;
 
-    document.title = title;
+    return title;
+  }
+
+  useEffect(() => {
+    document.title = titleForLocation(location);
 
     return () => { document.title = "Queens Name Explorer"; };
   }, [location, slug]);
+
+  useEffect(() => {    
+    const dataLayer = window.dataLayer || [];
+    dataLayer.push({
+      'event': 'pageview',
+      'page_location': window.location.pathname,
+      'page_title': titleForLocation(location),
+      'org_slug': 'qplnyc' // Org slug as defined in the UA backend
+    });
+  }, [location])
 
   useEffect(() => {
     if (locations.features) {
