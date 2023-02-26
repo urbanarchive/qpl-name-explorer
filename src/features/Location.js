@@ -5,6 +5,7 @@ import LOCATION from '../models/location';
 import { DEFAULT_PADDING } from '../ui/Map';
 import parse from 'html-react-parser';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import ReactMarkdown from 'react-markdown';
 
 const DEFAULT_DETAIL_ZOOM = {
   ...DEFAULT_PADDING,
@@ -68,9 +69,9 @@ export const LocationBody = ({ location }) => <>
     {location?.properties[LOCATION.CITATION] &&
       <p className='text-xs text-left mb-2'>{location?.properties[LOCATION.CITATION]}</p>
     }
-    <p className='mb-4 text-md'>
+    <ReactMarkdown className='mb-4 text-md'>
       {location?.properties[LOCATION.DESCRIPTION]}
-    </p>
+    </ReactMarkdown>
     {location?.formattedSourceDescription.trim() &&
       <div className='my-4'><span className='font-bold text-xs'>Source:</span>
       <div className='text-xs whitespace-pre-line break-words prose'>
