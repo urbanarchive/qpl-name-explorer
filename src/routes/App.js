@@ -17,6 +17,7 @@ function App() {
   const [mapInstance, setMapInstance] = useState(null);
   const { data: locations } = useSWR('/data/monuments.geojson', fetcher);
   const { data: mapData } = useSWR('/data/locations.geojson', fetcher);
+  const { data: lines_polygons } = useSWR('/data/lines_polygons.geojson', fetcher);
   const navigate = useNavigate();
   const isMapMode = params.get('mode') === 'map';
 
@@ -34,6 +35,7 @@ function App() {
           <section className='flex h-full w-full'>
             <MainMap
               locations={mapData}
+              lines_polygons={lines_polygons}
               onLoad={setMapInstance}
             />
             <div className='sm:hidden absolute bottom-0 flex justify-center w-full z-10 pointer-events-none'>

@@ -58,7 +58,7 @@ export const addMapboxMarker = (markerComponent, loc, map, options = {}) => {
     .addTo(map);
 }
 
-function MainMap({ locations, onLoad }) {
+function MainMap({ locations, lines_polygons, onLoad }) {
   const navigate = useNavigate();
   const [mapInstance, setMapInstance] = useState();
   const tooltipRef = useRef(new mapboxgl.Popup({
@@ -110,6 +110,24 @@ function MainMap({ locations, onLoad }) {
             return 1;
           }),
       };
+
+      //lines and polygons
+      mapInstance.addSource('routes', {
+        'type': 'geojson',
+        'data': lines_polygons})
+      mapInstance.addLayer({
+        'id': 'routes',
+        'type': 'line',
+        'source': 'routes',
+        'layout': {
+        'line-join': 'round',
+        'line-cap': 'round'
+        },
+        'paint': {
+        'line-color': '#888',
+        'line-width': 3
+        }
+      });
 
       mapInstance.addSource('qpl-locations', {
         type: 'geojson',
