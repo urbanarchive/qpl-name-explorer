@@ -6,6 +6,7 @@ import MainMap from '../features/MainMap';
 import Detail from './Detail';
 import Search from './Search';
 import Splash from './Splash';
+import FAQPage from './FAQ';
 
 export const MapContext = createContext();
 const fetcher = (...args) => fetch(...args).then(res => res.json());
@@ -59,6 +60,7 @@ function App() {
                 <Route path="/locations" element={<Search locations={locations} />} />
                 <Route path="/locations/:slug" element={locations?.features && <Detail locations={locations} />} />
                 <Route path="/tours/:slug" element={locations?.features && <Detail locations={locations}></Detail>} />
+                <Route path="/faq" element={<FAQPage />} />
               </Routes>
             </div>
             <div className={`hidden sm:flex basis-2/3 flex justify-center p-5`}>
