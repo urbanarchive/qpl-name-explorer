@@ -17,22 +17,7 @@ function TypeaheadSearch({ locations }) {
         meta: { type: f.properties[LOCATION.TYPE] },
       }));
 
-    try {
-      const data = await(await fetch(GEOSEARCH(inputString))).json();
-
-      callback([
-        ...foundLocations, // prefer actual known locations
-        ...data.features.map(f => ({
-          label: f.properties.label,
-          value: f.geometry.coordinates,
-          meta: { type: 'address' },
-        })),
-      ])
-    } catch (e) {
-      console.log(e);
-
-      callback(foundLocations);
-    }
+    callback(foundLocations);
   }
 
   const handleInputChange = (selection) => {
