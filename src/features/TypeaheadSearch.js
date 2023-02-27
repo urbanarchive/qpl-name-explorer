@@ -2,9 +2,6 @@ import AsyncSelect from 'react-select/async';
 import { useNavigate } from "react-router-dom";
 import LOCATION from '../models/location';
 
-const GEOSEARCH = (inputString) =>
-  `https://geosearch.planninglabs.nyc/v1/autocomplete?text=${inputString}&focus.point.lon=-73.9579&focus.point.lat=40.7333`;
-
 function TypeaheadSearch({ locations }) {
   const navigate = useNavigate();
   const loadOptions = async (inputString, callback) => {
