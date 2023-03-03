@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import mapLayers from '../features/images/map-layers.png';
+import ICONS from './images/icons';
 import Toggle from '../ui/Toggle';
 import THEMATIC_LAYERS, { getVisibility } from '../utils/layer-configuration';
+
+const mapLayers = ICONS['mapLayers'];
 
 const DEFAULT_VISIBILITY_STATE = THEMATIC_LAYERS.reduce((acc, thematicLayer) => {
   return {

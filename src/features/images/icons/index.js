@@ -14,7 +14,7 @@ import inactive from './inactive.png';
 import tour from './tour.png';
 import other from './other.png';
 import collection from './collection.png';
-
+import mapLayers from './map-layers.png';
 
 const ICONS = {
   bridge,
@@ -22,6 +22,7 @@ const ICONS = {
   landmark,
   library,
   marker,
+  mapLayers,
   monument,
   park,
   pin,

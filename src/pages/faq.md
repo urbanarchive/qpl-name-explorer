@@ -8,7 +8,7 @@ A: This map is for anyone who ever looked at a street sign with someone’s name
 
 Q:What kinds of places are on the map?
 
-A: The Name Explorer Map has unique icons for the following types of named places: streets, parks, buildings, schools, markers, and monuments. [visually, can we have each icon precede its type?]
+A: The Name Explorer Map has unique icons for the following types of named places: streets, parks, buildings, schools, markers, and monuments.
 
 Q: What constitutes a named place?
 
@@ -16,15 +16,15 @@ A: The place - whether a street, park, building, school, marker, and monument - 
 
 Q: What are other parameters?
 
-A: The named place has to be in the borough of Queens. It also has to be a ![icon](street) street, ![icon](park) park, ![icon](school) school, ![icon](marker) marker, or ![icon](monument) monument. That’s why places like Astoria and Utopia Parkway are not on the map. Astoria is a neighborhood named after a person, but it’s not a street, park, school, marker, or monument. Utopia Parkway is a street with a storied history but not named after a person. We encourage you to check out [Naming Gotham](https://www.queenslibrary.org/book/Naming-Gotham-:-the-villains,-rogues-&-hereos-behind-New-York's-p/2571970) by Rebecca Bratspies and [Names of New York](https://www.queenslibrary.org/book/Names-of-New-York-:-discovering-the-city's-past-and-present-throu/2424615) by Joshua Jelly-Schapiro for stories about these places!
+A: The named place has to be in the borough of Queens. It also has to be a street ![icon](street), park ![icon](park), school ![icon](school), marker ![icon](marker), or monument ![icon](monument). That’s why places like Astoria and Utopia Parkway are not on the map. Astoria is a neighborhood named after a person, but it’s not a street, park, school, marker, or monument. Utopia Parkway is a street with a storied history but not named after a person. We encourage you to check out [Naming Gotham](https://www.queenslibrary.org/book/Naming-Gotham-:-the-villains,-rogues-&-hereos-behind-New-York's-p/2571970) by Rebecca Bratspies and [Names of New York](https://www.queenslibrary.org/book/Names-of-New-York-:-discovering-the-city's-past-and-present-throu/2424615) by Joshua Jelly-Schapiro for stories about these places!
 
 Q: What’s a marker?
 
-A: We use the marker icon [insert icon] to indicate a place that has been marked with public signage honoring someone. This could be a memorial plaque on a building, within a park, or some other public space not named after that person.   
+A: We use the marker icon ![icon](marker) to indicate a place that has been marked with public signage honoring someone. This could be a memorial plaque on a building, within a park, or some other public space not named after that person.   
 
 Q: How can I see neighborhood borders, community board districts, and city council districts?
 
-A: Click the stack icon [insert image of icon here] to add border outlines for neighborhoods and districts. This is one of our favorite features!
+A: Click the stack icon ![icon](mapLayers) to add border outlines for neighborhoods and districts. This is one of our favorite features!
 
 Q: I searched for a place and got “More info coming soon.” What does this mean?
 
