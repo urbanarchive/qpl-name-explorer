@@ -24,17 +24,14 @@ function FAQPage() {
         img({node, ...props}) {
           try {
             const { src, alt } = props;
+
             if (alt.includes('icon')) {
               return <img alt={src} className='inline w-auto h-6 m-0' src={ICONS[src]} />
             }
-  
-            // props include alt text by default!
-            // eslint-disable-next-line jsx-a11y/alt-text
-            return <img {...props}/>;
+
+            return <node/>;
           } catch (e) {
-            // props include alt text by default!
-            // eslint-disable-next-line jsx-a11y/alt-text
-            return <img {...props}/>;
+            return <node/>;
           }
         }
       }}
