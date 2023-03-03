@@ -16,7 +16,7 @@ A: The place - whether a street, park, building, school, marker, and monument - 
 
 Q: What are other parameters?
 
-A: The named place has to be in the borough of Queens. It also has to be a street, park, school, marker, or monument. That’s why places like Astoria and Utopia Parkway are not on the map. Astoria is a neighborhood named after a person, but it’s not a street, park, school, marker, or monument. Utopia Parkway is a street with a storied history but not named after a person. We encourage you to check out [Naming Gotham](https://www.queenslibrary.org/book/Naming-Gotham-:-the-villains,-rogues-&-hereos-behind-New-York's-p/2571970) by Rebecca Bratspies and [Names of New York](https://www.queenslibrary.org/book/Names-of-New-York-:-discovering-the-city's-past-and-present-throu/2424615) by Joshua Jelly-Schapiro for stories about these places!
+A: The named place has to be in the borough of Queens. It also has to be a ![icon](street) street, ![icon](park) park, ![icon](school) school, ![icon](marker) marker, or ![icon](monument) monument. That’s why places like Astoria and Utopia Parkway are not on the map. Astoria is a neighborhood named after a person, but it’s not a street, park, school, marker, or monument. Utopia Parkway is a street with a storied history but not named after a person. We encourage you to check out [Naming Gotham](https://www.queenslibrary.org/book/Naming-Gotham-:-the-villains,-rogues-&-hereos-behind-New-York's-p/2571970) by Rebecca Bratspies and [Names of New York](https://www.queenslibrary.org/book/Names-of-New-York-:-discovering-the-city's-past-and-present-throu/2424615) by Joshua Jelly-Schapiro for stories about these places!
 
 Q: What’s a marker?
 

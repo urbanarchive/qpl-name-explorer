@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import ReactMarkdown from 'react-markdown';
 import FaqPage from '../pages/faq.md';
+import ICONS from '../features/images/icons';
 
 function FAQPage() {
   const [text, setText] = useState('');
@@ -18,7 +19,19 @@ function FAQPage() {
       Queens Name Explorer
     </h1>
 
-    <ReactMarkdown className='prose'>
+    <ReactMarkdown
+      components={{
+        img({node, ...props}) {
+          const { src, alt } = props;
+          if (alt.includes('icon')) {
+            return <img alt={src} className='inline w-auto h-6 m-0' src={ICONS[src]} />
+          }
+
+          return <img {...props}/>;
+        }
+      }}
+      className='prose'
+    >
       {text}
     </ReactMarkdown>
   </div>
