@@ -8,16 +8,31 @@ import { LOCATION_TYPES } from '../models/location';
 import { makeActiveLocationSelection } from '../features/Location';
 import pointsWithinPolygon from '@turf/points-within-polygon';
 import bboxPolygon from '@turf/bbox-polygon';
+import groupby from 'lodash.groupby';
 import { ICONS_BY_LOCATION_TYPE } from '../models/location';
 import CloseButton from '../ui/CloseButton';
 
 const USE_EXPERIMENTAL_RADIUS_SEARCH = true;
-const locationTypes = LOCATION_TYPES
-  .filter((_curr, index) => (index % 2) === 0)
-  .map(t => ({ label: <div><img className='w-4 h-4 float-left' src={ICONS_BY_LOCATION_TYPE[t]} alt={t}/>{t}</div>, value: t }))
-  .slice(0, -1);
+const locationTypes = (features) => {
+  if (!features.length) return;
 
-function Search({ locations }) {
+  const counts = groupby(
+    features,
+    f => { return f.properties[LOCATION.TYPE] },
+  );
+
+  return LOCATION_TYPES
+    .filter((_curr, index) => (index % 2) === 0)
+    // .reduce((acc, curr) => {}, [])
+    .map(t => ({
+      label: <div><img className='w-4 h-4 float-left' src={ICONS_BY_LOCATION_TYPE[t]} alt={t}/>{t} ({counts[t]?.length})</div>,
+      value: t
+    }))
+    .slice(0, -1);
+};
+
+function Search({ locations, allLocations }) {
+  const _allLocations = allLocations || locations;
   const map = useContext(MapContext);
   const [params, setSearchParams] = useSearchParams();
   const setFilterParams = (filter) => setSearchParams(filter);
@@ -60,14 +75,16 @@ function Search({ locations }) {
     selection ? setFilterParams({ key: keyName, value: [selection.value] }) : setFilterParams({});
   }
 
+  const filterSelections = locationTypes(_allLocations?.features) || [];
+
   return <>
     {(filter.key === LOCATION.COORDS) && <CloseButton />}
     <div className='flex flex-col pl-4 pr-4 gap-4'>
       <Select
         className='grow text-gray rounded-md bg-white'
-        options={locationTypes}
+        options={filterSelections}
         isClearable={true}
-        value={locationTypes.find(l => l.value === filter.value)}
+        value={filterSelections.find(l => l.value === filter.value)}
         isSearchable={false}
         onChange={(selection) => { handleFilterChange(selection, LOCATION.TYPE) }}
         placeholder="Filter..."

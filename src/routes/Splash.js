@@ -16,7 +16,7 @@ const shuffleArray = array => {
   return array;
 }
 
-function Splash({ locations = [] }) {
+function Splash({ locations }) {
   const elementRef = useRef(null);
   const firstPageLocations = locations.features.slice(0,30);
   const startingLocations = [
@@ -46,7 +46,7 @@ function Splash({ locations = [] }) {
       </p>
       <h2 className='text-sm my-4 mt-8 font-bold'>The Latest</h2>
     </div>
-    <Search locations={{ features: visibleFeatures}} />
+    <Search locations={{ features: visibleFeatures}} allLocations={locations} />
     <div ref={elementRef}></div>
   </>
 }

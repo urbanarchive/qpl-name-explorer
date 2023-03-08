@@ -12,6 +12,7 @@
     "@turf/distance": "^6.5.0",
     "@turf/points-within-polygon": "^6.5.0",
     "html-react-parser": "^3.0.1",
+    "lodash.groupby": "^4.6.0",
     "react": "^17.0.2",
     "react-device-detect": "^2.2.2",
     "react-dom": "^17.0.2",
