@@ -57,7 +57,12 @@ function App() {
             >
               <Routes>
                 <Route path="/" element={locations?.features && <Splash locations={locations} />} />
-                <Route path="/locations" element={<Search locations={locations} />} />
+                <Route path="/locations" element={<>
+                  <div className='flex flex-col p-4 gap-4'>
+                    <h1 className='text-3xl font-feather uppercase'>Queens Name Explorer</h1>
+                  </div>
+                  <Search locations={locations} />
+                </>} />
                 <Route path="/locations/:slug" element={locations?.features && <Detail locations={locations} />} />
                 <Route path="/tours/:slug" element={locations?.features && <Detail locations={locations}></Detail>} />
                 <Route path="/faq" element={<FAQPage />} />

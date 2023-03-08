@@ -62,8 +62,7 @@ function Search({ locations }) {
 
   return <>
     {(filter.key === LOCATION.COORDS) && <CloseButton />}
-    <div className='flex flex-col p-4 gap-4'>
-      <h1 className='text-3xl font-feather uppercase'>Queens Name Explorer</h1>
+    <div className='flex flex-col pl-4 pr-4 gap-4'>
       <Select
         className='grow text-gray rounded-md bg-white'
         options={locationTypes}
