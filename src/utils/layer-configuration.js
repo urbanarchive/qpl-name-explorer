@@ -27,7 +27,7 @@ const THEMATIC_LAYERS = [
           'text-halo-blur': 2
         },
         layout: {
-          'text-field': "{BoroCD}",
+          'text-field': ['to-string', ['to-number', ['slice', ['to-string', ['get', 'BoroCD']], 1, 3]]],
           'text-font': [
             'Open Sans Semibold',
             'Arial Unicode MS Bold'
