@@ -38,13 +38,15 @@ function Detail({ locations }) {
   }, [location, slug]);
 
   useEffect(() => {    
-    const dataLayer = window.dataLayer || [];
-    dataLayer.push({
-      'event': 'pageview',
-      'page_location': window.location.pathname,
-      'page_title': titleForLocation(location),
-      'org_slug': 'qplnyc' // Org slug as defined in the UA backend
-    });
+    const gtag = window.gtag;
+    
+    if (gtag) {
+      gtag('event', 'page_view', {
+        'page_location': window.location.href,
+        'page_title': titleForLocation(location),
+        'org_slug': 'qplnyc' // Org slug as defined in the UA backend
+      });
+    }
   }, [location])
 
   useEffect(() => {
