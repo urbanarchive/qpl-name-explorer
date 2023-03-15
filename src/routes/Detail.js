@@ -41,11 +41,14 @@ function Detail({ locations }) {
     const gtag = window.gtag;
     
     if (gtag) {
-      gtag('event', 'page_view', {
-        'page_location': window.location.href,
-        'page_title': titleForLocation(location),
-        'org_slug': 'qplnyc' // Org slug as defined in the UA backend
-      });
+      gtag('event', 'content_view', {
+          type: location?.properties?.LOCATION_TYPE,
+          id: location?.properties?.id,
+          page_location: window.location.href,
+          page_tile: titleForLocation(location),
+          org_slug: 'qplnyc' // Org slug as defined in the UA backend
+        }
+      );      
     }
   }, [location])
 
