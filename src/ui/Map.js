@@ -64,7 +64,6 @@ function Map({
         // this breaks the map because it's pushing the padding too far right
         ...DEFAULT_PADDING,
       },
-      hash: true,
     });
 
     map.on('load', () => {
