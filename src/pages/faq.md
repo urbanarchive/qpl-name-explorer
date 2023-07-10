@@ -56,7 +56,7 @@ A: The Queens Memory team reviews each public submission to determine if the inf
 
 Q: How do I follow your progress, as the map becomes more complete?
 
-A: You can sign up for our monthly newsletter here or follow us on social media - @QueensMemory. 
+A: You can sign up for our monthly newsletter [here](https://queensmemory.org/subscribe-to-qmp-newsletter/) or follow us on [Twitter](https://twitter.com/QueensMemory/) or [Instagram](https://www.instagram.com/QueensMemory/). 
 
 Q: I have more questions about the map. How do I get in touch?
 
