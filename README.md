@@ -25,5 +25,5 @@ ogr2ogr tmp/ntas.geojson \
 
 ```bash
 ogr2ogr tmp/city_councils.geojson \
-  -f GeoJSON "https://services3.arcgis.com/hTqPmMLSgYuv8Z0u/arcgis/rest/services/City_Councils/FeatureServer/0/query?where=1=1&outfields=*&f=json" ESRIJSON -t_srs EPSG:4326
+  -f GeoJSON "https://services5.arcgis.com/GfwWNkhOj9bNBqoJ/arcgis/rest/services/NYC_City_Council_Districts/FeatureServer/0/query?where=1=1&outFields=*&outSR=4326&f=geojson" -t_srs EPSG:4326
 ```
