@@ -67,7 +67,9 @@ export const LocationBody = ({ location }) => <>
   <AirtableImage location={location}/>
   <div className='px-4 whitespace-pre-line wrap'>
     {location?.properties[LOCATION.CITATION] &&
-      <p className='text-xs text-left mb-2'>{location?.properties[LOCATION.CITATION]}</p>
+      <ReactMarkdown className='text-xs text-left mb-2'>
+        {location?.properties[LOCATION.CITATION]}
+      </ReactMarkdown>
     }
     <ReactMarkdown className='mb-4 text-md'>
       {location?.properties[LOCATION.DESCRIPTION]}
